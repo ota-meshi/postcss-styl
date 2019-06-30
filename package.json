@@ -1,0 +1,48 @@
+{
+  "name": "stylus-postcss",
+  "version": "0.0.1",
+  "description": "Convert Stylus AST to PostCss like AST.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test:base": "mocha \"tests/**/*.js\" --reporter dot",
+    "test": "npm run test:nyc",
+    "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
+    "test:d": "mocha --inspect --debug-brk \"tests/**/*.js\" --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ota-meshi/stylus-postcss.git"
+  },
+  "keywords": [
+    "postcss",
+    "stylus",
+    "parser",
+    "css"
+  ],
+  "author": "Yosuke Ota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ota-meshi/stylus-postcss/issues"
+  },
+  "homepage": "https://github.com/ota-meshi/stylus-postcss#readme",
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@mysticatea/eslint-plugin": "^10.0.3",
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "postcss-parser-tests": "^6.5.0"
+  },
+  "dependencies": {
+    "lodash.sortedlastindex": "^4.1.0",
+    "postcss": "^7.0.17",
+    "stylus": "^0.54.5"
+  }
+}
