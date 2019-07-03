@@ -1,7 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n/*test08*/"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -151,6 +151,28 @@
           "value": "\"A;' /**/\""
         }
       ]
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "",
+        "right": ""
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 10
+        }
+      },
+      "text": "test08"
     }
   ],
   "source": {

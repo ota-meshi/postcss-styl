@@ -17,10 +17,11 @@ it("stylus dependency", () => {
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
         `
-a {
-  margin: 0 @width;
+:root {
+  --string: "double quoted string";
+  /**/
 }
-      
+        
 `,
         { syntax: stylusPostcss }
     ).root

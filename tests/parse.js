@@ -30,7 +30,18 @@ function jsonify(node) {
 }
 
 cases.each((name, css, json) => {
-    if (name === "semicolons.css") {
+    if (
+        name === "semicolons.css" ||
+        name === "quotes.css" ||
+        name === "prop.css" ||
+        name === "inside.css" ||
+        name === "ie-progid.css" ||
+        name === "function.css" ||
+        name === "extends.css" ||
+        name === "escape.css" ||
+        name === "custom-properties.css" || // -> custom-properties01
+        false
+    ) {
         // Parse error on Stylus
         return
     }

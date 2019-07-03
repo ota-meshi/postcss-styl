@@ -19,9 +19,8 @@
             "before": "\n  ",
             "between": " : /*c1*/ ",
             "value": {
-              "value": "green",
-              "raw": "/*c1*/green/*c2*/",
-              "stylus": "green /*c2*/"
+              "value": "green ",
+              "raw": "green /*c2*/"
             }
           },
           "type": "decl",
@@ -39,7 +38,7 @@
             }
           },
           "prop": "color",
-          "value": "green"
+          "value": "green "
         }
       ],
       "source": {

@@ -7,7 +7,29 @@
   "nodes": [
     {
       "raws": {
-        "before": "// inline\n/* comment */\n// inline\n",
+        "before": "// inline\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      "text": "comment"
+    },
+    {
+      "raws": {
+        "before": "\n// inline\n",
         "between": "",
         "semicolon": false,
         "after": ""
@@ -156,7 +178,7 @@
             "between": "",
             "semicolon": false,
             "selector": {
-              "value": "a.b > span,a .c > span",
+              "value": "a.b >  span,a .c >  span",
               "raw": "a.b > span\n  ,a .c > span",
               "stylus": "a.b > span\n  a .c > span"
             },
@@ -205,7 +227,7 @@
               "column": 13
             }
           },
-          "selector": "a.b > span,a .c > span",
+          "selector": "a.b >  span,a .c >  span",
           "pythonic": true
         },
         {

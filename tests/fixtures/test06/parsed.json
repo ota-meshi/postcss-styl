@@ -63,12 +63,8 @@
     {
       "raws": {
         "before": "\n\n",
-        "between": "*test06_1*/",
+        "between": "  /*test06_1*/",
         "semicolon": true,
-        "selector": {
-          "value": ".a",
-          "raw": ".a  /"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -122,11 +118,11 @@
     {
       "raws": {
         "before": "\n\n",
-        "between": "*test06_2*/    ",
+        "between": "/*test06_2*/    ",
         "semicolon": true,
         "selector": {
-          "value": ".a",
-          "raw": ".a/"
+          "value": ".a/*test06_2*/",
+          "raw": ".a"
         },
         "after": "\n"
       },
@@ -176,7 +172,7 @@
           "column": 16
         }
       },
-      "selector": ".a"
+      "selector": ".a/*test06_2*/"
     },
     {
       "raws": {
