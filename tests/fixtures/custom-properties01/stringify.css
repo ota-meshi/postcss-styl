@@ -1,3 +1,5 @@
+/* based from postcss-parser-tests/cases/custom-properties.css */
+
 :root {
   --empty: ;
   --number: 1;
@@ -16,6 +18,5 @@
   --bracket-block: {1, 2, 3};
   --JSON: [1, "2", {"three": 3}, [4]];
   --javascript: function(rule) { console.log(rule) };
-  */
   */
 }

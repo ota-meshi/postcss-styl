@@ -2,26 +2,15 @@
 
 const assert = require("assert")
 const postcss = require("postcss")
-const stylus = require("stylus")
 
 const stylusPostcss = require("../")
-
-it("PostCSS dependency", () => {
-    assert.strictEqual(typeof postcss, "function")
-})
-
-it("stylus dependency", () => {
-    assert.strictEqual(typeof stylus, "object")
-})
 
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
         `
-:root {
-  --string: "double quoted string";
-  /**/
-}
-        
+        a.b > span
+        a .c > span
+          color red
 `,
         { syntax: stylusPostcss }
     ).root

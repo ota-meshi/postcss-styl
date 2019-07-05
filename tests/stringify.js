@@ -36,11 +36,12 @@ for (const name of tests) {
                 path.join(FIXTURES_ROOT, `${name}/stringify.css`)
             )
             assert.strictEqual(actual, expect)
-        } catch (_e) {
+        } catch (e) {
             fs.writeFileSync(
                 path.join(FIXTURES_ROOT, `${name}/stringify.css`),
                 actual
             )
+            throw e
         }
     })
 }

@@ -8,9 +8,31 @@
     {
       "raws": {
         "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 65
+        }
+      },
+      "text": "based from postcss-parser-tests/cases/custom-properties.css"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": " ",
         "semicolon": true,
-        "after": "\n  */\n"
+        "after": "\n"
       },
       "type": "rule",
       "nodes": [
@@ -22,14 +44,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 3,
+              "line": 5,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 3,
+              "line": 5,
               "column": 14
             }
           },
@@ -44,14 +66,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 4,
+              "line": 6,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 4,
+              "line": 6,
               "column": 16
             }
           },
@@ -66,14 +88,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 5,
+              "line": 7,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 5,
+              "line": 7,
               "column": 16
             }
           },
@@ -88,14 +110,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 7,
+              "line": 9,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 7,
+              "line": 9,
               "column": 26
             }
           },
@@ -110,14 +132,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 8,
+              "line": 10,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 8,
+              "line": 10,
               "column": 26
             }
           },
@@ -132,14 +154,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 10,
+              "line": 12,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 10,
+              "line": 12,
               "column": 35
             }
           },
@@ -154,14 +176,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 11,
+              "line": 13,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 11,
+              "line": 13,
               "column": 35
             }
           },
@@ -177,14 +199,14 @@
           "type": "comment",
           "source": {
             "start": {
-              "line": 13,
+              "line": 15,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 19,
+              "line": 21,
               "column": 4
             }
           },
@@ -193,22 +215,22 @@
       ],
       "source": {
         "start": {
-          "line": 1,
+          "line": 3,
           "column": 1
         },
         "startChildren": {
-          "line": 1,
+          "line": 3,
           "column": 8
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 20,
+          "line": 22,
           "column": 1
         },
         "endChildren": {
-          "line": 19,
+          "line": 21,
           "column": 5
         }
       },

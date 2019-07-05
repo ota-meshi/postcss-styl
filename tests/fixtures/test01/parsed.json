@@ -178,7 +178,7 @@
             "between": "",
             "semicolon": false,
             "selector": {
-              "value": "a.b >  span,a .c >  span",
+              "value": "a.b > span,a .c > span",
               "raw": "a.b > span\n  ,a .c > span",
               "stylus": "a.b > span\n  a .c > span"
             },
@@ -227,7 +227,7 @@
               "column": 13
             }
           },
-          "selector": "a.b >  span,a .c >  span",
+          "selector": "a.b > span,a .c > span",
           "pythonic": true
         },
         {

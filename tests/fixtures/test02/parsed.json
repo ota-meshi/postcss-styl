@@ -163,7 +163,7 @@
             "between": " ",
             "semicolon": false,
             "selector": {
-              "value": "a.b >  span,a  a .c >  span",
+              "value": "a.b > span,a .c > span",
               "raw": "a.b > span,\n  a .c > span"
             },
             "after": "\n  "
@@ -215,7 +215,7 @@
               "column": 2
             }
           },
-          "selector": "a.b >  span,a  a .c >  span"
+          "selector": "a.b > span,a .c > span"
         },
         {
           "raws": {

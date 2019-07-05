@@ -38,7 +38,7 @@ cases.each((name, css, json) => {
         name === "ie-progid.css" ||
         name === "function.css" ||
         name === "extends.css" ||
-        name === "escape.css" ||
+        name === "escape.css" || // -> escape01
         name === "custom-properties.css" || // -> custom-properties01
         false
     ) {
@@ -47,6 +47,10 @@ cases.each((name, css, json) => {
     }
     if (name === "selector.css") {
         // There are differences in the specifications of the Stylus and CSS.
+        return
+    }
+    if (name === "comments.css") {
+        // Stylus can not calculate locations.
         return
     }
 
@@ -67,11 +71,12 @@ for (const name of tests) {
         try {
             const expect = read(path.join(FIXTURES_ROOT, `${name}/parsed.json`))
             assert.deepStrictEqual(actual, expect)
-        } catch (_e) {
+        } catch (e) {
             fs.writeFileSync(
                 path.join(FIXTURES_ROOT, `${name}/parsed.json`),
                 actual
             )
+            throw e
         }
     })
 }
