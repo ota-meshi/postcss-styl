@@ -188,6 +188,10 @@
       "raws": {
         "before": "\n",
         "between": " ",
+        "selector": {
+          "value": ":not(div)",
+          "raw": ":not(div/*)*/)"
+        },
         "after": " "
       },
       "type": "rule",
@@ -213,7 +217,7 @@
           "column": 17
         }
       },
-      "selector": ":not(div/*)*/)"
+      "selector": ":not(div)"
     },
     {
       "raws": {
@@ -249,11 +253,7 @@
     {
       "raws": {
         "before": "\n",
-        "between": " ",
-        "selector": {
-          "value": "[foo=\"])) { }\n[foo=\\\"]",
-          "raw": "[foo=\\\"]"
-        },
+        "between": "",
         "after": " "
       },
       "type": "rule",
@@ -279,16 +279,12 @@
           "column": 11
         }
       },
-      "selector": "[foo=\"])) { }\n[foo=\\\"]"
+      "selector": "[foo=\\\"] "
     },
     {
       "raws": {
         "before": "\n",
         "between": " ",
-        "selector": {
-          "value": "[foo={ }\n[foo=\\{]",
-          "raw": "[foo=\\{]"
-        },
         "after": " "
       },
       "type": "rule",
@@ -314,16 +310,12 @@
           "column": 11
         }
       },
-      "selector": "[foo={ }\n[foo=\\{]"
+      "selector": "[foo=\\{]"
     },
     {
       "raws": {
         "before": "\n",
         "between": " ",
-        "selector": {
-          "value": "[foo=(2n of [foo=\")\"])) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(]",
-          "raw": "[foo=\\(]"
-        },
         "after": " "
       },
       "type": "rule",
@@ -349,16 +341,12 @@
           "column": 11
         }
       },
-      "selector": "[foo=(2n of [foo=\")\"])) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(]"
+      "selector": "[foo=\\(]"
     },
     {
       "raws": {
         "before": "\n",
-        "between": " ",
-        "selector": {
-          "value": "[foo=yes:nth-child(2n of [foo=\")\"])) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(] { }\n[foo=yes\\:(] { }\n[foo=yes\\:\\(it''s work) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(] { }\n[foo=yes\\:\\(it\\'s\\ work\\)]",
-          "raw": "[foo=yes\\:\\(it\\'s\\ work\\)]"
-        },
+        "between": "",
         "after": " "
       },
       "type": "rule",
@@ -384,16 +372,12 @@
           "column": 29
         }
       },
-      "selector": "[foo=yes:nth-child(2n of [foo=\")\"])) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(] { }\n[foo=yes\\:(] { }\n[foo=yes\\:\\(it''s work) { }\n[foo=\\\"] { }\n[foo=\\{] { }\n[foo=\\(] { }\n[foo=yes\\:\\(it\\'s\\ work\\)]"
+      "selector": "[foo=yes\\:\\(it\\'s\\ work\\)] "
     },
     {
       "raws": {
         "before": "\n\n",
         "between": " ",
-        "selector": {
-          "value": "@@noat",
-          "raw": "\\@noat"
-        },
         "after": " "
       },
       "type": "rule",
@@ -419,7 +403,7 @@
           "column": 9
         }
       },
-      "selector": "@@noat"
+      "selector": "\\@noat"
     },
     {
       "raws": {

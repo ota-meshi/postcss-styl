@@ -8,9 +8,8 @@ const stylusPostcss = require("../")
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
         `
-        a.b > span
-        a .c > span
-          color red
+@font-face
+  family-name "A;' /**/"
 `,
         { syntax: stylusPostcss }
     ).root

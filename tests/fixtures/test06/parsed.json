@@ -120,10 +120,6 @@
         "before": "\n\n",
         "between": "/*test06_2*/    ",
         "semicolon": true,
-        "selector": {
-          "value": ".a/*test06_2*/",
-          "raw": ".a"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -172,7 +168,7 @@
           "column": 16
         }
       },
-      "selector": ".a/*test06_2*/"
+      "selector": ".a"
     },
     {
       "raws": {

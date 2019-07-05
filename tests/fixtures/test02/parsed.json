@@ -162,10 +162,6 @@
             "before": "\n  ",
             "between": " ",
             "semicolon": false,
-            "selector": {
-              "value": "a.b > span,a .c > span",
-              "raw": "a.b > span,\n  a .c > span"
-            },
             "after": "\n  "
           },
           "type": "rule",
@@ -215,7 +211,7 @@
               "column": 2
             }
           },
-          "selector": "a.b > span,a .c > span"
+          "selector": "a.b > span,\n  a .c > span"
         },
         {
           "raws": {

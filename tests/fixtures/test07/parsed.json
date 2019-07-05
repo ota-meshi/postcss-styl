@@ -22,7 +22,7 @@
         },
         "startChildren": {
           "line": 1,
-          "column": 20
+          "column": 21
         },
         "input": {
           "file": "input.styl"
@@ -32,12 +32,12 @@
           "column": 18
         }
       },
-      "params": "(min-width: 0",
+      "params": "(min-width: 0)",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
-            "before": ")\n  ",
+            "before": "\n  ",
             "between": "",
             "semicolon": false,
             "after": ""
