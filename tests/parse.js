@@ -40,6 +40,8 @@ cases.each((name, css, json) => {
         name === "extends.css" ||
         name === "escape.css" || // -> escape01
         name === "custom-properties.css" || // -> custom-properties01
+        name === "atrule-no-semicolon.css" || // -> atrule-no-semicolon01
+        name === "apply.css" || // -> apply01
         false
     ) {
         // Parse error on Stylus

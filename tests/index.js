@@ -5,30 +5,74 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-it("parse stylus as postcss syntax", () => {
+it("try", () => {
     const result = postcss().process(
         `
-@font-face
-  family-name "A;' /**/"
+    span
+        color : /*c1*/ green /*c2*/;
 `,
         { syntax: stylusPostcss }
     ).root
     assert.strictEqual(typeof result, "object")
-    console.log("------------")
-    console.log(result.toString())
-    console.log("------------")
-    assert.strictEqual(result.toString(), "object")
+    assert.strictEqual(result.toString(), "")
+})
+
+it("parse stylus as postcss syntax", () => {
+    const result = postcss().process(
+        `
+body
+    font 14px/1.5 Helvetica, arial, sans-serif
+    button
+    button.button
+    input[type='button']
+    input[type='submit']
+        border-radius 5px
+`,
+        { syntax: stylusPostcss }
+    ).root
+    assert.strictEqual(typeof result, "object")
+    assert.strictEqual(
+        result.toString(),
+        `
+body{
+    font: 14px/1.5 Helvetica, arial, sans-serif;
+    button
+    ,button.button
+    ,input[type='button']
+    ,input[type='submit']{
+        border-radius: 5px}}
+`
+    )
 })
 
 it("parse css as postcss syntax", () => {
     const result = postcss().process(
         `
-span { color: green }
+body {
+    font: 14px/1.5 Helvetica, arial, sans-serif;
+}
+body button,
+body button.button,
+body input[type='button'],
+body input[type='submit'] {
+    border-radius: 5px;
+}
 `,
         { syntax: stylusPostcss }
     ).root
     assert.strictEqual(typeof result, "object")
-    console.log("------------")
-    console.log(result.toString())
-    assert.strictEqual(result.toString(), "object")
+    assert.strictEqual(
+        result.toString(),
+        `
+body {
+    font: 14px/1.5 Helvetica, arial, sans-serif;
+}
+body button,
+body button.button,
+body input[type='button'],
+body input[type='submit'] {
+    border-radius: 5px;
+}
+`
+    )
 })

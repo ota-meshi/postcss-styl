@@ -105,12 +105,7 @@
         {
           "raws": {
             "before": "\n    ",
-            "between": ": ",
-            "value": {
-              "value": ";\n    background: \\;a",
-              "raw": ";\n    background: \\;a",
-              "stylus": "\\;a"
-            }
+            "between": ": "
           },
           "type": "decl",
           "source": {
@@ -127,7 +122,7 @@
             }
           },
           "prop": "background",
-          "value": ";\n    background: \\;a"
+          "value": "\\;a"
         }
       ],
       "source": {
@@ -253,7 +248,7 @@
     {
       "raws": {
         "before": "\n",
-        "between": "",
+        "between": " ",
         "after": " "
       },
       "type": "rule",
@@ -279,7 +274,7 @@
           "column": 11
         }
       },
-      "selector": "[foo=\\\"] "
+      "selector": "[foo=\\\"]"
     },
     {
       "raws": {
@@ -346,7 +341,7 @@
     {
       "raws": {
         "before": "\n",
-        "between": "",
+        "between": " ",
         "after": " "
       },
       "type": "rule",
@@ -372,7 +367,7 @@
           "column": 29
         }
       },
-      "selector": "[foo=yes\\:\\(it\\'s\\ work\\)] "
+      "selector": "[foo=yes\\:\\(it\\'s\\ work\\)]"
     },
     {
       "raws": {

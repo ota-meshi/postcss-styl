@@ -1,7 +1,7 @@
 {
   "raws": {
-    "semicolon": false,
-    "after": ";"
+    "semicolon": true,
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -9,9 +9,7 @@
       "raws": {
         "before": "",
         "between": "",
-        "afterName": " ",
-        "semicolon": false,
-        "after": ""
+        "afterName": " "
       },
       "type": "atrule",
       "name": "charset",
@@ -25,7 +23,7 @@
         },
         "end": {
           "line": 1,
-          "column": 16
+          "column": 17
         }
       },
       "params": "\"UTF-8\""
