@@ -33,11 +33,11 @@ cases.each((name, css, json) => {
     if (
         name === "semicolons.css" ||
         name === "quotes.css" ||
-        name === "prop.css" ||
-        name === "inside.css" ||
+        name === "prop.css" || // -> prop01
+        name === "inside.css" || // -> inside01
         name === "ie-progid.css" ||
-        name === "function.css" ||
-        name === "extends.css" ||
+        name === "function.css" || // -> url01
+        name === "extends.css" || // -> extends01
         name === "escape.css" || // -> escape01
         name === "custom-properties.css" || // -> custom-properties01
         name === "atrule-no-semicolon.css" || // -> atrule-no-semicolon01

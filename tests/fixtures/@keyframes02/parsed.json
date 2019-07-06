@@ -1,0 +1,1029 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "keyframes",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 24
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 5,
+          "column": 35
+        }
+      },
+      "params": "identifier",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 2,
+                  "column": 14
+                }
+              },
+              "prop": "top",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 2,
+                  "column": 16
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 2,
+                  "column": 23
+                }
+              },
+              "prop": "left",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            },
+            "endChildren": {
+              "line": 2,
+              "column": 24
+            }
+          },
+          "selector": "0%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 18
+                }
+              },
+              "prop": "top",
+              "value": "50px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 3,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 20
+            },
+            "endChildren": {
+              "line": 3,
+              "column": 19
+            }
+          },
+          "selector": "30%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 4,
+                  "column": 14
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 4,
+                  "column": 24
+                }
+              },
+              "prop": "left",
+              "value": "50px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 26
+            },
+            "endChildren": {
+              "line": 4,
+              "column": 25
+            }
+          },
+          "selector": "68%, 72%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 20
+                }
+              },
+              "prop": "top",
+              "value": "100px"
+            },
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 22
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 32
+                }
+              },
+              "prop": "left",
+              "value": "100%"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 34
+            },
+            "endChildren": {
+              "line": 5,
+              "column": 33
+            }
+          },
+          "selector": "100%"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "keyframes",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 24
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 19
+        }
+      },
+      "params": "identifier",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 8,
+                  "column": 8
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 8,
+                  "column": 14
+                }
+              },
+              "prop": "top",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 8,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 16
+            },
+            "endChildren": {
+              "line": 8,
+              "column": 15
+            }
+          },
+          "selector": "0%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 9,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 9,
+                  "column": 18
+                }
+              },
+              "prop": "top",
+              "value": "30px"
+            },
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 9,
+                  "column": 20
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 9,
+                  "column": 30
+                }
+              },
+              "prop": "left",
+              "value": "20px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 9,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 32
+            },
+            "endChildren": {
+              "line": 9,
+              "column": 31
+            }
+          },
+          "selector": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 10,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 10,
+                  "column": 18
+                }
+              },
+              "prop": "top",
+              "value": "10px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 10,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 20
+            },
+            "endChildren": {
+              "line": 10,
+              "column": 19
+            }
+          },
+          "selector": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 11,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 11,
+                  "column": 16
+                }
+              },
+              "prop": "top",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 11,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 18
+            },
+            "endChildren": {
+              "line": 11,
+              "column": 17
+            }
+          },
+          "selector": "100%"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "keyframes",
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 14,
+          "column": 24
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 17,
+          "column": 30
+        }
+      },
+      "params": "important1",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 15,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 15,
+                  "column": 26
+                }
+              },
+              "prop": "margin-top",
+              "value": "50px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 15,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 28
+            },
+            "endChildren": {
+              "line": 15,
+              "column": 27
+            }
+          },
+          "selector": "from"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "  ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 16,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 16,
+                  "column": 38
+                }
+              },
+              "prop": "margin-top",
+              "important": true,
+              "value": "150px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 16,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 40
+            },
+            "endChildren": {
+              "line": 16,
+              "column": 39
+            }
+          },
+          "selector": "50%"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 42
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 54
+            }
+          },
+          "text": "ignored"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "   ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 17,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 17,
+                  "column": 27
+                }
+              },
+              "prop": "margin-top",
+              "value": "100px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 17,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 29
+            },
+            "endChildren": {
+              "line": 17,
+              "column": 28
+            }
+          },
+          "selector": "to"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "keyframes",
+      "source": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 20,
+          "column": 24
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 24,
+          "column": 32
+        }
+      },
+      "params": "important2",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 21,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 21,
+                  "column": 26
+                }
+              },
+              "prop": "margin-top",
+              "value": "50px"
+            },
+            {
+              "raws": {
+                "before": "\n         ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 22,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 22,
+                  "column": 30
+                }
+              },
+              "prop": "margin-bottom",
+              "value": "100px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 21,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 22,
+              "column": 32
+            },
+            "endChildren": {
+              "line": 22,
+              "column": 31
+            }
+          },
+          "selector": "from"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "   ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 23,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 23,
+                  "column": 38
+                }
+              },
+              "prop": "margin-top",
+              "important": true,
+              "value": "150px"
+            },
+            {
+              "raws": {
+                "before": " ",
+                "left": " ",
+                "right": " "
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 23,
+                  "column": 40
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 23,
+                  "column": 52
+                }
+              },
+              "text": "ignored"
+            },
+            {
+              "raws": {
+                "before": "\n         ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 24,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 24,
+                  "column": 29
+                }
+              },
+              "prop": "margin-bottom",
+              "value": "50px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 23,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 23,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 24,
+              "column": 31
+            },
+            "endChildren": {
+              "line": 24,
+              "column": 30
+            }
+          },
+          "selector": "to"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

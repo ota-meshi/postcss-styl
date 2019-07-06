@@ -1,0 +1,5 @@
+/* based from postcss-parser-tests/cases/inside.css */
+
+a{
+  @import "a.css"}
+

@@ -27,10 +27,6 @@ for (const name of tests) {
         const root = parse(stylus)
 
         const actual = root.toString()
-        if (actual.includes("100vw;")) {
-            debugger
-            parse(stylus)
-        }
         try {
             const expect = read(
                 path.join(FIXTURES_ROOT, `${name}/stringify.css`)

@@ -38,7 +38,33 @@
       "nodes": [
         {
           "raws": {
-            "before": "\n  --empty: ;\n  ",
+            "before": "\n  ",
+            "between": ":",
+            "value": {
+              "value": "",
+              "raw": " "
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 12
+            }
+          },
+          "prop": "--empty",
+          "value": ""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
             "between": ": "
           },
           "type": "decl",
