@@ -40,11 +40,36 @@
           "raws": {
             "before": "\n  ",
             "between": " ",
+            "afterName": "",
             "semicolon": false,
             "after": "\n  ",
-            "ownSemicolon": ";"
+            "ownSemicolon": ";",
+            "identifier": ""
           },
-          "type": "rule",
+          "type": "atrule",
+          "name": "--zero-size",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 4
+            },
+            "endChildren": {
+              "line": 7,
+              "column": 2
+            }
+          },
+          "params": ":",
           "nodes": [
             {
               "raws": {
@@ -91,38 +116,41 @@
               "prop": "height",
               "value": "0"
             }
-          ],
-          "source": {
-            "start": {
-              "line": 4,
-              "column": 3
-            },
-            "startChildren": {
-              "line": 4,
-              "column": 17
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 7,
-              "column": 4
-            },
-            "endChildren": {
-              "line": 7,
-              "column": 2
-            }
-          },
-          "selector": "--zero-size:"
+          ]
         },
         {
           "raws": {
             "before": "\n  ",
             "between": " ",
+            "afterName": "",
             "semicolon": false,
-            "after": "\n  "
+            "after": "\n  ",
+            "identifier": ""
           },
-          "type": "rule",
+          "type": "atrule",
+          "name": "--small-icon",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 8,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 11,
+              "column": 2
+            }
+          },
+          "params": ":",
           "nodes": [
             {
               "raws": {
@@ -169,29 +197,7 @@
               "prop": "height",
               "value": "16px"
             }
-          ],
-          "source": {
-            "start": {
-              "line": 8,
-              "column": 3
-            },
-            "startChildren": {
-              "line": 8,
-              "column": 18
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 11,
-              "column": 3
-            },
-            "endChildren": {
-              "line": 11,
-              "column": 2
-            }
-          },
-          "selector": "--small-icon:"
+          ]
         }
       ],
       "source": {

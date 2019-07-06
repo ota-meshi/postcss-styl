@@ -1,11 +1,11 @@
 /* based from postcss-parser-tests/cases/apply.css */
 
 :root {
-  --zero-size: {
+  @--zero-size: {
     width: 0;
     height: 0
-  };
-  --small-icon: {
+  }
+  @--small-icon: {
     width: 16px;
     height: 16px
   }
