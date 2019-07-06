@@ -15,7 +15,7 @@ const tests = fs.readdirSync(FIXTURES_ROOT)
 for (const name of tests) {
     it(`stringifies ${name}`, () => {
         const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus)
+        const root = parse(stylus, { from: `${name}/input.styl` })
         const output = root.toString(stringify)
         assert.strictEqual(output.trim(), stylus.trim())
     })
@@ -24,7 +24,7 @@ for (const name of tests) {
 for (const name of tests) {
     it(`css stringifies ${name}`, () => {
         const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus)
+        const root = parse(stylus, { from: `${name}/input.styl` })
 
         const actual = root.toString()
         try {

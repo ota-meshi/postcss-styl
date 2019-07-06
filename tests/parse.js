@@ -68,7 +68,7 @@ const tests = fs.readdirSync(FIXTURES_ROOT)
 for (const name of tests) {
     it(`parses ${name}`, () => {
         const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus, { from: "input.styl" })
+        const root = parse(stylus, { from: `${name}/input.styl` })
         const actual = cases.jsonify(root)
         try {
             const expect = read(path.join(FIXTURES_ROOT, `${name}/parsed.json`))

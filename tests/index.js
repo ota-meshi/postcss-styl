@@ -7,10 +7,16 @@ const stylusPostcss = require("../")
 
 // it("try", () => {
 //     const result = postcss().process(
+//         //
 //         `
-// @require 'head'
-// @require 'body'
-// @require 'foot'
+// -pos(type, args)
+//   i = 0
+//   position: unquote(type)
+//   {args[i]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
+//   {args[i += 1]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
+
+// absolute()
+//   -pos('absolute', arguments)
 // `,
 //         { syntax: stylusPostcss }
 //     ).root
