@@ -5,24 +5,20 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-// it("try", () => {
-//     const result = postcss().process(
-//         //
-//         `
-// -pos(type, args)
-//   i = 0
-//   position: unquote(type)
-//   {args[i]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
-//   {args[i += 1]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
+it("try", () => {
+    const result = postcss().process(
+        //
+        `
 
-// absolute()
-//   -pos('absolute', arguments)
-// `,
-//         { syntax: stylusPostcss }
-//     ).root
-//     assert.strictEqual(typeof result, "object")
-//     assert.strictEqual(result.toString(), "")
-// })
+sum(nums...)
+    n = 0
+    n += num for num in nums
+`,
+        { syntax: stylusPostcss }
+    ).root
+    assert.strictEqual(typeof result, "object")
+    assert.strictEqual(result.toString(), "")
+})
 
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
