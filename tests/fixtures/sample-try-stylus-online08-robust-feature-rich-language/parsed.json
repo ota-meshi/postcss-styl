@@ -10,8 +10,6 @@
         "before": "",
         "between": "",
         "afterName": "",
-        "semicolon": false,
-        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -20,10 +18,6 @@
         "start": {
           "line": 1,
           "column": 1
-        },
-        "startChildren": {
-          "line": 1,
-          "column": 17
         },
         "input": {
           "file": "input.styl"
@@ -34,109 +28,15 @@
         }
       },
       "params": "(type, args)",
-      "pythonic": true,
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": " : ",
-            "betweenStylus": " = "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 2,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 2,
-              "column": 7
-            }
-          },
-          "prop": "i",
-          "value": "0",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 3,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 3,
-              "column": 25
-            }
-          },
-          "prop": "position",
-          "value": "unquote(type)",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 4,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 4,
-              "column": 55
-            }
-          },
-          "prop": "{args[i]}",
-          "value": "args[i + 1] is a 'unit' ? args[i += 1] : 0",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 5,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 5,
-              "column": 60
-            }
-          },
-          "prop": "{args[i += 1]}",
-          "value": "args[i + 1] is a 'unit' ? args[i += 1] : 0"
-        }
-      ]
+      "function": true,
+      "body": "\n  i = 0\n  position: unquote(type)\n  {args[i]}: args[i + 1] is a 'unit' ? args[i += 1] : 0\n  {args[i += 1]}: args[i + 1] is a 'unit' ? args[i += 1] : 0",
+      "omittedSemi": true
     },
     {
       "raws": {
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "semicolon": false,
-        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -145,10 +45,6 @@
         "start": {
           "line": 7,
           "column": 1
-        },
-        "startChildren": {
-          "line": 7,
-          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -159,41 +55,15 @@
         }
       },
       "params": "()",
-      "pythonic": true,
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": "",
-            "afterName": "",
-            "identifier": ""
-          },
-          "type": "atrule",
-          "name": "-pos",
-          "source": {
-            "start": {
-              "line": 8,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 8,
-              "column": 29
-            }
-          },
-          "params": "('absolute', arguments)"
-        }
-      ]
+      "function": true,
+      "body": "\n  -pos('absolute', arguments)",
+      "omittedSemi": true
     },
     {
       "raws": {
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "semicolon": false,
-        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -202,10 +72,6 @@
         "start": {
           "line": 10,
           "column": 1
-        },
-        "startChildren": {
-          "line": 10,
-          "column": 8
         },
         "input": {
           "file": "input.styl"
@@ -216,33 +82,9 @@
         }
       },
       "params": "()",
-      "pythonic": true,
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": "",
-            "afterName": "",
-            "identifier": ""
-          },
-          "type": "atrule",
-          "name": "-pos",
-          "source": {
-            "start": {
-              "line": 11,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 11,
-              "column": 26
-            }
-          },
-          "params": "('fixed', arguments)"
-        }
-      ]
+      "function": true,
+      "body": "\n  -pos('fixed', arguments)",
+      "omittedSemi": true
     },
     {
       "raws": {

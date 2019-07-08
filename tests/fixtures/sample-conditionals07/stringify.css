@@ -1,10 +1,11 @@
-/* http://stylus-lang.com/docs/conditionals.html */
+  @pad(types = margin padding, n = 5px);
 
-overload-padding : true;
+  body{
+    @pad()}
 
-@if overload-padding{
-  @padding(y, x){
-    margin: y x}}
+  body{
+    @pad(margin)}
 
-body{
-  padding: 5px 10px}
+  body{
+    apply-mixins : true;
+    @pad(padding, 10) if apply-mixins}

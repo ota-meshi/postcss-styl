@@ -1,6 +1,6 @@
  disable-padding-override : true;
 
- unless disable-padding-override is defined and @disable-padding-override{
+ @unless disable-padding-override is defined and disable-padding-override{
    @padding(x, y){
      margin: y x}}
 

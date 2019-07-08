@@ -1,7 +1,1 @@
-  @negative(n){
-    unless n is a @unit'{
-      @error('invalid number')}
-    @if n < 0{
-      yes:}
-    @else{
-      no:}}
+  @negative(n)
