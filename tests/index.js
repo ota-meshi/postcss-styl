@@ -5,24 +5,24 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-it("try", () => {
-    const result = postcss().process(
-        //
-        `
+// it("try", () => {
+//     const result = postcss().process(
+//         //
+//         `
 
-unless disable-padding-override is defined and disable-padding-override
-    padding(x, y)
-        margin y x
+// unless disable-padding-override is defined and disable-padding-override
+//     padding(x, y)
+//         margin y x
 
-body
-    apply-mixins = true
-    pad(padding, 10) if apply-mixins
-`,
-        { syntax: stylusPostcss }
-    ).root
-    assert.strictEqual(typeof result, "object")
-    assert.strictEqual(result.toString(), "")
-})
+// body
+//     apply-mixins = true
+//     pad(padding, 10) if apply-mixins
+// `,
+//         { syntax: stylusPostcss }
+//     ).root
+//     assert.strictEqual(typeof result, "object")
+//     assert.strictEqual(result.toString(), "")
+// })
 
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
