@@ -10,9 +10,13 @@ it("try", () => {
         //
         `
 
-sum(nums...)
-    n = 0
-    n += num for num in nums
+unless disable-padding-override is defined and disable-padding-override
+    padding(x, y)
+        margin y x
+
+body
+    apply-mixins = true
+    pad(padding, 10) if apply-mixins
 `,
         { syntax: stylusPostcss }
     ).root

@@ -31,19 +31,19 @@
     },
     {
       "raws": {
-        "before": "\n\n unless disable-padding-override is defined and ",
+        "before": "\n\n ",
         "between": "",
-        "afterName": "",
+        "afterName": " ",
         "semicolon": false,
         "after": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "disable-padding-override",
+      "name": "unless",
       "source": {
         "start": {
           "line": 3,
-          "column": 49
+          "column": 2
         },
         "startChildren": {
           "line": 3,
@@ -57,7 +57,7 @@
           "column": 15
         }
       },
-      "params": "",
+      "params": "disable-padding-override is defined and disable-padding-override",
       "pythonic": true,
       "nodes": [
         {

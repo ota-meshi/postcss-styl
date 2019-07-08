@@ -7,5 +7,5 @@
     @pad(margin)}
 
   body{
-    apply-mixins : true;
-    @pad(padding, 10) if apply-mixins}
+    apply-mixins : true;@if apply-mixins{
+    @pad(padding, 10)}}

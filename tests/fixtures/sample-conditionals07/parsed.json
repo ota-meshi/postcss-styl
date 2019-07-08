@@ -175,18 +175,20 @@
         },
         {
           "raws": {
-            "before": "\n    pad(padding, 10) if ",
+            "before": "",
             "between": "",
-            "afterName": "",
+            "afterName": " ",
+            "semicolon": false,
             "after": "",
+            "postfixBefore": " ",
             "identifier": ""
           },
           "type": "atrule",
-          "name": "apply-mixins",
+          "name": "if",
           "source": {
             "start": {
               "line": 13,
-              "column": 25
+              "column": 22
             },
             "startChildren": {
               "line": 13,
@@ -200,9 +202,35 @@
               "column": 36
             }
           },
-          "params": "",
+          "params": "apply-mixins",
           "pythonic": true,
-          "nodes": []
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "pad",
+              "source": {
+                "start": {
+                  "line": 13,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 13,
+                  "column": 20
+                }
+              },
+              "params": "(padding, 10)"
+            }
+          ]
         }
       ],
       "source": {
