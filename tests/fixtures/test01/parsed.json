@@ -7,9 +7,10 @@
   "nodes": [
     {
       "raws": {
-        "before": "// inline\n",
+        "before": "\n",
         "left": " ",
-        "right": " "
+        "right": " ",
+        "beforeStylus": "// inline\n"
       },
       "type": "comment",
       "source": {
@@ -29,10 +30,11 @@
     },
     {
       "raws": {
-        "before": "\n// inline\n",
+        "before": "\n\n",
         "between": "",
         "semicolon": false,
-        "after": ""
+        "after": "",
+        "beforeStylus": "\n// inline\n"
       },
       "type": "rule",
       "nodes": [

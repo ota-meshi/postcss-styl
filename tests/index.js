@@ -10,14 +10,14 @@ it("try", () => {
         //
         `
 
-box-shadow()
-    -webkit-box-shadow arguments
-    -moz-box-shadow arguments
-    box-shadow arguments
-    html.ie8 &,
-    html.ie7 &,
-    html.ie6 &
-        border 2px solid arguments[length(arguments) - 1]
+.foo
+    selector()
+// => '.foo'
+    
+.foo
+    &:hover
+        selector()
+// '.foo:hover'
 `,
         { syntax: stylusPostcss }
     ).root
