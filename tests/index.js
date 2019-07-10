@@ -5,28 +5,19 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-// it("try", () => {
-//     const result = postcss().process(
-//         //
-//         `
+it("try", () => {
+    const result = postcss().process(
+        //
+        `
 
-// @keyframes slidein {
-//     from {
-//         margin-left: 100%;
-//         width: 300%;
-//     }
-
-//     to {
-//         margin-left: 0%;
-//         width: 100%;
-//     }
-// }
-// `,
-//         { syntax: stylusPostcss }
-//     ).root
-//     assert.strictEqual(typeof result, "object")
-//     assert.strictEqual(result.toString(), "")
-// })
+    {selector('.a', '.b', '.c, .d')}
+        color: red
+`,
+        { syntax: stylusPostcss }
+    ).root
+    assert.strictEqual(typeof result, "object")
+    assert.strictEqual(result.toString(), "")
+})
 
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
