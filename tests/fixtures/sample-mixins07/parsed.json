@@ -1,7 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": ""
+    "after": "\n"
   },
   "type": "root",
   "nodes": [
@@ -15,7 +15,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "box",
+      "name": "stripe",
       "source": {
         "start": {
           "line": 1,
@@ -23,30 +23,52 @@
         },
         "startChildren": {
           "line": 1,
-          "column": 31
+          "column": 32
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 5,
-          "column": 15
+          "line": 6,
+          "column": 25
         }
       },
-      "params": "(x, y, margin-only = false)",
+      "params": "(even = #fff, odd = #eee)",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
             "before": "\n  ",
             "between": "",
-            "afterName": " ",
             "semicolon": false,
-            "after": "",
-            "identifier": ""
+            "after": ""
           },
-          "type": "atrule",
-          "name": "if",
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": ",
+                "betweenStylus": " "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 24
+                }
+              },
+              "prop": "background-color",
+              "value": "odd"
+            }
+          ],
           "source": {
             "start": {
               "line": 2,
@@ -54,18 +76,32 @@
             },
             "startChildren": {
               "line": 2,
-              "column": 17
+              "column": 5
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 3,
-              "column": 14
+              "column": 24
             }
           },
-          "params": "margin-only",
-          "pythonic": true,
+          "selector": "tr",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "semicolon": false,
+            "selector": {
+              "value": "tr.even\n  ,tr:nth-child(even)",
+              "raw": "tr.even\n  ,tr:nth-child(even)",
+              "stylus": "tr.even\n  tr:nth-child(even)"
+            },
+            "after": ""
+          },
+          "type": "rule",
           "nodes": [
             {
               "raws": {
@@ -76,79 +112,40 @@
               "type": "decl",
               "source": {
                 "start": {
-                  "line": 3,
+                  "line": 6,
                   "column": 5
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
-                  "line": 3,
-                  "column": 14
+                  "line": 6,
+                  "column": 25
                 }
               },
-              "prop": "margin",
-              "value": "y x"
+              "prop": "background-color",
+              "value": "even"
             }
           ],
-          "if": true
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": "",
-            "afterName": "",
-            "semicolon": false,
-            "after": "",
-            "identifier": ""
-          },
-          "type": "atrule",
-          "name": "else",
           "source": {
             "start": {
               "line": 4,
               "column": 3
             },
             "startChildren": {
-              "line": 4,
-              "column": 7
+              "line": 5,
+              "column": 21
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 5,
-              "column": 15
+              "line": 6,
+              "column": 25
             }
           },
-          "params": "",
-          "pythonic": true,
-          "nodes": [
-            {
-              "raws": {
-                "before": "\n    ",
-                "between": ": ",
-                "betweenStylus": " "
-              },
-              "type": "decl",
-              "source": {
-                "start": {
-                  "line": 5,
-                  "column": 5
-                },
-                "input": {
-                  "file": "input.styl"
-                },
-                "end": {
-                  "line": 5,
-                  "column": 15
-                }
-              },
-              "prop": "padding",
-              "value": "y x"
-            }
-          ],
-          "else": true
+          "selector": "tr.even\n  ,tr:nth-child(even)",
+          "pythonic": true
         }
       ],
       "mixin": true

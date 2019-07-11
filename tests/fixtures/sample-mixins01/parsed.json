@@ -22,14 +22,14 @@
         },
         "end": {
           "line": 1,
-          "column": 52
+          "column": 45
         }
       },
-      "text": "http://stylus-lang.com/docs/interpolation.html"
+      "text": "http://stylus-lang.com/docs/mixins.html"
     },
     {
       "raws": {
-        "before": "\n\n  ",
+        "before": "\n\n",
         "between": "",
         "afterName": "",
         "semicolon": false,
@@ -37,30 +37,30 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "vendor",
+      "name": "border-radius",
       "source": {
         "start": {
           "line": 3,
-          "column": 3
+          "column": 1
         },
         "startChildren": {
           "line": 3,
-          "column": 21
+          "column": 17
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
           "line": 6,
-          "column": 15
+          "column": 17
         }
       },
-      "params": "(prop, args)",
+      "params": "(n)",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
-            "before": "\n    ",
+            "before": "\n  ",
             "between": ": ",
             "betweenStylus": " "
           },
@@ -68,23 +68,23 @@
           "source": {
             "start": {
               "line": 4,
-              "column": 5
+              "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 4,
-              "column": 23
+              "column": 25
             }
           },
-          "prop": "-webkit-{prop}",
-          "value": "args",
+          "prop": "-webkit-border-radius",
+          "value": "n",
           "omittedSemi": true
         },
         {
           "raws": {
-            "before": "\n    ",
+            "before": "\n  ",
             "between": ": ",
             "betweenStylus": " "
           },
@@ -92,23 +92,23 @@
           "source": {
             "start": {
               "line": 5,
-              "column": 5
+              "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 5,
-              "column": 20
+              "column": 22
             }
           },
-          "prop": "-moz-{prop}",
-          "value": "args",
+          "prop": "-moz-border-radius",
+          "value": "n",
           "omittedSemi": true
         },
         {
           "raws": {
-            "before": "\n    ",
+            "before": "\n  ",
             "between": ": ",
             "betweenStylus": " "
           },
@@ -116,79 +116,25 @@
           "source": {
             "start": {
               "line": 6,
-              "column": 5
+              "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 6,
-              "column": 15
+              "column": 17
             }
           },
-          "prop": "{prop}",
-          "value": "args"
+          "prop": "border-radius",
+          "value": "n"
         }
       ],
       "mixin": true
     },
     {
       "raws": {
-        "before": "\n\n  ",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
-      },
-      "type": "atrule",
-      "name": "border-radius",
-      "source": {
-        "start": {
-          "line": 8,
-          "column": 3
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 9,
-          "column": 38
-        }
-      },
-      "params": "()",
-      "function": true,
-      "body": "\n    vendor('border-radius', arguments)",
-      "omittedSemi": true
-    },
-    {
-      "raws": {
-        "before": "\n  \n  ",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
-      },
-      "type": "atrule",
-      "name": "box-shadow",
-      "source": {
-        "start": {
-          "line": 11,
-          "column": 3
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 12,
-          "column": 35
-        }
-      },
-      "params": "()",
-      "function": true,
-      "body": "\n    vendor('box-shadow', arguments)",
-      "omittedSemi": true
-    },
-    {
-      "raws": {
-        "before": "\n\n  ",
+        "before": "\n\n",
         "between": "",
         "semicolon": false,
         "after": ""
@@ -197,46 +143,47 @@
       "nodes": [
         {
           "raws": {
-            "before": "\n    ",
-            "between": ": ",
-            "betweenStylus": " "
+            "before": "\n  ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
           },
-          "type": "decl",
+          "type": "atrule",
+          "name": "border-radius",
           "source": {
             "start": {
-              "line": 15,
-              "column": 5
+              "line": 9,
+              "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 15,
-              "column": 35
+              "line": 9,
+              "column": 20
             }
           },
-          "prop": "border-radius",
-          "value": "1px 2px / 3px 4px"
+          "params": "(5px)"
         }
       ],
       "source": {
         "start": {
-          "line": 14,
-          "column": 3
+          "line": 8,
+          "column": 1
         },
         "startChildren": {
-          "line": 14,
-          "column": 9
+          "line": 8,
+          "column": 24
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 15,
-          "column": 35
+          "line": 9,
+          "column": 20
         }
       },
-      "selector": "button",
+      "selector": "form input[type=button]",
       "pythonic": true
     }
   ],

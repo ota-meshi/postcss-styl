@@ -97,7 +97,8 @@
               "selector": "tr:nth-child({row})",
               "pythonic": true
             }
-          ]
+          ],
+          "each": true
         }
       ],
       "source": {

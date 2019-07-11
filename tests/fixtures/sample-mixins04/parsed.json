@@ -7,7 +7,33 @@
   "nodes": [
     {
       "raws": {
-        "before": "  ",
+        "before": "    ",
+        "between": "",
+        "afterName": " ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "support-for-ie",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 26
+        }
+      },
+      "params": "?= true",
+      "omittedSemi": true,
+      "ternary": true
+    },
+    {
+      "raws": {
+        "before": "\n\n    ",
         "between": "",
         "afterName": "",
         "semicolon": false,
@@ -15,78 +41,30 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "box-shadow",
+      "name": "opacity",
       "source": {
         "start": {
-          "line": 1,
-          "column": 3
+          "line": 3,
+          "column": 5
         },
         "startChildren": {
-          "line": 1,
+          "line": 3,
           "column": 15
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 8,
-          "column": 55
+          "line": 6,
+          "column": 97
         }
       },
-      "params": "()",
+      "params": "(n)",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
-            "before": "\n    ",
-            "between": ": ",
-            "betweenStylus": " "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 2,
-              "column": 5
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 2,
-              "column": 32
-            }
-          },
-          "prop": "-webkit-box-shadow",
-          "value": "arguments",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n    ",
-            "between": ": ",
-            "betweenStylus": " "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 3,
-              "column": 5
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 3,
-              "column": 29
-            }
-          },
-          "prop": "-moz-box-shadow",
-          "value": "arguments",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n    ",
+            "before": "\n      ",
             "between": ": ",
             "betweenStylus": " "
           },
@@ -94,79 +72,83 @@
           "source": {
             "start": {
               "line": 4,
-              "column": 5
+              "column": 7
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 4,
-              "column": 24
+              "column": 15
             }
           },
-          "prop": "box-shadow",
-          "value": "arguments",
+          "prop": "opacity",
+          "value": "n",
           "omittedSemi": true
         },
         {
           "raws": {
-            "before": "\n    ",
+            "before": "\n      ",
             "between": "",
+            "afterName": " ",
             "semicolon": false,
-            "after": ""
+            "after": "",
+            "identifier": ""
           },
-          "type": "rule",
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 97
+            }
+          },
+          "params": "support-for-ie",
+          "pythonic": true,
           "nodes": [
             {
               "raws": {
-                "before": "\n      ",
+                "before": "\n        ",
                 "between": ": ",
                 "betweenStylus": " "
               },
               "type": "decl",
               "source": {
                 "start": {
-                  "line": 8,
-                  "column": 7
+                  "line": 6,
+                  "column": 9
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
-                  "line": 8,
-                  "column": 55
+                  "line": 6,
+                  "column": 97
                 }
               },
-              "prop": "border",
-              "value": "2px solid arguments[length(arguments) - 1]"
+              "prop": "filter",
+              "value": "unquote('progid:DXImageTransform.Microsoft.Alpha(Opacity=' + round(n * 100) + ')')"
             }
           ],
-          "source": {
-            "start": {
-              "line": 5,
-              "column": 5
-            },
-            "startChildren": {
-              "line": 7,
-              "column": 15
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 8,
-              "column": 55
-            }
-          },
-          "selector": "html.ie8 &,\n    html.ie7 &,\n    html.ie6 &",
-          "pythonic": true
+          "if": true
         }
       ],
       "mixin": true
     },
     {
       "raws": {
-        "before": "\n\n  ",
+        "before": "\n\n    ",
         "between": "",
         "semicolon": false,
         "after": ""
@@ -175,7 +157,7 @@
       "nodes": [
         {
           "raws": {
-            "before": "\n    ",
+            "before": "\n      ",
             "between": "",
             "semicolon": false,
             "after": ""
@@ -184,67 +166,67 @@
           "nodes": [
             {
               "raws": {
-                "before": "\n      ",
+                "before": "\n        ",
                 "between": ": ",
                 "betweenStylus": " "
               },
               "type": "decl",
               "source": {
                 "start": {
-                  "line": 12,
-                  "column": 7
+                  "line": 10,
+                  "column": 9
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
-                  "line": 12,
-                  "column": 33
+                  "line": 10,
+                  "column": 19
                 }
               },
-              "prop": "box-shadow",
-              "value": "1px 1px 3px #eee"
+              "prop": "opacity",
+              "value": "0.5"
             }
           ],
           "source": {
             "start": {
-              "line": 11,
-              "column": 5
+              "line": 9,
+              "column": 7
             },
             "startChildren": {
-              "line": 11,
-              "column": 11
+              "line": 9,
+              "column": 14
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 12,
-              "column": 33
+              "line": 10,
+              "column": 19
             }
           },
-          "selector": "#login",
+          "selector": "&:hover",
           "pythonic": true
         }
       ],
       "source": {
         "start": {
-          "line": 10,
-          "column": 3
+          "line": 8,
+          "column": 5
         },
         "startChildren": {
-          "line": 10,
-          "column": 7
+          "line": 8,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 12,
-          "column": 33
+          "line": 10,
+          "column": 19
         }
       },
-      "selector": "body",
+      "selector": "#logo",
       "pythonic": true
     }
   ],

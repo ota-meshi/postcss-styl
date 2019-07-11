@@ -23,23 +23,24 @@
         },
         "startChildren": {
           "line": 1,
-          "column": 19
+          "column": 17
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
           "line": 4,
-          "column": 20
+          "column": 17
         }
       },
-      "params": "(val)",
+      "params": "(n)",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
             "before": "\n  ",
-            "between": ": "
+            "between": ": ",
+            "betweenStylus": " "
           },
           "type": "decl",
           "source": {
@@ -52,40 +53,42 @@
             },
             "end": {
               "line": 2,
-              "column": 28
-            }
-          },
-          "prop": "-webkit-border-radius",
-          "value": "val",
-          "omittedSemi": true
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 3,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 3,
               "column": 25
             }
           },
-          "prop": "-moz-border-radius",
-          "value": "val",
+          "prop": "-webkit-border-radius",
+          "value": "n",
           "omittedSemi": true
         },
         {
           "raws": {
             "before": "\n  ",
-            "between": ": "
+            "between": ": ",
+            "betweenStylus": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          },
+          "prop": "-moz-border-radius",
+          "value": "n",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": ",
+            "betweenStylus": " "
           },
           "type": "decl",
           "source": {
@@ -98,33 +101,31 @@
             },
             "end": {
               "line": 4,
-              "column": 20
+              "column": 17
             }
           },
           "prop": "border-radius",
-          "value": "val"
+          "value": "n"
         }
       ],
       "mixin": true
     },
     {
       "raws": {
-        "before": "\n  \n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
       },
       "type": "rule",
       "nodes": [
         {
           "raws": {
             "before": "\n  ",
-            "between": "",
-            "afterName": "",
-            "identifier": ""
+            "between": ": ",
+            "betweenStylus": " "
           },
-          "type": "atrule",
-          "name": "border-radius",
+          "type": "decl",
           "source": {
             "start": {
               "line": 7,
@@ -135,10 +136,11 @@
             },
             "end": {
               "line": 7,
-              "column": 21
+              "column": 19
             }
           },
-          "params": "(5px)"
+          "prop": "border-radius",
+          "value": "5px"
         }
       ],
       "source": {
@@ -148,21 +150,18 @@
         },
         "startChildren": {
           "line": 6,
-          "column": 9
+          "column": 24
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 8,
-          "column": 1
-        },
-        "endChildren": {
           "line": 7,
-          "column": 22
+          "column": 19
         }
       },
-      "selector": "button"
+      "selector": "form input[type=button]",
+      "pythonic": true
     }
   ],
   "source": {

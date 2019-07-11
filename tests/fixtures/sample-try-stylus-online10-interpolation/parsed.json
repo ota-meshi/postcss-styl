@@ -144,7 +144,8 @@
                   "prop": "border-radius",
                   "value": "arguments"
                 }
-              ]
+              ],
+              "if": true
             },
             {
               "raws": {
@@ -199,11 +200,14 @@
                   "prop": "-{vendor}-border-radius",
                   "value": "arguments"
                 }
-              ]
+              ],
+              "else": true
             }
-          ]
+          ],
+          "each": true
         }
-      ]
+      ],
+      "mixin": true
     },
     {
       "raws": {

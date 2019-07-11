@@ -1,66 +1,65 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "  ",
+        "before": "",
         "between": "",
         "afterName": "",
         "semicolon": false,
         "after": "",
-        "identifier": ""
+        "identifier": "+"
       },
       "type": "atrule",
-      "name": "test",
+      "name": "foo",
       "source": {
         "start": {
           "line": 1,
-          "column": 3
+          "column": 1
         },
         "startChildren": {
           "line": 1,
-          "column": 19
+          "column": 7
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
           "line": 2,
-          "column": 15
+          "column": 13
         }
       },
-      "params": "(prop, args)",
+      "params": "()",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
-            "before": "\n    ",
-            "between": ": ",
-            "betweenStylus": " "
+            "before": "\n  ",
+            "between": ": "
           },
           "type": "decl",
           "source": {
             "start": {
               "line": 2,
-              "column": 5
+              "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 2,
-              "column": 15
+              "column": 13
             }
           },
-          "prop": "{prop}",
-          "value": "args"
+          "prop": "width",
+          "value": "10px"
         }
       ],
-      "mixin": true
+      "call": true
     }
   ],
   "source": {

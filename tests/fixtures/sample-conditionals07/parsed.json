@@ -228,9 +228,11 @@
                   "column": 20
                 }
               },
-              "params": "(padding, 10)"
+              "params": "(padding, 10)",
+              "call": true
             }
-          ]
+          ],
+          "if": true
         }
       ],
       "source": {
