@@ -1,0 +1,13 @@
+/* http://stylus-lang.com/docs/interpolation.html */
+
+  @vendor(prop, args){
+    -webkit-{prop}: args;
+    -moz-{prop}: args;
+    {prop}: args}
+
+  @border-radius();
+  
+  @box-shadow();
+
+  button{
+    border-radius: 1px 2px / 3px 4px}
