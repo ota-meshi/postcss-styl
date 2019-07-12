@@ -1,0 +1,6 @@
+@pathjoin('images', 'foo.png');
+
+
+path : 'images/foo.png';
+ext : extname(path);
+@pathjoin(dirname(path), basename(path, ext) + _thumb + ext)

@@ -1,0 +1,11 @@
+   unit : convert('40px');
+   @typeof(unit);
+   
+
+   color : convert('#fff');
+   @typeof(color);
+   
+
+   foo : convert('foo');
+   @typeof(foo)
+   

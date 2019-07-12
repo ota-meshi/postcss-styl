@@ -1,0 +1,170 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n   ",
+    "afterStylus": "\n   // => 'ident'"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "   ",
+        "between": " : ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+        }
+      },
+      "prop": "unit",
+      "value": "convert('40px')",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "typeof",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 15
+        }
+      },
+      "params": "(unit)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n   \n\n   ",
+        "between": " : ",
+        "beforeStylus": "\n   // => 'unit'\n\n   ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 26
+        }
+      },
+      "prop": "color",
+      "value": "convert('#fff')",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "typeof",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 16
+        }
+      },
+      "params": "(color)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n   \n\n   ",
+        "between": " : ",
+        "beforeStylus": "\n   // => 'rgba'\n\n   ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 23
+        }
+      },
+      "prop": "foo",
+      "value": "convert('foo')",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "typeof",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 14
+        }
+      },
+      "params": "(foo)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
