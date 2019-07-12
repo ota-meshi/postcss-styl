@@ -1,0 +1,206 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "afterStylus": "\n// => 0"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 17
+        }
+      },
+      "params": "((1 2 3 4))",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 4\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      },
+      "params": "((1 2))",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 2\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 11
+        }
+      },
+      "params": "((1))",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 1\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 10
+        }
+      },
+      "params": "(())",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 0\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 13
+        }
+      },
+      "params": "(1 2 3)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 3\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 9
+        }
+      },
+      "params": "(1)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 1\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "length",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 8
+        }
+      },
+      "params": "()",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
