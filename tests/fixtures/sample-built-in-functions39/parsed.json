@@ -1,0 +1,71 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "afterStylus": "\n// => #008000"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "replace",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 22
+        }
+      },
+      "params": "(i, e, 'griin')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => 'green'\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "replace",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 20
+        }
+      },
+      "params": "(i, e, griin)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

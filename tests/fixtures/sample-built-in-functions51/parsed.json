@@ -1,0 +1,71 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "afterStylus": "\n// => #961c1c"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "darken",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 19
+        }
+      },
+      "params": "(#D62828, 30)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => #551010\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "darken",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 20
+        }
+      },
+      "params": "(#D62828, 30%)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

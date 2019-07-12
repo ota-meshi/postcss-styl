@@ -1,0 +1,93 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n ",
+    "afterStylus": "\n // => HSLA"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "hsla",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 27
+        }
+      },
+      "params": "(10deg, 50%, 30%, 0.5)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n \n\n ",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n // => HSLA\n\n ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "hsla",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 14
+        }
+      },
+      "params": "(#ffcc00)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

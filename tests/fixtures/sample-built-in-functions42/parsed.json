@@ -1,0 +1,122 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "afterStylus": "\n// => #f00"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "substr",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 19
+        }
+      },
+      "params": "(ident, 1, 2)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n// => de\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "substr",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 22
+        }
+      },
+      "params": "('string', 1, 2)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": " : ",
+        "beforeStylus": "\n// => 'tr'\n\n",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 11
+        }
+      },
+      "prop": "val",
+      "value": "dredd",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "substr",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 28
+        }
+      },
+      "params": "(substr(val, 1), 0, 3)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

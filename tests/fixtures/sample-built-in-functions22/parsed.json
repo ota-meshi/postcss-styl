@@ -1,0 +1,66 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n  ",
+    "afterStylus": "\n  // => 6in"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "ceil",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 13
+        }
+      },
+      "params": "(5.5in)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
