@@ -15,7 +15,7 @@
         "identifier": "+"
       },
       "type": "atrule",
-      "name": "foo",
+      "name": "prefix-classes",
       "source": {
         "start": {
           "line": 1,
@@ -23,40 +23,70 @@
         },
         "startChildren": {
           "line": 1,
-          "column": 7
+          "column": 24
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 2,
-          "column": 13
+          "line": 3,
+          "column": 15
         }
       },
-      "params": "()",
+      "params": "('foo-')",
       "pythonic": true,
       "nodes": [
         {
           "raws": {
             "before": "\n  ",
-            "between": ": "
+            "between": "",
+            "semicolon": false,
+            "after": ""
           },
-          "type": "decl",
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 15
+                }
+              },
+              "prop": "width",
+              "value": "10px"
+            }
+          ],
           "source": {
             "start": {
               "line": 2,
               "column": 3
             },
+            "startChildren": {
+              "line": 2,
+              "column": 7
+            },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 2,
-              "column": 13
+              "line": 3,
+              "column": 15
             }
           },
-          "prop": "width",
-          "value": "10px"
+          "selector": ".bar",
+          "pythonic": true
         }
       ],
       "call": true,
