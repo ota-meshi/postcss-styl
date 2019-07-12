@@ -1,0 +1,11 @@
+ fonts : Arial, sans-serif;
+ @p('test');
+ @p(123);
+ @p((1 2 3));
+ @p(fonts);
+ @p(#fff);
+ @p(rgba(0,0,0,0.2));
+
+ @add(a, b);
+
+ @p(add)

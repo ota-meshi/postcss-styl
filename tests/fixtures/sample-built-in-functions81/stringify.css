@@ -1,0 +1,8 @@
+.foo{
+  color: red;
+
+  a{
+    font-size: 12px}
+
+  @selector-exists('a') ;
+  @selector-exists(selector() + ' a') }

@@ -1,0 +1,5 @@
+    @something(n);
+
+    body {
+      foo: something(15px) bar;
+    }

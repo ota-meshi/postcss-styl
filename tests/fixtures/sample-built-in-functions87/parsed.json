@@ -1,0 +1,147 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n  ",
+    "afterStylus": "\n  // => true"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "width",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 29
+        }
+      },
+      "params": "(img)",
+      "function": true,
+      "body": "\n    return image-size(img)[0]",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "height",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 29
+        }
+      },
+      "params": "(img)",
+      "function": true,
+      "body": "\n    return image-size(img)[1]",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "image-size",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 23
+        }
+      },
+      "params": "('tux.png')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n  \n\n  ",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n  // => 405px 250px\n\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "image-size",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 46
+        }
+      },
+      "params": "('tux.png')[0] == width('tux.png')",
+      "binop": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
