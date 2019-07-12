@@ -1,0 +1,75 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "swap",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 12
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      },
+      "params": "(a, b)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": ",
+            "betweenStylus": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 6
+            }
+          },
+          "prop": "b",
+          "value": "a"
+        }
+      ],
+      "mixin": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

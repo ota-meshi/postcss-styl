@@ -1,0 +1,50 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n  ",
+    "afterStylus": "\n  // => 6 5 4 3 2 1"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "body": {
+          "value": "\n  \n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  \n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  \n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })",
+          "raw": "\n  \n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  \n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  \n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })",
+          "stylus": "\n  // default sort function\n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  // bubble sort\n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  // => 'a' 'b' 'c' 'd' 'e' 'f'\n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })"
+        },
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sort",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "params": "(list, fn = null)",
+      "function": true,
+      "body": "\n  \n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  \n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  \n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

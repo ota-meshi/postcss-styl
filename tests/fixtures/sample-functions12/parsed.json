@@ -1,0 +1,98 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n ",
+    "afterStylus": "\n // => true"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "stringish",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 24
+        }
+      },
+      "params": "('yay') == yes",
+      "omittedSemi": true,
+      "binop": true
+    },
+    {
+      "raws": {
+        "before": "\n \n   \n ",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n // => true\n   \n ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "stringish",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 22
+        }
+      },
+      "params": "(yay) == yes",
+      "omittedSemi": true,
+      "binop": true
+    },
+    {
+      "raws": {
+        "before": "\n \n   \n ",
+        "between": "",
+        "afterName": "",
+        "beforeStylus": "\n // => true\n   \n ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "stringish",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "params": "(0) == no",
+      "binop": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n  ",
+    "afterStylus": "\n  // => 3"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "  ",
+        "between": " : ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      },
+      "prop": "plus",
+      "value": "add",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n  \n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "plus",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      },
+      "params": "(1, 2)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,8 @@
+ @stringish('yay') == yes;
+ 
+   
+ @stringish(yay) == yes;
+ 
+   
+ @stringish(0) == no
+ 

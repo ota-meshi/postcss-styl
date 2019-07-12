@@ -37,7 +37,8 @@
               "column": 18
             }
           },
-          "params": "('.bar')"
+          "params": "('.bar')",
+          "call": true
         }
       ],
       "source": {
@@ -92,7 +93,8 @@
               "column": 21
             }
           },
-          "params": "('&:hover')"
+          "params": "('&:hover')",
+          "call": true
         }
       ],
       "source": {
