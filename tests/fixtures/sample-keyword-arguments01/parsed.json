@@ -1,0 +1,161 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 45
+        }
+      },
+      "text": "http://stylus-lang.com/docs/kwargs.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n  "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 36
+            }
+          },
+          "prop": "color",
+          "value": "rgba(255, 200, 100, 0.5)"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 61
+            }
+          },
+          "prop": "color",
+          "value": "rgba(red: 255, green: 200, blue: 100, alpha: 0.5)"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 54
+            }
+          },
+          "prop": "color",
+          "value": "rgba(alpha: 0.5, blue: 100, red: 255, 200)"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          },
+          "prop": "color",
+          "value": "rgba(alpha: 0.5, blue: 100, 255, 200)"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        },
+        "endChildren": {
+          "line": 8,
+          "column": 2
+        }
+      },
+      "selector": "body"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
