@@ -1,0 +1,9 @@
+/* http://stylus-lang.com/docs/vargs.html */
+
+ @box-shadow(args...){
+   -webkit-box-shadow: args;
+   -moz-box-shadow: args;
+   box-shadow: args}
+
+ #login{
+   box-shadow: 1px 2px 5px #eee}
