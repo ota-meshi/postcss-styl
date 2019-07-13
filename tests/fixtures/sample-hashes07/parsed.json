@@ -1,0 +1,90 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n\n",
+    "afterStylus": "\n// => 10px\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " : ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "prop": "foo",
+      "value": "{\n  bar: {\n    baz: {\n      raz: 10px\n    }\n  }\n}",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 11
+        }
+      },
+      "prop": "qux",
+      "value": "\"raz\"",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "betweenStylus": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 23
+        }
+      },
+      "prop": "v",
+      "value": "foo[\"bar\"].baz[qux]"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
