@@ -1,0 +1,130 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      },
+      "text": "http://stylus-lang.com/docs/media.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
+        "between": "",
+        "afterName": " ",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 17
+        }
+      },
+      "params": "print",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": "",
+            "semicolon": false,
+            "selector": {
+              "value": "#header\n   ,#footer",
+              "raw": "#header\n   ,#footer",
+              "stylus": "#header\n   #footer"
+            },
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n     ",
+                "between": ": ",
+                "betweenStylus": " "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 6
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 17
+                }
+              },
+              "prop": "display",
+              "value": "none"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 17
+            }
+          },
+          "selector": "#header\n   ,#footer",
+          "pythonic": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
