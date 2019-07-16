@@ -57,7 +57,18 @@ cases.each((name, css, json) => {
     }
 
     it(`parses ${name}`, () => {
-        const parsed = jsonify(parse(css, { from: name }))
+        const parsed = jsonify(
+            parse(css, {
+                from: path.join(
+                    path.resolve(
+                        require.resolve("postcss-parser-tests/package.json"),
+                        "../"
+                    ),
+                    "cases",
+                    name
+                ),
+            })
+        )
         assert.strictEqual(parsed, json)
     })
 })

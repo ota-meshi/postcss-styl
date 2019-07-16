@@ -180,7 +180,6 @@
             "before": "",
             "between": "",
             "afterName": " ",
-            "semicolon": false,
             "after": "",
             "postfixBefore": " ",
             "identifier": ""
@@ -192,10 +191,6 @@
               "line": 13,
               "column": 22
             },
-            "startChildren": {
-              "line": 13,
-              "column": 37
-            },
             "input": {
               "file": "input.styl"
             },
@@ -205,7 +200,6 @@
             }
           },
           "params": "apply-mixins",
-          "pythonic": true,
           "postfix": true,
           "nodes": [
             {

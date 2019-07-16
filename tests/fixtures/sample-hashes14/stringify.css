@@ -1,0 +1,10 @@
+obj : {
+  foo: 'foo'
+  bar: 'bar'
+};
+
+obj2 : {
+  baz: 'baz'
+};
+
+@merge(obj, obj2)
