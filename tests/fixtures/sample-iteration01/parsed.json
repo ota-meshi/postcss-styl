@@ -1,17 +1,17 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "betweenStylus": " = "
+        "left": " ",
+        "right": " "
       },
-      "type": "decl",
+      "type": "comment",
       "source": {
         "start": {
           "line": 1,
@@ -22,81 +22,76 @@
         },
         "end": {
           "line": 1,
-          "column": 18
+          "column": 48
         }
       },
-      "prop": "foo",
-      "value": "{ bar: 10px}",
-      "omittedSemi": true
+      "text": "http://stylus-lang.com/docs/iteration.html"
     },
     {
       "raws": {
         "before": "\n\n",
         "between": "",
         "semicolon": false,
-        "selector": {
-          "value": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
-          "raw": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
-          "stylus": "bar in foo\n// => true\n\nbaz in foo\n// => false\n\n\na"
-        },
         "after": ""
       },
       "type": "rule",
       "nodes": [
         {
           "raws": {
-            "before": "",
+            "before": "\n  ",
             "between": "",
             "afterName": " ",
+            "semicolon": false,
             "after": "",
-            "postfixBefore": " ",
             "identifier": ""
           },
           "type": "atrule",
-          "name": "if",
+          "name": "for",
           "source": {
             "start": {
-              "line": 11,
-              "column": 13
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 19
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 11,
-              "column": 25
+              "line": 5,
+              "column": 11
             }
           },
-          "params": "bar in foo",
-          "postfix": true,
+          "params": "num in 1 2 3",
+          "pythonic": true,
           "nodes": [
             {
               "raws": {
-                "before": "\n  ",
+                "before": "\n    ",
                 "between": ": ",
                 "betweenStylus": " "
               },
               "type": "decl",
               "source": {
                 "start": {
-                  "line": 11,
-                  "column": 3
+                  "line": 5,
+                  "column": 5
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
-                  "line": 11,
+                  "line": 5,
                   "column": 11
                 }
               },
-              "prop": "color",
-              "value": "red",
-              "omittedSemi": true
+              "prop": "foo",
+              "value": "num"
             }
           ],
-          "omittedSemi": true,
-          "if": true
+          "each": true
         }
       ],
       "source": {
@@ -105,18 +100,18 @@
           "column": 1
         },
         "startChildren": {
-          "line": 10,
-          "column": 2
+          "line": 3,
+          "column": 5
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 11,
-          "column": 25
+          "line": 5,
+          "column": 11
         }
       },
-      "selector": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
+      "selector": "body",
       "pythonic": true
     }
   ],

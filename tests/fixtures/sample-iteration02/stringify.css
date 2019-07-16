@@ -1,0 +1,4 @@
+  body{
+    fonts : Impact Arial sans-serif;
+    @for font, i in fonts{
+      foo: i font}}
