@@ -28,7 +28,8 @@
       },
       "prop": "foo",
       "value": "{\n  bar: {\n    baz: {\n      raz: 10px\n    }\n  }\n}",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -52,7 +53,8 @@
       },
       "prop": "qux",
       "value": "\"raz\"",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -75,7 +77,8 @@
         }
       },
       "prop": "v",
-      "value": "foo[\"bar\"].baz[qux]"
+      "value": "foo[\"bar\"].baz[qux]",
+      "assignment": true
     }
   ],
   "source": {

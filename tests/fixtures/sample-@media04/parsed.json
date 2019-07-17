@@ -27,7 +27,8 @@
       },
       "prop": "foo",
       "value": "'width'",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -51,7 +52,8 @@
       },
       "prop": "bar",
       "value": "30em",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {

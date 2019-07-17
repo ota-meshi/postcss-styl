@@ -1,18 +1,17 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n\n\n",
-    "afterStylus": "\n\n// => width: 10px;\n//    height: 20px;"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "betweenStylus": " = "
+        "left": " ",
+        "right": " "
       },
-      "type": "decl",
+      "type": "comment",
       "source": {
         "start": {
           "line": 1,
@@ -23,44 +22,19 @@
         },
         "end": {
           "line": 1,
-          "column": 35
+          "column": 52
         }
       },
-      "prop": "foo",
-      "value": "{ width: 10px, height: 20px }",
-      "omittedSemi": true,
-      "assignment": true
+      "text": "http://stylus-lang.com/docs/functions.url.html"
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": "",
-        "afterName": " ",
-        "semicolon": false,
-        "after": "",
-        "identifier": ""
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
       },
-      "type": "atrule",
-      "name": "for",
-      "source": {
-        "start": {
-          "line": 3,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 3,
-          "column": 22
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 4,
-          "column": 14
-        }
-      },
-      "params": "key, value in foo",
-      "pythonic": true,
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -78,14 +52,35 @@
             },
             "end": {
               "line": 4,
-              "column": 14
+              "column": 51
             }
           },
-          "prop": "{key}",
-          "value": "value"
+          "prop": "background-image",
+          "value": "embedurl(\"circle.svg\", \"utf8\")"
         }
       ],
-      "each": true
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 52
+        }
+      },
+      "selector": ".embed-with-utf8"
     }
   ],
   "source": {

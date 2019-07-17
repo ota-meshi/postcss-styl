@@ -1,60 +1,55 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "afterStylus": "\n  // => 20"
+    "after": "\n"
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "  ",
-        "between": " : ",
-        "betweenStylus": " = "
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      },
+      "text": "http://stylus-lang.com/docs/block.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " :\n  ",
+        "betweenStylus": " =\n  "
       },
       "type": "decl",
       "source": {
         "start": {
-          "line": 1,
-          "column": 3
+          "line": 3,
+          "column": 1
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 1,
-          "column": 10
+          "line": 5,
+          "column": 14
         }
       },
-      "prop": "op",
-      "value": "'+'",
-      "omittedSemi": true,
+      "prop": "foo",
+      "value": "width: 20px\n  height: 20px",
       "assignment": true
-    },
-    {
-      "raws": {
-        "before": "\n  ",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
-      },
-      "type": "atrule",
-      "name": "operate",
-      "source": {
-        "start": {
-          "line": 2,
-          "column": 3
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 2,
-          "column": 20
-        }
-      },
-      "params": "(op, 15, 5)",
-      "call": true
     }
   ],
   "source": {

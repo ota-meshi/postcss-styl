@@ -28,7 +28,8 @@
       },
       "prop": "foo",
       "value": "{ \"%\": 10 }",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -52,7 +53,8 @@
       },
       "prop": "baz",
       "value": "\"%\"",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {

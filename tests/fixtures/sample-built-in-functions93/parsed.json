@@ -224,7 +224,8 @@
       },
       "prop": "vars",
       "value": "json('vars.json', { hash: true })",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -300,7 +301,8 @@
       },
       "prop": "vars",
       "value": "json('vars.json', { hash: true, leave-strings: true })",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -351,7 +353,8 @@
       },
       "prop": "optional",
       "value": "json('optional.json', { hash: true, optional: true })",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {

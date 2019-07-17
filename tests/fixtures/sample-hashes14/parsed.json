@@ -28,7 +28,8 @@
       },
       "prop": "obj",
       "value": "{\n  foo: 'foo'\n  bar: 'bar'\n}",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -52,7 +53,8 @@
       },
       "prop": "obj2",
       "value": "{\n  baz: 'baz'\n}",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {

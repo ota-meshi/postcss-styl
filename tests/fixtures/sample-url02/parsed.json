@@ -8,31 +8,6 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "betweenStylus": " = "
-      },
-      "type": "decl",
-      "source": {
-        "start": {
-          "line": 1,
-          "column": 1
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 1,
-          "column": 17
-        }
-      },
-      "prop": "$font-size",
-      "value": "14px",
-      "omittedSemi": true,
-      "assignment": true
-    },
-    {
-      "raws": {
-        "before": "\n",
         "between": " ",
         "semicolon": true,
         "after": "\n"
@@ -47,43 +22,43 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 3,
+              "line": 2,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 3,
-              "column": 30
+              "line": 2,
+              "column": 51
             }
           },
-          "prop": "font",
-          "value": "$font-size sans-serif"
+          "prop": "background-image",
+          "value": "inline-url(\"tobi.svg\", \"utf8\")"
         }
       ],
       "source": {
         "start": {
-          "line": 2,
+          "line": 1,
           "column": 1
         },
         "startChildren": {
-          "line": 2,
-          "column": 7
+          "line": 1,
+          "column": 27
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 4,
+          "line": 3,
           "column": 1
         },
         "endChildren": {
-          "line": 3,
-          "column": 31
+          "line": 2,
+          "column": 52
         }
       },
-      "selector": "body"
+      "selector": ".embed-with-utf8-at-path"
     }
   ],
   "source": {

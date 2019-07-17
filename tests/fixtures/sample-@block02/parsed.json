@@ -1,33 +1,32 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n\n\n",
-    "afterStylus": "\n\n// => width: 10px;\n//    height: 20px;"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "",
+        "before": "\n",
         "between": " : ",
         "betweenStylus": " = "
       },
       "type": "decl",
       "source": {
         "start": {
-          "line": 1,
+          "line": 2,
           "column": 1
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 1,
-          "column": 35
+          "line": 5,
+          "column": 1
         }
       },
       "prop": "foo",
-      "value": "{ width: 10px, height: 20px }",
+      "value": "@block {\n  width: 20px\n  height: 20px\n}",
       "omittedSemi": true,
       "assignment": true
     },
@@ -35,57 +34,56 @@
       "raws": {
         "before": "\n\n",
         "between": "",
-        "afterName": " ",
         "semicolon": false,
-        "after": "",
-        "identifier": ""
+        "after": ""
       },
-      "type": "atrule",
-      "name": "for",
-      "source": {
-        "start": {
-          "line": 3,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 3,
-          "column": 22
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 4,
-          "column": 14
-        }
-      },
-      "params": "key, value in foo",
-      "pythonic": true,
+      "type": "rule",
       "nodes": [
         {
           "raws": {
             "before": "\n  ",
-            "between": ": "
+            "between": "",
+            "afterName": "",
+            "identifier": ""
           },
-          "type": "decl",
+          "type": "atrule",
+          "name": "",
           "source": {
             "start": {
-              "line": 4,
+              "line": 8,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 4,
-              "column": 14
+              "line": 8,
+              "column": 7
             }
           },
-          "prop": "{key}",
-          "value": "value"
+          "params": "{foo}",
+          "expression": true
         }
       ],
-      "each": true
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 7
+        }
+      },
+      "selector": ".icon",
+      "pythonic": true
     }
   ],
   "source": {

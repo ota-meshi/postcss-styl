@@ -55,7 +55,8 @@
       },
       "prop": "path",
       "value": "'images/foo.png'",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
@@ -79,7 +80,8 @@
       },
       "prop": "ext",
       "value": "extname(path)",
-      "omittedSemi": true
+      "omittedSemi": true,
+      "assignment": true
     },
     {
       "raws": {
