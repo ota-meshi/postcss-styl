@@ -9,11 +9,7 @@ it("try", () => {
     const result = postcss().process(
         //
         `
-
-
-    foo =
-        width: 20px
-        height: 20px
+        span { color: green; }
 `,
         { syntax: stylusPostcss }
     ).root
