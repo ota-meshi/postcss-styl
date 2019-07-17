@@ -1,0 +1,9 @@
+.a{
+  color: red}
+
+.b{
+  width: 100px}
+
+.c{
+  @extend .a, .b;
+  height: 200px}

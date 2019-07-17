@@ -11,20 +11,13 @@ it("try", () => {
         `
 
 
-stripe(even = #fff, odd = #eee)
-    tr
-        background-color odd
-    tr.even
-    tr:nth-child(even)
-        background-color even
-
-a
-    stripe()
+    a
+        color arg() for arg in args
 `,
         { syntax: stylusPostcss }
     ).root
     assert.strictEqual(typeof result, "object")
-    assert.strictEqual(result.toString(), "")
+    assert.strictEqual(result.toString(stylusPostcss.stringify), "")
 })
 
 it("parse stylus as postcss syntax", () => {
