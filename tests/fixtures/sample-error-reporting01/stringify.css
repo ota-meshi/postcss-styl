@@ -1,0 +1,8 @@
+/* http://stylus-lang.com/docs/error-reporting.html */
+
+  @ensure(val, type);
+
+  @border-radius(n);
+
+  body{
+    border-radius: '5px'}

@@ -11,8 +11,9 @@ it("try", () => {
         `
 
 
-    a
-        color arg() for arg in args
+    foo =
+        width: 20px
+        height: 20px
 `,
         { syntax: stylusPostcss }
     ).root
