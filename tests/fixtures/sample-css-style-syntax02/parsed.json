@@ -1,0 +1,319 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": " ",
+        "afterName": "",
+        "semicolon": true,
+        "after": "\n ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "border-radius",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        },
+        "endChildren": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "params": "()",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 36
+            }
+          },
+          "prop": "-webkit-border-radius",
+          "value": "arguments"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          },
+          "prop": "-moz-border-radius",
+          "value": "arguments"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 28
+            }
+          },
+          "prop": "border-radius",
+          "value": "arguments"
+        }
+      ],
+      "mixin": true
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 53
+            }
+          },
+          "prop": "font",
+          "value": "12px/1.4 \"Lucida Grande\", Arial, sans-serif"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 21
+            }
+          },
+          "prop": "background",
+          "value": "black"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 15
+            }
+          },
+          "prop": "color",
+          "value": "#ccc"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 2
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "selector": "body a"
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 16
+            }
+          },
+          "prop": "padding",
+          "value": "5px"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 21
+            }
+          },
+          "prop": "border",
+          "value": "1px solid"
+        },
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 22
+            }
+          },
+          "prop": "border-radius",
+          "value": "5px"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 13,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 17,
+          "column": 2
+        },
+        "endChildren": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "selector": "form input"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
