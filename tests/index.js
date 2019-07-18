@@ -5,17 +5,21 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-it("try", () => {
-    const result = postcss().process(
-        //
-        `
-        span { color: green; }
-`,
-        { syntax: stylusPostcss }
-    ).root
-    assert.strictEqual(typeof result, "object")
-    assert.strictEqual(result.toString(stylusPostcss.stringify), "")
-})
+// it("try", () => {
+//     const result = postcss().process(
+//         //
+//         `
+
+//         [foo=\\"] { }
+//         [foo=\\{] { }
+//         [foo=\\(] { }
+//         [foo=yes\\:\\(it\\'s\\ work\\)] { }
+// `,
+//         { syntax: stylusPostcss }
+//     ).root
+//     assert.strictEqual(typeof result, "object")
+//     assert.strictEqual(result.toString(stylusPostcss.stringify), "")
+// })
 
 it("parse stylus as postcss syntax", () => {
     const result = postcss().process(
