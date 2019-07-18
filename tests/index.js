@@ -20,7 +20,7 @@ const stylusPostcss = require("../")
 //     }
 // }
 // `,
-//             { syntax: stylusPostcss }
+//             { parser: stylusPostcss }
 //         ).root
 //         assert.strictEqual(typeof result, "object")
 //         assert.strictEqual(result.toString(stylusPostcss.stringify), "")
@@ -38,7 +38,7 @@ body
     input[type='submit']
         border-radius 5px
 `,
-            { syntax: stylusPostcss }
+            { parser: stylusPostcss }
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(
@@ -68,7 +68,7 @@ body input[type='submit'] {
     border-radius: 5px;
 }
 `,
-            { syntax: stylusPostcss }
+            { parser: stylusPostcss }
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(

@@ -21,13 +21,14 @@ describe("autoprefixer", () => {
         return postcss([
             autoprefixer({ overrideBrowserslist: "ie 11 or last 4 version" }),
         ])
-            .process(stylus, { syntax: stylusPostcss })
+            .process(stylus, {
+                syntax: stylusPostcss,
+                from: "test.styl",
+            })
             .then(result => {
                 // check can parse
                 assert.strictEqual(
-                    typeof postcss().process(result.css, {
-                        syntax: stylusPostcss,
-                    }).root,
+                    typeof stylusPostcss.parse(result.css),
                     "object"
                 )
             })
@@ -41,7 +42,10 @@ describe("autoprefixer", () => {
                     overrideBrowserslist: "ie 11 or last 4 version",
                 }),
             ])
-                .process(stylus, { syntax: stylusPostcss })
+                .process(stylus, {
+                    syntax: stylusPostcss,
+                    from: `${name}/input.styl`,
+                })
                 .then(result => {
                     try {
                         const expect = read(
@@ -58,9 +62,7 @@ describe("autoprefixer", () => {
 
                     // check can parse
                     assert.strictEqual(
-                        typeof postcss().process(result.css, {
-                            syntax: stylusPostcss,
-                        }).root,
+                        typeof stylusPostcss.parse(result.css),
                         "object"
                     )
                 })
@@ -73,7 +75,10 @@ describe("autoprefixer", () => {
                     overrideBrowserslist: "ie 11 or last 4 version",
                 }),
             ])
-                .process(stylus, { syntax: stylusPostcss })
+                .process(stylus, {
+                    syntax: stylusPostcss,
+                    from: `${name}/input.styl`,
+                })
                 .then(result => {
                     try {
                         const expect = read(
@@ -90,9 +95,7 @@ describe("autoprefixer", () => {
 
                     // check can parse
                     assert.strictEqual(
-                        typeof postcss().process(result.css, {
-                            syntax: stylusPostcss,
-                        }).root,
+                        typeof stylusPostcss.parse(result.css),
                         "object"
                     )
                 })
