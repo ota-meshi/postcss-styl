@@ -19,7 +19,10 @@
   "keywords": [
     "postcss",
     "stylus",
+    "styl",
     "parser",
+    "stringifier",
+    "syntax",
     "css"
   ],
   "author": "Yosuke Ota",
@@ -34,6 +37,14 @@
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "debug": "^4.1.1",
+    "fast-diff": "^1.2.0",
+    "lodash.sortedlastindex": "^4.1.0",
+    "postcss": "^7.0.17",
+    "semver": "^6.2.0",
+    "stylus": "^0.54.5"
+  },
   "devDependencies": {
     "@mysticatea/eslint-plugin": "^10.0.3",
     "autoprefixer": "^9.6.1",
@@ -45,13 +56,5 @@
     "postcss-syntax": "^0.36.2",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0"
-  },
-  "dependencies": {
-    "debug": "^4.1.1",
-    "fast-diff": "^1.2.0",
-    "lodash.sortedlastindex": "^4.1.0",
-    "postcss": "^7.0.17",
-    "semver": "^6.2.0",
-    "stylus": "^0.54.5"
   }
 }
