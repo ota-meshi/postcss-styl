@@ -12,36 +12,38 @@ const read = require("./utils/read")
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
 const tests = fs.readdirSync(FIXTURES_ROOT)
 
-for (const name of tests) {
-    it(`stringifies ${name}`, () => {
-        const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus, { from: `${name}/input.styl` })
-        const output = root.toString(stringify)
-        assert.strictEqual(output.trim(), stylus.trim())
+describe("stringify", () => {
+    for (const name of tests) {
+        it(`stringifies ${name}`, () => {
+            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+            const root = parse(stylus, { from: `${name}/input.styl` })
+            const output = root.toString(stringify)
+            assert.strictEqual(output.trim(), stylus.trim())
+        })
+    }
+
+    for (const name of tests) {
+        it(`css stringifies ${name}`, () => {
+            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+            const root = parse(stylus, { from: `${name}/input.styl` })
+
+            const actual = root.toString()
+            try {
+                const expect = read(
+                    path.join(FIXTURES_ROOT, `${name}/stringify.css`)
+                )
+                assert.strictEqual(actual, expect)
+            } catch (e) {
+                fs.writeFileSync(
+                    path.join(FIXTURES_ROOT, `${name}/stringify.css`),
+                    actual
+                )
+                throw e
+            }
+        })
+    }
+
+    it("stringifies empty block", () => {
+        assert.strictEqual("a{}", postcss.parse("a{}").toString(stringify))
     })
-}
-
-for (const name of tests) {
-    it(`css stringifies ${name}`, () => {
-        const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus, { from: `${name}/input.styl` })
-
-        const actual = root.toString()
-        try {
-            const expect = read(
-                path.join(FIXTURES_ROOT, `${name}/stringify.css`)
-            )
-            assert.strictEqual(actual, expect)
-        } catch (e) {
-            fs.writeFileSync(
-                path.join(FIXTURES_ROOT, `${name}/stringify.css`),
-                actual
-            )
-            throw e
-        }
-    })
-}
-
-it("stringifies empty block", () => {
-    assert.strictEqual("a{}", postcss.parse("a{}").toString(stringify))
 })

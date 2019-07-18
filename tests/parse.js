@@ -76,20 +76,24 @@ cases.each((name, css, json) => {
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
 const tests = fs.readdirSync(FIXTURES_ROOT)
 
-for (const name of tests) {
-    it(`parses ${name}`, () => {
-        const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-        const root = parse(stylus, { from: `${name}/input.styl` })
-        const actual = cases.jsonify(root)
-        try {
-            const expect = read(path.join(FIXTURES_ROOT, `${name}/parsed.json`))
-            assert.deepStrictEqual(actual, expect)
-        } catch (e) {
-            fs.writeFileSync(
-                path.join(FIXTURES_ROOT, `${name}/parsed.json`),
-                actual
-            )
-            throw e
-        }
-    })
-}
+describe("parse", () => {
+    for (const name of tests) {
+        it(`parses ${name}`, () => {
+            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+            const root = parse(stylus, { from: `${name}/input.styl` })
+            const actual = cases.jsonify(root)
+            try {
+                const expect = read(
+                    path.join(FIXTURES_ROOT, `${name}/parsed.json`)
+                )
+                assert.deepStrictEqual(actual, expect)
+            } catch (e) {
+                fs.writeFileSync(
+                    path.join(FIXTURES_ROOT, `${name}/parsed.json`),
+                    actual
+                )
+                throw e
+            }
+        })
+    }
+})

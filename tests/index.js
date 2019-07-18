@@ -5,25 +5,31 @@ const postcss = require("postcss")
 
 const stylusPostcss = require("../")
 
-// it("try", () => {
-//     const result = postcss().process(
-//         //
-//         `
-
-//         [foo=\\"] { }
-//         [foo=\\{] { }
-//         [foo=\\(] { }
-//         [foo=yes\\:\\(it\\'s\\ work\\)] { }
+//     it("try", () => {
+//         const result = postcss().process(
+//             //
+//             `
+// /**/
+// ul {
+//     a.b > span,
+//     a .c > span {
+//         color red
+//     }
+//     #d li {
+//         color green
+//     }
+// }
 // `,
-//         { syntax: stylusPostcss }
-//     ).root
-//     assert.strictEqual(typeof result, "object")
-//     assert.strictEqual(result.toString(stylusPostcss.stringify), "")
-// })
+//             { syntax: stylusPostcss }
+//         ).root
+//         assert.strictEqual(typeof result, "object")
+//         assert.strictEqual(result.toString(stylusPostcss.stringify), "")
+//     })
 
-it("parse stylus as postcss syntax", () => {
-    const result = postcss().process(
-        `
+describe("index", () => {
+    it("parse stylus as postcss syntax", () => {
+        const result = postcss().process(
+            `
 body
     font 14px/1.5 Helvetica, arial, sans-serif
     button
@@ -32,12 +38,12 @@ body
     input[type='submit']
         border-radius 5px
 `,
-        { syntax: stylusPostcss }
-    ).root
-    assert.strictEqual(typeof result, "object")
-    assert.strictEqual(
-        result.toString(),
-        `
+            { syntax: stylusPostcss }
+        ).root
+        assert.strictEqual(typeof result, "object")
+        assert.strictEqual(
+            result.toString(),
+            `
 body{
     font: 14px/1.5 Helvetica, arial, sans-serif;
     button
@@ -46,12 +52,12 @@ body{
     ,input[type='submit']{
         border-radius: 5px}}
 `
-    )
-})
+        )
+    })
 
-it("parse css as postcss syntax", () => {
-    const result = postcss().process(
-        `
+    it("parse css as postcss syntax", () => {
+        const result = postcss().process(
+            `
 body {
     font: 14px/1.5 Helvetica, arial, sans-serif;
 }
@@ -62,12 +68,12 @@ body input[type='submit'] {
     border-radius: 5px;
 }
 `,
-        { syntax: stylusPostcss }
-    ).root
-    assert.strictEqual(typeof result, "object")
-    assert.strictEqual(
-        result.toString(),
-        `
+            { syntax: stylusPostcss }
+        ).root
+        assert.strictEqual(typeof result, "object")
+        assert.strictEqual(
+            result.toString(),
+            `
 body {
     font: 14px/1.5 Helvetica, arial, sans-serif;
 }
@@ -78,5 +84,6 @@ body input[type='submit'] {
     border-radius: 5px;
 }
 `
-    )
+        )
+    })
 })
