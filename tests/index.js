@@ -3,7 +3,7 @@
 const assert = require("assert")
 const postcss = require("postcss")
 
-const stylusPostcss = require("../")
+const postcssStyl = require("../")
 
 //     it("try", () => {
 //         const result = postcss().process(
@@ -20,10 +20,10 @@ const stylusPostcss = require("../")
 //     }
 // }
 // `,
-//             { parser: stylusPostcss }
+//             { parser: postcssStyl }
 //         ).root
 //         assert.strictEqual(typeof result, "object")
-//         assert.strictEqual(result.toString(stylusPostcss.stringify), "")
+//         assert.strictEqual(result.toString(postcssStyl.stringify), "")
 //     })
 
 describe("index", () => {
@@ -38,7 +38,7 @@ body
     input[type='submit']
         border-radius 5px
 `,
-            { parser: stylusPostcss }
+            { parser: postcssStyl }
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(
@@ -68,7 +68,7 @@ body input[type='submit'] {
     border-radius: 5px;
 }
 `,
-            { parser: stylusPostcss }
+            { parser: postcssStyl }
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(

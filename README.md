@@ -1,11 +1,15 @@
-# stylus-postcss
+# postcss-styl-parser
 
 PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.
+
+:::
+***This plugin is still in an experimental state.***
+:::
 
 ## Install
 
 ```bash
-npm --save install stylus-postcss
+npm --save install postcss-styl-parser
 ```
 
 ## Usage
@@ -19,19 +23,17 @@ For example, when used with [Stylelint], it is used as follows:
 - CLI
 
 ```bash
-stylelint ... --custom-syntax stylus-postcss
+stylelint ... --custom-syntax postcss-styl-parser
 ```
 
 - Node.js
 
 ```js
 const stylelint = require("stylelint")
-const syntax = require("postcss-syntax")
+const postcssStyl = require("postcss-styl-parser")
 
 stylelint.lint({
-  customSyntax: syntax({
-    stylus: stylusPostcss
-  }),
+  customSyntax: postcssStyl,
   ...
 })
 ```
@@ -41,7 +43,7 @@ stylelint.lint({
 ```js
 const postcss = require("postcss")
 const syntax = require("postcss-syntax")
-const stylusPostcss = require("stylus-postcss")
+const postcssStyl = require("postcss-styl-parser")
 
 postcss([
   require("stylelint"),
@@ -50,7 +52,7 @@ postcss([
   .process(css, {
     from: "lib/app.styl",
     syntax: syntax({
-      stylus: stylusPostcss
+      stylus: postcssStyl
     })
   })
 })
@@ -65,7 +67,7 @@ For example, Stylus sources can be automatically prefixed using [Autoprefixer].
 ```js
 const postcss = require("postcss")
 const autoprefixer = require("autoprefixer")
-const stylusPostcss = require("stylus-postcss")
+const postcssStyl = require("postcss-styl-parser")
 
 const stylusCode = `
 a
@@ -73,7 +75,7 @@ a
 `
 postcss([autoprefixer])
   .process(stylusCode, {
-      syntax: stylusPostcss,
+      syntax: postcssStyl,
   })
   .then(result => {
     console.log(result.css)

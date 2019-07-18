@@ -1,0 +1,16 @@
+[
+  {
+    "line": 2,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \"a .b .c\", first used at line 2 (no-duplicate-selectors)"
+  },
+  {
+    "line": 2,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \"a .b\", first used at line 2 (no-duplicate-selectors)"
+  }
+]

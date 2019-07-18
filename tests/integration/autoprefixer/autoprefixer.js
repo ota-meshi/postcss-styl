@@ -6,7 +6,7 @@ const autoprefixer = require("autoprefixer")
 const postcss = require("postcss")
 const { read, writeFixture, listupFixtures } = require("../../utils")
 
-const stylusPostcss = require("../../../lib")
+const postcssStyl = require("../../../lib")
 
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
 const tests = listupFixtures(FIXTURES_ROOT)
@@ -21,7 +21,7 @@ describe("autoprefixer", () => {
             autoprefixer({ overrideBrowserslist: "ie 11 or last 4 version" }),
         ])
             .process(stylus, {
-                syntax: stylusPostcss,
+                syntax: postcssStyl,
                 from: "test.styl",
             })
             .then(result => {
@@ -36,7 +36,7 @@ describe("autoprefixer", () => {
                 )
                 // check can parse
                 assert.strictEqual(
-                    typeof stylusPostcss.parse(result.css),
+                    typeof postcssStyl.parse(result.css),
                     "object"
                 )
             })
@@ -51,7 +51,7 @@ describe("autoprefixer", () => {
                 }),
             ])
                 .process(stylus, {
-                    syntax: stylusPostcss,
+                    syntax: postcssStyl,
                     from: `${name}/input.styl`,
                 })
                 .then(result => {
@@ -70,7 +70,7 @@ describe("autoprefixer", () => {
 
                     // check can parse
                     assert.strictEqual(
-                        typeof stylusPostcss.parse(result.css),
+                        typeof postcssStyl.parse(result.css),
                         "object"
                     )
                 })
@@ -84,7 +84,7 @@ describe("autoprefixer", () => {
                 }),
             ])
                 .process(stylus, {
-                    syntax: stylusPostcss,
+                    syntax: postcssStyl,
                     from: `${name}/input.styl`,
                 })
                 .then(result => {
@@ -103,7 +103,7 @@ describe("autoprefixer", () => {
 
                     // check can parse
                     assert.strictEqual(
-                        typeof stylusPostcss.parse(result.css),
+                        typeof postcssStyl.parse(result.css),
                         "object"
                     )
                 })
