@@ -2,15 +2,14 @@
 
 const assert = require("assert")
 const path = require("path")
-const fs = require("fs")
 const postcss = require("postcss")
 
 const stringify = require("..").stringify
 const parse = require("..").parse
-const read = require("./utils/read")
+const { read, listupFixtures, writeFixture } = require("./utils")
 
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
-const tests = fs.readdirSync(FIXTURES_ROOT)
+const tests = listupFixtures(FIXTURES_ROOT, { validOnly: true })
 
 describe("stringify", () => {
     for (const name of tests) {
@@ -34,7 +33,7 @@ describe("stringify", () => {
                 )
                 assert.strictEqual(actual, expect)
             } catch (e) {
-                fs.writeFileSync(
+                writeFixture(
                     path.join(FIXTURES_ROOT, `${name}/stringify.css`),
                     actual
                 )

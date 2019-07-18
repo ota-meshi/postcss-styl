@@ -3,10 +3,9 @@
 const assert = require("assert")
 const cases = require("postcss-parser-tests")
 const path = require("path")
-const fs = require("fs")
 
 const parse = require("..").parse
-const read = require("./utils/read")
+const { read, listupFixtures, writeFixture, isExistFile } = require("./utils")
 
 /**
  * Replacer
@@ -74,26 +73,67 @@ cases.each((name, css, json) => {
 })
 
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
-const tests = fs.readdirSync(FIXTURES_ROOT)
+const tests = listupFixtures(FIXTURES_ROOT)
 
 describe("parse", () => {
     for (const name of tests) {
-        it(`parses ${name}`, () => {
-            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
-            const root = parse(stylus, { from: `${name}/input.styl` })
-            const actual = cases.jsonify(root)
-            try {
-                const expect = read(
-                    path.join(FIXTURES_ROOT, `${name}/parsed.json`)
-                )
-                assert.deepStrictEqual(actual, expect)
-            } catch (e) {
-                fs.writeFileSync(
-                    path.join(FIXTURES_ROOT, `${name}/parsed.json`),
-                    actual
-                )
-                throw e
-            }
-        })
+        const expectErrorFile = path.join(FIXTURES_ROOT, `${name}/error.json`)
+        if (!isExistFile(expectErrorFile)) {
+            it(`parses ${name}`, () => {
+                testParse(name)
+            })
+        } else {
+            it(`parses error ${name}`, () => {
+                testParseError(name, expectErrorFile)
+            })
+        }
     }
 })
+
+/**
+ * test for parse
+ * @param {*} name
+ */
+function testParse(name) {
+    const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+    const root = parse(stylus, { from: `${name}/input.styl` })
+    const actual = cases.jsonify(root)
+    try {
+        const expect = read(path.join(FIXTURES_ROOT, `${name}/parsed.json`))
+        assert.deepStrictEqual(actual, expect)
+    } catch (e) {
+        writeFixture(path.join(FIXTURES_ROOT, `${name}/parsed.json`), actual)
+        throw e
+    }
+}
+
+/**
+ * test for parse error
+ * @param {*} name
+ * @param {*} expectErrorFile
+ */
+function testParseError(name, expectErrorFile) {
+    const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+    try {
+        parse(stylus, { from: `${name}/input.styl` })
+        assert.fail("Expected error but not error")
+    } catch (actualError) {
+        const actual = JSON.stringify(
+            actualError,
+            (key, value) => {
+                if (key === "file") {
+                    return undefined
+                }
+                return value
+            },
+            2
+        )
+        try {
+            const expect = read(expectErrorFile)
+            assert.deepStrictEqual(actual, expect)
+        } catch (e) {
+            writeFixture(expectErrorFile, actual)
+            throw e
+        }
+    }
+}

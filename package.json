@@ -1,12 +1,13 @@
 {
   "name": "stylus-postcss",
   "version": "0.0.1",
-  "description": "Convert Stylus AST to PostCss like AST.",
+  "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test:base": "mocha \"tests/**/*.js\" --reporter dot",
+    "test:update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
     "test": "npm run test:nyc",
     "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
     "test:d": "mocha --inspect --debug-brk \"tests/**/*.js\" --reporter dot"
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@mysticatea/eslint-plugin": "^10.0.3",
     "autoprefixer": "^9.6.1",
+    "cross-env": "^5.2.0",
     "eslint": "^6.0.1",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",

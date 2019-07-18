@@ -2,22 +2,21 @@
 
 const assert = require("assert")
 const path = require("path")
-const fs = require("fs")
 const autoprefixer = require("autoprefixer")
 const postcss = require("postcss")
-const read = require("../../utils/read")
+const { read, writeFixture, listupFixtures } = require("../../utils")
 
 const stylusPostcss = require("../../../lib")
 
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
-const tests = fs.readdirSync(FIXTURES_ROOT)
+const tests = listupFixtures(FIXTURES_ROOT)
 
 describe("autoprefixer", () => {
     it("try", () => {
         const stylus = `
-    .a
-      transform scale(0.5)
-    `
+.a
+  transform scale(0.5)
+`
         return postcss([
             autoprefixer({ overrideBrowserslist: "ie 11 or last 4 version" }),
         ])
@@ -26,6 +25,15 @@ describe("autoprefixer", () => {
                 from: "test.styl",
             })
             .then(result => {
+                assert.strictEqual(
+                    result.css,
+                    `
+.a
+  -webkit-transform scale(0.5);
+  -ms-transform scale(0.5);
+  transform scale(0.5)
+`
+                )
                 // check can parse
                 assert.strictEqual(
                     typeof stylusPostcss.parse(result.css),
@@ -53,7 +61,7 @@ describe("autoprefixer", () => {
                         )
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
-                        fs.writeFileSync(
+                        writeFixture(
                             path.join(FIXTURES_ROOT, `${name}/autoprefix.styl`),
                             result.css
                         )
@@ -86,7 +94,7 @@ describe("autoprefixer", () => {
                         )
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
-                        fs.writeFileSync(
+                        writeFixture(
                             path.join(FIXTURES_ROOT, `${name}/autoprefix.css`),
                             result.css
                         )
