@@ -23,7 +23,7 @@ npm install -D postcss-styl-parser
 
 The main use of this plugin is to apply the [Stylus] syntax to the [PostCSS] linter.
 
-For example, when used with [Stylelint], it is used as follows:
+For example, if you want to use this plugin with [Stylelint], it is used as follows:
 
 1. First, prepare a script that extends `postcss-syntax`.
 
