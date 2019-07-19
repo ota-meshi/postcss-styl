@@ -5,8 +5,7 @@ const path = require("path")
 const stylelint = require("stylelint")
 const stylelintConfig = require("stylelint-config-recommended")
 const { read, writeFixture, listupFixtures } = require("../../utils")
-
-const postcssStylPath = require.resolve("../../../")
+const customSyntax = require.resolve("./custom-syntax")
 
 const config = Object.assign({}, stylelintConfig)
 config.rules = Object.assign({}, config.rules, {
@@ -26,7 +25,8 @@ describe("stylelint", () => {
         return stylelint
             .lint({
                 code: stylus,
-                customSyntax: postcssStylPath,
+                codeFilename: "input.stylus",
+                customSyntax,
                 config,
             })
             .then(result => {
@@ -50,7 +50,8 @@ describe("stylelint", () => {
             return stylelint
                 .lint({
                     code: stylus,
-                    customSyntax: postcssStylPath,
+                    codeFilename: `${name}/input.styl`,
+                    customSyntax,
                     config,
                 })
                 .then(result => {

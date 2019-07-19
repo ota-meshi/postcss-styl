@@ -3,13 +3,13 @@
 PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.
 
 :::
-***This plugin is still in an experimental state.***
+***This plugin is still in an experimental state***
 :::
 
 ## Install
 
 ```bash
-npm --save install postcss-styl-parser
+npm install -D postcss-styl-parser
 ```
 
 ## Usage
@@ -20,43 +20,56 @@ The main use of this plugin is to apply the Stylus syntax to the PostCSS linter.
 
 For example, when used with [Stylelint], it is used as follows:
 
-- CLI
+1. First, prepare a script that extends `postcss-syntax`.
 
-```bash
-stylelint ... --custom-syntax postcss-styl-parser
-```
+    e.g. [custom-syntax.js](./tests/integration/stylelint/custom-syntax.js)
 
-- Node.js
+    ```js
+    // Filename: `custom-syntax.js`
+    const syntax = require("postcss-syntax")
+    const postcssStyl = require("postcss-styl-parser")
 
-```js
-const stylelint = require("stylelint")
-const postcssStyl = require("postcss-styl-parser")
-
-stylelint.lint({
-  customSyntax: postcssStyl,
-  ...
-})
-```
-
-- with PostCSS
-
-```js
-const postcss = require("postcss")
-const syntax = require("postcss-syntax")
-const postcssStyl = require("postcss-styl-parser")
-
-postcss([
-  require("stylelint"),
-  require("reporter")
-])
-  .process(css, {
-    from: "lib/app.styl",
-    syntax: syntax({
-      stylus: postcssStyl
+    module.exports = syntax({
+        stylus: postcssStyl
     })
-  })
-})
-```
+    ```
+
+2. You can use the prepared script as shown in the following example.
+
+    - with CLI
+
+    ```bash
+    stylelint ... --custom-syntax ./path/to/custom-syntax.js
+    ```
+
+    - with Node.js API
+
+    ```js
+    const stylelint = require("stylelint")
+    const customSyntax = require("./path/to/custom-syntax.js")
+
+    stylelint.lint({
+      customSyntax,
+      ...
+    })
+    ```
+
+    - with PostCSS
+
+    ```js
+    const postcss = require("postcss")
+    const customSyntax = require("./path/to/custom-syntax.js")
+
+    postcss([
+      require("stylelint"),
+      require("reporter")
+    ])
+      .process(css, {
+        from: "lib/app.styl",
+        syntax: customSyntax
+      })
+    })
+    ```
 
 ### Stylus Transformations
 

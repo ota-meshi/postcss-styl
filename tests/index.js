@@ -3,7 +3,7 @@
 const assert = require("assert")
 const postcss = require("postcss")
 
-const postcssStyl = require("../")
+const postcssStyl = require("..")
 
 //     it("try", () => {
 //         const result = postcss().process(

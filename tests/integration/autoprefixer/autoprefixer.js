@@ -6,7 +6,7 @@ const autoprefixer = require("autoprefixer")
 const postcss = require("postcss")
 const { read, writeFixture, listupFixtures } = require("../../utils")
 
-const postcssStyl = require("../../../lib")
+const postcssStyl = require("postcss-styl-parser")
 
 const FIXTURES_ROOT = path.join(__dirname, "fixtures")
 const tests = listupFixtures(FIXTURES_ROOT)
