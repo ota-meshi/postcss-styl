@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => 'null'"
+    "stylusAfter": "\n// => 'null'"
   },
   "type": "root",
   "nodes": [
@@ -68,7 +68,7 @@
             "between": "",
             "semicolon": false,
             "after": "",
-            "beforeStylus": "\n// => @media screen and (max-width:400px)\n  "
+            "stylusBefore": "\n// => @media screen and (max-width:400px)\n  "
           },
           "type": "rule",
           "nodes": [
@@ -153,7 +153,7 @@
             "between": "",
             "semicolon": false,
             "after": "",
-            "beforeStylus": "\n// => @media screen and (min-width:600px) and (orientation:landscape)\n  "
+            "stylusBefore": "\n// => @media screen and (min-width:600px) and (orientation:landscape)\n  "
           },
           "type": "rule",
           "nodes": [
@@ -206,7 +206,7 @@
       "raws": {
         "before": "\n\n",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -283,7 +283,7 @@
       "raws": {
         "before": "\n\n",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -334,8 +334,8 @@
       "raws": {
         "before": "\n\n\n\n",
         "between": " : ",
-        "beforeStylus": "\n// => 'string'\n\n// don't throw an error if the JSON file doesn't exist\n",
-        "betweenStylus": " = "
+        "stylusBefore": "\n// => 'string'\n\n// don't throw an error if the JSON file doesn't exist\n",
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

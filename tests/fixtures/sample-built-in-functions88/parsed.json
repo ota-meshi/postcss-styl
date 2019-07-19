@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n  ",
-    "afterStylus": "\n  // => background: url(\"data:image/svg+xml;charset=utf-8,…\")"
+    "stylusAfter": "\n  // => background: url(\"data:image/svg+xml;charset=utf-8,…\")"
   },
   "type": "root",
   "nodes": [
@@ -42,7 +42,7 @@
           "raws": {
             "before": "\n  \n\n  ",
             "between": ": ",
-            "beforeStylus": "\n  // => background: url(\"data:image/png;base64,…\")\n\n  "
+            "stylusBefore": "\n  // => background: url(\"data:image/png;base64,…\")\n\n  "
           },
           "type": "decl",
           "source": {

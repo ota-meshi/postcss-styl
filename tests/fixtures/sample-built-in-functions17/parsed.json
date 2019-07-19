@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n ",
-    "afterStylus": "\n // => ','"
+    "stylusAfter": "\n // => ','"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": " ",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -61,8 +61,8 @@
       "raws": {
         "before": "\n \n\n ",
         "between": " : ",
-        "beforeStylus": "\n // => ' '\n\n ",
-        "betweenStylus": " = "
+        "stylusBefore": "\n // => ' '\n\n ",
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n\n",
-    "afterStylus": "\n// => { \"ratio\": \"13.15;\", \"error\": \"-7.85\", \"min\": \"5.3\", \"max\": \"21\" }\n"
+    "stylusAfter": "\n// => { \"ratio\": \"13.15;\", \"error\": \"-7.85\", \"min\": \"5.3\", \"max\": \"21\" }\n"
   },
   "type": "root",
   "nodes": [
@@ -37,7 +37,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 21\n\n",
+        "stylusBefore": "\n// => 21\n\n",
         "identifier": ""
       },
       "type": "atrule",

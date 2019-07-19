@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n\n\n\n\n\n\n\n",
-    "afterStylus": "\n\n// => .bar {\n//      width: 10px;\n//      height: 20px;\n//    }\n//    .bar:hover {\n//      padding: 0;\n//    }"
+    "stylusAfter": "\n\n// => .bar {\n//      width: 10px;\n//      height: 20px;\n//    }\n//    .bar:hover {\n//      padding: 0;\n//    }"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": "",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

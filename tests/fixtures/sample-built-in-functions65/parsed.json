@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n   ",
-    "afterStylus": "\n   // => 'ident'"
+    "stylusAfter": "\n   // => 'ident'"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": "   ",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -61,8 +61,8 @@
       "raws": {
         "before": "\n   \n\n   ",
         "between": " : ",
-        "beforeStylus": "\n   // => 'unit'\n\n   ",
-        "betweenStylus": " = "
+        "stylusBefore": "\n   // => 'unit'\n\n   ",
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -113,8 +113,8 @@
       "raws": {
         "before": "\n   \n\n   ",
         "between": " : ",
-        "beforeStylus": "\n   // => 'rgba'\n\n   ",
-        "betweenStylus": " = "
+        "stylusBefore": "\n   // => 'rgba'\n\n   ",
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

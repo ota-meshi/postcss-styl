@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => 'ain' 'AIN' 'ain' 'ain'"
+    "stylusAfter": "\n// => 'ain' 'AIN' 'ain' 'ain'"
   },
   "type": "root",
   "nodes": [
@@ -37,7 +37,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 'height>=1024px' 'height' '>=' '1024px'\n\n",
+        "stylusBefore": "\n// => 'height>=1024px' 'height' '>=' '1024px'\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -64,7 +64,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 'foo'\n\n",
+        "stylusBefore": "\n// => 'foo'\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -91,7 +91,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 'foobar'\n\n",
+        "stylusBefore": "\n// => 'foobar'\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -118,7 +118,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => null\n\n",
+        "stylusBefore": "\n// => null\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -145,7 +145,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 'ain'\n\n",
+        "stylusBefore": "\n// => 'ain'\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -172,7 +172,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => 'ain' 'ain' 'ain'\n\n",
+        "stylusBefore": "\n// => 'ain' 'ain' 'ain'\n\n",
         "identifier": ""
       },
       "type": "atrule",

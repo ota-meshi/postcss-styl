@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n    ",
-    "afterStylus": "\n    // => foo __CALL__ bar baz"
+    "stylusAfter": "\n    // => foo __CALL__ bar baz"
   },
   "type": "root",
   "nodes": [
@@ -59,7 +59,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => \"foo\" (foo __CALL__ bar baz)\n\n    ",
+        "stylusBefore": "\n    // => \"foo\" (foo __CALL__ bar baz)\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -86,7 +86,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => \"foo\"\n\n    ",
+        "stylusBefore": "\n    // => \"foo\"\n\n    ",
         "identifier": ""
       },
       "type": "atrule",

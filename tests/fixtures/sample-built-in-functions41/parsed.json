@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => 'bar1' 'bar2' 'bar3'"
+    "stylusAfter": "\n// => 'bar1' 'bar2' 'bar3'"
   },
   "type": "root",
   "nodes": [
@@ -37,7 +37,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => bar1 bar2 bar3\n\n",
+        "stylusBefore": "\n// => bar1 bar2 bar3\n\n",
         "identifier": ""
       },
       "type": "atrule",

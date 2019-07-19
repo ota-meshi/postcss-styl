@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": true,
     "after": "\n    ",
-    "afterStylus": "\n    // => bar(15px, null)"
+    "stylusAfter": "\n    // => bar(15px, null)"
   },
   "type": "root",
   "nodes": [
@@ -36,7 +36,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => bar()\n\n    ",
+        "stylusBefore": "\n    // => bar()\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -62,7 +62,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => bar(\"baz\")\n\n    ",
+        "stylusBefore": "\n    // => bar(\"baz\")\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -88,7 +88,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => bar(baz)\n\n    ",
+        "stylusBefore": "\n    // => bar(baz)\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -114,7 +114,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => bar(15px)\n\n    ",
+        "stylusBefore": "\n    // => bar(15px)\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -140,7 +140,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => rgba(255, 100, 50, 0.5)\n\n    ",
+        "stylusBefore": "\n    // => rgba(255, 100, 50, 0.5)\n\n    ",
         "identifier": ""
       },
       "type": "atrule",
@@ -166,7 +166,7 @@
         "before": "\n    \n\n    ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n    // => bar(%Z)\n\n    ",
+        "stylusBefore": "\n    // => bar(%Z)\n\n    ",
         "identifier": ""
       },
       "type": "atrule",

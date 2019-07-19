@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n ",
-    "afterStylus": "\n // => one two three"
+    "stylusAfter": "\n // => one two three"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": " ",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

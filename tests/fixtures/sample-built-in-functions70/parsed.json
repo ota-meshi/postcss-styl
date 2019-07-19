@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => 'images/foo_thumb.png'"
+    "stylusAfter": "\n// => 'images/foo_thumb.png'"
   },
   "type": "root",
   "nodes": [
@@ -36,8 +36,8 @@
       "raws": {
         "before": "\n\n\n",
         "between": " : ",
-        "beforeStylus": "\n// => \"images/foo.png\"\n\n",
-        "betweenStylus": " = "
+        "stylusBefore": "\n// => \"images/foo.png\"\n\n",
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -62,7 +62,7 @@
       "raws": {
         "before": "\n",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

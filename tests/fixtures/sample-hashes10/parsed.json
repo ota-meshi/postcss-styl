@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n\n\n",
-    "afterStylus": "\n\n// => width: 10px;\n//    height: 20px;"
+    "stylusAfter": "\n\n// => width: 10px;\n//    height: 20px;"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": "",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n  ",
-    "afterStylus": "\n  // => rgba(255,204,0,0.9)"
+    "stylusAfter": "\n  // => rgba(255,204,0,0.9)"
   },
   "type": "root",
   "nodes": [
@@ -19,7 +19,7 @@
           "raws": {
             "before": "\n  ",
             "between": ": ",
-            "betweenStylus": " "
+            "stylusBetween": " "
           },
           "type": "decl",
           "source": {
@@ -43,8 +43,8 @@
           "raws": {
             "before": "\n  \n\n  ",
             "between": ": ",
-            "beforeStylus": "\n  // => rgba(255,204,0,0.5)\n\n  ",
-            "betweenStylus": " "
+            "stylusBefore": "\n  // => rgba(255,204,0,0.5)\n\n  ",
+            "stylusBetween": " "
           },
           "type": "decl",
           "source": {

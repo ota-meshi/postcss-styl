@@ -12,7 +12,7 @@
         "afterName": " /*1*/ ",
         "semicolon": false,
         "after": "",
-        "betweenStylus": " // 4",
+        "stylusBetween": " // 4",
         "params": {
           "value": "screen  and  (min-width: 900px)",
           "raw": "screen /*2*/ and /*3*/ (min-width: 900px)"
@@ -53,7 +53,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {
@@ -132,7 +132,7 @@
             "afterName": " /*5*/ ",
             "semicolon": false,
             "after": "",
-            "betweenStylus": " // 8",
+            "stylusBetween": " // 8",
             "params": {
               "value": "screen  and  (min-width: 900px)",
               "raw": "screen /*6*/ and /*7*/ (min-width: 900px)"
@@ -173,7 +173,7 @@
                   "raws": {
                     "before": "\n      ",
                     "between": ": ",
-                    "betweenStylus": " "
+                    "stylusBetween": " "
                   },
                   "type": "decl",
                   "source": {

@@ -18,7 +18,7 @@
           "raws": {
             "before": "\n  ",
             "between": ": ",
-            "betweenStylus": " "
+            "stylusBetween": " "
           },
           "type": "decl",
           "source": {
@@ -51,7 +51,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {
@@ -117,7 +117,7 @@
         "before": "\n\n",
         "between": " ",
         "afterName": "",
-        "betweenStylus": " // true",
+        "stylusBetween": " // true",
         "identifier": ""
       },
       "type": "atrule",
@@ -144,7 +144,7 @@
         "before": "\n",
         "between": " ",
         "afterName": "",
-        "betweenStylus": " // true",
+        "stylusBetween": " // true",
         "identifier": ""
       },
       "type": "atrule",
@@ -171,7 +171,7 @@
         "before": "\n",
         "between": " ",
         "afterName": "",
-        "betweenStylus": " // false",
+        "stylusBetween": " // false",
         "identifier": ""
       },
       "type": "atrule",
@@ -198,7 +198,7 @@
         "before": "\n",
         "between": " ",
         "afterName": "",
-        "betweenStylus": " // false",
+        "stylusBetween": " // false",
         "identifier": ""
       },
       "type": "atrule",

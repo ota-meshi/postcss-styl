@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => \"foo\""
+    "stylusAfter": "\n// => \"foo\""
   },
   "type": "root",
   "nodes": [
@@ -37,7 +37,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => \"foo.png\"\n\n",
+        "stylusBefore": "\n// => \"foo.png\"\n\n",
         "identifier": ""
       },
       "type": "atrule",

@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n  ",
-    "afterStylus": "\n  // => \"1 2, 3 4, 5 6\""
+    "stylusAfter": "\n  // => \"1 2, 3 4, 5 6\""
   },
   "type": "root",
   "nodes": [
@@ -59,7 +59,7 @@
         "before": "\n  \n\n  ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n  // => \"1 2 3\"\n\n  ",
+        "stylusBefore": "\n  // => \"1 2 3\"\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -86,7 +86,7 @@
         "before": "\n  \n\n  ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n  // => \"1,2,3\"\n\n  ",
+        "stylusBefore": "\n  // => \"1,2,3\"\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -113,7 +113,7 @@
         "before": "\n  \n\n  ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n  // => \"foo, bar, baz\"\n\n  ",
+        "stylusBefore": "\n  // => \"foo, bar, baz\"\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -140,7 +140,7 @@
         "before": "\n  \n\n  ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n  // => \"foo, bar, baz\"\n\n  ",
+        "stylusBefore": "\n  // => \"foo, bar, baz\"\n\n  ",
         "identifier": ""
       },
       "type": "atrule",

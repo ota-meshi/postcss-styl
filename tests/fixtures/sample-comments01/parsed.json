@@ -33,7 +33,7 @@
         "between": "",
         "semicolon": false,
         "after": "",
-        "beforeStylus": "\n\n// I'm a comment!\n"
+        "stylusBefore": "\n\n// I'm a comment!\n"
       },
       "type": "rule",
       "nodes": [
@@ -46,7 +46,7 @@
               "raw": "5px ",
               "stylus": "5px // some awesome padding"
             },
-            "betweenStylus": " "
+            "stylusBetween": " "
           },
           "type": "decl",
           "source": {

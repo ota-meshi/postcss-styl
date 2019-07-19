@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => {\"foo\":\"('foo')\",\"bar\":\"('bar')\",\"baz\":\"('baz')\"}"
+    "stylusAfter": "\n// => {\"foo\":\"('foo')\",\"bar\":\"('bar')\",\"baz\":\"('baz')\"}"
   },
   "type": "root",
   "nodes": [
@@ -10,7 +10,7 @@
       "raws": {
         "before": "",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
@@ -35,7 +35,7 @@
       "raws": {
         "before": "\n\n",
         "between": " : ",
-        "betweenStylus": " = "
+        "stylusBetween": " = "
       },
       "type": "decl",
       "source": {

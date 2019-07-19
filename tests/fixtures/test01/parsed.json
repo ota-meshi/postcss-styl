@@ -10,7 +10,7 @@
         "before": "\n",
         "left": " ",
         "right": " ",
-        "beforeStylus": "// inline\n"
+        "stylusBefore": "// inline\n"
       },
       "type": "comment",
       "source": {
@@ -34,7 +34,7 @@
         "between": "",
         "semicolon": false,
         "after": "",
-        "beforeStylus": "\n// inline\n"
+        "stylusBefore": "\n// inline\n"
       },
       "type": "rule",
       "nodes": [
@@ -51,7 +51,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {
@@ -104,7 +104,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {
@@ -192,7 +192,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {
@@ -245,7 +245,7 @@
               "raws": {
                 "before": "\n    ",
                 "between": ": ",
-                "betweenStylus": " "
+                "stylusBetween": " "
               },
               "type": "decl",
               "source": {

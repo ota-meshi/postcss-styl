@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// '.foo:hover'"
+    "stylusAfter": "\n// '.foo:hover'"
   },
   "type": "root",
   "nodes": [
@@ -67,7 +67,7 @@
         "between": "",
         "semicolon": false,
         "after": "",
-        "beforeStylus": "\n// => '.bar'\n\n"
+        "stylusBefore": "\n// => '.bar'\n\n"
       },
       "type": "rule",
       "nodes": [

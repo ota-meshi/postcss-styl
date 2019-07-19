@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n",
-    "afterStylus": "\n// => rgba(128,128,0,0.625)"
+    "stylusAfter": "\n// => rgba(128,128,0,0.625)"
   },
   "type": "root",
   "nodes": [
@@ -37,7 +37,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => #808080\n\n",
+        "stylusBefore": "\n// => #808080\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -64,7 +64,7 @@
         "before": "\n\n\n",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n// => #7ace38\n\n",
+        "stylusBefore": "\n// => #7ace38\n\n",
         "identifier": ""
       },
       "type": "atrule",

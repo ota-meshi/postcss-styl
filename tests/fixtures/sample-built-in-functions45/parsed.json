@@ -2,7 +2,7 @@
   "raws": {
     "semicolon": false,
     "after": "\n ",
-    "afterStylus": "\n // => HSLA"
+    "stylusAfter": "\n // => HSLA"
   },
   "type": "root",
   "nodes": [
@@ -59,7 +59,7 @@
         "before": "\n \n\n ",
         "between": "",
         "afterName": "",
-        "beforeStylus": "\n // => HSLA\n\n ",
+        "stylusBefore": "\n // => HSLA\n\n ",
         "identifier": ""
       },
       "type": "atrule",
