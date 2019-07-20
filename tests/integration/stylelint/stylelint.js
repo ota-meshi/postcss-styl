@@ -4,7 +4,7 @@ const assert = require("assert")
 const path = require("path")
 const stylelint = require("stylelint")
 const stylelintConfig = require("stylelint-config-recommended")
-const { read, writeFixture, listupFixtures } = require("../../utils")
+const { writeFixture, listupFixtures } = require("../../utils")
 const customSyntax = require.resolve("./custom-syntax")
 
 const config = Object.assign({}, stylelintConfig)
@@ -12,8 +12,7 @@ config.rules = Object.assign({}, config.rules, {
     "function-calc-no-invalid": true,
 })
 
-const FIXTURES_ROOT = path.join(__dirname, "fixtures")
-const tests = listupFixtures(FIXTURES_ROOT)
+const tests = listupFixtures(path.join(__dirname, "fixtures"))
 
 describe("stylelint", () => {
     it("try", () => {
@@ -44,13 +43,14 @@ describe("stylelint", () => {
             })
     })
 
-    for (const name of tests) {
-        it(`stylelint stylus ${name}`, () => {
-            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+    for (const fixture of tests) {
+        it(`stylelint stylus ${fixture.name}`, () => {
+            const fileName = fixture.findFileName("input.styl", "input.vue")
+            const stylus = fixture.contents[fileName]
             return stylelint
                 .lint({
                     code: stylus,
-                    codeFilename: `${name}/input.styl`,
+                    codeFilename: `${fixture.name}/${fileName}`,
                     customSyntax,
                     config,
                 })
@@ -61,15 +61,10 @@ describe("stylelint", () => {
                         2
                     )
                     try {
-                        const expect = read(
-                            path.join(FIXTURES_ROOT, `${name}/warnings.json`)
-                        )
+                        const expect = fixture.contents["warnings.json"]
                         assert.deepStrictEqual(actual, expect)
                     } catch (e) {
-                        writeFixture(
-                            path.join(FIXTURES_ROOT, `${name}/warnings.json`),
-                            actual
-                        )
+                        writeFixture(fixture.files["warnings.json"], actual)
                         throw e
                     }
                 })

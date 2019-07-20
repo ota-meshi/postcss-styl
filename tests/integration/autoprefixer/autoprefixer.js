@@ -4,12 +4,11 @@ const assert = require("assert")
 const path = require("path")
 const autoprefixer = require("autoprefixer")
 const postcss = require("postcss")
-const { read, writeFixture, listupFixtures } = require("../../utils")
+const { writeFixture, listupFixtures } = require("../../utils")
 
 const postcssStyl = require("postcss-styl-parser")
 
-const FIXTURES_ROOT = path.join(__dirname, "fixtures")
-const tests = listupFixtures(FIXTURES_ROOT)
+const tests = listupFixtures(path.join(__dirname, "fixtures"))
 
 describe("autoprefixer", () => {
     it("try", () => {
@@ -42,9 +41,9 @@ describe("autoprefixer", () => {
             })
     })
 
-    for (const name of tests) {
-        it(`autoprefix stylus ${name}`, () => {
-            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.styl`))
+    for (const fixture of tests) {
+        it(`autoprefix stylus ${fixture.name}`, () => {
+            const stylus = fixture.contents["input.styl"]
             return postcss([
                 autoprefixer({
                     overrideBrowserslist: "ie 11 or last 4 version",
@@ -52,17 +51,15 @@ describe("autoprefixer", () => {
             ])
                 .process(stylus, {
                     syntax: postcssStyl,
-                    from: `${name}/input.styl`,
+                    from: `${fixture.name}/input.styl`,
                 })
                 .then(result => {
                     try {
-                        const expect = read(
-                            path.join(FIXTURES_ROOT, `${name}/autoprefix.styl`)
-                        )
+                        const expect = fixture.contents["autoprefix.styl"]
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
                         writeFixture(
-                            path.join(FIXTURES_ROOT, `${name}/autoprefix.styl`),
+                            fixture.files["autoprefix.styl"],
                             result.css
                         )
                         throw e
@@ -76,8 +73,8 @@ describe("autoprefixer", () => {
                 })
         })
 
-        it(`autoprefix css ${name}`, () => {
-            const stylus = read(path.join(FIXTURES_ROOT, `${name}/input.css`))
+        it(`autoprefix css ${fixture.name}`, () => {
+            const stylus = fixture.contents["input.css"]
             return postcss([
                 autoprefixer({
                     overrideBrowserslist: "ie 11 or last 4 version",
@@ -85,17 +82,15 @@ describe("autoprefixer", () => {
             ])
                 .process(stylus, {
                     syntax: postcssStyl,
-                    from: `${name}/input.styl`,
+                    from: `${fixture.name}/input.styl`,
                 })
                 .then(result => {
                     try {
-                        const expect = read(
-                            path.join(FIXTURES_ROOT, `${name}/autoprefix.css`)
-                        )
+                        const expect = fixture.contents["autoprefix.css"]
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
                         writeFixture(
-                            path.join(FIXTURES_ROOT, `${name}/autoprefix.css`),
+                            fixture.files["autoprefix.css"],
                             result.css
                         )
                         throw e
