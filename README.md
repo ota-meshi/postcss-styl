@@ -4,6 +4,7 @@
 [![NPM version]](https://www.npmjs.com/package/postcss-styl)
 [![NPM downloads]](https://www.npmjs.com/package/postcss-styl)
 [![Build Status]](https://travis-ci.org/ota-meshi/postcss-styl)
+[![Coverage Status]](https://coveralls.io/github/ota-meshi/postcss-styl?branch=master)
 
 [PostCSS] parser plugin for converting [Stylus] syntax to [PostCSS] nodes.
 
@@ -128,3 +129,4 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [npm version]: https://img.shields.io/npm/v/postcss-styl.svg
 [npm downloads]: https://img.shields.io/npm/dw/postcss-styl.svg
 [Build Status]: https://travis-ci.org/ota-meshi/postcss-styl.svg?branch=master
+[Coverage Status]: https://coveralls.io/repos/github/ota-meshi/postcss-styl/badge.svg?branch=master
