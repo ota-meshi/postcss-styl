@@ -15,7 +15,7 @@ const utils = {
             throw err
         }
     },
-    listupFixtures(root, opts = {}) {
+    listupFixtures(root) {
         const fixtures = fs.readdirSync(root).map(name => {
             const filesHandler = {
                 get(_target, fileName) {
@@ -45,11 +45,6 @@ const utils = {
             }
         })
 
-        if (opts.exists) {
-            return fixtures.filter(({ files }) =>
-                opts.exists.every(f => utils.isExistFile(files[f]))
-            )
-        }
         return fixtures
     },
     read(file) {
@@ -59,6 +54,12 @@ const utils = {
         // eslint-disable-next-line no-process-env
         if (process.env.UPDATE_FIXTURES) {
             fs.writeFileSync(file, actual)
+        }
+    },
+    deleteFixture(file) {
+        // eslint-disable-next-line no-process-env
+        if (process.env.UPDATE_FIXTURES) {
+            fs.unlinkSync(file)
         }
     },
 }

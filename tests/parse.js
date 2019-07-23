@@ -5,7 +5,12 @@ const cases = require("postcss-parser-tests")
 const path = require("path")
 
 const parse = require("..").parse
-const { listupFixtures, writeFixture, isExistFile } = require("./utils")
+const {
+    listupFixtures,
+    writeFixture,
+    isExistFile,
+    deleteFixture,
+} = require("./utils")
 
 /**
  * Replacer
@@ -76,7 +81,7 @@ const tests = listupFixtures(path.join(__dirname, "fixtures"))
 
 describe("parse", () => {
     for (const fixture of tests) {
-        if (isExistFile(fixture.files["parsed.json"])) {
+        if (!isExistFile(fixture.files["error.json"])) {
             it(`parses ${fixture.name}`, () => {
                 testParse(fixture)
             })
@@ -94,7 +99,15 @@ describe("parse", () => {
  */
 function testParse(fixture) {
     const stylus = fixture.contents["input.styl"]
-    const root = parse(stylus, { from: `${fixture.name}/input.styl` })
+    let root = parse(stylus, { from: `${fixture.name}/input.styl` })
+    try {
+        root = parse(stylus, { from: `${fixture.name}/input.styl` })
+    } catch (parseError) {
+        writeFixture(fixture.files["error.json"], stringifyError(parseError))
+        deleteFixture(fixture.files["parsed.json"])
+        deleteFixture(fixture.files["stringify.css"])
+        throw parseError
+    }
     const actual = cases.jsonify(root)
     try {
         const expect = fixture.contents["parsed.json"]
@@ -111,20 +124,12 @@ function testParse(fixture) {
  */
 function testParseError(fixture) {
     const stylus = fixture.contents["input.styl"]
+    let hasError = false
     try {
         parse(stylus, { from: `${fixture.name}/input.styl` })
-        assert.fail("Expected error but not error")
     } catch (actualError) {
-        const actual = JSON.stringify(
-            actualError,
-            (key, value) => {
-                if (key === "file") {
-                    return undefined
-                }
-                return value
-            },
-            2
-        )
+        hasError = true
+        const actual = stringifyError(actualError)
         try {
             const expect = fixture.contents["error.json"]
             assert.deepStrictEqual(actual, expect)
@@ -133,4 +138,25 @@ function testParseError(fixture) {
             throw e
         }
     }
+    if (!hasError) {
+        deleteFixture(fixture.files["error.json"])
+        assert.fail("Expected error but not error")
+    }
+}
+
+/**
+ * Stringify Error
+ * @param {*} error
+ */
+function stringifyError(error) {
+    return JSON.stringify(
+        error,
+        (key, value) => {
+            if (key === "file") {
+                return undefined
+            }
+            return value
+        },
+        2
+    )
 }
