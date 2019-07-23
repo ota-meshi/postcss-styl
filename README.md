@@ -1,9 +1,9 @@
-# postcss-styl-parser
+# postcss-styl
 
-[![NPM license]](https://www.npmjs.com/package/postcss-styl-parser)
-[![NPM version]](https://www.npmjs.com/package/postcss-styl-parser)
-[![NPM downloads]](https://www.npmjs.com/package/postcss-styl-parser)
-[![Build Status]](https://travis-ci.org/ota-meshi/postcss-styl-parser)
+[![NPM license]](https://www.npmjs.com/package/postcss-styl)
+[![NPM version]](https://www.npmjs.com/package/postcss-styl)
+[![NPM downloads]](https://www.npmjs.com/package/postcss-styl)
+[![Build Status]](https://travis-ci.org/ota-meshi/postcss-styl)
 
 [PostCSS] parser plugin for converting [Stylus] syntax to [PostCSS] nodes.
 
@@ -14,14 +14,14 @@
 ## Installation
 
 ```bash
-npm install -D postcss-styl-parser
+npm install -D postcss-styl
 ```
 
 ## Usage
 
 ### Stylus to PostCSS Nodes
 
-The main use of this plugin is to apply the [Stylus] syntax to the [PostCSS] linter.
+The main use of this plugin is to apply the [Stylus] syntax to linter using [PostCSS].
 
 For example, if you want to use this plugin with [Stylelint], it is used as follows:
 
@@ -32,7 +32,7 @@ For example, if you want to use this plugin with [Stylelint], it is used as foll
    ```js
    // Filename: `custom-syntax.js`
    const syntax = require("postcss-syntax");
-   const postcssStyl = require("postcss-styl-parser");
+   const postcssStyl = require("postcss-styl");
 
    module.exports = syntax({
      stylus: postcssStyl
@@ -85,7 +85,7 @@ For example, [Stylus] sources can be automatically prefixed using [Autoprefixer]
 ```js
 const postcss = require("postcss");
 const autoprefixer = require("autoprefixer");
-const postcssStyl = require("postcss-styl-parser");
+const postcssStyl = require("postcss-styl");
 
 const stylusCode = `
 a
@@ -124,7 +124,7 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [stylelint]: http://stylelint.io/
 [autoprefixer]: https://github.com/postcss/autoprefixer
 [license]: ./LICENSE
-[npm license]: https://img.shields.io/npm/l/postcss-styl-parser.svg
-[npm version]: https://img.shields.io/npm/v/postcss-styl-parser.svg
-[npm downloads]: https://img.shields.io/npm/dw/postcss-styl-parser.svg
-[Build Status]: https://travis-ci.org/ota-meshi/postcss-styl-parser.svg?branch=master
+[npm license]: https://img.shields.io/npm/l/postcss-styl.svg
+[npm version]: https://img.shields.io/npm/v/postcss-styl.svg
+[npm downloads]: https://img.shields.io/npm/dw/postcss-styl.svg
+[Build Status]: https://travis-ci.org/ota-meshi/postcss-styl.svg?branch=master

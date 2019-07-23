@@ -6,11 +6,11 @@ const postcss = require("postcss")
 
 const stringify = require("..").stringify
 const parse = require("..").parse
-const { listupFixtures, writeFixture } = require("./utils")
+const { listupFixtures, writeFixture, isExistFile } = require("./utils")
 
-const tests = listupFixtures(path.join(__dirname, "fixtures"), {
-    exists: ["stringify.css"],
-})
+const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
+    fixture => !isExistFile(fixture.files["error.json"])
+)
 
 describe("stringify", () => {
     for (const fixture of tests) {

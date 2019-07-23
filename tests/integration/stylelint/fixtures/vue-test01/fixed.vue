@@ -3,5 +3,5 @@
 </template>
 <style lang="stylus">
 a
-    height calc(100VH -10px)
+  height calc(100vh -10px)
 </style>

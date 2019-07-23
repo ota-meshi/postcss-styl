@@ -10,6 +10,7 @@ module.exports = {
     rules: {
         'require-jsdoc': 'error',
         "no-warning-comments": "warn",
+        "@mysticatea/no-use-ignored-vars": ["error", "^_[a-zA-Z]+$"],
     },
 
     overrides: [

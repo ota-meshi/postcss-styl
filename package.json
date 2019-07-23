@@ -1,5 +1,5 @@
 {
-  "name": "postcss-styl-parser",
+  "name": "postcss-styl",
   "version": "0.0.1",
   "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ota-meshi/postcss-styl-parser.git"
+    "url": "git+https://github.com/ota-meshi/postcss-styl.git"
   },
   "keywords": [
     "postcss",
@@ -28,9 +28,9 @@
   "author": "Yosuke Ota",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ota-meshi/postcss-styl-parser/issues"
+    "url": "https://github.com/ota-meshi/postcss-styl/issues"
   },
-  "homepage": "https://github.com/ota-meshi/postcss-styl-parser#readme",
+  "homepage": "https://github.com/ota-meshi/postcss-styl#readme",
   "engines": {
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
@@ -50,12 +50,13 @@
     "autoprefixer": "^9.6.1",
     "cross-env": "^5.2.0",
     "eslint": "^6.0.1",
+    "lodash": "^4.17.15",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
     "postcss-parser-tests": "^6.5.0",
-    "postcss-styl-parser": "file:.",
+    "postcss-styl": "file:.",
     "postcss-syntax": "^0.36.2",
     "stylelint": "^10.1.0",
-    "stylelint-config-recommended": "^2.2.0"
+    "stylelint-config-standard": "^18.3.0"
   }
 }
