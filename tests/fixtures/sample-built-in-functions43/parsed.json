@@ -1,0 +1,173 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "stylusAfter": "\n// => solid #000"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "slice",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 36
+        }
+      },
+      "params": "('lorem' 'ipsum' 'dolor', 1, 2)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "slice",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 37
+        }
+      },
+      "params": "('lorem' 'ipsum' 'dolor', 1, -1)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\n// => 'ipsum'\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "slice",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 26
+        }
+      },
+      "params": "('lorem ipsum', 1, 5)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\n// => 'orem'\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "slice",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 19
+        }
+      },
+      "params": "(rredd, 1, -1)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\n// => #f00\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "slice",
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 14,
+          "column": 25
+        }
+      },
+      "params": "(1px solid black, 1)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+    something(n)
+      if current-property
+        add-property(current-property[0], s('-webkit-something(%s)', n))
+        add-property(current-property[0], s('-moz-something(%s)', n))
+        s('something(%s)', n)
+      else
+        error('something() must be used within a property')
+
+    body {
+      foo: something(15px) bar;
+    }

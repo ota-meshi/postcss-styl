@@ -1,0 +1,6 @@
+@stripe(even = #fff, odd = #eee){
+  tr{
+    background-color: odd}
+  tr.even
+  ,tr:nth-child(even){
+    background-color: even}}

@@ -1,0 +1,17 @@
+.a {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; /* will be prefixed */
+}
+
+.b {
+  /* autoprefixer: off */
+  transition: 1s; /* will not be prefixed */
+}
+
+.c {
+  /* autoprefixer: ignore next */
+  transition: 1s; /* will not be prefixed */
+  -webkit-mask: url(image.png);
+          mask: url(image.png); /* will be prefixed */
+}

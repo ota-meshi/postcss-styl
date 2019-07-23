@@ -1,0 +1,34 @@
+/* autoprefixer grid: autoplace */
+
+.page {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 33px;
+  -ms-grid-rows: 1fr 33px minmax(100px, 1fr) 33px 2fr;
+  -ms-grid-columns: 1fr 33px 100px 33px 1fr;
+      grid-template: "head head  head" 1fr "nav  main  main" minmax(100px, 1fr) "nav  foot  foot" 2fr / 1fr   100px 1fr;
+}
+.page__head {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: head;
+}
+.page__nav {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+.page__main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+}
+.page__footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: foot;
+}

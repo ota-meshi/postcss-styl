@@ -1,0 +1,13 @@
+@-pos(type, args);
+
+@absolute();
+
+@fixed();
+
+#prompt{
+  absolute: top 150px left 5px;
+  width: 200px;
+  margin-left: -(@width / 2)}
+
+#logo{
+  fixed: top left}

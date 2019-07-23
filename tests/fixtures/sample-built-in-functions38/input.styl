@@ -1,0 +1,20 @@
+match('^(height|width)?([<>=]{1,})(.*)', 'height>=1024px')
+// => 'height>=1024px' 'height' '>=' '1024px'
+
+match('^foo(?:bar)?', 'foo')
+// => 'foo'
+
+match('^foo(?:bar)?', 'foobar')
+// => 'foobar'
+
+match('^foo(?:bar)?', 'bar')
+// => null
+
+match('ain', 'The rain in SPAIN stays mainly in the plain')
+// => 'ain'
+
+match('ain', 'The rain in SPAIN stays mainly in the plain', g)
+// => 'ain' 'ain' 'ain'
+
+match('ain', 'The rain in SPAIN stays mainly in the plain', 'gi')
+// => 'ain' 'AIN' 'ain' 'ain'

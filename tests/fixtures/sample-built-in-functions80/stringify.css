@@ -1,0 +1,10 @@
+.foo{
+  color: red;
+
+  a{
+    font-size: 12px}}
+
+@selector-exists('.foo') ;
+@selector-exists('.foo a') ;
+@selector-exists('.foo li') ;
+@selector-exists('.bar') 

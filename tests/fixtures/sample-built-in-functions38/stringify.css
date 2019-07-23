@@ -1,0 +1,19 @@
+@match('^(height|width)?([<>=]{1,})(.*)', 'height>=1024px');
+
+
+@match('^foo(?:bar)?', 'foo');
+
+
+@match('^foo(?:bar)?', 'foobar');
+
+
+@match('^foo(?:bar)?', 'bar');
+
+
+@match('ain', 'The rain in SPAIN stays mainly in the plain');
+
+
+@match('ain', 'The rain in SPAIN stays mainly in the plain', g);
+
+
+@match('ain', 'The rain in SPAIN stays mainly in the plain', 'gi')

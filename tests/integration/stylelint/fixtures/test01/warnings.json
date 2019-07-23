@@ -1,0 +1,30 @@
+[
+  {
+    "line": 3,
+    "column": 25,
+    "rule": "function-calc-no-invalid",
+    "severity": "error",
+    "text": "Expected space after \"-\" operator (function-calc-no-invalid)"
+  },
+  {
+    "line": 3,
+    "column": 24,
+    "rule": "function-calc-no-unspaced-operator",
+    "severity": "error",
+    "text": "Expected an operator before sign \"-\" (function-calc-no-unspaced-operator)"
+  },
+  {
+    "line": 3,
+    "column": 18,
+    "rule": "unit-case",
+    "severity": "error",
+    "text": "Expected \"VH\" to be \"vh\" (unit-case)"
+  },
+  {
+    "line": 3,
+    "column": 5,
+    "rule": "indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (indentation)"
+  }
+]

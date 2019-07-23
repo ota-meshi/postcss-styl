@@ -1,0 +1,98 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "stylusAfter": "\n// => rgba(128,128,0,0.625)"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "blend",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 28
+        }
+      },
+      "params": "(rgba(#FFF, 0.5), #000)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\n// => #808080\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "blend",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 33
+        }
+      },
+      "params": "(rgba(#FFDE00,.42), #19C261)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\n// => #7ace38\n\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "blend",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 39
+        }
+      },
+      "params": "(rgba(lime, 0.5), rgba(red, 0.25))",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

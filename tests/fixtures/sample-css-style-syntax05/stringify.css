@@ -1,0 +1,9 @@
+ main-color : white;
+ main-hover-color : black;
+
+ body a {
+   color: main-color;
+   &:hover { color: main-hover-color; }
+ }
+
+ body a { color: main-color; &:hover { color: main-hover-color; }}

@@ -1,0 +1,12 @@
+foo : {
+  bar: {
+    baz: {
+      raz: 10px
+    }
+  }
+};
+
+qux : "raz";
+
+v : foo["bar"].baz[qux]
+

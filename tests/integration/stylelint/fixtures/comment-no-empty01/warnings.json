@@ -1,0 +1,23 @@
+[
+  {
+    "line": 2,
+    "column": 1,
+    "rule": "comment-no-empty",
+    "severity": "error",
+    "text": "Unexpected empty comment (comment-no-empty)"
+  },
+  {
+    "line": 2,
+    "column": 4,
+    "rule": "comment-whitespace-inside",
+    "severity": "error",
+    "text": "Expected whitespace after \"/*\" (comment-whitespace-inside)"
+  },
+  {
+    "line": 2,
+    "column": 1,
+    "rule": "comment-whitespace-inside",
+    "severity": "error",
+    "text": "Expected whitespace before \"*/\" (comment-whitespace-inside)"
+  }
+]

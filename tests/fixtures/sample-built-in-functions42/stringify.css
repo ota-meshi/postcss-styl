@@ -1,0 +1,8 @@
+@substr(ident, 1, 2);
+
+
+@substr('string', 1, 2);
+
+
+val : dredd;
+@substr(substr(val, 1), 0, 3)

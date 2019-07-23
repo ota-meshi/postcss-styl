@@ -1,0 +1,5 @@
+foo : { "%": 10 };
+baz : "%";
+
+a{
+  color: foo[baz]}

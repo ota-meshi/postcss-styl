@@ -1,0 +1,153 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": " "
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n     ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 6
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 18
+                }
+              },
+              "prop": "padding",
+              "value": "10px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 4
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 18
+            }
+          },
+          "selector": "button",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 18
+        }
+      },
+      "selector": "form",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n   ",
+            "between": " ",
+            "afterName": " "
+          },
+          "type": "atrule",
+          "name": "extend",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 23
+            }
+          },
+          "params": "form button"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 5,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 22
+        }
+      },
+      "selector": "a.button",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

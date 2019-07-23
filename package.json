@@ -1,0 +1,62 @@
+{
+  "name": "postcss-styl",
+  "version": "0.0.1",
+  "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test:base": "mocha \"tests/**/*.js\" --reporter dot",
+    "test:update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
+    "test": "npm run test:nyc",
+    "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
+    "test:d": "mocha --inspect --debug-brk \"tests/**/*.js\" --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ota-meshi/postcss-styl.git"
+  },
+  "keywords": [
+    "postcss",
+    "stylus",
+    "styl",
+    "parser",
+    "stringifier",
+    "syntax",
+    "css"
+  ],
+  "author": "Yosuke Ota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ota-meshi/postcss-styl/issues"
+  },
+  "homepage": "https://github.com/ota-meshi/postcss-styl#readme",
+  "engines": {
+    "node": "^8.10.0 || >=11.10.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1",
+    "fast-diff": "^1.2.0",
+    "lodash.sortedlastindex": "^4.1.0",
+    "postcss": "^7.0.17",
+    "semver": "^6.2.0",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "@mysticatea/eslint-plugin": "^10.0.3",
+    "autoprefixer": "^9.6.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.0.1",
+    "lodash": "^4.17.15",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "postcss-parser-tests": "^6.5.0",
+    "postcss-styl": "file:.",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}

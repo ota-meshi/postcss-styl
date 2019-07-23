@@ -1,0 +1,9 @@
+@add(a, b);
+
+@sub(a, b);
+
+@invoke(a, b, fn);
+
+body{
+  padding: invoke(5, 10, add);
+  padding: invoke(5, 10, sub)}

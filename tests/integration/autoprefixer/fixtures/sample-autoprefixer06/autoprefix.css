@@ -1,0 +1,167 @@
+/* autoprefixer grid: autoplace */
+
+.not-allowed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.is-allowed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[10];
+  grid-template-rows: repeat(10, auto);
+}
+
+.is-allowed > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(10) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(11) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(12) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(13) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(14) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(15) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(16) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(17) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(18) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(19) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(20) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(21) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(22) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(23) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(24) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(25) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(26) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(27) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 3;
+}
+
+.is-allowed > *:nth-child(28) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 1;
+}
+
+.is-allowed > *:nth-child(29) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 2;
+}
+
+.is-allowed > *:nth-child(30) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 3;
+}

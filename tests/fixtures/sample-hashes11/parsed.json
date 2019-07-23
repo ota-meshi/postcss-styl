@@ -1,0 +1,133 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 18
+        }
+      },
+      "prop": "foo",
+      "value": "{ bar: 10px}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "selector": {
+          "value": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
+          "raw": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
+          "stylus": "bar in foo\n// => true\n\nbaz in foo\n// => false\n\n\na"
+        },
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 25
+            }
+          },
+          "params": "bar in foo",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n  ",
+                "between": ": ",
+                "stylusBetween": " "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 11,
+                  "column": 3
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 11,
+                  "column": 11
+                }
+              },
+              "prop": "color",
+              "value": "red",
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true,
+          "if": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 10,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 25
+        }
+      },
+      "selector": "bar in foo\n\n\n,baz in foo\n\n\n\n,a",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

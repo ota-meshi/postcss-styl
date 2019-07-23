@@ -1,0 +1,71 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n   ",
+    "stylusAfter": "\n   // => 15px"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "   ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sizes",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 14
+        }
+      },
+      "params": "()",
+      "function": true,
+      "body": "\n     15px 10px",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sizes",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      },
+      "params": "()[0]",
+      "binop": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

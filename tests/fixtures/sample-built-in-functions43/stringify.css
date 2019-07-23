@@ -1,0 +1,14 @@
+/* http://stylus-lang.com/docs/bifs.html */
+
+@slice('lorem' 'ipsum' 'dolor', 1, 2);
+
+@slice('lorem' 'ipsum' 'dolor', 1, -1);
+
+
+@slice('lorem ipsum', 1, 5);
+
+
+@slice(rredd, 1, -1);
+
+
+@slice(1px solid black, 1)

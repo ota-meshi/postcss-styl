@@ -1,0 +1,9 @@
+@fade-out(color, amount = 50%);
+
+body{
+  foo: fade-out(#eee);
+  foo: fade-out(#eee, 20%);
+  foo: fade-out(#eee, amount: 50%);
+  foo: fade-out(color: #eee, amount: 50%);
+  foo: fade-out(amount: 50%, #eee);
+  foo: fade-out(amount: 50%, color: #eee)}

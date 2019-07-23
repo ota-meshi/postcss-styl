@@ -1,0 +1,4 @@
+
+a{@if a{
+    color: a()}@for arg, i in args{
+    color: a(i)}}

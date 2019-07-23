@@ -1,0 +1,12 @@
+{
+  "name": "CssSyntaxError",
+  "reason": "expected \"indent\", got \"outdent\"",
+  "source": "body\n  font 14px/1.5 Helvetica, arial, sans-serif\n  button\n  button.button\n  input[type='button']\n  input[type='submit']",
+  "line": 6,
+  "column": 23,
+  "input": {
+    "line": 6,
+    "column": 23,
+    "source": "body\n  font 14px/1.5 Helvetica, arial, sans-serif\n  button\n  button.button\n  input[type='button']\n  input[type='submit']"
+  }
+}

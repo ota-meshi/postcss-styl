@@ -1,0 +1,6 @@
+/* http://stylus-lang.com/docs/iteration.html */
+
+  @join(delim, args);
+
+  @join(', ', foo bar baz)
+  

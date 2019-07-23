@@ -1,0 +1,16 @@
+/* http://stylus-lang.com/docs/bifs.html */
+
+  @join(' ', 1 2 3);
+  
+
+  @join(',', 1 2 3);
+  
+
+  @join(', ', foo bar baz);
+  
+
+  @join(', ', foo, bar, baz);
+  
+
+  @join(', ', 1 2, 3 4, 5 6)
+  

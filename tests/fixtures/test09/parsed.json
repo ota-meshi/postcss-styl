@@ -1,0 +1,165 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "mediA",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 23
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 4
+        }
+      },
+      "params": "(min-width: 0)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": false,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 21
+                }
+              },
+              "prop": "background",
+              "value": "white"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 4,
+              "column": 2
+            }
+          },
+          "selector": "div"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": " ",
+        "afterName": "",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "Font-Face",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 6,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 7,
+          "column": 27
+        }
+      },
+      "params": "",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 26
+            }
+          },
+          "prop": "family-name",
+          "value": "\"A;' /**/\""
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

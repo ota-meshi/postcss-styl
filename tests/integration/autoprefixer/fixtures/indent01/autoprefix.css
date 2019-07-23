@@ -1,0 +1,27 @@
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
+  .image {
+    background-image: url(image@2x.png);
+
+    & .a {
+      -webkit-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  a::-webkit-input-placeholder {
+    color: gray;
+  }
+  a::-moz-placeholder {
+    color: gray;
+  }
+  a:-ms-input-placeholder {
+    color: gray;
+  }
+  a::-ms-input-placeholder {
+    color: gray;
+  }
+  a::placeholder {
+    color: gray;
+  }
+}

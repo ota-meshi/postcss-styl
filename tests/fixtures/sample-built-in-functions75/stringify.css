@@ -1,0 +1,7 @@
+font-size-1 : 10px;
+font-size-2 : 20px;
+font-size-3 : 30px;
+
+@for i in 1..3{
+  .text-{i}{
+    font-size: lookup('font-size-' + i)}}

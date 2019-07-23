@@ -1,0 +1,11 @@
+foo : { bar: 10px};
+
+bar in foo
+
+
+,baz in foo
+
+
+
+,a{@if bar in foo{
+  color: red}}

@@ -1,0 +1,11 @@
+/* http://stylus-lang.com/docs/bifs.html */
+
+  @width(img);
+
+  @height(img);
+
+  @image-size('tux.png');
+  
+
+  @image-size('tux.png')[0] == width('tux.png')
+  

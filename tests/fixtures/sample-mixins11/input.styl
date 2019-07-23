@@ -1,0 +1,14 @@
+ inline-list()
+   li
+     display inline
+
+ comma-list()
+   inline-list()
+   li
+     &:after
+       content ', '
+     &:last-child:after
+       content ''
+
+ ul
+   comma-list()

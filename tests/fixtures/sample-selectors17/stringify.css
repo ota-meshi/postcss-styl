@@ -1,0 +1,6 @@
+.foo{
+  @selector('.bar')}
+
+
+.foo{
+  @selector('&:hover')}

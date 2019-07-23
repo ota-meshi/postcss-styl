@@ -1,0 +1,11 @@
+  @pad(types = margin padding, n = 5px);
+
+  body{
+    @pad()}
+
+  body{
+    @pad(margin)}
+
+  body{
+    apply-mixins : true;@if apply-mixins{
+    @pad(padding, 10)}}

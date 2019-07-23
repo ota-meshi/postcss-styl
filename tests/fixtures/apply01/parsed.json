@@ -1,0 +1,229 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 53
+        }
+      },
+      "text": "based from postcss-parser-tests/cases/apply.css"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 4
+            }
+          },
+          "prop": "--zero-size",
+          "value": "{\n    width: 0\n    height: 0\n  }"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 3
+            }
+          },
+          "prop": "--small-icon",
+          "value": "{\n    width: 16px\n    height: 16px\n  }"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 4
+        }
+      },
+      "selector": ":root"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "afterName": " "
+          },
+          "type": "atrule",
+          "name": "apply",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 21
+            }
+          },
+          "params": "--zero-size"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 14,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 15,
+          "column": 22
+        }
+      },
+      "selector": ".toolbar"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "afterName": " "
+          },
+          "type": "atrule",
+          "name": "apply",
+          "source": {
+            "start": {
+              "line": 18,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 18,
+              "column": 22
+            }
+          },
+          "params": "--small-icon"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 17,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 17,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 18,
+          "column": 23
+        }
+      },
+      "selector": ".toolbar> .title"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

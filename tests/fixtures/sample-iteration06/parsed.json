@@ -1,0 +1,93 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n  ",
+    "stylusAfter": "\n  // => \"foo, bar, baz\""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/iteration.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 18
+        }
+      },
+      "params": "(delim, args)",
+      "function": true,
+      "body": "\n    buf = ''\n    for arg, index in args\n      if index\n        buf += delim + arg\n      else\n        buf += arg",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 25
+        }
+      },
+      "params": "(', ', foo bar baz)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
