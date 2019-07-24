@@ -116,6 +116,8 @@ function testParse(fixture) {
         writeFixture(fixture.files["parsed.json"], actual)
         throw e
     }
+
+    checkProperties(root)
 }
 
 /**
@@ -159,4 +161,62 @@ function stringifyError(error) {
         },
         2
     )
+}
+
+const KNOWN_PROPS = {
+    root: ["nodes"],
+    atrule: [
+        "nodes",
+        "name",
+        "params",
+        // stylus
+        "pythonic", // pythonic style (indentation-based)
+        "omittedSemi", // omitted semi-colons
+        "function", // function declaration
+        "body", // function body
+        "mixin", // mixin function declaration
+        "call", // function call expression
+        "callBlockMixin", // block mixin function call expression
+        "expression", // expression
+        "postfix", // postfix conditionals or postfix iteration
+    ],
+    rule: [
+        "nodes",
+        "selector",
+        "lastEach",
+        "indexes",
+        // stylus
+        "pythonic", // pythonic style (indentation-based)
+    ],
+    decl: [
+        "prop",
+        "value",
+        "important",
+        // stylus
+        "omittedSemi", // omitted semi-colons
+        "assignment", // assignment property
+    ],
+    comment: ["text"],
+}
+
+/**
+ * Check properties
+ * @param {*} error
+ */
+function checkProperties(node) {
+    const knownProps = KNOWN_PROPS[node.type]
+    if (!knownProps) {
+        assert.fail(`Unexpected type \`${node.type}\``)
+    }
+    if (node.nodes) {
+        for (const n of node.nodes) {
+            checkProperties(n)
+        }
+    }
+    const allKnownProps = [...knownProps, "type", "raws", "parent", "source"]
+    for (const key of Object.keys(node).filter(
+        k => !allKnownProps.includes(k)
+    )) {
+        assert.fail(`Unexpected property \`${key}\` on ${node.type}`)
+    }
 }

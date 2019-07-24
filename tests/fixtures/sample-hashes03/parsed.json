@@ -54,7 +54,7 @@
       },
       "params": "['bar'] = baz",
       "omittedSemi": true,
-      "binop": true
+      "expression": true
     },
     {
       "raws": {
@@ -79,7 +79,7 @@
         }
       },
       "params": "['baz'] = raz",
-      "binop": true
+      "expression": true
     }
   ],
   "source": {
