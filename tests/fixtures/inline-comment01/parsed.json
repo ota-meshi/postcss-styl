@@ -1,0 +1,78 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n",
+    "stylusAfter": "\n//4//5"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": "",
+        "stylusBefore": "\n//1\n",
+        "stylusBetween": "//{2"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": ",
+            "value": {
+              "value": "1",
+              "raw": "1",
+              "stylus": "1//3"
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 9
+            }
+          },
+          "prop": "b",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 9
+        }
+      },
+      "selector": "a",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
