@@ -6,7 +6,7 @@
 [![Build Status]](https://travis-ci.org/ota-meshi/postcss-styl)
 [![Coverage Status]](https://coveralls.io/github/ota-meshi/postcss-styl?branch=master)
 
-[PostCSS] parser plugin for converting [Stylus] syntax to [PostCSS] nodes.
+[PostCSS] parser plugin for converting [Stylus] syntax to [PostCSS] AST.
 
 :::
 **_This plugin is still in an experimental state_**
@@ -20,7 +20,7 @@ npm install -D postcss-styl
 
 ## Usage
 
-### Stylus to PostCSS Nodes
+### Stylus to PostCSS AST
 
 The main use of this plugin is to apply the [Stylus] syntax to linter using [PostCSS].
 

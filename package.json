@@ -1,7 +1,7 @@
 {
   "name": "postcss-styl",
   "version": "0.0.2",
-  "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS nodes.",
+  "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS AST.",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
