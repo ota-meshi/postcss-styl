@@ -1,0 +1,71 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => 10"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sum",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      },
+      "params": "(nums...)",
+      "function": true,
+      "body": "\r\n  sum = 0\r\n  sum += n for n in nums",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sum",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 12
+        }
+      },
+      "params": "(1 2 3 4)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

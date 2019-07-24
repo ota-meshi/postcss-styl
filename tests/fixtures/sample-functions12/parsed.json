@@ -30,7 +30,7 @@
       },
       "params": "('yay') == yes",
       "omittedSemi": true,
-      "binop": true
+      "expression": true
     },
     {
       "raws": {
@@ -57,7 +57,7 @@
       },
       "params": "(yay) == yes",
       "omittedSemi": true,
-      "binop": true
+      "expression": true
     },
     {
       "raws": {
@@ -83,7 +83,7 @@
         }
       },
       "params": "(0) == no",
-      "binop": true
+      "expression": true
     }
   ],
   "source": {

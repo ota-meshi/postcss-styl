@@ -1,0 +1,100 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "    ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "something",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 59
+        }
+      },
+      "params": "(n)",
+      "function": true,
+      "body": "\r\n      if current-property\r\n        add-property(current-property[0], s('-webkit-something(%s)', n))\r\n        add-property(current-property[0], s('-moz-something(%s)', n))\r\n        s('something(%s)', n)\r\n      else\r\n        error('something() must be used within a property')",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n    ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n    "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 31
+            }
+          },
+          "prop": "foo",
+          "value": "something(15px) bar"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 5
+        },
+        "startChildren": {
+          "line": 9,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 5
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 4
+        }
+      },
+      "selector": "body"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

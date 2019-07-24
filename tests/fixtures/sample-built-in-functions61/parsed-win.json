@@ -1,0 +1,98 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n\r\n",
+    "stylusAfter": "\r\n// => 0.2126\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "luminosity",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 17
+        }
+      },
+      "params": "(white)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 1\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "luminosity",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 16
+        }
+      },
+      "params": "(#000)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 0\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "luminosity",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+        }
+      },
+      "params": "(red)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

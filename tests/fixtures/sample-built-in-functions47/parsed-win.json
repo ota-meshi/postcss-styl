@@ -1,0 +1,97 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n  ",
+    "stylusAfter": "\r\n  // => rgba(255,204,0,0.9)"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "#fc08",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  \r\n\r\n  ",
+            "between": ": ",
+            "stylusBefore": "\r\n  // => rgba(255,204,0,0.5)\r\n\r\n  ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 17
+            }
+          },
+          "prop": "color",
+          "value": "#ffcc00ee"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      },
+      "selector": "a",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

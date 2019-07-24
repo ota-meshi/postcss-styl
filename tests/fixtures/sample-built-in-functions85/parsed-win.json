@@ -1,0 +1,251 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 26
+        }
+      },
+      "prop": "fonts",
+      "value": "Arial, sans-serif",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 10
+        }
+      },
+      "params": "('test')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 7
+        }
+      },
+      "params": "(123)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      "params": "((1 2 3))",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 9
+        }
+      },
+      "params": "(fonts)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 8
+        }
+      },
+      "params": "(#fff)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "params": "(rgba(0,0,0,0.2))",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "add",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 8
+        }
+      },
+      "params": "(a, b)",
+      "function": true,
+      "body": "\r\n   a + b",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "p",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 7
+        }
+      },
+      "params": "(add)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

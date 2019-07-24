@@ -1,0 +1,95 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 52
+        }
+      },
+      "text": "http://stylus-lang.com/docs/functions.url.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          },
+          "prop": "background-image",
+          "value": "embedurl(\"circle.svg\", \"utf8\")"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 53
+        }
+      },
+      "selector": ".embed-with-utf8"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

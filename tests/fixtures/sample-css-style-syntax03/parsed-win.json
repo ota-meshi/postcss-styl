@@ -1,0 +1,319 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "    ",
+        "between": " ",
+        "afterName": "",
+        "semicolon": true,
+        "after": "\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "border-radius",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 5
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 22
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 5
+        },
+        "endChildren": {
+          "line": 5,
+          "column": 4
+        }
+      },
+      "params": "()",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          },
+          "prop": "-webkit-border-radius",
+          "value": "arguments"
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 36
+            }
+          },
+          "prop": "-moz-border-radius",
+          "value": "arguments"
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 31
+            }
+          },
+          "prop": "border-radius",
+          "value": "arguments"
+        }
+      ],
+      "mixin": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": "\r\n",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 52
+            }
+          },
+          "prop": "font",
+          "value": "12px/1.4 \"Lucida Grande\", Arial, sans-serif"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 22
+            }
+          },
+          "prop": "background",
+          "value": "black"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 14
+            }
+          },
+          "prop": "color",
+          "value": "#ccc"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 16
+        }
+      },
+      "selector": "body a"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n    ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n      "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 19
+            }
+          },
+          "prop": "padding",
+          "value": "5px"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 20
+            }
+          },
+          "prop": "border",
+          "value": "1px solid"
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 25
+            }
+          },
+          "prop": "border-radius",
+          "value": "5px"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 5
+        },
+        "startChildren": {
+          "line": 14,
+          "column": 17
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 18,
+          "column": 7
+        },
+        "endChildren": {
+          "line": 18,
+          "column": 6
+        }
+      },
+      "selector": "form input"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

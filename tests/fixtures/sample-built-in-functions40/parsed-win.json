@@ -1,0 +1,174 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n  ",
+    "stylusAfter": "\r\n  // => \"1 2, 3 4, 5 6\""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 18
+        }
+      },
+      "params": "(' ', 1 2 3)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => \"1 2 3\"\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 18
+        }
+      },
+      "params": "(',', 1 2 3)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => \"1,2,3\"\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 25
+        }
+      },
+      "params": "(', ', foo bar baz)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => \"foo, bar, baz\"\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 27
+        }
+      },
+      "params": "(', ', foo, bar, baz)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => \"foo, bar, baz\"\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "join",
+      "source": {
+        "start": {
+          "line": 15,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 27
+        }
+      },
+      "params": "(', ', 1 2, 3 4, 5 6)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

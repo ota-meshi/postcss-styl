@@ -1,0 +1,71 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => #393939"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "lighten",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 20
+        }
+      },
+      "params": "(#2c2c2c, 30)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => #787878\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "lighten",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 21
+        }
+      },
+      "params": "(#2c2c2c, 30%)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

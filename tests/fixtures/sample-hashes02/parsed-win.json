@@ -1,0 +1,42 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "prop": "foo",
+      "value": "{\r\n  bar: baz,\r\n  'baz': raz,\r\n  '0': raz\r\n}",
+      "assignment": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

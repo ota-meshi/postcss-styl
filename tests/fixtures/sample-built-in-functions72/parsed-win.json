@@ -1,0 +1,76 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => '@media (only screen and (min-width: (1024px)))'"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " ",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 43
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 17
+        }
+      },
+      "params": "only screen and (min-width: 1024px)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "current-media",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 17
+            }
+          },
+          "params": "()",
+          "call": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

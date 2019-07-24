@@ -1,0 +1,150 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 38
+        }
+      },
+      "text": "http://stylus-lang.com/try.html#"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": false,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 46
+            }
+          },
+          "prop": "font",
+          "value": "14px/1.5 Helvetica, arial, sans-serif"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\r\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 23
+                }
+              },
+              "prop": "border-radius",
+              "value": "5px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 7,
+              "column": 2
+            }
+          },
+          "selector": "#logo"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 7,
+          "column": 5
+        }
+      },
+      "selector": "body"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

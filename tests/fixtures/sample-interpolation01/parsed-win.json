@@ -1,0 +1,252 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 52
+        }
+      },
+      "text": "http://stylus-lang.com/docs/interpolation.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "vendor",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 21
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+        }
+      },
+      "params": "(prop, args)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 23
+            }
+          },
+          "prop": "-webkit-{prop}",
+          "value": "args",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 20
+            }
+          },
+          "prop": "-moz-{prop}",
+          "value": "args",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 15
+            }
+          },
+          "prop": "{prop}",
+          "value": "args"
+        }
+      ],
+      "mixin": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "border-radius",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "params": "()",
+      "function": true,
+      "body": "\r\n    vendor('border-radius', arguments)",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "box-shadow",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 35
+        }
+      },
+      "params": "()",
+      "function": true,
+      "body": "\r\n    vendor('box-shadow', arguments)",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 35
+            }
+          },
+          "prop": "border-radius",
+          "value": "1px 2px / 3px 4px"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 14,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 35
+        }
+      },
+      "selector": "button",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

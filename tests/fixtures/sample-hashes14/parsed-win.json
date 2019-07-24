@@ -1,0 +1,94 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => {\"foo\":\"('foo')\",\"bar\":\"('bar')\",\"baz\":\"('baz')\"}"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      "prop": "obj",
+      "value": "{\r\n  foo: 'foo'\r\n  bar: 'bar'\r\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "prop": "obj2",
+      "value": "{\r\n  baz: 'baz'\r\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "merge",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 16
+        }
+      },
+      "params": "(obj, obj2)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

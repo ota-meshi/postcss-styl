@@ -99,7 +99,7 @@ describe("parse", () => {
  */
 function testParse(fixture) {
     const stylus = fixture.contents["input.styl"]
-    let root = parse(stylus, { from: `${fixture.name}/input.styl` })
+    let root = null
     try {
         root = parse(stylus, { from: `${fixture.name}/input.styl` })
     } catch (parseError) {
@@ -115,6 +115,23 @@ function testParse(fixture) {
     } catch (e) {
         writeFixture(fixture.files["parsed.json"], actual)
         throw e
+    }
+
+    // check each node properties
+    checkProperties(root)
+
+    // win style linebreaks
+    const stylusWin = stylus.replace(/\r\n|\r|\n/gu, "\r\n")
+    if (stylusWin !== stylus) {
+        const rootWin = parse(stylusWin, { from: `${fixture.name}/input.styl` })
+        const actualWin = cases.jsonify(rootWin)
+        try {
+            const expectWin = fixture.contents["parsed-win.json"]
+            assert.deepStrictEqual(actualWin, expectWin)
+        } catch (e) {
+            writeFixture(fixture.files["parsed-win.json"], actualWin)
+            throw e
+        }
     }
 }
 
@@ -159,4 +176,62 @@ function stringifyError(error) {
         },
         2
     )
+}
+
+const KNOWN_PROPS = {
+    root: ["nodes"],
+    atrule: [
+        "nodes",
+        "name",
+        "params",
+        // stylus
+        "pythonic", // pythonic style (indentation-based)
+        "omittedSemi", // omitted semi-colons
+        "function", // function declaration
+        "body", // function body
+        "mixin", // mixin function declaration
+        "call", // function call expression
+        "callBlockMixin", // block mixin function call expression
+        "expression", // expression
+        "postfix", // postfix conditionals or postfix iteration
+    ],
+    rule: [
+        "nodes",
+        "selector",
+        "lastEach",
+        "indexes",
+        // stylus
+        "pythonic", // pythonic style (indentation-based)
+    ],
+    decl: [
+        "prop",
+        "value",
+        "important",
+        // stylus
+        "omittedSemi", // omitted semi-colons
+        "assignment", // assignment property
+    ],
+    comment: ["text"],
+}
+
+/**
+ * Check properties
+ * @param {*} error
+ */
+function checkProperties(node) {
+    const knownProps = KNOWN_PROPS[node.type]
+    if (!knownProps) {
+        assert.fail(`Unexpected type \`${node.type}\``)
+    }
+    if (node.nodes) {
+        for (const n of node.nodes) {
+            checkProperties(n)
+        }
+    }
+    const allKnownProps = [...knownProps, "type", "raws", "parent", "source"]
+    for (const key of Object.keys(node).filter(
+        k => !allKnownProps.includes(k)
+    )) {
+        assert.fail(`Unexpected property \`${key}\` on ${node.type}`)
+    }
 }

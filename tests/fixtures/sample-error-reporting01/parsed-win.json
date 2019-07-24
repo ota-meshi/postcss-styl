@@ -1,0 +1,147 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 54
+        }
+      },
+      "text": "http://stylus-lang.com/docs/error-reporting.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "ensure",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 62
+        }
+      },
+      "params": "(val, type)",
+      "function": true,
+      "body": "\r\n    unless val is a type\r\n      error('expected a ' + type + ', but got ' + typeof(val))",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "border-radius",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 19
+        }
+      },
+      "params": "(n)",
+      "function": true,
+      "body": "\r\n    ensure(n, 'unit')\r\n    -webkit-border-radius n\r\n    -moz-border-radius n\r\n    border-radius n",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 23
+            }
+          },
+          "prop": "border-radius",
+          "value": "'5px'"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 13,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 14,
+          "column": 23
+        }
+      },
+      "selector": "body",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

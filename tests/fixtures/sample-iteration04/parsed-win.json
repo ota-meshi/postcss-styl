@@ -1,0 +1,180 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": " ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "apply",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 22
+        }
+      },
+      "params": "(props)",
+      "function": true,
+      "body": "\r\n   props = arguments if length(arguments) > 1\r\n   for prop in props\r\n     {prop[0]} prop[1]",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "apply",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 31
+            }
+          },
+          "params": "(one 1, two 2, three 3)",
+          "call": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 6,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 31
+        }
+      },
+      "selector": "body",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": " : ",
+            "stylusBetween": " = "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 35
+            }
+          },
+          "prop": "list",
+          "value": "(one 1) (two 2) (three 3)",
+          "omittedSemi": true,
+          "assignment": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "apply",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 14
+            }
+          },
+          "params": "(list)",
+          "call": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 9,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 14
+        }
+      },
+      "selector": "body",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

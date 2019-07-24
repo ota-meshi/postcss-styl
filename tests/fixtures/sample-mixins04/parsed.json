@@ -29,7 +29,7 @@
       },
       "params": "?= true",
       "omittedSemi": true,
-      "ternary": true
+      "expression": true
     },
     {
       "raws": {
@@ -140,8 +140,7 @@
               "prop": "filter",
               "value": "unquote('progid:DXImageTransform.Microsoft.Alpha(Opacity=' + round(n * 100) + ')')"
             }
-          ],
-          "if": true
+          ]
         }
       ],
       "mixin": true

@@ -1,0 +1,121 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 67
+        }
+      },
+      "text": "based from postcss-parser-tests/cases/atrule-no-semicolon.css"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\r\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 16
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 14
+        }
+      },
+      "params": "screen",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": ""
+          },
+          "type": "atrule",
+          "name": "content",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 12
+            }
+          },
+          "params": ""
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "charset",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 16
+        }
+      },
+      "params": "\"UTF-8\""
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

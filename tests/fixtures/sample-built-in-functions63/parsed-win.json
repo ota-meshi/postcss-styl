@@ -1,0 +1,98 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => rgba(47,229,79,0.5)"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "transparentify",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 23
+        }
+      },
+      "params": "(#808080)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => rgba(0,0,0,0.5)\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "transparentify",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 29
+        }
+      },
+      "params": "(#414141, #000)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => rgba(255,255,255,0.25)\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "transparentify",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 37
+        }
+      },
+      "params": "(#91974C, #F34949, 0.5)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
