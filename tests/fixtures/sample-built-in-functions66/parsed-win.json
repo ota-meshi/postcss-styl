@@ -1,0 +1,200 @@
+{
+  "raws": {
+    "semicolon": true,
+    "after": "\r\n    ",
+    "stylusAfter": "\r\n    // => bar(15px, null)"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "    ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 15
+        }
+      },
+      "params": "('bar()')",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => bar()\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      },
+      "params": "('bar(%s)', 'baz')",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => bar(\"baz\")\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 22
+        }
+      },
+      "params": "('bar(%s)', baz)",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => bar(baz)\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 23
+        }
+      },
+      "params": "('bar(%s)', 15px)",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => bar(15px)\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 45
+        }
+      },
+      "params": "('rgba(%s, %s, %s, 0.5)', 255, 100, 50)",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => rgba(255, 100, 50, 0.5)\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 23
+        }
+      },
+      "params": "('bar(%Z)', 15px)",
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n    \r\n\r\n    ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n    // => bar(%Z)\r\n\r\n    ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "s",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 27
+        }
+      },
+      "params": "('bar(%s, %s)', 15px)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

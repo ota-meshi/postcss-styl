@@ -1,0 +1,120 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n  ",
+    "stylusAfter": "\r\n  // => 5.5px"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "text": "http://stylus-lang.com/docs/bifs.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "ceil",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 16
+        }
+      },
+      "params": "(5.52px,1)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => 5.6px\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "floor",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 17
+        }
+      },
+      "params": "(5.57px,1)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  \r\n\r\n  ",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n  // => 5.5px\r\n\r\n  ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "round",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 17
+        }
+      },
+      "params": "(5.52px,1)",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

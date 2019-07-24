@@ -1,0 +1,50 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n  ",
+    "stylusAfter": "\r\n  // => 6 5 4 3 2 1"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "body": {
+          "value": "\r\n  \r\n  if fn == null\r\n    fn = @(a, b) {\r\n      a > b\r\n    }\r\n\r\n  \r\n  for $i in 1..length(list) - 1\r\n    for $j in 0..$i - 1\r\n      if fn(list[$j], list[$i])\r\n        $temp = list[$i]\r\n        list[$i] = list[$j]\r\n        list[$j] = $temp\r\n  return list\r\n\r\n  sort('e' 'c' 'f' 'a' 'b' 'd')\r\n  \r\n\r\n  sort(5 3 6 1 2 4, @(a, b){\r\n    a < b\r\n  })",
+          "raw": "\r\n  \r\n  if fn == null\r\n    fn = @(a, b) {\r\n      a > b\r\n    }\r\n\r\n  \r\n  for $i in 1..length(list) - 1\r\n    for $j in 0..$i - 1\r\n      if fn(list[$j], list[$i])\r\n        $temp = list[$i]\r\n        list[$i] = list[$j]\r\n        list[$j] = $temp\r\n  return list\r\n\r\n  sort('e' 'c' 'f' 'a' 'b' 'd')\r\n  \r\n\r\n  sort(5 3 6 1 2 4, @(a, b){\r\n    a < b\r\n  })",
+          "stylus": "\r\n  // default sort function\r\n  if fn == null\r\n    fn = @(a, b) {\r\n      a > b\r\n    }\r\n\r\n  // bubble sort\r\n  for $i in 1..length(list) - 1\r\n    for $j in 0..$i - 1\r\n      if fn(list[$j], list[$i])\r\n        $temp = list[$i]\r\n        list[$i] = list[$j]\r\n        list[$j] = $temp\r\n  return list\r\n\r\n  sort('e' 'c' 'f' 'a' 'b' 'd')\r\n  // => 'a' 'b' 'c' 'd' 'e' 'f'\r\n\r\n  sort(5 3 6 1 2 4, @(a, b){\r\n    a < b\r\n  })"
+        },
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "sort",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "params": "(list, fn = null)",
+      "function": true,
+      "body": "\r\n  \r\n  if fn == null\r\n    fn = @(a, b) {\r\n      a > b\r\n    }\r\n\r\n  \r\n  for $i in 1..length(list) - 1\r\n    for $j in 0..$i - 1\r\n      if fn(list[$j], list[$i])\r\n        $temp = list[$i]\r\n        list[$i] = list[$j]\r\n        list[$j] = $temp\r\n  return list\r\n\r\n  sort('e' 'c' 'f' 'a' 'b' 'd')\r\n  \r\n\r\n  sort(5 3 6 1 2 4, @(a, b){\r\n    a < b\r\n  })"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

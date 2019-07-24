@@ -1,0 +1,136 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 46
+        }
+      },
+      "text": "http://stylus-lang.com/docs/literal.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n"
+      },
+      "type": "atrule",
+      "name": "css",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "params": "",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\r\n    "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 68
+                }
+              },
+              "prop": "filter",
+              "value": "progid:DXImageTransform.Microsoft.Alpha(opacity=25)"
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 74
+                }
+              },
+              "prop": "-ms-filter",
+              "value": "\"progid:DXImageTransform.Microsoft.Alpha(opacity=25)\""
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 5
+            }
+          },
+          "selector": ".ie-opacity"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      },
+      "text": "http://stylus-lang.com/docs/vargs.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "box-shadow",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 21
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 18
+        }
+      },
+      "params": "(args...)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 26
+            }
+          },
+          "prop": "-webkit-box-shadow",
+          "value": "args",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 23
+            }
+          },
+          "prop": "-moz-box-shadow",
+          "value": "args",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 18
+            }
+          },
+          "prop": "box-shadow",
+          "value": "args"
+        }
+      ],
+      "mixin": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 30
+            }
+          },
+          "prop": "box-shadow",
+          "value": "1px 2px 5px #eee"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 30
+        }
+      },
+      "selector": "#login",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

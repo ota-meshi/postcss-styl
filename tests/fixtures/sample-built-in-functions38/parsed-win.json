@@ -1,0 +1,206 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n",
+    "stylusAfter": "\r\n// => 'ain' 'AIN' 'ain' 'ain'"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 58
+        }
+      },
+      "params": "('^(height|width)?([<>=]{1,})(.*)', 'height>=1024px')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 'height>=1024px' 'height' '>=' '1024px'\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 28
+        }
+      },
+      "params": "('^foo(?:bar)?', 'foo')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 'foo'\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 31
+        }
+      },
+      "params": "('^foo(?:bar)?', 'foobar')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 'foobar'\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 28
+        }
+      },
+      "params": "('^foo(?:bar)?', 'bar')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => null\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 59
+        }
+      },
+      "params": "('ain', 'The rain in SPAIN stays mainly in the plain')",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 'ain'\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 62
+        }
+      },
+      "params": "('ain', 'The rain in SPAIN stays mainly in the plain', g)",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "between": "",
+        "afterName": "",
+        "stylusBefore": "\r\n// => 'ain' 'ain' 'ain'\r\n\r\n",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "match",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 65
+        }
+      },
+      "params": "('ain', 'The rain in SPAIN stays mainly in the plain', 'gi')",
+      "call": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

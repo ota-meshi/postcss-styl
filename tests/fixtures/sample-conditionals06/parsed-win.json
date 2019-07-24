@@ -1,0 +1,44 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "  ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "negative",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 6
+        }
+      },
+      "params": "(n)",
+      "function": true,
+      "body": "\r\n    error('invalid number') unless n is a 'unit'\r\n    return yes if n < 0\r\n    no"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

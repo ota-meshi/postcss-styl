@@ -19,6 +19,16 @@ describe("stringify", () => {
             const root = parse(stylus, { from: `${fixture.name}/input.styl` })
             const output = root.toString(stringify)
             assert.strictEqual(output.trim(), stylus.trim())
+
+            // win style linebreaks
+            const stylusWin = stylus.replace(/\r\n|\r|\n/gu, "\r\n")
+            if (stylusWin !== stylus) {
+                const rootWin = parse(stylusWin, {
+                    from: `${fixture.name}/input.styl`,
+                })
+                const outputWin = rootWin.toString(stringify)
+                assert.strictEqual(outputWin.trim(), stylusWin.trim())
+            }
         })
     }
 

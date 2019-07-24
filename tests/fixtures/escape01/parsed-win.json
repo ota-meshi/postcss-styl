@@ -1,0 +1,435 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 54
+        }
+      },
+      "text": "based from postcss-parser-tests/cases/escape.css"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 30
+            }
+          },
+          "prop": "background",
+          "value": "url(\"a).png\")"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 31
+            }
+          },
+          "text": "background: url(a;a);"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 25
+            }
+          },
+          "prop": "background",
+          "value": "url(a/*)"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 20
+            }
+          },
+          "prop": "background",
+          "value": "\\;a"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 7,
+          "column": 22
+        }
+      },
+      "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 10,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 19
+        },
+        "endChildren": {
+          "line": 10,
+          "column": 18
+        }
+      },
+      "selector": ":not([foo=\")\"])"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "selector": {
+          "value": ":not(div)",
+          "raw": ":not(div/*)*/)"
+        },
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 11,
+          "column": 17
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 18
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 17
+        }
+      },
+      "selector": ":not(div)"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 12,
+          "column": 36
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 37
+        },
+        "endChildren": {
+          "line": 12,
+          "column": 36
+        }
+      },
+      "selector": ":not(:nth-child(2n of [foo=\")\"]))"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 13,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        },
+        "endChildren": {
+          "line": 13,
+          "column": 11
+        }
+      },
+      "selector": "[foo=\\\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 14,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 14,
+          "column": 12
+        },
+        "endChildren": {
+          "line": 14,
+          "column": 11
+        }
+      },
+      "selector": "[foo=\\{]"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 15,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 15,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 12
+        },
+        "endChildren": {
+          "line": 15,
+          "column": 11
+        }
+      },
+      "selector": "[foo=\\(]"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 16,
+          "column": 29
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 30
+        },
+        "endChildren": {
+          "line": 16,
+          "column": 29
+        }
+      },
+      "selector": "[foo=yes\\:\\(it\\'s\\ work\\)]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 18,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 18,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 18,
+          "column": 10
+        },
+        "endChildren": {
+          "line": 18,
+          "column": 9
+        }
+      },
+      "selector": "\\@noat"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " \r\n",
+        "right": "\r\n"
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      },
+      "text": "h1\\\\{\r\n    color: \\\\;\r\n}\r\n\r\n[attr=;] { }\r\n\r\n.prop {\r\n    \\62 olor: red\r\n}"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

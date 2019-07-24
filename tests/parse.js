@@ -99,7 +99,7 @@ describe("parse", () => {
  */
 function testParse(fixture) {
     const stylus = fixture.contents["input.styl"]
-    let root = parse(stylus, { from: `${fixture.name}/input.styl` })
+    let root = null
     try {
         root = parse(stylus, { from: `${fixture.name}/input.styl` })
     } catch (parseError) {
@@ -117,7 +117,22 @@ function testParse(fixture) {
         throw e
     }
 
+    // check each node properties
     checkProperties(root)
+
+    // win style linebreaks
+    const stylusWin = stylus.replace(/\r\n|\r|\n/gu, "\r\n")
+    if (stylusWin !== stylus) {
+        const rootWin = parse(stylusWin, { from: `${fixture.name}/input.styl` })
+        const actualWin = cases.jsonify(rootWin)
+        try {
+            const expectWin = fixture.contents["parsed-win.json"]
+            assert.deepStrictEqual(actualWin, expectWin)
+        } catch (e) {
+            writeFixture(fixture.files["parsed-win.json"], actualWin)
+            throw e
+        }
+    }
 }
 
 /**

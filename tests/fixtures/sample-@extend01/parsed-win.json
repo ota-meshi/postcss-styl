@@ -1,0 +1,195 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 45
+        }
+      },
+      "text": "http://stylus-lang.com/docs/extend.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n  "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 18
+            }
+          },
+          "prop": "padding",
+          "value": "10px"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 27
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #eee"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        },
+        "endChildren": {
+          "line": 6,
+          "column": 2
+        }
+      },
+      "selector": ".message"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n  "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " "
+          },
+          "type": "atrule",
+          "name": "extend",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 21
+            }
+          },
+          "params": ".message"
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 19
+            }
+          },
+          "prop": "color",
+          "value": "#E2E21E"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        },
+        "endChildren": {
+          "line": 11,
+          "column": 2
+        }
+      },
+      "selector": ".warning"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

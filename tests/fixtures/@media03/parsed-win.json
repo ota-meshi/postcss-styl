@@ -1,0 +1,108 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": " "
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 39
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 59
+        },
+        "endChildren": {
+          "line": 3,
+          "column": 58
+        }
+      },
+      "params": "screen and (min-width: 900px)",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": " ",
+            "semicolon": true,
+            "after": " "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 44
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 55
+                }
+              },
+              "prop": "color",
+              "value": "#f0f"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 40
+            },
+            "startChildren": {
+              "line": 3,
+              "column": 43
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 57
+            },
+            "endChildren": {
+              "line": 3,
+              "column": 56
+            }
+          },
+          "selector": "a"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
