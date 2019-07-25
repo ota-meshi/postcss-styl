@@ -82,11 +82,11 @@ const tests = listupFixtures(path.join(__dirname, "fixtures"))
 describe("parse", () => {
     for (const fixture of tests) {
         if (!isExistFile(fixture.files["error.json"])) {
-            it(`parses ${fixture.name}`, () => {
+            describe(`parses ${fixture.name}`, () => {
                 testParse(fixture)
             })
         } else {
-            it(`parses error ${fixture.name}`, () => {
+            describe(`parses error ${fixture.name}`, () => {
                 testParseError(fixture)
             })
         }
@@ -105,33 +105,44 @@ function testParse(fixture) {
     } catch (parseError) {
         writeFixture(fixture.files["error.json"], stringifyError(parseError))
         deleteFixture(fixture.files["parsed.json"])
+        deleteFixture(fixture.files["parsed-win.json"])
         deleteFixture(fixture.files["stringify.css"])
         throw parseError
     }
-    const actual = cases.jsonify(root)
-    try {
-        const expect = fixture.contents["parsed.json"]
-        assert.deepStrictEqual(actual, expect)
-    } catch (e) {
-        writeFixture(fixture.files["parsed.json"], actual, e)
-    }
-
-    // check each node properties
-    checkProperties(root)
-
-    // win style linebreaks
-    const stylusWin = stylus.replace(/\r\n|\r|\n/gu, "\r\n")
-    if (stylusWin !== stylus) {
-        const rootWin = parse(stylusWin, { from: `${fixture.name}/input.styl` })
-        const actualWin = cases.jsonify(rootWin)
+    it("AST should be valid.", () => {
+        const actual = cases.jsonify(root)
         try {
-            const expectWin = fixture.contents["parsed-win.json"]
-            assert.deepStrictEqual(actualWin, expectWin)
+            const expect = fixture.contents["parsed.json"]
+            assert.deepStrictEqual(actual, expect)
         } catch (e) {
-            writeFixture(fixture.files["parsed-win.json"], actualWin)
-            throw e
+            writeFixture(fixture.files["parsed.json"], actual, e)
         }
-    }
+    })
+
+    it("It should not have unknown properties.", () => {
+        checkProperties(root)
+    })
+    it("Location should be valid.", () => {
+        checkLocations(root)
+    })
+
+    it("AST should  be valid even for Windows style line breaks.", () => {
+        // win style linebreaks
+        const stylusWin = stylus.replace(/\r\n|\r|\n/gu, "\r\n")
+        if (stylusWin !== stylus) {
+            const rootWin = parse(stylusWin, {
+                from: `${fixture.name}/input.styl`,
+            })
+            const actualWin = cases.jsonify(rootWin)
+            try {
+                const expectWin = fixture.contents["parsed-win.json"]
+                assert.deepStrictEqual(actualWin, expectWin)
+            } catch (e) {
+                writeFixture(fixture.files["parsed-win.json"], actualWin)
+                throw e
+            }
+        }
+    })
 }
 
 /**
@@ -140,24 +151,26 @@ function testParse(fixture) {
  */
 function testParseError(fixture) {
     const stylus = fixture.contents["input.styl"]
-    let hasError = false
-    try {
-        parse(stylus, { from: `${fixture.name}/input.styl` })
-    } catch (actualError) {
-        hasError = true
-        const actual = stringifyError(actualError)
+    it("Error messages should be valid.", () => {
+        let hasError = false
         try {
-            const expect = fixture.contents["error.json"]
-            assert.deepStrictEqual(actual, expect)
-        } catch (e) {
-            writeFixture(fixture.files["error.json"], actual)
-            throw e
+            parse(stylus, { from: `${fixture.name}/input.styl` })
+        } catch (actualError) {
+            hasError = true
+            const actual = stringifyError(actualError)
+            try {
+                const expect = fixture.contents["error.json"]
+                assert.deepStrictEqual(actual, expect)
+            } catch (e) {
+                writeFixture(fixture.files["error.json"], actual)
+                throw e
+            }
         }
-    }
-    if (!hasError) {
-        deleteFixture(fixture.files["error.json"])
-        assert.fail("Expected error but not error")
-    }
+        if (!hasError) {
+            deleteFixture(fixture.files["error.json"])
+            assert.fail("Expected error but not error")
+        }
+    })
 }
 
 /**
@@ -215,7 +228,7 @@ const KNOWN_PROPS = {
 
 /**
  * Check properties
- * @param {*} error
+ * @param {*} node
  */
 function checkProperties(node) {
     const knownProps = KNOWN_PROPS[node.type]
@@ -233,4 +246,61 @@ function checkProperties(node) {
     )) {
         assert.fail(`Unexpected property \`${key}\` on ${node.type}`)
     }
+}
+
+/**
+ * Check locations
+ * @param {*} parent
+ */
+function checkLocations(parent) {
+    if (parent.nodes) {
+        let prev = null
+        for (const node of parent.nodes) {
+            if (parent.source.start && !parent.postfix) {
+                if (compareLoc(parent.source.start, node.source.start) > 0) {
+                    assert.fail(
+                        `Invalid start location: parent.source.start=${JSON.stringify(
+                            parent.source.start
+                        )}, node.source.start=${JSON.stringify(
+                            node.source.start
+                        )}, parent:[${parent}], node:[${node}]`
+                    )
+                }
+            }
+            if (prev) {
+                if (compareLoc(prev.source.end, node.source.start) >= 0) {
+                    assert.fail(
+                        `Invalid nodes between location: prev.source.end=${JSON.stringify(
+                            prev.source.end
+                        )}, node.source.start=${JSON.stringify(
+                            node.source.start
+                        )}, prev:[${prev}], node:[${node}]`
+                    )
+                }
+            }
+            if (parent.source.end && !parent.postfix) {
+                if (compareLoc(parent.source.end, node.source.end) < 0) {
+                    assert.fail(
+                        `Invalid end location: parent.source.end=${JSON.stringify(
+                            parent.source.end
+                        )}, node.source.end=${JSON.stringify(
+                            node.source.end
+                        )}, parent:[${parent}], node:[${node}]`
+                    )
+                }
+            }
+            checkLocations(node)
+            prev = node
+        }
+    }
+}
+
+/**
+ * compare locations
+ */
+function compareLoc(a, b) {
+    if (a.line === b.line) {
+        return a.column > b.column ? 1 : a.column < b.column ? -1 : 0
+    }
+    return a.line > b.line ? 1 : -1
 }
