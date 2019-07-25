@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n  ",
-    "stylusAfter": "\r\n  // => 20"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -55,6 +54,29 @@
       },
       "params": "(op, 15, 5)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 10
+        }
+      },
+      "text": "=> 20"
     }
   ],
   "source": {

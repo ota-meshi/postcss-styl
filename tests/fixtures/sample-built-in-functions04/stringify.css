@@ -1,10 +1,10 @@
 /* http://stylus-lang.com/docs/bifs.html */
 
   @alpha(#fff);
-  
+  /* => 1*/
 
   @alpha(rgba(0,0,0,0.3));
-  
+  /* => 0.3*/
 
   @alpha(#fff, 0.5)
-  
+  /* => rgba(255,255,255,0.5)*/

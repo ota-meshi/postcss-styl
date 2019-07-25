@@ -1,22 +1,22 @@
 
-
-body{
-  
-  .foo{
-    
-    .bar{
-      
-      color: red}
-      
-    @for num in 1 2 3{
-      
-      padding: num}
-      
-    @nest & .baz{
-      
-      color: red;
-      padding: 1px;
-      
+/*1*/
+body/*2*/{
+  /*3*/
+  .foo/*4*/{
+    /*5*/
+    .bar/*6*/{
+      /*7*/
+      color: red/*8*/}
+      /*9*/
+    @for num in 1 2 3/*10*/{
+      /*11*/
+      padding: num/*12*/}
+      /*13*/
+    @nest & .baz/*14*/{
+      /*15*/
+      color: red/*16*/;
+      padding: 1px/*17*/;
+      /*18*/
       margin: 1px}}}
-      
-
+      /*19*/
+/*20*/

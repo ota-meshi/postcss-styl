@@ -29,11 +29,33 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+        }
+      },
+      "text": "I'm a comment!"
+    },
+    {
+      "raws": {
+        "before": "\n",
         "between": "",
         "semicolon": false,
-        "after": "",
-        "stylusBefore": "\n\n// I'm a comment!\n"
+        "after": ""
       },
       "type": "rule",
       "nodes": [
@@ -43,7 +65,7 @@
             "between": ": ",
             "value": {
               "value": "5px",
-              "raw": "5px ",
+              "raw": "5px /* some awesome padding*/",
               "stylus": "5px // some awesome padding"
             },
             "stylusBetween": " "

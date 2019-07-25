@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => rgba(47,229,79,0.5)"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      },
+      "text": "=> rgba(0,0,0,0.5)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => rgba(0,0,0,0.5)\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -61,10 +82,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+        }
+      },
+      "text": "=> rgba(255,255,255,0.25)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => rgba(255,255,255,0.25)\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -84,6 +127,29 @@
       },
       "params": "(#91974C, #F34949, 0.5)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 25
+        }
+      },
+      "text": "=> rgba(47,229,79,0.5)"
     }
   ],
   "source": {

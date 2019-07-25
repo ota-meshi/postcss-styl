@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => #f00"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      },
+      "text": "=> de"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => de\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -61,9 +82,31 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 10
+        }
+      },
+      "text": "=> 'tr'"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": " : ",
-        "stylusBefore": "\n// => 'tr'\n\n",
         "stylusBetween": " = "
       },
       "type": "decl",
@@ -109,6 +152,29 @@
       },
       "params": "(substr(val, 1), 0, 3)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 10
+        }
+      },
+      "text": "=> #f00"
     }
   ],
   "source": {

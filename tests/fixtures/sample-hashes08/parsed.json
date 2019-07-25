@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n\n\n\n\n\n\n\n",
-    "stylusAfter": "\n\n// => .bar {\n//      width: 10px;\n//      height: 20px;\n//    }\n//    .bar:hover {\n//      padding: 0;\n//    }"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -85,6 +84,167 @@
       },
       "selector": ".bar",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        }
+      },
+      "text": "=> .bar {"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "      ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 14,
+          "column": 20
+        }
+      },
+      "text": "width: 10px;"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "      ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 15,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 21
+        }
+      },
+      "text": "height: 20px;"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "    ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 7
+        }
+      },
+      "text": "}"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "    ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 17,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 17,
+          "column": 18
+        }
+      },
+      "text": ".bar:hover {"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "      ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 18,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 18,
+          "column": 19
+        }
+      },
+      "text": "padding: 0;"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "    ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 7
+        }
+      },
+      "text": "}"
     }
   ],
   "source": {

@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => #b2b2b2"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -30,6 +29,29 @@
       },
       "params": "(#000, #fff, 30%)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      "text": "=> #b2b2b2"
     }
   ],
   "source": {

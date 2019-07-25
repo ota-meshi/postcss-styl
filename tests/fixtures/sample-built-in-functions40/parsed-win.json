@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n  ",
-    "stylusAfter": "\r\n  // => \"1 2, 3 4, 5 6\""
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      },
+      "text": "=> \"1 2 3\""
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => \"1 2 3\"\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+        }
+      },
+      "text": "=> \"1,2,3\""
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => \"1,2,3\"\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -110,10 +153,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 23
+        }
+      },
+      "text": "=> \"foo, bar, baz\""
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => \"foo, bar, baz\"\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -137,10 +202,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 23
+        }
+      },
+      "text": "=> \"foo, bar, baz\""
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => \"foo, bar, baz\"\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -160,6 +247,29 @@
       },
       "params": "(', ', 1 2, 3 4, 5 6)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 23
+        }
+      },
+      "text": "=> \"1 2, 3 4, 5 6\""
     }
   ],
   "source": {

@@ -1,7 +1,8 @@
 @compare(5, 2);
-
+/* => higher*/
 
 @compare(1, 5);
-
+/* => lower*/
 
 @compare(10, 10)
+/* => equal*/

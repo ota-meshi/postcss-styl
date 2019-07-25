@@ -1,6 +1,7 @@
 @pathjoin('images', 'foo.png');
-
+/* => "images/foo.png"*/
 
 path : 'images/foo.png';
 ext : extname(path);
 @pathjoin(dirname(path), basename(path, ext) + _thumb + ext)
+/* => 'images/foo_thumb.png'*/

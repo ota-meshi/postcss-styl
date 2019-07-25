@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => {\"foo\":\"('foo')\",\"bar\":\"('bar')\",\"baz\":\"('baz')\"}"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -80,6 +79,29 @@
       },
       "params": "(obj, obj2)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 55
+        }
+      },
+      "text": "=> {\"foo\":\"('foo')\",\"bar\":\"('bar')\",\"baz\":\"('baz')\"}"
     }
   ],
   "source": {

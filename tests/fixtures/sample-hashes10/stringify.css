@@ -3,4 +3,5 @@ foo : { width: 10px, height: 20px };
 @for key, value in foo{
   {key}: value}
 
-
+/* => width: 10px;*/
+/*    height: 20px;*/

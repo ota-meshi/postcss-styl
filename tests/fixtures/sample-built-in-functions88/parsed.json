@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "stylusAfter": "\n  // => background: url(\"data:image/svg+xml;charset=utf-8,…\")"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -40,9 +39,31 @@
         },
         {
           "raws": {
-            "before": "\n  \n\n  ",
-            "between": ": ",
-            "stylusBefore": "\n  // => background: url(\"data:image/png;base64,…\")\n\n  "
+            "before": "\n  ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 50
+            }
+          },
+          "text": "=> background: url(\"data:image/png;base64,…\")"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": ": "
           },
           "type": "decl",
           "source": {
@@ -81,6 +102,29 @@
       },
       "selector": "a",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 61
+        }
+      },
+      "text": "=> background: url(\"data:image/svg+xml;charset=utf-8,…\")"
     }
   ],
   "source": {

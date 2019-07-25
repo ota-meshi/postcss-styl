@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => 'null'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -64,11 +63,33 @@
       "nodes": [
         {
           "raws": {
-            "before": "\r\n\r\n  ",
+            "before": "\r\n",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 1
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          },
+          "text": "=> @media screen and (max-width:400px)"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
             "between": "",
             "semicolon": false,
-            "after": "",
-            "stylusBefore": "\r\n// => @media screen and (max-width:400px)\r\n  "
+            "after": ""
           },
           "type": "rule",
           "nodes": [
@@ -149,11 +170,33 @@
       "nodes": [
         {
           "raws": {
-            "before": "\r\n\r\n  ",
+            "before": "\r\n",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 1
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 69
+            }
+          },
+          "text": "=> @media screen and (min-width:600px) and (orientation:landscape)"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
             "between": "",
             "semicolon": false,
-            "after": "",
-            "stylusBefore": "\r\n// => @media screen and (min-width:600px) and (orientation:landscape)\r\n  "
+            "after": ""
           },
           "type": "rule",
           "nodes": [
@@ -332,9 +375,54 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 14
+        }
+      },
+      "text": "=> 'string'"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 21,
+          "column": 54
+        }
+      },
+      "text": "don't throw an error if the JSON file doesn't exist"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
         "between": " : ",
-        "stylusBefore": "\r\n// => 'string'\r\n\r\n// don't throw an error if the JSON file doesn't exist\r\n",
         "stylusBetween": " = "
       },
       "type": "decl",
@@ -380,6 +468,29 @@
       },
       "params": "(optional)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 24,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 24,
+          "column": 12
+        }
+      },
+      "text": "=> 'null'"
     }
   ],
   "source": {

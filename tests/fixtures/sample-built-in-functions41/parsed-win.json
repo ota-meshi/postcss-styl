@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => 'bar1' 'bar2' 'bar3'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 20
+        }
+      },
+      "text": "=> bar1 bar2 bar3"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n// => bar1 bar2 bar3\r\n\r\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -57,6 +78,29 @@
       },
       "params": "(_, 'bar1_bar2_bar3')",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 26
+        }
+      },
+      "text": "=> 'bar1' 'bar2' 'bar3'"
     }
   ],
   "source": {

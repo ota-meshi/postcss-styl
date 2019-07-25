@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => solid #000"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -82,10 +81,32 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      },
+      "text": "=> 'ipsum'"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n// => 'ipsum'\r\n\r\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -109,10 +130,32 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 12
+        }
+      },
+      "text": "=> 'orem'"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n// => 'orem'\r\n\r\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -136,10 +179,32 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 10
+        }
+      },
+      "text": "=> #f00"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n// => #f00\r\n\r\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -159,6 +224,29 @@
       },
       "params": "(1px solid black, 1)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 15,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 16
+        }
+      },
+      "text": "=> solid #000"
     }
   ],
   "source": {

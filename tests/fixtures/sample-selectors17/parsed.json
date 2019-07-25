@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// '.foo:hover'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -63,11 +62,33 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      },
+      "text": "=> '.bar'"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "semicolon": false,
-        "after": "",
-        "stylusBefore": "\n// => '.bar'\n\n"
+        "after": ""
       },
       "type": "rule",
       "nodes": [
@@ -116,6 +137,29 @@
       },
       "selector": ".foo",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+        }
+      },
+      "text": "'.foo:hover'"
     }
   ],
   "source": {

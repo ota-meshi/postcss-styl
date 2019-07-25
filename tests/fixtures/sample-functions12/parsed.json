@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n ",
-    "stylusAfter": "\n // => true"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\n \n   \n ",
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 11
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n   \n ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n // => true\n   \n ",
         "identifier": ""
       },
       "type": "atrule",
@@ -61,10 +82,32 @@
     },
     {
       "raws": {
-        "before": "\n \n   \n ",
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 11
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n   \n ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n // => true\n   \n ",
         "identifier": ""
       },
       "type": "atrule",
@@ -84,6 +127,29 @@
       },
       "params": "(0) == no",
       "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 11
+        }
+      },
+      "text": "=> true"
     }
   ],
   "source": {

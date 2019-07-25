@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n ",
-    "stylusAfter": "\n // => bottom right"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\n \n\n ",
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      "text": "=> left"
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n // => left\n\n ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\n \n\n ",
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "text": "=> bottom right"
+    },
+    {
+      "raws": {
+        "before": "\n\n ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n // => bottom right\n\n ",
         "identifier": ""
       },
       "type": "atrule",
@@ -106,6 +149,29 @@
       },
       "params": "('top' 'left')",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 19
+        }
+      },
+      "text": "=> bottom right"
     }
   ],
   "source": {

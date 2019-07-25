@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "stylusAfter": "\n  // => true"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -110,10 +109,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 19
+        }
+      },
+      "text": "=> 405px 250px"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => 405px 250px\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -133,6 +154,29 @@
       },
       "params": "('tux.png')[0] == width('tux.png')",
       "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        }
+      },
+      "text": "=> true"
     }
   ],
   "source": {

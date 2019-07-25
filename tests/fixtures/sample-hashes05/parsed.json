@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => \"baz\""
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -83,6 +82,29 @@
       },
       "selector": "a",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 11
+        }
+      },
+      "text": "=> \"baz\""
     }
   ],
   "source": {

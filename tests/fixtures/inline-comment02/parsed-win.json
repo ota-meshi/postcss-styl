@@ -1,52 +1,139 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n      \r\n\r\n",
-    "stylusAfter": "\r\n      //19\r\n//20\r\n"
+    "after": "\r\n"
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "\r\n\r\n",
-        "between": "",
+        "before": "\r\n",
+        "left": "",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 3
+        }
+      },
+      "text": "1"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": "/*2*/",
         "semicolon": false,
         "after": "",
-        "stylusBefore": "\r\n//1\r\n",
         "stylusBetween": "//2"
       },
       "type": "rule",
       "nodes": [
         {
           "raws": {
-            "before": "\r\n  \r\n  ",
-            "between": "",
+            "before": "\r\n  ",
+            "left": "",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 5
+            }
+          },
+          "text": "3"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "/*4*/",
             "semicolon": false,
             "after": "",
-            "stylusBefore": "\r\n  //3\r\n  ",
             "stylusBetween": "//4"
           },
           "type": "rule",
           "nodes": [
             {
               "raws": {
-                "before": "\r\n    \r\n    ",
-                "between": "",
+                "before": "\r\n    ",
+                "left": "",
+                "right": "",
+                "inline": true
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 7
+                }
+              },
+              "text": "5"
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "/*6*/",
                 "semicolon": false,
                 "after": "",
-                "stylusBefore": "\r\n    //5\r\n    ",
                 "stylusBetween": "//6"
               },
               "type": "rule",
               "nodes": [
                 {
                   "raws": {
-                    "before": "\r\n      \r\n      ",
+                    "before": "\r\n      ",
+                    "left": "",
+                    "right": "",
+                    "inline": true
+                  },
+                  "type": "comment",
+                  "source": {
+                    "start": {
+                      "line": 8,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 9
+                    }
+                  },
+                  "text": "7"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
                     "between": ": ",
-                    "stylusBefore": "\r\n      //7\r\n      ",
                     "value": {
                       "value": "red",
-                      "raw": "red",
+                      "raw": "red/*8*/",
                       "stylus": "red//8"
                     },
                     "stylusBetween": " "
@@ -91,12 +178,34 @@
             },
             {
               "raws": {
-                "before": "\r\n      \r\n    ",
-                "between": "",
+                "before": "\r\n      ",
+                "left": "",
+                "right": "",
+                "inline": true
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 10,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 10,
+                  "column": 9
+                }
+              },
+              "text": "9"
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "/*10*/",
                 "afterName": " ",
                 "semicolon": false,
                 "after": "",
-                "stylusBefore": "\r\n      //9\r\n    ",
                 "stylusBetween": "//10",
                 "identifier": ""
               },
@@ -124,12 +233,34 @@
               "nodes": [
                 {
                   "raws": {
-                    "before": "\r\n      \r\n      ",
+                    "before": "\r\n      ",
+                    "left": "",
+                    "right": "",
+                    "inline": true
+                  },
+                  "type": "comment",
+                  "source": {
+                    "start": {
+                      "line": 12,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 10
+                    }
+                  },
+                  "text": "11"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
                     "between": ": ",
-                    "stylusBefore": "\r\n      //11\r\n      ",
                     "value": {
                       "value": "num",
-                      "raw": "num",
+                      "raw": "num/*12*/",
                       "stylus": "num//12"
                     },
                     "stylusBetween": " "
@@ -155,12 +286,34 @@
             },
             {
               "raws": {
-                "before": "\r\n      \r\n    ",
-                "between": "",
+                "before": "\r\n      ",
+                "left": "",
+                "right": "",
+                "inline": true
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 14,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 14,
+                  "column": 10
+                }
+              },
+              "text": "13"
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "/*14*/",
                 "afterName": " ",
                 "semicolon": false,
                 "after": "",
-                "stylusBefore": "\r\n      //13\r\n    ",
                 "stylusBetween": "//14"
               },
               "type": "atrule",
@@ -187,12 +340,34 @@
               "nodes": [
                 {
                   "raws": {
-                    "before": "\r\n      \r\n      ",
+                    "before": "\r\n      ",
+                    "left": "",
+                    "right": "",
+                    "inline": true
+                  },
+                  "type": "comment",
+                  "source": {
+                    "start": {
+                      "line": 16,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 10
+                    }
+                  },
+                  "text": "15"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
                     "between": ": ",
-                    "stylusBefore": "\r\n      //15\r\n      ",
                     "value": {
                       "value": "red",
-                      "raw": "red",
+                      "raw": "red/*16*/",
                       "stylus": "red//16"
                     },
                     "stylusBetween": " "
@@ -221,7 +396,7 @@
                     "between": ": ",
                     "value": {
                       "value": "1px",
-                      "raw": "1px",
+                      "raw": "1px/*17*/",
                       "stylus": "1px//17"
                     },
                     "stylusBetween": " "
@@ -246,9 +421,31 @@
                 },
                 {
                   "raws": {
-                    "before": "\r\n      \r\n      ",
+                    "before": "\r\n      ",
+                    "left": "",
+                    "right": "",
+                    "inline": true
+                  },
+                  "type": "comment",
+                  "source": {
+                    "start": {
+                      "line": 19,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 10
+                    }
+                  },
+                  "text": "18"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
                     "between": ": ",
-                    "stylusBefore": "\r\n      //18\r\n      ",
                     "stylusBetween": " "
                   },
                   "type": "decl",
@@ -311,6 +508,52 @@
       },
       "selector": "body",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\r\n      ",
+        "left": "",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 21,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 21,
+          "column": 10
+        }
+      },
+      "text": "19"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": "",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "text": "20"
     }
   ],
   "source": {

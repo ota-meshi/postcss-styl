@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n  ",
-    "stylusAfter": "\r\n  // => null"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -59,10 +58,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 9
+        }
+      },
+      "text": "=> 2"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => 2\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -86,10 +107,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 9
+        }
+      },
+      "text": "=> 3"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => 3\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -109,6 +152,29 @@
       },
       "params": "(hash, something)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 12
+        }
+      },
+      "text": "=> null"
     }
   ],
   "source": {

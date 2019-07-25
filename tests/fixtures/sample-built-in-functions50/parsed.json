@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => #393939"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      "text": "=> #787878"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => #787878\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -57,6 +78,29 @@
       },
       "params": "(#2c2c2c, 30%)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 13
+        }
+      },
+      "text": "=> #393939"
     }
   ],
   "source": {

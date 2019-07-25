@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n ",
-    "stylusAfter": "\n // => 4"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -91,9 +90,31 @@
         },
         {
           "raws": {
-            "before": "\n \n ",
+            "before": "\n ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 14
+            }
+          },
+          "text": "=> 5 3 2 1"
+        },
+        {
+          "raws": {
+            "before": "\n ",
             "between": ": ",
-            "stylusBefore": "\n // => 5 3 2 1\n ",
             "stylusBetween": " "
           },
           "type": "decl",
@@ -133,6 +154,29 @@
       },
       "selector": "a",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 8
+        }
+      },
+      "text": "=> 4"
     }
   ],
   "source": {

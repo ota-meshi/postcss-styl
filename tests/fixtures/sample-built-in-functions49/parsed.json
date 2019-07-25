@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => rgba(128,128,0,0.625)"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      "text": "=> #808080"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => #808080\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -61,10 +82,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 13
+        }
+      },
+      "text": "=> #7ace38"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => #7ace38\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -84,6 +127,29 @@
       },
       "params": "(rgba(lime, 0.5), rgba(red, 0.25))",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 8,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 27
+        }
+      },
+      "text": "=> rgba(128,128,0,0.625)"
     }
   ],
   "source": {
