@@ -26,7 +26,7 @@ The main use of this plugin is to apply the [Stylus] syntax to linter using [Pos
 
 For example, if you want to use this plugin with [stylelint], it is used as follows:
 
-1. First, prepare a script that extends `postcss-syntax`.
+1. First, prepare a script that extends [postcss-syntax].
 
    e.g. [custom-syntax.js](./tests/integration/stylelint/custom-syntax.js)
 
@@ -124,6 +124,7 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [stylus]: http://stylus-lang.com/
 [stylelint]: http://stylelint.io/
 [autoprefixer]: https://github.com/postcss/autoprefixer
+[postcss-syntax]: https://github.com/gucong3000/postcss-syntax
 [license]: ./LICENSE
 [npm license]: https://img.shields.io/npm/l/postcss-styl.svg
 [npm version]: https://img.shields.io/npm/v/postcss-styl.svg
