@@ -1,8 +1,8 @@
   nums : 1 2 3;
   @last(nums);
   @last(1 2 3);
-  
+  /* => 3*/
 
   list : (one 1) (two 2) (three 3);
   @last(list)
-  
+  /* => (three 3)*/

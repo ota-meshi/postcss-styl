@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "stylusAfter": "\n  // => 'rgba'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 14
+        }
+      },
+      "text": "=> 'unit'"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => 'unit'\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 14
+        }
+      },
+      "text": "=> 'unit'"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => 'unit'\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -110,10 +153,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 14
+        }
+      },
+      "text": "=> 'rgba'"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => 'rgba'\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -133,6 +198,29 @@
       },
       "params": "(#fff)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 14
+        }
+      },
+      "text": "=> 'rgba'"
     }
   ],
   "source": {

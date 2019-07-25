@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => true"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      "text": "=> false"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => false\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 10
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n// => true\n\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -106,6 +149,29 @@
       },
       "params": "(#00FF40)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 10
+        }
+      },
+      "text": "=> true"
     }
   ],
   "source": {

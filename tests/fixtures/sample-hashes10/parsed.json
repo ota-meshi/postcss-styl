@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n\n\n",
-    "stylusAfter": "\n\n// => width: 10px;\n//    height: 20px;"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -85,6 +84,52 @@
           "value": "value"
         }
       ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 18
+        }
+      },
+      "text": "=> width: 10px;"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "    ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "text": "height: 20px;"
     }
   ],
   "source": {

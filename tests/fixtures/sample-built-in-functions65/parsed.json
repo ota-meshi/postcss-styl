@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n   ",
-    "stylusAfter": "\n   // => 'ident'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -59,9 +58,31 @@
     },
     {
       "raws": {
-        "before": "\n   \n\n   ",
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      },
+      "text": "=> 'unit'"
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
         "between": " : ",
-        "stylusBefore": "\n   // => 'unit'\n\n   ",
         "stylusBetween": " = "
       },
       "type": "decl",
@@ -111,9 +132,31 @@
     },
     {
       "raws": {
-        "before": "\n   \n\n   ",
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+        }
+      },
+      "text": "=> 'rgba'"
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
         "between": " : ",
-        "stylusBefore": "\n   // => 'rgba'\n\n   ",
         "stylusBetween": " = "
       },
       "type": "decl",
@@ -159,6 +202,29 @@
       },
       "params": "(foo)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 16
+        }
+      },
+      "text": "=> 'ident'"
     }
   ],
   "source": {

@@ -1,7 +1,6 @@
 {
   "raws": {
-    "after": "\r\n\r\n",
-    "stylusAfter": "\r\n\r\n// TODO"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -26,6 +25,29 @@
         }
       },
       "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 7
+        }
+      },
+      "text": "TODO"
     }
   ],
   "source": {

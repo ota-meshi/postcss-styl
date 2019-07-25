@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "stylusAfter": "\n  // => \"foo, bar, baz\""
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -79,6 +78,29 @@
       },
       "params": "(', ', foo bar baz)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 23
+        }
+      },
+      "text": "=> \"foo, bar, baz\""
     }
   ],
   "source": {

@@ -1,10 +1,10 @@
 /* http://stylus-lang.com/docs/bifs.html */
 
  @opposite-position(right);
- 
+ /* => left*/
 
  @opposite-position(top left);
- 
+ /* => bottom right*/
 
  @opposite-position('top' 'left')
- 
+ /* => bottom right*/

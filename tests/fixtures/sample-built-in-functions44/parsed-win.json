@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n ",
-    "stylusAfter": "\r\n // => HSLA"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\r\n \r\n\r\n ",
+        "before": "\r\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      "text": "=> HSLA"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n // => HSLA\r\n\r\n ",
         "identifier": ""
       },
       "type": "atrule",
@@ -79,6 +100,29 @@
       },
       "params": "(#ffcc00)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 11
+        }
+      },
+      "text": "=> HSLA"
     }
   ],
   "source": {

@@ -5,7 +5,7 @@
   @height(img);
 
   @image-size('tux.png');
-  
+  /* => 405px 250px*/
 
   @image-size('tux.png')[0] == width('tux.png')
-  
+  /* => true*/

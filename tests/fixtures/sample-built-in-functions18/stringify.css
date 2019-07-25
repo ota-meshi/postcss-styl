@@ -1,13 +1,13 @@
 /* http://stylus-lang.com/docs/bifs.html */
 
   @type(12);
-  
+  /* => 'unit'*/
 
   @typeof(12);
-  
+  /* => 'unit'*/
 
   @typeof(#fff);
-  
+  /* => 'rgba'*/
 
   @type-of(#fff)
-  
+  /* => 'rgba'*/

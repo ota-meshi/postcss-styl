@@ -7,10 +7,32 @@
   "nodes": [
     {
       "raws": {
+        "before": "",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 9
+        }
+      },
+      "text": "inline"
+    },
+    {
+      "raws": {
         "before": "\n",
         "left": " ",
-        "right": " ",
-        "stylusBefore": "// inline\n"
+        "right": " "
       },
       "type": "comment",
       "source": {
@@ -30,11 +52,33 @@
     },
     {
       "raws": {
-        "before": "\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 9
+        }
+      },
+      "text": "inline"
+    },
+    {
+      "raws": {
+        "before": "\n",
         "between": "",
         "semicolon": false,
-        "after": "",
-        "stylusBefore": "\n// inline\n"
+        "after": ""
       },
       "type": "rule",
       "nodes": [

@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n\r\n",
-    "stylusAfter": "\r\n// => { \"ratio\": \"13.15;\", \"error\": \"-7.85\", \"min\": \"5.3\", \"max\": \"21\" }\r\n"
+    "after": "\r\n"
   },
   "type": "root",
   "nodes": [
@@ -34,10 +33,32 @@
     },
     {
       "raws": {
-        "before": "\r\n\r\n\r\n",
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      },
+      "text": "=> 21"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n// => 21\r\n\r\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -57,6 +78,29 @@
       },
       "params": "(#000, rgba(#FFF, 0.5))",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 72
+        }
+      },
+      "text": "=> { \"ratio\": \"13.15;\", \"error\": \"-7.85\", \"min\": \"5.3\", \"max\": \"21\" }"
     }
   ],
   "source": {

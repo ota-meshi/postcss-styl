@@ -95,7 +95,7 @@ describe("stylelint", () => {
                     fix: true,
                 })
                 .then(result => {
-                    const actual = getOutputCss(result)
+                    const actual = result.output
                     const fixedFileName = `fixed${path.extname(fileName)}`
                     try {
                         const expect = fixture.contents[fixedFileName]
@@ -107,19 +107,3 @@ describe("stylelint", () => {
                 }))
     }
 })
-
-/**
- * Get the fixed css
- * @param {*} output
- */
-function getOutputCss(output) {
-    const result = output.results[0]._postcssResult
-    const css = result.root.toString(result.opts.syntax)
-
-    // if (result.opts.syntax === less) {
-    //   // Less needs us to manually strip whitespace at the end of single-line comments ¯\_(ツ)_/¯
-    //   return css.replace(/(\n?\s*\/\/.*?)[ \t]*(\r?\n)/g, "$1$2");
-    // }
-
-    return css
-}

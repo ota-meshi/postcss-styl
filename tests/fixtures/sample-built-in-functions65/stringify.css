@@ -1,11 +1,11 @@
    unit : convert('40px');
    @typeof(unit);
-   
+   /* => 'unit'*/
 
    color : convert('#fff');
    @typeof(color);
-   
+   /* => 'rgba'*/
 
    foo : convert('foo');
    @typeof(foo)
-   
+   /* => 'ident'*/

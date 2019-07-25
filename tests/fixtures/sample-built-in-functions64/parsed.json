@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n   ",
-    "stylusAfter": "\n   // => 1px / 2px"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\n   \n\n   ",
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 19
+        }
+      },
+      "text": "=> sans-serif"
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n   // => sans-serif\n\n   ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\n   \n\n   ",
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "text": "=> sans-serif"
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n   // => sans-serif\n\n   ",
         "identifier": ""
       },
       "type": "atrule",
@@ -106,6 +149,29 @@
       },
       "params": "('1px / 2px')",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 18
+        }
+      },
+      "text": "=> 1px / 2px"
     }
   ],
   "source": {

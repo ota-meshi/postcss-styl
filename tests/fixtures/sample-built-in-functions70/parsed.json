@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n// => 'images/foo_thumb.png'"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -34,9 +33,31 @@
     },
     {
       "raws": {
-        "before": "\n\n\n",
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      },
+      "text": "=> \"images/foo.png\""
+    },
+    {
+      "raws": {
+        "before": "\n\n",
         "between": " : ",
-        "stylusBefore": "\n// => \"images/foo.png\"\n\n",
         "stylusBetween": " = "
       },
       "type": "decl",
@@ -107,6 +128,29 @@
       },
       "params": "(dirname(path), basename(path, ext) + _thumb + ext)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 28
+        }
+      },
+      "text": "=> 'images/foo_thumb.png'"
     }
   ],
   "source": {

@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n\r\n",
-    "stylusAfter": "\r\n// => 10px\r\n"
+    "after": "\r\n"
   },
   "type": "root",
   "nodes": [
@@ -79,6 +78,29 @@
       "prop": "v",
       "value": "foo[\"bar\"].baz[qux]",
       "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 10
+        }
+      },
+      "text": "=> 10px"
     }
   ],
   "source": {

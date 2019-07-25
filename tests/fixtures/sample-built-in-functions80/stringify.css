@@ -4,7 +4,7 @@
   a{
     font-size: 12px}}
 
-@selector-exists('.foo') ;
-@selector-exists('.foo a') ;
-@selector-exists('.foo li') ;
-@selector-exists('.bar') 
+@selector-exists('.foo') /* true*/;
+@selector-exists('.foo a') /* true*/;
+@selector-exists('.foo li') /* false*/;
+@selector-exists('.bar') /* false*/

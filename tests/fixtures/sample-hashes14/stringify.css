@@ -8,3 +8,4 @@ obj2 : {
 };
 
 @merge(obj, obj2)
+/* => {"foo":"('foo')","bar":"('bar')","baz":"('baz')"}*/

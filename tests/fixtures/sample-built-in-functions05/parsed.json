@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n  ",
-    "stylusAfter": "\n  // => false"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 12
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => true\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\n  \n\n  ",
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 12
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\n  // => true\n\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -106,6 +149,29 @@
       },
       "params": "(white)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 13
+        }
+      },
+      "text": "=> false"
     }
   ],
   "source": {

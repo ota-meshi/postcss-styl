@@ -4,5 +4,5 @@
   a{
     font-size: 12px}
 
-  @selector-exists('a') ;
-  @selector-exists(selector() + ' a') }
+  @selector-exists('a') /* false*/;
+  @selector-exists(selector() + ' a') /* true*/}

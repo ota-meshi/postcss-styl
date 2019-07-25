@@ -37,7 +37,7 @@
         "semicolon": false,
         "selector": {
           "value": "bar in foo\r\n\r\n\r\n,baz in foo\r\n\r\n\r\n\r\n,a",
-          "raw": "bar in foo\r\n\r\n\r\n,baz in foo\r\n\r\n\r\n\r\n,a",
+          "raw": "bar in foo\r\n/* => true*/\r\n\r\n,baz in foo\r\n/* => false*/\r\n\r\n\r\n,a",
           "stylus": "bar in foo\r\n// => true\r\n\r\nbaz in foo\r\n// => false\r\n\r\n\r\na"
         },
         "after": ""

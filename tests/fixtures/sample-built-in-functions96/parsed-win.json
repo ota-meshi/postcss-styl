@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n",
-    "stylusAfter": "\r\n// => rgba-stop(50%, #ffa500)"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -57,6 +56,29 @@
       },
       "params": "(50%, orange)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 29
+        }
+      },
+      "text": "=> rgba-stop(50%, #ffa500)"
     }
   ],
   "source": {

@@ -1,8 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n  ",
-    "stylusAfter": "\r\n  // rgba(255,204,0,0.5)"
+    "after": ""
   },
   "type": "root",
   "nodes": [
@@ -56,10 +55,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 25
+        }
+      },
+      "text": "=> rgba(255,0,0,0.5)"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => rgba(255,0,0,0.5)\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -83,10 +104,32 @@
     },
     {
       "raws": {
-        "before": "\r\n  \r\n\r\n  ",
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+        }
+      },
+      "text": "=> #ff0000"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
-        "stylusBefore": "\r\n  // => #ff0000\r\n\r\n  ",
         "identifier": ""
       },
       "type": "atrule",
@@ -106,6 +149,29 @@
       },
       "params": "(#ffcc00, 0.5)",
       "call": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 24
+        }
+      },
+      "text": "rgba(255,204,0,0.5)"
     }
   ],
   "source": {

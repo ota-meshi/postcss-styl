@@ -1,18 +1,39 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n",
-    "stylusAfter": "\n//4//5"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "\n\n",
-        "between": "",
+        "before": "\n",
+        "left": "",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 3
+        }
+      },
+      "text": "1"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "/*{2*/",
         "semicolon": false,
         "after": "",
-        "stylusBefore": "\n//1\n",
         "stylusBetween": "//{2"
       },
       "type": "rule",
@@ -23,7 +44,7 @@
             "between": ": ",
             "value": {
               "value": "1",
-              "raw": "1",
+              "raw": "1/*3*/",
               "stylus": "1//3"
             }
           },
@@ -64,6 +85,29 @@
       },
       "selector": "a",
       "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      },
+      "text": "4//5"
     }
   ],
   "source": {

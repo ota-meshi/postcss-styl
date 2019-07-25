@@ -3,4 +3,4 @@
   @join(delim, args);
 
   @join(', ', foo bar baz)
-  
+  /* => "foo, bar, baz"*/
