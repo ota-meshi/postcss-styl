@@ -1,0 +1,28 @@
+
+
+body{
+  
+  .foo{
+    
+    .bar{
+      
+      color: red;
+      
+    }
+    
+    @for num in 1 2 3{
+      
+      padding: num;
+      
+    }
+    @nest & .baz{
+      
+      color: red;
+      padding: 1px;
+      
+      margin: 1px;
+      
+    }
+  }
+}
+

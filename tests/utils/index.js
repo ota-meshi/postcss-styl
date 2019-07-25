@@ -50,10 +50,12 @@ const utils = {
     read(file) {
         return fs.readFileSync(file).toString()
     },
-    writeFixture(file, actual) {
+    writeFixture(file, actual, error) {
         // eslint-disable-next-line no-process-env
         if (process.env.UPDATE_FIXTURES) {
             fs.writeFileSync(file, actual)
+        } else if (error) {
+            throw error
         }
     },
     deleteFixture(file) {

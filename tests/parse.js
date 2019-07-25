@@ -113,8 +113,7 @@ function testParse(fixture) {
         const expect = fixture.contents["parsed.json"]
         assert.deepStrictEqual(actual, expect)
     } catch (e) {
-        writeFixture(fixture.files["parsed.json"], actual)
-        throw e
+        writeFixture(fixture.files["parsed.json"], actual, e)
     }
 
     // check each node properties

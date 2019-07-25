@@ -1,0 +1,319 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n\r\n",
+    "stylusAfter": "//19-4\r\n//20\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "stylusBefore": "\r\n//1\r\n",
+        "stylusAfter": "//19-3\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  \r\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "stylusBefore": "//2\r\n  //3\r\n  ",
+            "stylusAfter": "//19-2\r\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    \r\n    ",
+                "between": "",
+                "semicolon": true,
+                "after": "\r\n      \r\n    ",
+                "stylusBefore": "//4\r\n    //5\r\n    ",
+                "stylusAfter": "//8\r\n      //9\r\n    "
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      \r\n      ",
+                    "between": ": ",
+                    "stylusBefore": "//6\r\n      //7\r\n      ",
+                    "stylusBetween": " "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 9,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 16
+                    }
+                  },
+                  "prop": "color",
+                  "value": "red"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 7,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 7,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 11,
+                  "column": 5
+                },
+                "endChildren": {
+                  "line": 11,
+                  "column": 4
+                }
+              },
+              "selector": ".bar"
+            },
+            {
+              "raws": {
+                "before": "\r\n    \r\n    ",
+                "between": "",
+                "afterName": " ",
+                "semicolon": true,
+                "after": "\r\n      \r\n    ",
+                "stylusAfter": "//12\r\n      //13\r\n    ",
+                "stylusBefore": "\r\n    //9-2\r\n    ",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "for",
+              "source": {
+                "start": {
+                  "line": 13,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 13,
+                  "column": 22
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 17,
+                  "column": 5
+                },
+                "endChildren": {
+                  "line": 17,
+                  "column": 4
+                }
+              },
+              "params": "num in 1 2 3",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      \r\n      ",
+                    "between": ": ",
+                    "stylusBefore": "//10\r\n      //11\r\n      ",
+                    "stylusBetween": " "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 15,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 18
+                    }
+                  },
+                  "prop": "padding",
+                  "value": "num"
+                }
+              ]
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": " ",
+                "semicolon": true,
+                "after": "\r\n      \r\n    ",
+                "stylusAfter": "\r\n      //19\r\n    ",
+                "stylusBefore": "//13-2\r\n    "
+              },
+              "type": "atrule",
+              "name": "nest",
+              "source": {
+                "start": {
+                  "line": 18,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 18,
+                  "column": 18
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 25,
+                  "column": 5
+                },
+                "endChildren": {
+                  "line": 25,
+                  "column": 4
+                }
+              },
+              "params": "& .baz",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      \r\n      ",
+                    "between": ": ",
+                    "stylusBefore": "//14\r\n      //15\r\n      ",
+                    "stylusBetween": " "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 20,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 16
+                    }
+                  },
+                  "prop": "color",
+                  "value": "red"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": ",
+                    "stylusBefore": "//16\r\n      ",
+                    "stylusBetween": " "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 21,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 18
+                    }
+                  },
+                  "prop": "padding",
+                  "value": "1px"
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      \r\n      ",
+                    "between": ": ",
+                    "stylusBefore": "//17\r\n      //18\r\n      ",
+                    "stylusBetween": " "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 23,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 17
+                    }
+                  },
+                  "prop": "margin",
+                  "value": "1px"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 26,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 26,
+              "column": 2
+            }
+          },
+          "selector": ".foo"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 26,
+          "column": 11
+        }
+      },
+      "selector": "body"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
