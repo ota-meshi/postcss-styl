@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test:base": "mocha \"tests/**/*.js\" --reporter dot",
+    "test:base": "cross-env DEBUG=postcss-styl* mocha \"tests/**/*.js\" --reporter dot",
     "test:update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
     "test": "npm run test:nyc",
     "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
