@@ -1,5 +1,6 @@
 {
   "raws": {
+    "semicolon": false,
     "after": ""
   },
   "type": "root",
@@ -29,11 +30,12 @@
     {
       "raws": {
         "before": "\n\n",
-        "left": " ",
-        "right": "",
-        "inline": true
+        "between": "",
+        "afterName": "",
+        "identifier": "!"
       },
-      "type": "comment",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -44,10 +46,409 @@
         },
         "end": {
           "line": 3,
-          "column": 7
+          "column": 2
+        },
+        "rawEnd": {
+          "line": 3,
+          "column": 2
         }
       },
-      "text": "TODO"
+      "params": "0",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 10
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": "!"
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        },
+        "rawEnd": {
+          "line": 6,
+          "column": 3
+        }
+      },
+      "params": "!0",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 11
+        }
+      },
+      "text": "=> false"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": "!"
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 2
+        },
+        "rawEnd": {
+          "line": 9,
+          "column": 2
+        }
+      },
+      "params": "1",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 11
+        }
+      },
+      "text": "=> false"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": "!"
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 5
+        },
+        "rawEnd": {
+          "line": 12,
+          "column": 5
+        }
+      },
+      "params": "!5px",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 13,
+          "column": 10
+        }
+      },
+      "text": "=> true"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "-5px",
+      "source": {
+        "start": {
+          "line": 15,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        },
+        "rawEnd": {
+          "line": 15,
+          "column": 4
+        }
+      },
+      "params": "",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 10
+        }
+      },
+      "text": "=> -5px"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "--5px",
+      "source": {
+        "start": {
+          "line": 18,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 18,
+          "column": 5
+        },
+        "rawEnd": {
+          "line": 18,
+          "column": 5
+        }
+      },
+      "params": "",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 9
+        }
+      },
+      "text": "=> 5px"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": " ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "not",
+      "source": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 21,
+          "column": 8
+        },
+        "rawEnd": {
+          "line": 21,
+          "column": 8
+        }
+      },
+      "params": "true",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      },
+      "text": "=> false"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": " ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "not",
+      "source": {
+        "start": {
+          "line": 24,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 24,
+          "column": 12
+        },
+        "rawEnd": {
+          "line": 24,
+          "column": 12
+        }
+      },
+      "params": "not true",
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 25,
+          "column": 10
+        }
+      },
+      "text": "=> true"
     }
   ],
   "source": {
