@@ -160,6 +160,10 @@
             "end": {
               "line": 9,
               "column": 15
+            },
+            "rawEnd": {
+              "line": 9,
+              "column": 15
             }
           },
           "params": "$foo"
@@ -211,6 +215,10 @@
               "file": "input.styl"
             },
             "end": {
+              "line": 12,
+              "column": 15
+            },
+            "rawEnd": {
               "line": 12,
               "column": 15
             }

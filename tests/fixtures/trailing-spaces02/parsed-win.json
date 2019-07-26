@@ -1,0 +1,97 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "  \r\n\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "\r\n ",
+        "between": "      ",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": "         ",
+            "afterName": " "
+          },
+          "type": "atrule",
+          "name": "extend",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            },
+            "rawEnd": {
+              "line": 3,
+              "column": 31
+            }
+          },
+          "params": "form button"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 2,
+          "column": 16
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      },
+      "selector": "a.button",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": "",
+        "right": ""
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 21
+        }
+      },
+      "text": "trailing-spaces02"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

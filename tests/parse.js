@@ -12,27 +12,6 @@ const {
     deleteFixture,
 } = require("./utils")
 
-/**
- * Replacer
- * @param {*} key
- * @param {*} value
- */
-function cleanReplacer(key, value) {
-    if (key === "endChildren" || key === "startChildren") {
-        return undefined
-    }
-    return value
-}
-
-/**
- * jsonify
- * @param {*} node
- */
-function jsonify(node) {
-    const obj = JSON.parse(cases.jsonify(node))
-    return JSON.stringify(obj, cleanReplacer, 2)
-}
-
 cases.each((name, css, json) => {
     if (
         name === "semicolons.css" ||
@@ -61,7 +40,7 @@ cases.each((name, css, json) => {
     }
 
     it(`parses ${name}`, () => {
-        const parsed = jsonify(
+        const parsed = stringifyAST(
             parse(css, {
                 from: path.join(
                     path.resolve(
@@ -110,7 +89,7 @@ function testParse(fixture) {
         throw parseError
     }
     it("AST should be valid.", () => {
-        const actual = cases.jsonify(root)
+        const actual = stringifyStylusAST(root)
         try {
             const expect = fixture.contents["parsed.json"]
             assert.deepStrictEqual(actual, expect)
@@ -133,7 +112,7 @@ function testParse(fixture) {
             const rootWin = parse(stylusWin, {
                 from: `${fixture.name}/input.styl`,
             })
-            const actualWin = cases.jsonify(rootWin)
+            const actualWin = stringifyStylusAST(rootWin)
             try {
                 const expectWin = fixture.contents["parsed-win.json"]
                 assert.deepStrictEqual(actualWin, expectWin)
@@ -171,6 +150,37 @@ function testParseError(fixture) {
             assert.fail("Expected error but not error")
         }
     })
+}
+
+/**
+ * jsonify
+ * @param {*} node
+ */
+function stringifyAST(node) {
+    const obj = JSON.parse(cases.jsonify(node))
+    return JSON.stringify(
+        obj,
+        (key, value) => {
+            if (
+                key === "endChildren" ||
+                key === "startChildren" ||
+                key === "rawEnd"
+            ) {
+                return undefined
+            }
+            return value
+        },
+        2
+    )
+}
+
+/**
+ * jsonify stylus
+ * @param {*} node
+ */
+function stringifyStylusAST(node) {
+    const obj = JSON.parse(cases.jsonify(node))
+    return JSON.stringify(obj, null, 2)
 }
 
 /**
