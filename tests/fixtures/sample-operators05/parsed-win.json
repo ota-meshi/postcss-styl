@@ -1,0 +1,284 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "add",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 37
+        }
+      },
+      "params": "(a, b)",
+      "function": true,
+      "body": "\r\n   if a is a 'unit' and b is a 'unit'\r\n     a + b\r\n   else\r\n     (error 'a and b must be units!')",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n ",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 21
+            }
+          },
+          "prop": "padding",
+          "value": "add(1,'5')",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 48
+            }
+          },
+          "text": "=> padding: error \"a and b must be units\";"
+        },
+        {
+          "raws": {
+            "before": "\r\n   \r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 13,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 13,
+              "column": 24
+            }
+          },
+          "prop": "padding",
+          "value": "add(1,'5')[0]",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 24
+            }
+          },
+          "text": "=> padding: error;"
+        },
+        {
+          "raws": {
+            "before": "\r\n   \r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 33
+            }
+          },
+          "prop": "padding",
+          "value": "add(1,'5')[0] == error",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 23
+            }
+          },
+          "text": "=> padding: true;"
+        },
+        {
+          "raws": {
+            "before": "\r\n\r\n   ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 19,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 19,
+              "column": 24
+            }
+          },
+          "prop": "padding",
+          "value": "add(1,'5')[1]"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "startChildren": {
+          "line": 9,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      },
+      "selector": "body",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\r\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 20,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 20,
+          "column": 42
+        }
+      },
+      "text": "=> padding: \"a and b must be units\";"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+a : 0;
+b : 1;
+
+@a and !b
+/* => false*/
+/* parsed as: (!a) and (!b)*/

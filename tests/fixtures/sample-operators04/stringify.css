@@ -1,0 +1,8 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+ list : 1 2 3;
+ @list[0];
+ /* => 1*/
+
+ @list[-1]
+ /* => 3*/
