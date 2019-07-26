@@ -25,6 +25,10 @@
         "end": {
           "line": 1,
           "column": 58
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 58
         }
       },
       "params": "('^(height|width)?([<>=]{1,})(.*)', 'height>=1024px')",
@@ -72,6 +76,10 @@
           "file": "input.styl"
         },
         "end": {
+          "line": 4,
+          "column": 28
+        },
+        "rawEnd": {
           "line": 4,
           "column": 28
         }
@@ -123,6 +131,10 @@
         "end": {
           "line": 7,
           "column": 31
+        },
+        "rawEnd": {
+          "line": 7,
+          "column": 31
         }
       },
       "params": "('^foo(?:bar)?', 'foobar')",
@@ -170,6 +182,10 @@
           "file": "input.styl"
         },
         "end": {
+          "line": 10,
+          "column": 28
+        },
+        "rawEnd": {
           "line": 10,
           "column": 28
         }
@@ -221,6 +237,10 @@
         "end": {
           "line": 13,
           "column": 59
+        },
+        "rawEnd": {
+          "line": 13,
+          "column": 59
         }
       },
       "params": "('ain', 'The rain in SPAIN stays mainly in the plain')",
@@ -270,6 +290,10 @@
         "end": {
           "line": 16,
           "column": 62
+        },
+        "rawEnd": {
+          "line": 16,
+          "column": 62
         }
       },
       "params": "('ain', 'The rain in SPAIN stays mainly in the plain', g)",
@@ -317,6 +341,10 @@
           "file": "input.styl"
         },
         "end": {
+          "line": 19,
+          "column": 65
+        },
+        "rawEnd": {
           "line": 19,
           "column": 65
         }

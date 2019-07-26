@@ -270,11 +270,7 @@
         {
           "raws": {
             "before": "\n  ",
-            "between": ": ",
-            "value": {
-              "value": "((one 1) (two 2)) == ((one 1) (two 2))",
-              "raw": "((one 1) (two 2)) == ((one 1) (two 2)) "
-            }
+            "between": ": "
           },
           "type": "decl",
           "source": {
@@ -287,7 +283,7 @@
             },
             "end": {
               "line": 13,
-              "column": 46
+              "column": 45
             }
           },
           "prop": "foo",
@@ -296,12 +292,8 @@
         },
         {
           "raws": {
-            "before": "\n  ",
-            "between": ": ",
-            "value": {
-              "value": "((one 1) (two 2)) == ((one 1) (two))",
-              "raw": "((one 1) (two 2)) == ((one 1) (two)) "
-            }
+            "before": " \n  ",
+            "between": ": "
           },
           "type": "decl",
           "source": {
@@ -314,7 +306,7 @@
             },
             "end": {
               "line": 14,
-              "column": 44
+              "column": 43
             }
           },
           "prop": "foo",
@@ -323,7 +315,7 @@
         },
         {
           "raws": {
-            "before": "\n  ",
+            "before": " \n  ",
             "between": ": "
           },
           "type": "decl",

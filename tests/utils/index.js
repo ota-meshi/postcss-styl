@@ -60,7 +60,7 @@ const utils = {
     },
     deleteFixture(file) {
         // eslint-disable-next-line no-process-env
-        if (process.env.UPDATE_FIXTURES) {
+        if (process.env.UPDATE_FIXTURES && utils.isExistFile(file)) {
             fs.unlinkSync(file)
         }
     },
