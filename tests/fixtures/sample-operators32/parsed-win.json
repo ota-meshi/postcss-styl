@@ -1,0 +1,100 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": false,
+        "selector": {
+          "value": "#888 + 50%\r\n\r\n\r\n,#888 - 50%\r\n\r\n\r\n\r\n,a",
+          "raw": "#888 + 50%\r\n/* => #c3c3c3*/\r\n\r\n,#888 - 50%\r\n/* => #444*/\r\n\r\n\r\n,a",
+          "stylus": "#888 + 50%\r\n// => #c3c3c3\r\n\r\n#888 - 50%\r\n// => #444\r\n\r\n\r\na"
+        },
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 12
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 10,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 13
+        },
+        "endChildren": {
+          "line": 10,
+          "column": 12
+        }
+      },
+      "selector": "#888 + 50%\r\n\r\n\r\n,#888 - 50%\r\n\r\n\r\n\r\n,a"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

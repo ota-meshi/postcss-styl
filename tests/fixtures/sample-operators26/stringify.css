@@ -1,0 +1,9 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+name : 'blue';
+@lookup('light-' + name);
+/* => null*/
+
+light-blue : #80e2e9;
+@lookup('light-' + name)
+/* => #80e2e9*/

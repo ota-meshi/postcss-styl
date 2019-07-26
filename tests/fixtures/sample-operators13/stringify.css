@@ -1,0 +1,16 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+  @0% ;
+  @0px;
+  @1px ;
+  @-1;
+  @-1px;
+  @'hey';
+  @(0 0 0);
+  @('' '');
+  hey
+  /**/
+
+  ,a {
+    color: red
+  }

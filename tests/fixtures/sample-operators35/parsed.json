@@ -1,0 +1,92 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n   ",
+        "between": "",
+        "afterName": " ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "'X::Microsoft::Crap(%s)'",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 34
+        },
+        "rawEnd": {
+          "line": 3,
+          "column": 34
+        }
+      },
+      "params": "% #fc0",
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n   ",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 33
+        }
+      },
+      "text": "=> X::Microsoft::Crap(#fc0)"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

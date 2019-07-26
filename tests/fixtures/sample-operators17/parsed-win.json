@@ -1,0 +1,122 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n  ",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 21
+        }
+      },
+      "prop": "words",
+      "value": "foo bar baz",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\r\n  ",
+        "between": "",
+        "semicolon": false,
+        "selector": {
+          "value": "bar in words\r\n  \r\n\r\n  ,HEY in words\r\n  \r\n\r\n  ,a",
+          "raw": "bar in words\r\n  /* => true*/\r\n\r\n  ,HEY in words\r\n  /* => false*/\r\n\r\n  ,a",
+          "stylus": "bar in words\r\n  // => true\r\n\r\n  HEY in words\r\n  // => false\r\n\r\n  a"
+        },
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 14
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 10,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 14
+        }
+      },
+      "selector": "bar in words\r\n  \r\n\r\n  ,HEY in words\r\n  \r\n\r\n  ,a",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
