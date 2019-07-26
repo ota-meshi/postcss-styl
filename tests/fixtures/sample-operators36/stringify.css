@@ -1,0 +1,4 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+  @'-webkit-gradient(%s, %s, %s)' % (linear (0 0) (0 100%))
+  /* => -webkit-gradient(linear, 0 0, 0 100%)*/

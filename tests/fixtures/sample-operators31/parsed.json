@@ -1,0 +1,100 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": false,
+        "selector": {
+          "value": "#0e0 + #0e0\n\n\n,a",
+          "raw": "#0e0 + #0e0\n/* => #0f0*/\n\n,a",
+          "stylus": "#0e0 + #0e0\n// => #0f0\n\na"
+        },
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 12
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 6,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        },
+        "endChildren": {
+          "line": 6,
+          "column": 12
+        }
+      },
+      "selector": "#0e0 + #0e0\n\n\n,a"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

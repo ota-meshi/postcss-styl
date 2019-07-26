@@ -1,0 +1,125 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n  ",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 3
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 36
+        }
+      },
+      "prop": "vals",
+      "value": "(error 'one') (error 'two')",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n  ",
+        "between": " ",
+        "semicolon": false,
+        "selector": {
+          "value": "error in vals\n  \n  \n  ,(error 'one') in vals\n  \n\n  ,(error 'two') in vals\n  \n\n  ,(error 'something') in vals\n  \n\n  ,a",
+          "raw": "error in vals\n  /* => false*/\n  \n  ,(error 'one') in vals\n  /* => true*/\n\n  ,(error 'two') in vals\n  /* => true*/\n\n  ,(error 'something') in vals\n  /* => false*/\n\n  ,a",
+          "stylus": "error in vals\n  // => false\n  \n  (error 'one') in vals\n  // => true\n\n  (error 'two') in vals\n  // => true\n\n  (error 'something') in vals\n  // => false\n\n  a"
+        },
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 6
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 15
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 3
+        },
+        "startChildren": {
+          "line": 16,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 16
+        },
+        "endChildren": {
+          "line": 16,
+          "column": 15
+        }
+      },
+      "selector": "error in vals\n  \n  \n  ,(error 'one') in vals\n  \n\n  ,(error 'two') in vals\n  \n\n  ,(error 'something') in vals\n  \n\n  ,a"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

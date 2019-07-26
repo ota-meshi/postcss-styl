@@ -1,0 +1,16 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+  vals : (error 'one') (error 'two');
+  error in vals
+  /* => false*/
+  
+  ,(error 'one') in vals
+  /* => true*/
+
+  ,(error 'two') in vals
+  /* => true*/
+
+  ,(error 'something') in vals
+  /* => false*/
+
+  ,a {color: red}
