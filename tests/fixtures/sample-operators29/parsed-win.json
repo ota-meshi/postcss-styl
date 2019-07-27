@@ -60,7 +60,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 4,
@@ -78,7 +78,7 @@
           "column": 30
         }
       },
-      "params": "num ? unit(num, 'px') : 20px)",
+      "params": "(num ? unit(num, 'px') : 20px)",
       "omittedSemi": true,
       "expression": true
     },

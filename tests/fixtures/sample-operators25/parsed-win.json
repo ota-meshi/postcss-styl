@@ -35,7 +35,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -53,7 +53,7 @@
           "column": 16
         }
       },
-      "params": "foo is defined)",
+      "params": "(foo is defined)",
       "omittedSemi": true,
       "expression": true
     },
@@ -113,7 +113,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 7,
@@ -131,7 +131,7 @@
           "column": 16
         }
       },
-      "params": "foo is defined)",
+      "params": "(foo is defined)",
       "omittedSemi": true,
       "expression": true
     },
@@ -166,7 +166,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 10,
@@ -184,7 +184,7 @@
           "column": 17
         }
       },
-      "params": "#fff is defined)",
+      "params": "(#fff is defined)",
       "expression": true
     },
     {
