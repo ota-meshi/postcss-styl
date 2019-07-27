@@ -296,11 +296,11 @@
       "raws": {
         "before": "\r\n\r\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "\"foo \"",
+      "name": "",
       "source": {
         "start": {
           "line": 18,
@@ -318,7 +318,7 @@
           "column": 14
         }
       },
-      "params": "+ \"bar\"",
+      "params": "\"foo \" + \"bar\"",
       "omittedSemi": true,
       "expression": true
     },
@@ -349,11 +349,11 @@
       "raws": {
         "before": "\r\n\r\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "\"num \"",
+      "name": "",
       "source": {
         "start": {
           "line": 21,
@@ -371,7 +371,7 @@
           "column": 11
         }
       },
-      "params": "+ 15",
+      "params": "\"num \" + 15",
       "expression": true
     },
     {

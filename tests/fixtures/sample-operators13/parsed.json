@@ -185,7 +185,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "'hey'",
+      "name": "",
       "source": {
         "start": {
           "line": 8,
@@ -203,7 +203,7 @@
           "column": 7
         }
       },
-      "params": "",
+      "params": "'hey'",
       "omittedSemi": true,
       "expression": true
     },
@@ -215,7 +215,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 9,
@@ -233,7 +233,7 @@
           "column": 9
         }
       },
-      "params": "0 0 0)",
+      "params": "(0 0 0)",
       "omittedSemi": true,
       "expression": true
     },
@@ -245,7 +245,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 10,
@@ -263,7 +263,7 @@
           "column": 9
         }
       },
-      "params": "'' '')",
+      "params": "('' '')",
       "omittedSemi": true,
       "expression": true
     },

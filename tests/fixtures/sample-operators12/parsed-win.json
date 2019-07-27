@@ -334,11 +334,11 @@
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "\"test\"",
+      "name": "",
       "source": {
         "start": {
           "line": 21,
@@ -356,7 +356,7 @@
           "column": 18
         }
       },
-      "params": "== \"test\"",
+      "params": "\"test\" == \"test\"",
       "omittedSemi": true,
       "expression": true
     },
@@ -440,11 +440,11 @@
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "'hey'",
+      "name": "",
       "source": {
         "start": {
           "line": 27,
@@ -462,7 +462,7 @@
           "column": 20
         }
       },
-      "params": "is not 'bye'",
+      "params": "'hey' is not 'bye'",
       "omittedSemi": true,
       "expression": true
     },
@@ -493,11 +493,11 @@
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "'hey'",
+      "name": "",
       "source": {
         "start": {
           "line": 30,
@@ -515,7 +515,7 @@
           "column": 18
         }
       },
-      "params": "isnt 'bye'",
+      "params": "'hey' isnt 'bye'",
       "omittedSemi": true,
       "expression": true
     },
@@ -550,7 +550,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 33,
@@ -568,7 +568,7 @@
           "column": 24
         }
       },
-      "params": "foo bar) == (foo bar)",
+      "params": "(foo bar) == (foo bar)",
       "omittedSemi": true,
       "expression": true
     },
@@ -603,7 +603,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 36,
@@ -621,7 +621,7 @@
           "column": 20
         }
       },
-      "params": "1 2 3) == (1 2 3)",
+      "params": "(1 2 3) == (1 2 3)",
       "omittedSemi": true,
       "expression": true
     },
@@ -656,7 +656,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "(",
+      "name": "",
       "source": {
         "start": {
           "line": 39,
@@ -674,7 +674,7 @@
           "column": 20
         }
       },
-      "params": "1 2 3) == (1 1 3)",
+      "params": "(1 2 3) == (1 1 3)",
       "expression": true
     },
     {
