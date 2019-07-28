@@ -86,6 +86,9 @@ function testParse(fixture) {
         deleteFixture(fixture.files["parsed.json"])
         deleteFixture(fixture.files["parsed-win.json"])
         deleteFixture(fixture.files["stringify.css"])
+        deleteFixture(fixture.files["transform-omits.styl"])
+        deleteFixture(fixture.files["transform-remraws.styl"])
+
         throw parseError
     }
     it("AST should be valid.", () => {

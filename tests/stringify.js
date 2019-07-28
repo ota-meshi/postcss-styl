@@ -5,6 +5,7 @@ const path = require("path")
 const postcss = require("postcss")
 
 const stringify = require("..").stringify
+const Stringifier = require("../lib/stringifier")
 const parse = require("..").parse
 const {
     listupFixtures,
@@ -98,10 +99,60 @@ describe("stringify", () => {
                 }
                 throw e
             }
-            deleteFixture(fixture.files["transform.styl"])
 
             // check can parse
-            assert.strictEqual(typeof parse(actual), "object")
+            assert.strictEqual(
+                typeof parse(actual, {
+                    from: fixture.files["transform-omits.styl"],
+                }),
+                "object"
+            )
+        })
+        it(`transform rem raws stringifies ${fixture.name}`, () => {
+            const transformRoot = root.clone()
+
+            transformRoot.walk(node => {
+                const raws = {}
+                if (node.raws.stylusBetween != null) {
+                    raws.stylusBetween = node.raws.stylusBetween
+                }
+                if (node.raws.identifier != null) {
+                    raws.identifier = node.raws.identifier
+                }
+                node.raws = raws
+
+                if (node.selector && node.parent.pythonic) {
+                    node.selector = node.selector.replace(/\s+/gu, " ")
+                    // .replace(/\s*,\s*/gu, ", ")
+                }
+            })
+            const actual = transformRoot.toString(stringify)
+            try {
+                const expect = fixture.contents["transform-remraws.styl"]
+                assert.strictEqual(actual, expect)
+            } catch (e) {
+                writeFixture(fixture.files["transform-remraws.styl"], actual)
+                throw e
+            }
+
+            try {
+                // check can parse
+                assert.strictEqual(
+                    typeof parse(actual, {
+                        from: fixture.files["transform-remraws.styl"],
+                    }),
+                    "object"
+                )
+            } catch (e) {
+                const strs = []
+                new Stringifier(str => strs.push(str)).stringify(transformRoot)
+                writeFixture(
+                    fixture.files["transform-remraws-str.json"],
+                    JSON.stringify(strs, null, 2)
+                )
+                throw e
+            }
+            deleteFixture(fixture.files["transform-remraws-str.json"])
         })
     }
 
