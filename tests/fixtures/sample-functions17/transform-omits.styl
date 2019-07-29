@@ -1,0 +1,23 @@
+sort(list, fn = null)
+  // default sort function
+  if fn == null
+    fn = @(a, b) {
+      a > b
+    }
+
+  // bubble sort
+  for $i in 1..length(list) - 1
+    for $j in 0..$i - 1
+      if fn(list[$j], list[$i])
+        $temp = list[$i]
+        list[$i] = list[$j]
+        list[$j] = $temp
+  return list
+
+  sort('e' 'c' 'f' 'a' 'b' 'd')
+  // => 'a' 'b' 'c' 'd' 'e' 'f'
+
+  sort(5 3 6 1 2 4, @(a, b){
+    a < b
+  })
+  // => 6 5 4 3 2 1

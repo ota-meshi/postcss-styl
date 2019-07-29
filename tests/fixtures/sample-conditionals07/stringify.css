@@ -1,4 +1,6 @@
-  @pad(types = margin padding, n = 5px);
+  @pad(types = margin padding, n = 5px){@if padding in types{
+    padding: unit(n, px)}@if margin in types{
+    margin: unit(n, px)}}
 
   body{
     @pad()}

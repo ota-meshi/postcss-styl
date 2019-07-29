@@ -10,11 +10,8 @@
         "before": "",
         "between": "",
         "afterName": "",
-        "body": {
-          "value": "\n  \n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  \n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  \n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })",
-          "raw": "\n  /* default sort function*/\n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  /* bubble sort*/\n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  /* => 'a' 'b' 'c' 'd' 'e' 'f'*/\n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })",
-          "stylus": "\n  // default sort function\n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  // bubble sort\n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  // => 'a' 'b' 'c' 'd' 'e' 'f'\n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })"
-        },
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -23,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 22
         },
         "input": {
           "file": "input.styl"
@@ -33,8 +34,407 @@
         }
       },
       "params": "(list, fn = null)",
-      "function": true,
-      "body": "\n  \n  if fn == null\n    fn = @(a, b) {\n      a > b\n    }\n\n  \n  for $i in 1..length(list) - 1\n    for $j in 0..$i - 1\n      if fn(list[$j], list[$i])\n        $temp = list[$i]\n        list[$i] = list[$j]\n        list[$j] = $temp\n  return list\n\n  sort('e' 'c' 'f' 'a' 'b' 'd')\n  \n\n  sort(5 3 6 1 2 4, @(a, b){\n    a < b\n  })"
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          },
+          "text": "default sort function"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 3,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 5
+            }
+          },
+          "params": "fn == null",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": " : ",
+                "stylusBetween": " = "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 4,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 5
+                }
+              },
+              "prop": "fn",
+              "value": "@(a, b) {\n      a > b\n    }",
+              "assignment": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 16
+            }
+          },
+          "text": "bubble sort"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "for",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 9,
+              "column": 32
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 24
+            }
+          },
+          "params": "$i in 1..length(list) - 1",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "afterName": " ",
+                "semicolon": false,
+                "after": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "for",
+              "source": {
+                "start": {
+                  "line": 10,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 10,
+                  "column": 24
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 14,
+                  "column": 24
+                }
+              },
+              "params": "$j in 0..$i - 1",
+              "pythonic": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": "",
+                    "afterName": " ",
+                    "semicolon": false,
+                    "after": "",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "if",
+                  "source": {
+                    "start": {
+                      "line": 11,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 11,
+                      "column": 32
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 24
+                    }
+                  },
+                  "params": "fn(list[$j], list[$i])",
+                  "pythonic": true,
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": " : ",
+                        "stylusBetween": " = "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 12,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 24
+                        }
+                      },
+                      "prop": "$temp",
+                      "value": "list[$i]",
+                      "omittedSemi": true,
+                      "assignment": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": "",
+                        "afterName": "",
+                        "identifier": ""
+                      },
+                      "type": "atrule",
+                      "name": "",
+                      "source": {
+                        "start": {
+                          "line": 13,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 27
+                        },
+                        "rawEnd": {
+                          "line": 13,
+                          "column": 27
+                        }
+                      },
+                      "params": "list[$i] = list[$j]",
+                      "omittedSemi": true,
+                      "expression": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": "",
+                        "afterName": "",
+                        "identifier": ""
+                      },
+                      "type": "atrule",
+                      "name": "",
+                      "source": {
+                        "start": {
+                          "line": 14,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 14,
+                          "column": 24
+                        },
+                        "rawEnd": {
+                          "line": 14,
+                          "column": 24
+                        }
+                      },
+                      "params": "list[$j] = $temp",
+                      "expression": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "afterName": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "return",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 13
+            },
+            "rawEnd": {
+              "line": 15,
+              "column": 13
+            }
+          },
+          "params": "list",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "sort",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 31
+            },
+            "rawEnd": {
+              "line": 17,
+              "column": 31
+            }
+          },
+          "params": "('e' 'c' 'f' 'a' 'b' 'd')",
+          "omittedSemi": true,
+          "call": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 18,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 18,
+              "column": 31
+            }
+          },
+          "text": "=> 'a' 'b' 'c' 'd' 'e' 'f'"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "sort",
+          "source": {
+            "start": {
+              "line": 20,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 22,
+              "column": 4
+            },
+            "rawEnd": {
+              "line": 22,
+              "column": 4
+            }
+          },
+          "params": "(5 3 6 1 2 4, @(a, b){\n    a < b\n  })",
+          "call": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

@@ -4,11 +4,15 @@ inline-list()
     
 
 comma-list() 
-   inline-list()
-   li
-     &:after
-       content ', '
-     &:last-child:after
-       content ''
+    inline-list()
+    li 
+        &:after 
+            content ', '
+        
+        &:last-child:after 
+            content ''
+        
+    
+
 ul 
     comma-list()

@@ -10,6 +10,8 @@
         "before": "",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 31
         },
         "input": {
           "file": "input.styl"
@@ -28,9 +34,124 @@
         }
       },
       "params": "($width, $height = $width)",
-      "function": true,
-      "body": "\r\n  +cache('w' + $width)\r\n    width: $width\r\n  +cache('h' + $height)\r\n    height: $height",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": "+"
+          },
+          "type": "atrule",
+          "name": "cache",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 17
+            }
+          },
+          "params": "('w' + $width)",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 17
+                }
+              },
+              "prop": "width",
+              "value": "$width"
+            }
+          ],
+          "call": true,
+          "callBlockMixin": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": "+"
+          },
+          "type": "atrule",
+          "name": "cache",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 19
+            }
+          },
+          "params": "('h' + $height)",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 19
+                }
+              },
+              "prop": "height",
+              "value": "$height"
+            }
+          ],
+          "call": true,
+          "callBlockMixin": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

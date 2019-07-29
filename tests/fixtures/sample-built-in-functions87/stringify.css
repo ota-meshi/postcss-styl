@@ -1,8 +1,10 @@
 /* http://stylus-lang.com/docs/bifs.html */
 
-  @width(img);
+  @width(img){
+    @return image-size(img)[0]}
 
-  @height(img);
+  @height(img){
+    @return image-size(img)[1]}
 
   @image-size('tux.png');
   /* => 405px 250px*/

@@ -10,6 +10,8 @@
         "before": "   ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 4
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -28,9 +34,39 @@
         }
       },
       "params": "()",
-      "function": true,
-      "body": "\r\n     15px 10px",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n     ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 6
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 14
+            },
+            "rawEnd": {
+              "line": 2,
+              "column": 14
+            }
+          },
+          "params": "15px 10px",
+          "expression": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

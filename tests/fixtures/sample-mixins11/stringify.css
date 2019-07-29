@@ -2,7 +2,13 @@
    li{
      display: inline}}
 
- @comma-list();
+ @comma-list(){
+   @inline-list();
+   li{
+     &:after{
+       content: ', '}
+     &:last-child:after{
+       content: ''}}}
 
  ul{
    @comma-list()}

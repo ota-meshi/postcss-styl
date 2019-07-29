@@ -138,6 +138,8 @@
         "before": "\n\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -146,6 +148,10 @@
         "start": {
           "line": 8,
           "column": 3
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 18
         },
         "input": {
           "file": "input.styl"
@@ -156,15 +162,47 @@
         }
       },
       "params": "()",
-      "function": true,
-      "body": "\n    vendor('border-radius', arguments)",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "vendor",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 38
+            },
+            "rawEnd": {
+              "line": 9,
+              "column": 38
+            }
+          },
+          "params": "('border-radius', arguments)",
+          "call": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
         "before": "\n  \n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -173,6 +211,10 @@
         "start": {
           "line": 11,
           "column": 3
+        },
+        "startChildren": {
+          "line": 11,
+          "column": 15
         },
         "input": {
           "file": "input.styl"
@@ -183,9 +225,39 @@
         }
       },
       "params": "()",
-      "function": true,
-      "body": "\n    vendor('box-shadow', arguments)",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "vendor",
+          "source": {
+            "start": {
+              "line": 12,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 12,
+              "column": 35
+            },
+            "rawEnd": {
+              "line": 12,
+              "column": 35
+            }
+          },
+          "params": "('box-shadow', arguments)",
+          "call": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

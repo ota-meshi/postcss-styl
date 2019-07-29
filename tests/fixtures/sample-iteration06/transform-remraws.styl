@@ -1,10 +1,14 @@
 /* http://stylus-lang.com/docs/iteration.html */
 join(delim, args) 
     buf = ''
-    for arg, index in args
-      if index
-        buf += delim + arg
-      else
-        buf += arg
+    for arg, index in args 
+        if index 
+            buf += delim + arg
+        
+        else 
+            buf += arg
+        
+    
+
 join(', ', foo bar baz)
 /* => "foo, bar, baz" */

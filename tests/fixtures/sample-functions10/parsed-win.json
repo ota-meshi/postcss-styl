@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -28,15 +34,47 @@
         }
       },
       "params": "(a, b)",
-      "function": true,
-      "body": "\r\n    (b a)",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 9
+            },
+            "rawEnd": {
+              "line": 2,
+              "column": 9
+            }
+          },
+          "params": "(b a)",
+          "expression": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -45,6 +83,10 @@
         "start": {
           "line": 4,
           "column": 3
+        },
+        "startChildren": {
+          "line": 4,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -55,8 +97,38 @@
         }
       },
       "params": "(a, b)",
-      "function": true,
-      "body": "\r\n    return b a"
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "return",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 14
+            },
+            "rawEnd": {
+              "line": 5,
+              "column": 14
+            }
+          },
+          "params": "b a"
+        }
+      ],
+      "function": true
     }
   ],
   "source": {

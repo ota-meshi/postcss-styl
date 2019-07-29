@@ -1,4 +1,6 @@
-@sum(nums...);
+@sum(nums...){
+  n : 0;@for num in nums{
+  @n += num}}
 
 body{
   foo: sum(1, 2, 3)}

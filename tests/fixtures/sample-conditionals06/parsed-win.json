@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 14
         },
         "input": {
           "file": "input.styl"
@@ -28,8 +34,166 @@
         }
       },
       "params": "(n)",
-      "function": true,
-      "body": "\r\n    error('invalid number') unless n is a 'unit'\r\n    return yes if n < 0\r\n    no"
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "unless",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            },
+            "rawEnd": {
+              "line": 2,
+              "column": 48
+            }
+          },
+          "params": "n is a 'unit'",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "error",
+              "source": {
+                "start": {
+                  "line": 2,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 2,
+                  "column": 27
+                },
+                "rawEnd": {
+                  "line": 2,
+                  "column": 27
+                }
+              },
+              "params": "('invalid number')",
+              "omittedSemi": true,
+              "call": true
+            }
+          ],
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 23
+            },
+            "rawEnd": {
+              "line": 3,
+              "column": 23
+            }
+          },
+          "params": "n < 0",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": " ",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "return",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 14
+                },
+                "rawEnd": {
+                  "line": 3,
+                  "column": 14
+                }
+              },
+              "params": "yes",
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 6
+            },
+            "rawEnd": {
+              "line": 4,
+              "column": 6
+            }
+          },
+          "params": "no",
+          "expression": true
+        }
+      ],
+      "function": true
     }
   ],
   "source": {

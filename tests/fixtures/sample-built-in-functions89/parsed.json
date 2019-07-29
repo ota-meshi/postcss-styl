@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 14
         },
         "input": {
           "file": "input.styl"
@@ -28,9 +34,69 @@
         }
       },
       "params": "()",
-      "function": true,
-      "body": "\n    add-property('bar', 1 2 3)\n    s('bar')",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "add-property",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 30
+            },
+            "rawEnd": {
+              "line": 2,
+              "column": 30
+            }
+          },
+          "params": "('bar', 1 2 3)",
+          "omittedSemi": true,
+          "call": true
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "s",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 12
+            },
+            "rawEnd": {
+              "line": 3,
+              "column": 12
+            }
+          },
+          "params": "('bar')",
+          "call": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

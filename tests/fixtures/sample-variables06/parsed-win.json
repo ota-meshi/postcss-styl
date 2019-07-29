@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -28,9 +34,90 @@
         }
       },
       "params": "()",
-      "function": true,
-      "body": "\r\n    position: arguments\r\n    z-index: 1 unless @z-index",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 23
+            }
+          },
+          "prop": "position",
+          "value": "arguments",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "unless",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 30
+            },
+            "rawEnd": {
+              "line": 3,
+              "column": 30
+            }
+          },
+          "params": "@z-index",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 14
+                }
+              },
+              "prop": "z-index",
+              "value": "1",
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

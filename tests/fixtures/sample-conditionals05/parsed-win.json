@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 14
         },
         "input": {
           "file": "input.styl"
@@ -28,8 +34,196 @@
         }
       },
       "params": "(n)",
-      "function": true,
-      "body": "\r\n    unless n is a 'unit'\r\n      error('invalid number')\r\n    if n < 0\r\n      yes\r\n    else\r\n      no"
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "unless",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 29
+            }
+          },
+          "params": "n is a 'unit'",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n      ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "error",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 29
+                },
+                "rawEnd": {
+                  "line": 3,
+                  "column": 29
+                }
+              },
+              "params": "('invalid number')",
+              "call": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 9
+            }
+          },
+          "params": "n < 0",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n      ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 9
+                },
+                "rawEnd": {
+                  "line": 5,
+                  "column": 9
+                }
+              },
+              "params": "yes",
+              "expression": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "else",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 6,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 8
+            }
+          },
+          "params": "",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n      ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 7,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 7,
+                  "column": 8
+                },
+                "rawEnd": {
+                  "line": 7,
+                  "column": 8
+                }
+              },
+              "params": "no",
+              "expression": true
+            }
+          ]
+        }
+      ],
+      "function": true
     }
   ],
   "source": {

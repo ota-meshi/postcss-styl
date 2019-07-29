@@ -32,6 +32,8 @@
         "before": "\n\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -50,9 +56,97 @@
         }
       },
       "params": "(nums)",
-      "function": true,
-      "body": "\n    sum = 0\n    for n in nums\n      sum += n",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": " : ",
+            "stylusBetween": " = "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 11
+            }
+          },
+          "prop": "sum",
+          "value": "0",
+          "omittedSemi": true,
+          "assignment": true
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "for",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 14
+            }
+          },
+          "params": "n in nums",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n      ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 6,
+                  "column": 14
+                },
+                "rawEnd": {
+                  "line": 6,
+                  "column": 14
+                }
+              },
+              "params": "sum += n",
+              "expression": true
+            }
+          ]
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

@@ -1,11 +1,14 @@
 /* http://stylus-lang.com/docs/error-reporting.html */
 ensure(val, type) 
-    unless val is a type
-      error('expected a ' + type + ', but got ' + typeof(val))
+    unless val is a type 
+        error('expected a ' + type + ', but got ' + typeof(val))
+    
+
 border-radius(n) 
     ensure(n, 'unit')
     -webkit-border-radius n
     -moz-border-radius n
     border-radius n
+
 body 
     border-radius '5px'

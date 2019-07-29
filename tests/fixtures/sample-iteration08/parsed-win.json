@@ -32,6 +32,8 @@
         "before": "\r\n\r\n ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 2
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 18
         },
         "input": {
           "file": "input.styl"
@@ -50,9 +56,107 @@
         }
       },
       "params": "(nums)",
-      "function": true,
-      "body": "\r\n   return n if n % 2 == 0 for n in nums",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "for",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            },
+            "rawEnd": {
+              "line": 4,
+              "column": 39
+            }
+          },
+          "params": "n in nums",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "",
+                "between": "",
+                "afterName": " ",
+                "after": "",
+                "postfixBefore": " ",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "if",
+              "source": {
+                "start": {
+                  "line": 4,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 4,
+                  "column": 25
+                },
+                "rawEnd": {
+                  "line": 4,
+                  "column": 25
+                }
+              },
+              "params": "n % 2 == 0",
+              "postfix": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n   ",
+                    "between": "",
+                    "afterName": " ",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "return",
+                  "source": {
+                    "start": {
+                      "line": 4,
+                      "column": 4
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 11
+                    },
+                    "rawEnd": {
+                      "line": 4,
+                      "column": 11
+                    }
+                  },
+                  "params": "n",
+                  "omittedSemi": true
+                }
+              ],
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
