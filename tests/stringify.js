@@ -5,8 +5,14 @@ const path = require("path")
 const postcss = require("postcss")
 
 const stringify = require("..").stringify
+const Stringifier = require("../lib/stringifier")
 const parse = require("..").parse
-const { listupFixtures, writeFixture, isExistFile } = require("./utils")
+const {
+    listupFixtures,
+    writeFixture,
+    isExistFile,
+    deleteFixture,
+} = require("./utils")
 
 const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
     fixture => !isExistFile(fixture.files["error.json"])
@@ -14,9 +20,10 @@ const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
 
 describe("stringify", () => {
     for (const fixture of tests) {
+        const stylus = fixture.contents["input.styl"]
+        const root = parse(stylus, { from: `${fixture.name}/input.styl` })
+
         it(`stringifies ${fixture.name}`, () => {
-            const stylus = fixture.contents["input.styl"]
-            const root = parse(stylus, { from: `${fixture.name}/input.styl` })
             const output = root.toString(stringify)
             assert.strictEqual(output.trim(), stylus.trim())
 
@@ -30,13 +37,8 @@ describe("stringify", () => {
                 assert.strictEqual(outputWin.trim(), stylusWin.trim())
             }
         })
-    }
 
-    for (const fixture of tests) {
         it(`css stringifies ${fixture.name}`, () => {
-            const stylus = fixture.contents["input.styl"]
-            const root = parse(stylus, { from: `${fixture.name}/input.styl` })
-
             const actual = root.toString()
             try {
                 const expect = fixture.contents["stringify.css"]
@@ -45,6 +47,112 @@ describe("stringify", () => {
                 writeFixture(fixture.files["stringify.css"], actual)
                 throw e
             }
+        })
+
+        // test for transform
+        it(`transform omits stringifies ${fixture.name}`, () => {
+            const transformRoot = root.clone()
+
+            let transformed = false
+            transformRoot.walkAtRules(node => {
+                if (!node.pythonic) {
+                    if (node.nodes && node.nodes.length) {
+                        transformed = true
+                    }
+                    node.pythonic = true
+                }
+            })
+            transformRoot.walkRules(node => {
+                if (!node.pythonic) {
+                    transformed = true
+                    node.pythonic = true
+                }
+            })
+            transformRoot.walkDecls(node => {
+                if (!node.omittedSemi) {
+                    transformed = true
+                    node.omittedSemi = true
+                }
+                if (!node.raws.stylusBetween) {
+                    transformed = true
+                    node.raws.stylusBetween =
+                        node.raws.between.replace(":", "") || " "
+                }
+                if (node.value === "") {
+                    transformed = true
+                    node.value = "$empty"
+                }
+            })
+
+            if (!transformed) {
+                deleteFixture(fixture.files["transform-omits.styl"])
+            }
+            const actual = transformRoot.toString(stringify)
+            try {
+                const expect = transformed
+                    ? fixture.contents["transform-omits.styl"]
+                    : fixture.contents["input.styl"]
+                assert.strictEqual(actual, expect)
+            } catch (e) {
+                if (transformed) {
+                    writeFixture(fixture.files["transform-omits.styl"], actual)
+                }
+                throw e
+            }
+
+            // check can parse
+            assert.strictEqual(
+                typeof parse(actual, {
+                    from: fixture.files["transform-omits.styl"],
+                }),
+                "object"
+            )
+        })
+        it(`transform rem raws stringifies ${fixture.name}`, () => {
+            const transformRoot = root.clone()
+
+            transformRoot.walk(node => {
+                const raws = {}
+                if (node.raws.stylusBetween != null) {
+                    raws.stylusBetween = node.raws.stylusBetween
+                }
+                if (node.raws.identifier != null) {
+                    raws.identifier = node.raws.identifier
+                }
+                node.raws = raws
+
+                if (node.selector && node.parent.pythonic) {
+                    node.selector = node.selector.replace(/\s+/gu, " ")
+                    // .replace(/\s*,\s*/gu, ", ")
+                }
+            })
+            const actual = transformRoot.toString(stringify)
+            try {
+                const expect = fixture.contents["transform-remraws.styl"]
+                assert.strictEqual(actual, expect)
+            } catch (e) {
+                writeFixture(fixture.files["transform-remraws.styl"], actual)
+                throw e
+            }
+
+            try {
+                // check can parse
+                assert.strictEqual(
+                    typeof parse(actual, {
+                        from: fixture.files["transform-remraws.styl"],
+                    }),
+                    "object"
+                )
+            } catch (e) {
+                const strs = []
+                new Stringifier(str => strs.push(str)).stringify(transformRoot)
+                writeFixture(
+                    fixture.files["transform-remraws-str.json"],
+                    JSON.stringify(strs, null, 2)
+                )
+                throw e
+            }
+            deleteFixture(fixture.files["transform-remraws-str.json"])
         })
     }
 

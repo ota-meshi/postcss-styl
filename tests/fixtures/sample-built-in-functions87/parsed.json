@@ -142,7 +142,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "image-size",
+      "name": "",
       "source": {
         "start": {
           "line": 12,
@@ -160,7 +160,7 @@
           "column": 46
         }
       },
-      "params": "('tux.png')[0] == width('tux.png')",
+      "params": "image-size('tux.png')[0] == width('tux.png')",
       "expression": true
     },
     {

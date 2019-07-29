@@ -63,7 +63,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "foo",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -81,7 +81,7 @@
           "column": 14
         }
       },
-      "params": "[bar] = raz",
+      "params": "foo[bar] = raz",
       "omittedSemi": true,
       "expression": true
     },

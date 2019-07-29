@@ -1,0 +1,16 @@
+/* http://stylus-lang.com/docs/operators.html */
+add(a, b) 
+   if a is a 'unit' and b is a 'unit'
+     a + b
+   else
+     (error 'a and b must be units!')
+body 
+    padding add(1,'5')
+    /* => padding: error "a and b must be units"; */
+    padding add(1,'5')[0]
+    /* => padding: error; */
+    padding add(1,'5')[0] == error
+    /* => padding: true; */
+    padding add(1,'5')[1]
+
+/* => padding: "a and b must be units"; */

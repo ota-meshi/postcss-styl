@@ -1,0 +1,7 @@
+/* http://stylus-lang.com/docs/keyframes.html */
+
+$keyframe-name = pulse
+@keyframes {$keyframe-name}
+  for i in 0..10
+    {10% * i}
+      opacity (i/10)

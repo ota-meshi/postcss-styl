@@ -56,11 +56,11 @@
       "raws": {
         "before": "\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "color",
+      "name": "",
       "source": {
         "start": {
           "line": 4,
@@ -78,7 +78,7 @@
           "column": 14
         }
       },
-      "params": "?= black",
+      "params": "color ?= black",
       "omittedSemi": true,
       "expression": true
     },

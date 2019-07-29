@@ -31,11 +31,11 @@
       "raws": {
         "before": "\n\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "5",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -53,7 +53,7 @@
           "column": 8
         }
       },
-      "params": "== 5",
+      "params": "5 == 5",
       "omittedSemi": true,
       "expression": true
     },
@@ -84,11 +84,11 @@
       "raws": {
         "before": "\n\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "10",
+      "name": "",
       "source": {
         "start": {
           "line": 6,
@@ -106,7 +106,7 @@
           "column": 8
         }
       },
-      "params": "> 5",
+      "params": "10 > 5",
       "omittedSemi": true,
       "expression": true
     },
@@ -185,11 +185,11 @@
       "raws": {
         "before": "\n\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "true",
+      "name": "",
       "source": {
         "start": {
           "line": 12,
@@ -207,7 +207,7 @@
           "column": 15
         }
       },
-      "params": "== false",
+      "params": "true == false",
       "omittedSemi": true,
       "expression": true
     },
@@ -387,11 +387,11 @@
       "raws": {
         "before": "\n\n  ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "true",
+      "name": "",
       "source": {
         "start": {
           "line": 24,
@@ -409,7 +409,7 @@
           "column": 14
         }
       },
-      "params": "is true",
+      "params": "true is true",
       "omittedSemi": true,
       "expression": true
     },

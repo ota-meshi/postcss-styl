@@ -31,11 +31,11 @@
       "raws": {
         "before": "\r\n\r\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "2000ms",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -53,7 +53,7 @@
           "column": 17
         }
       },
-      "params": "+ (1s * 2)",
+      "params": "2000ms + (1s * 2)",
       "omittedSemi": true,
       "expression": true
     },
@@ -84,11 +84,11 @@
       "raws": {
         "before": "\r\n\r\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "5s",
+      "name": "",
       "source": {
         "start": {
           "line": 6,
@@ -106,7 +106,7 @@
           "column": 6
         }
       },
-      "params": "/ 2",
+      "params": "5s / 2",
       "omittedSemi": true,
       "expression": true
     },
@@ -137,11 +137,11 @@
       "raws": {
         "before": "\r\n\r\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "4",
+      "name": "",
       "source": {
         "start": {
           "line": 9,
@@ -159,7 +159,7 @@
           "column": 5
         }
       },
-      "params": "% 2",
+      "params": "4 % 2",
       "expression": true
     },
     {
