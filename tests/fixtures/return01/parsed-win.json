@@ -1,0 +1,46 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": "",
+        "afterName": " ",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "return",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 12
+        },
+        "rawEnd": {
+          "line": 2,
+          "column": 12
+        }
+      },
+      "params": "1 + 1"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

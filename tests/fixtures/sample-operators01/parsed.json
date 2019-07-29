@@ -32,7 +32,7 @@
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "identifier": "!"
+        "identifier": ""
       },
       "type": "atrule",
       "name": "",
@@ -53,7 +53,7 @@
           "column": 2
         }
       },
-      "params": "0",
+      "params": "!0",
       "omittedSemi": true,
       "expression": true
     },
@@ -85,7 +85,7 @@
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "identifier": "!"
+        "identifier": ""
       },
       "type": "atrule",
       "name": "",
@@ -106,7 +106,7 @@
           "column": 3
         }
       },
-      "params": "!0",
+      "params": "!!0",
       "omittedSemi": true,
       "expression": true
     },
@@ -138,7 +138,7 @@
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "identifier": "!"
+        "identifier": ""
       },
       "type": "atrule",
       "name": "",
@@ -159,7 +159,7 @@
           "column": 2
         }
       },
-      "params": "1",
+      "params": "!1",
       "omittedSemi": true,
       "expression": true
     },
@@ -191,7 +191,7 @@
         "before": "\n\n",
         "between": "",
         "afterName": "",
-        "identifier": "!"
+        "identifier": ""
       },
       "type": "atrule",
       "name": "",
@@ -212,7 +212,7 @@
           "column": 5
         }
       },
-      "params": "!5px",
+      "params": "!!5px",
       "omittedSemi": true,
       "expression": true
     },
@@ -247,7 +247,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "-5px",
+      "name": "",
       "source": {
         "start": {
           "line": 15,
@@ -265,7 +265,7 @@
           "column": 4
         }
       },
-      "params": "",
+      "params": "-5px",
       "omittedSemi": true,
       "expression": true
     },
@@ -300,7 +300,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "--5px",
+      "name": "",
       "source": {
         "start": {
           "line": 18,
@@ -318,7 +318,7 @@
           "column": 5
         }
       },
-      "params": "",
+      "params": "--5px",
       "omittedSemi": true,
       "expression": true
     },
@@ -349,11 +349,11 @@
       "raws": {
         "before": "\n\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "not",
+      "name": "",
       "source": {
         "start": {
           "line": 21,
@@ -371,7 +371,7 @@
           "column": 8
         }
       },
-      "params": "true",
+      "params": "not true",
       "omittedSemi": true,
       "expression": true
     },
@@ -402,11 +402,11 @@
       "raws": {
         "before": "\n\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "not",
+      "name": "",
       "source": {
         "start": {
           "line": 24,
@@ -424,7 +424,7 @@
           "column": 12
         }
       },
-      "params": "not true",
+      "params": "not not true",
       "expression": true
     },
     {

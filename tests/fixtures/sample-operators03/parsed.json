@@ -31,11 +31,11 @@
       "raws": {
         "before": "\n\n",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "not",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -53,7 +53,7 @@
           "column": 10
         }
       },
-      "params": "a or b",
+      "params": "not a or b",
       "expression": true
     },
     {

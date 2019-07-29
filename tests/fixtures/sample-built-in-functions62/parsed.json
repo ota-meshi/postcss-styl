@@ -13,7 +13,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "contrast",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
@@ -31,7 +31,7 @@
           "column": 26
         }
       },
-      "params": "(#000, #fff).ratio",
+      "params": "contrast(#000, #fff).ratio",
       "omittedSemi": true,
       "expression": true
     },

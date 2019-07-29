@@ -1,0 +1,16 @@
+/* http://stylus-lang.com/docs/operators.html */
+
+  pad(types = padding, n = 5px)
+    if padding in types
+      padding n
+    if margin in types
+      margin n
+
+  body
+    pad()
+
+  body
+    pad(margin)
+
+  body
+    pad(padding margin, 10px)

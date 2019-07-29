@@ -1,0 +1,21 @@
+red = #E33E1E
+yellow = #E2E21E
+.message 
+    padding: 10px
+    font: 14px Helvetica
+    border: 1px solid #eee
+
+.warning 
+    @extends .message
+    border-color: yellow
+    background: yellow + 70%
+
+.error 
+    @extends .message
+    border-color: red
+    background: red + 70%
+
+.fatal 
+    @extends .error
+    font-weight: bold
+    color: red

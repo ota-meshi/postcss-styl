@@ -9,11 +9,11 @@
       "raws": {
         "before": "    ",
         "between": "",
-        "afterName": " ",
+        "afterName": "",
         "identifier": ""
       },
       "type": "atrule",
-      "name": "support-for-ie",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
@@ -31,7 +31,7 @@
           "column": 26
         }
       },
-      "params": "?= true",
+      "params": "support-for-ie ?= true",
       "omittedSemi": true,
       "expression": true
     },

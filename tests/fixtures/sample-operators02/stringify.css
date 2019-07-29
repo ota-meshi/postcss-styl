@@ -3,6 +3,6 @@
 a : 0;
 b : 1;
 
-@a and !b
+@!a and !b
 /* => false*/
 /* parsed as: (!a) and (!b)*/

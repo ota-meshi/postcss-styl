@@ -35,7 +35,7 @@
         "identifier": ""
       },
       "type": "atrule",
-      "name": "type",
+      "name": "",
       "source": {
         "start": {
           "line": 3,
@@ -53,7 +53,7 @@
           "column": 20
         }
       },
-      "params": "(#fff) == 'rgba'",
+      "params": "type(#fff) == 'rgba'",
       "expression": true
     },
     {

@@ -1,0 +1,14 @@
+s('bar()');
+/* => bar() */
+s('bar(%s)', 'baz');
+/* => bar("baz") */
+s('bar(%s)', baz);
+/* => bar(baz) */
+s('bar(%s)', 15px);
+/* => bar(15px) */
+s('rgba(%s, %s, %s, 0.5)', 255, 100, 50);
+/* => rgba(255, 100, 50, 0.5) */
+s('bar(%Z)', 15px);
+/* => bar(%Z) */
+s('bar(%s, %s)', 15px);
+/* => bar(15px, null) */
