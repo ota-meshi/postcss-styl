@@ -32,6 +32,8 @@
         "before": "\r\n\r\n ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 2
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -50,9 +56,134 @@
         }
       },
       "params": "(a, b)",
-      "function": true,
-      "body": "\r\n   if a is a 'unit' and b is a 'unit'\r\n     a + b\r\n   else\r\n     (error 'a and b must be units!')",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 38
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 10
+            }
+          },
+          "params": "a is a 'unit' and b is a 'unit'",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n     ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 6
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 10
+                },
+                "rawEnd": {
+                  "line": 5,
+                  "column": 10
+                }
+              },
+              "params": "a + b",
+              "expression": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n   ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "else",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "startChildren": {
+              "line": 6,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 37
+            }
+          },
+          "params": "",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n     ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 7,
+                  "column": 6
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 7,
+                  "column": 37
+                },
+                "rawEnd": {
+                  "line": 7,
+                  "column": 37
+                }
+              },
+              "params": "(error 'a and b must be units!')",
+              "expression": true
+            }
+          ]
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

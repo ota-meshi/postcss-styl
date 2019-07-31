@@ -1,1 +1,4 @@
-  @negative(n)
+  @negative(n){@unless n is a 'unit'{
+    @error('invalid number')}@if n < 0{
+    @return yes}
+    @no}

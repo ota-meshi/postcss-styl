@@ -10,6 +10,8 @@
         "before": "  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 3
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 39
         },
         "input": {
           "file": "input.styl"
@@ -28,9 +34,126 @@
         }
       },
       "params": "(types = margin padding, n = 5px)",
-      "function": true,
-      "body": "\r\n    padding unit(n, px) if padding in types\r\n    margin unit(n, px) if margin in types",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            },
+            "rawEnd": {
+              "line": 2,
+              "column": 43
+            }
+          },
+          "params": "padding in types",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": ",
+                "stylusBetween": " "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 2,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 2,
+                  "column": 23
+                }
+              },
+              "prop": "padding",
+              "value": "unit(n, px)",
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": " ",
+            "after": "",
+            "postfixBefore": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 41
+            },
+            "rawEnd": {
+              "line": 3,
+              "column": 41
+            }
+          },
+          "params": "margin in types",
+          "postfix": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": ",
+                "stylusBetween": " "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 22
+                }
+              },
+              "prop": "margin",
+              "value": "unit(n, px)",
+              "omittedSemi": true
+            }
+          ],
+          "omittedSemi": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

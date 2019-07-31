@@ -32,6 +32,8 @@
         "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -50,15 +56,46 @@
         }
       },
       "params": "(img)",
-      "function": true,
-      "body": "\r\n    return image-size(img)[0]",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "return",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 29
+            },
+            "rawEnd": {
+              "line": 4,
+              "column": 29
+            }
+          },
+          "params": "image-size(img)[0]"
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -67,6 +104,10 @@
         "start": {
           "line": 6,
           "column": 3
+        },
+        "startChildren": {
+          "line": 6,
+          "column": 14
         },
         "input": {
           "file": "input.styl"
@@ -77,9 +118,38 @@
         }
       },
       "params": "(img)",
-      "function": true,
-      "body": "\r\n    return image-size(img)[1]",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "return",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 29
+            },
+            "rawEnd": {
+              "line": 7,
+              "column": 29
+            }
+          },
+          "params": "image-size(img)[1]"
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

@@ -1,1 +1,5 @@
- @stringish(val)
+ @stringish(val){
+   @if val is a 'string' or val is a 'ident'{
+     @yes}
+   @else{
+     @no}}

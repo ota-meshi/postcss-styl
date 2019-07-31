@@ -10,6 +10,8 @@
         "before": "    ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 5
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 28
         },
         "input": {
           "file": "input.styl"
@@ -28,15 +34,167 @@
         }
       },
       "params": "(expr, str, val)",
-      "function": true,
-      "body": "\r\n      expr = clone(expr)\r\n      for e, i in expr\r\n        if str == e\r\n          expr[i] = val\r\n      expr",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": " : ",
+            "stylusBetween": " = "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 24
+            }
+          },
+          "prop": "expr",
+          "value": "clone(expr)",
+          "omittedSemi": true,
+          "assignment": true
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "for",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "startChildren": {
+              "line": 3,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 23
+            }
+          },
+          "params": "e, i in expr",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": "",
+                "afterName": " ",
+                "semicolon": false,
+                "after": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "if",
+              "source": {
+                "start": {
+                  "line": 4,
+                  "column": 9
+                },
+                "startChildren": {
+                  "line": 4,
+                  "column": 20
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 23
+                }
+              },
+              "params": "str == e",
+              "pythonic": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n          ",
+                    "between": "",
+                    "afterName": "",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "",
+                  "source": {
+                    "start": {
+                      "line": 5,
+                      "column": 11
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 23
+                    },
+                    "rawEnd": {
+                      "line": 5,
+                      "column": 23
+                    }
+                  },
+                  "params": "expr[i] = val",
+                  "expression": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 10
+            },
+            "rawEnd": {
+              "line": 6,
+              "column": 10
+            }
+          },
+          "params": "expr",
+          "expression": true
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
         "before": "\r\n\r\n    ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -45,6 +203,10 @@
         "start": {
           "line": 8,
           "column": 5
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 17
         },
         "input": {
           "file": "input.styl"
@@ -55,9 +217,269 @@
         }
       },
       "params": "(n)",
-      "function": true,
-      "body": "\r\n      if current-property\r\n        val = current-property[1]\r\n        webkit = replace(val, '__CALL__', s('-webkit-something(%s)', n))\r\n        moz = replace(val, '__CALL__', s('-moz-something(%s)', n))\r\n        add-property(current-property[0], webkit)\r\n        add-property(current-property[0], moz)\r\n        s('something(%s)', n)\r\n      else\r\n        error('something() must be used within a property')",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "startChildren": {
+              "line": 9,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 29
+            }
+          },
+          "params": "current-property",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": " : ",
+                "stylusBetween": " = "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 10,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 10,
+                  "column": 33
+                }
+              },
+              "prop": "val",
+              "value": "current-property[1]",
+              "omittedSemi": true,
+              "assignment": true
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": " : ",
+                "stylusBetween": " = "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 11,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 11,
+                  "column": 72
+                }
+              },
+              "prop": "webkit",
+              "value": "replace(val, '__CALL__', s('-webkit-something(%s)', n))",
+              "omittedSemi": true,
+              "assignment": true
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": " : ",
+                "stylusBetween": " = "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 12,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 12,
+                  "column": 66
+                }
+              },
+              "prop": "moz",
+              "value": "replace(val, '__CALL__', s('-moz-something(%s)', n))",
+              "omittedSemi": true,
+              "assignment": true
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "add-property",
+              "source": {
+                "start": {
+                  "line": 13,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 13,
+                  "column": 49
+                },
+                "rawEnd": {
+                  "line": 13,
+                  "column": 49
+                }
+              },
+              "params": "(current-property[0], webkit)",
+              "omittedSemi": true,
+              "call": true
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "add-property",
+              "source": {
+                "start": {
+                  "line": 14,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 14,
+                  "column": 46
+                },
+                "rawEnd": {
+                  "line": 14,
+                  "column": 46
+                }
+              },
+              "params": "(current-property[0], moz)",
+              "omittedSemi": true,
+              "call": true
+            },
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "s",
+              "source": {
+                "start": {
+                  "line": 15,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 15,
+                  "column": 29
+                },
+                "rawEnd": {
+                  "line": 15,
+                  "column": 29
+                }
+              },
+              "params": "('something(%s)', n)",
+              "call": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n      ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "else",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "startChildren": {
+              "line": 16,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 59
+            }
+          },
+          "params": "",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n        ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "error",
+              "source": {
+                "start": {
+                  "line": 17,
+                  "column": 9
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 17,
+                  "column": 59
+                },
+                "rawEnd": {
+                  "line": 17,
+                  "column": 59
+                }
+              },
+              "params": "('something() must be used within a property')",
+              "call": true
+            }
+          ]
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

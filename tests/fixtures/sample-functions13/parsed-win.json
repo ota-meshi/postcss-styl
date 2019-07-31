@@ -10,6 +10,8 @@
         "before": "",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -18,6 +20,10 @@
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 14
         },
         "input": {
           "file": "input.styl"
@@ -28,8 +34,196 @@
         }
       },
       "params": "(a, b)",
-      "function": true,
-      "body": "\r\n  if a > b\r\n    higher\r\n  else if a < b\r\n    lower\r\n  else\r\n    equal"
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "if",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 10
+            }
+          },
+          "params": "a > b",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 10
+                },
+                "rawEnd": {
+                  "line": 3,
+                  "column": 10
+                }
+              },
+              "params": "higher",
+              "expression": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "else",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 9
+            }
+          },
+          "params": "if a < b",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 9
+                },
+                "rawEnd": {
+                  "line": 5,
+                  "column": 9
+                }
+              },
+              "params": "lower",
+              "expression": true
+            }
+          ]
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": "",
+            "afterName": "",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "else",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 6,
+              "column": 7
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 9
+            }
+          },
+          "params": "",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 7,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 7,
+                  "column": 9
+                },
+                "rawEnd": {
+                  "line": 7,
+                  "column": 9
+                }
+              },
+              "params": "equal",
+              "expression": true
+            }
+          ]
+        }
+      ],
+      "function": true
     }
   ],
   "source": {

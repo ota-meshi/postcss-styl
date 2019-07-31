@@ -1,7 +1,9 @@
 apply(props) 
-   props = arguments if length(arguments) > 1
-   for prop in props
-     {prop[0]} prop[1]
+        props = arguments if length(arguments) > 1
+        for prop in props 
+                {prop[0]} prop[1]
+    
+
 body 
     apply(one 1, two 2, three 3)
 

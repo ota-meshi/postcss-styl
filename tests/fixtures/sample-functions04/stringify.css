@@ -1,1 +1,2 @@
- @add(a, b = unit(a, px))
+ @add(a, b = unit(a, px)){
+   @a + b}

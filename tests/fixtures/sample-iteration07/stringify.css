@@ -1,4 +1,8 @@
-   @sum(nums);
+   @sum(nums){
+     sum : 0;@for n in nums{
+     @sum += n}}
 
 
-   @join(delim, args)
+   @join(delim, args){
+     buf : '';@for arg, i in args{
+     @buf += i ? delim + arg : arg}}

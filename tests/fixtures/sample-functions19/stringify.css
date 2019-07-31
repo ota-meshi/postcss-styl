@@ -1,1 +1,2 @@
-  @get(hash, key)
+  @get(hash, key){@for pair in hash{@if pair[0] == key{
+    @return pair[1]}}}

@@ -1,6 +1,10 @@
 /* http://stylus-lang.com/docs/operators.html */
 
- @add(a, b);
+ @add(a, b){
+   @if a is a 'unit' and b is a 'unit'{
+     @a + b}
+   @else{
+     @(error 'a and b must be units!')}}
 
  body{
    padding: add(1,'5');

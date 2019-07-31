@@ -213,7 +213,6 @@ const KNOWN_PROPS = {
         "pythonic", // pythonic style (indentation-based)
         "omittedSemi", // omitted semi-colons
         "function", // function declaration
-        "body", // function body
         "mixin", // mixin function declaration
         "call", // function call expression
         "callBlockMixin", // block mixin function call expression

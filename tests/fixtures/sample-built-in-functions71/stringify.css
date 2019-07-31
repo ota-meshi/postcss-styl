@@ -1,8 +1,11 @@
-@foo();
+@foo(){
+  @bar()}
 
-@bar();
+@bar(){
+  @baz()}
 
-@baz();
+@baz(){
+  @return called-from}
 
 @foo()
 /* => bar foo*/

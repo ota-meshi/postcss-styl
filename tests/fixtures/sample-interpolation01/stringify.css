@@ -5,9 +5,11 @@
     -moz-{prop}: args;
     {prop}: args}
 
-  @border-radius();
+  @border-radius(){
+    @vendor('border-radius', arguments)}
   
-  @box-shadow();
+  @box-shadow(){
+    @vendor('box-shadow', arguments)}
 
   button{
     border-radius: 1px 2px / 3px 4px}

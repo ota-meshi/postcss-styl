@@ -1,4 +1,8 @@
-@size($width, $height = $width);
+@size($width, $height = $width){
+  @cache('w' + $width){
+    width: $width}
+  @cache('h' + $height){
+    height: $height}}
 
 .a{
   size: 10px 20px}

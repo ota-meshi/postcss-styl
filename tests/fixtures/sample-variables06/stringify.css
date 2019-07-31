@@ -1,4 +1,6 @@
-  @position();
+  @position(){
+    position: arguments;@unless @z-index{
+    z-index: 1}}
 
   #logo{
     z-index: 20;

@@ -7,6 +7,7 @@ const stylelint = require("stylelint")
 const stylelintConfig = require("stylelint-config-standard")
 const { writeFixture, listupFixtures, isExistFile } = require("../../utils")
 const customSyntax = require.resolve("./custom-syntax")
+const parse = require("./custom-syntax").parse
 
 const baseConfig = Object.assign({}, stylelintConfig)
 baseConfig.rules = Object.assign({}, baseConfig.rules, {
@@ -19,6 +20,11 @@ baseConfig.rules = Object.assign({}, baseConfig.rules, {
     "selector-list-comma-newline-after": false,
     "selector-list-comma-space-before": false,
     "block-closing-brace-space-before": false,
+    "property-no-unknown": false,
+    "at-rule-no-unknown": false,
+
+    // breaks stylus
+    "at-rule-name-space-after": false,
 })
 
 const tests = listupFixtures(path.join(__dirname, "fixtures"))
@@ -27,7 +33,7 @@ describe("stylelint", () => {
     it("try", () => {
         const stylus = `
 .a
-  transformm scale(0.5)
+  color #fffffff
 `
 
         return stylelint
@@ -41,12 +47,12 @@ describe("stylelint", () => {
                 assert.deepStrictEqual(result.results.length, 1)
                 assert.deepStrictEqual(result.results[0].warnings, [
                     {
-                        column: 3,
+                        column: 10,
                         line: 3,
-                        rule: "property-no-unknown",
+                        rule: "color-no-invalid-hex",
                         severity: "error",
                         text:
-                            'Unexpected unknown property "transformm" (property-no-unknown)',
+                            'Unexpected invalid hex color "#fffffff" (color-no-invalid-hex)',
                     },
                 ])
             })
@@ -104,6 +110,14 @@ describe("stylelint", () => {
                         writeFixture(fixture.files[fixedFileName], actual)
                         throw e
                     }
+
+                    // check can parse
+                    assert.strictEqual(
+                        typeof parse(actual, {
+                            from: fixture.files[fixedFileName],
+                        }),
+                        "object"
+                    )
                 }))
     }
 })

@@ -119,12 +119,14 @@ describe("stringify", () => {
                 if (node.raws.identifier != null) {
                     raws.identifier = node.raws.identifier
                 }
-                node.raws = raws
-
-                if (node.selector && node.parent.pythonic) {
-                    node.selector = node.selector.replace(/\s+/gu, " ")
-                    // .replace(/\s*,\s*/gu, ", ")
+                if (
+                    node.raws.selector &&
+                    node.raws.selector.stylus &&
+                    node.parent.pythonic
+                ) {
+                    raws.selector = node.raws.selector
                 }
+                node.raws = raws
             })
             const actual = transformRoot.toString(stringify)
             try {

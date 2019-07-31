@@ -6,6 +6,7 @@
  @p(#fff);
  @p(rgba(0,0,0,0.2));
 
- @add(a, b);
+ @add(a, b){
+   @a + b}
 
  @p(add)

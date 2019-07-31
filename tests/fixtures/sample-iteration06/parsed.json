@@ -32,6 +32,8 @@
         "before": "\n\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 20
         },
         "input": {
           "file": "input.styl"
@@ -50,9 +56,192 @@
         }
       },
       "params": "(delim, args)",
-      "function": true,
-      "body": "\n    buf = ''\n    for arg, index in args\n      if index\n        buf += delim + arg\n      else\n        buf += arg",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": " : ",
+            "stylusBetween": " = "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 12
+            }
+          },
+          "prop": "buf",
+          "value": "''",
+          "omittedSemi": true,
+          "assignment": true
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "for",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 5,
+              "column": 27
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 18
+            }
+          },
+          "params": "arg, index in args",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n      ",
+                "between": "",
+                "afterName": " ",
+                "semicolon": false,
+                "after": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "if",
+              "source": {
+                "start": {
+                  "line": 6,
+                  "column": 7
+                },
+                "startChildren": {
+                  "line": 6,
+                  "column": 15
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 7,
+                  "column": 26
+                }
+              },
+              "params": "index",
+              "pythonic": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n        ",
+                    "between": "",
+                    "afterName": "",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "",
+                  "source": {
+                    "start": {
+                      "line": 7,
+                      "column": 9
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 26
+                    },
+                    "rawEnd": {
+                      "line": 7,
+                      "column": 26
+                    }
+                  },
+                  "params": "buf += delim + arg",
+                  "expression": true
+                }
+              ]
+            },
+            {
+              "raws": {
+                "before": "\n      ",
+                "between": "",
+                "afterName": "",
+                "semicolon": false,
+                "after": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "else",
+              "source": {
+                "start": {
+                  "line": 8,
+                  "column": 7
+                },
+                "startChildren": {
+                  "line": 8,
+                  "column": 11
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 9,
+                  "column": 18
+                }
+              },
+              "params": "",
+              "pythonic": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n        ",
+                    "between": "",
+                    "afterName": "",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "",
+                  "source": {
+                    "start": {
+                      "line": 9,
+                      "column": 9
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 18
+                    },
+                    "rawEnd": {
+                      "line": 9,
+                      "column": 18
+                    }
+                  },
+                  "params": "buf += arg",
+                  "expression": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

@@ -32,6 +32,8 @@
         "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -40,6 +42,10 @@
         "start": {
           "line": 3,
           "column": 3
+        },
+        "startChildren": {
+          "line": 3,
+          "column": 20
         },
         "input": {
           "file": "input.styl"
@@ -50,15 +56,80 @@
         }
       },
       "params": "(val, type)",
-      "function": true,
-      "body": "\r\n    unless val is a type\r\n      error('expected a ' + type + ', but got ' + typeof(val))",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": " ",
+            "semicolon": false,
+            "after": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "unless",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 62
+            }
+          },
+          "params": "val is a type",
+          "pythonic": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n      ",
+                "between": "",
+                "afterName": "",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "error",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 62
+                },
+                "rawEnd": {
+                  "line": 5,
+                  "column": 62
+                }
+              },
+              "params": "('expected a ' + type + ', but got ' + typeof(val))",
+              "call": true
+            }
+          ]
+        }
+      ],
+      "function": true
     },
     {
       "raws": {
         "before": "\r\n\r\n  ",
         "between": "",
         "afterName": "",
+        "semicolon": false,
+        "after": "",
         "identifier": ""
       },
       "type": "atrule",
@@ -67,6 +138,10 @@
         "start": {
           "line": 7,
           "column": 3
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 19
         },
         "input": {
           "file": "input.styl"
@@ -77,9 +152,111 @@
         }
       },
       "params": "(n)",
-      "function": true,
-      "body": "\r\n    ensure(n, 'unit')\r\n    -webkit-border-radius n\r\n    -moz-border-radius n\r\n    border-radius n",
-      "omittedSemi": true
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": "",
+            "afterName": "",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "ensure",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 21
+            },
+            "rawEnd": {
+              "line": 8,
+              "column": 21
+            }
+          },
+          "params": "(n, 'unit')",
+          "omittedSemi": true,
+          "call": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 27
+            }
+          },
+          "prop": "-webkit-border-radius",
+          "value": "n",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 24
+            }
+          },
+          "prop": "-moz-border-radius",
+          "value": "n",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n    ",
+            "between": ": ",
+            "stylusBetween": " "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 19
+            }
+          },
+          "prop": "border-radius",
+          "value": "n"
+        }
+      ],
+      "function": true
     },
     {
       "raws": {

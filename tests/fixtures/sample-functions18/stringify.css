@@ -1,4 +1,7 @@
- @sum();
+ @sum(){
+   n : 0;
+   @for num in arguments{
+     n : n + num}}
 
  a{
    width: sum(1,2,3,4,5)}

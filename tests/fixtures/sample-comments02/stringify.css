@@ -2,4 +2,5 @@
  * Adds the given numbers together.
  */
 
-@add(a, b)
+@add(a, b){
+  @a + b}
