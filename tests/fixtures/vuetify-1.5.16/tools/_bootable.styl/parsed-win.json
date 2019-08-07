@@ -1,0 +1,128 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "bootable",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 48
+        }
+      },
+      "params": "()",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 18
+            }
+          },
+          "prop": "transition",
+          "value": "none",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  \r\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 48
+                }
+              },
+              "prop": "transition",
+              "value": ".2s $transition.fast-out-slow-in"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          },
+          "selector": "&[data-booted=\"true\"]",
+          "pythonic": true
+        }
+      ],
+      "mixin": true,
+      "function": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

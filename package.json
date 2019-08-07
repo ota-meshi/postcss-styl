@@ -12,7 +12,7 @@
     "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
     "test:d": "mocha --inspect --debug-brk \"tests/**/*.js\" --reporter dot",
     "test:d2": "mocha --inspect --debug-brk \"tests/**/postcss-nested.js\" --reporter dot",
-    "try:stylelint": "stylelint \"**/*.vue\" --custom-syntax ./tests/integration/stylelint/custom-syntax.js"
+    "try:stylelint": "stylelint \"**/*.(vue|styl)\" --custom-syntax ./tests/integration/stylelint/custom-syntax.js"
   },
   "repository": {
     "type": "git",

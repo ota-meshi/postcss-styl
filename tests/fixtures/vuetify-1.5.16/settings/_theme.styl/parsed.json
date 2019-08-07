@@ -1,0 +1,611 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "require",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 20
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 20
+        }
+      },
+      "params": "'./_colors'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 8
+        }
+      },
+      "text": "Theme"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 41
+        },
+        "rawEnd": {
+          "line": 5,
+          "column": 41
+        }
+      },
+      "params": "$body-font-family := 'Roboto', sans-serif",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 23
+        },
+        "rawEnd": {
+          "line": 6,
+          "column": 23
+        }
+      },
+      "params": "$font-size-root := 14px",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+        },
+        "rawEnd": {
+          "line": 7,
+          "column": 24
+        }
+      },
+      "params": "$line-height-root := 1.5",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 84
+        }
+      },
+      "text": "Material Design - https://material.io/guidelines/style/color.html#color-usability"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 111,
+          "column": 1
+        }
+      },
+      "prop": "$material-light",
+      "value": "{\n  status-bar: {\n    regular: $grey.lighten-2,\n    lights-out: rgba($shades.white, .7)\n  },\n  app-bar: $grey.lighten-4,\n  background: $grey.lighten-5,\n  cards: $shades.white,\n  chips: {\n    background: $grey.lighten-2,\n    color: rgba($shades.black, .87)\n  },\n  dividers: rgba($shades.black, .12),\n  text: {\n    theme: $shades.white,\n    primary: rgba($shades.black, .87),\n    secondary: rgba($shades.black, .54),\n    disabled: rgba($shades.black, .38),\n    link: $blue.darken-2,\n    link-hover: $grey.darken-3\n  },\n  icons: {\n    active: rgba($shades.black, .54),\n    inactive: rgba($shades.black, .38)\n  },\n  inputs: {\n    box: rgba($shades.black, .04),\n    solo-inverted: rgba($shades.black, .16),\n    solo-inverted-focused: $grey.darken-3,\n    solo-inverted-focused-text: $shades.white\n  },\n  buttons: {\n    disabled: rgba($shades.black, .26),\n    focused: rgba($shades.black, .12),\n    focused-alt: rgba($shades.white, .6),\n    pressed: rgba(#999, .4)\n  },\n  expansion-panels: {\n    focus: $grey.lighten-3\n  },\n  list-tile: {\n    hover: rgba($shades.black, .04)\n  },\n  selection-controls: {\n    thumb: {\n      inactive: $grey.lighten-5,\n      disabled: $grey.lighten-1\n    },\n    track: {\n      inactive: rgba($shades.black, .38),\n      disabled: rgba($shades.black, .12)\n    }\n  },\n  slider: {\n    active: rgba($shades.black, .38),\n    inactive: rgba($shades.black, .26),\n    disabled: rgba($shades.black, .26),\n    discrete: $shades.black\n  },\n  tabs: {\n    active: rgba($shades.black, .87)\n  },\n  text-fields: {\n    box: rgba($shades.black, .06),\n    box-hover: rgba($shades.black, .12)\n  },\n  input-bottom-line: rgba($shades.black, .42),\n  stepper: {\n    active: rgba($shades.white, 1),\n    completed: rgba($shades.black, 0.87),\n    hover: rgba($shades.black, 0.54)\n  },\n  table: {\n    active: $grey.lighten-4\n    hover: $grey.lighten-3\n  },\n  picker: {\n    body: $shades.white,\n    clock: $grey.lighten-2,\n    indeterminateTime: $grey.lighten-1,\n    title: $grey.lighten-2\n  },\n  bg-color: $shades.white\n  fg-color: $shades.black\n  text-color: $shades.black\n  primary-text-percent: .87\n  secondary-text-percent: .54\n  disabledORhints-text-percent: .38\n  divider-percent: .12\n  active-icon-percent: .54\n  inactive-icon-percent: .38\n  calendar: {\n    background-color: #fff\n    outside-background-color: #f7f7f7\n    line-color: #e0e0e0\n    interval-color: $grey.darken-3\n    interval-line-color: $grey.lighten-2\n    text-color: #000\n    past-color: rgba(#000, .38)\n  }\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "ternary": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 113,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 215,
+          "column": 1
+        }
+      },
+      "prop": "$material-dark",
+      "value": "{\n  status-bar: {\n    regular: $shades.black,\n    lights-out: rgba($shades.black, .2)\n  },\n  app-bar: $grey.darken-4,\n  background: #303030,\n  cards: $grey.darken-3,\n  chips: {\n    background: #555,\n    color: $shades.white\n  },\n  dividers: rgba($shades.white, .12),\n  text: {\n    theme: $shades.white,\n    primary: $shades.white,\n    secondary: rgba($shades.white, .70),\n    disabled: rgba($shades.white, .50),\n    link: $blue.accent-1,\n    link-hover: $grey.lighten-3\n  },\n  icons: {\n    active: $shades.white,\n    inactive: rgba($shades.white, .5)\n  },\n  inputs: {\n    box: $shades.white,\n    solo-inverted: rgba($shades.white, .16),\n    solo-inverted-focused: $shades.white,\n    solo-inverted-focused-text: $material-light.text.primary\n  },\n  list-tile: {\n    hover: rgba($shades.white, .08)\n  },\n  buttons: {\n    disabled: rgba($shades.white, .3),\n    focused: rgba($shades.white, .12),\n    focused-alt: rgba($shades.white, .1),\n    pressed: rgba(#ccc, .25)\n  },\n  expansion-panels: {\n    focus: #494949\n  },\n  selection-controls: {\n    thumb: {\n      inactive: $grey.lighten-1,\n      disabled: $grey.darken-3\n    },\n    track: {\n      inactive: rgba($shades.white, .3),\n      disabled: rgba($shades.white, .1)\n    }\n  },\n  slider: {\n    active: rgba($shades.white, .3),\n    inactive: rgba($shades.white, .2),\n    disabled: rgba($shades.white, .2),\n    discrete: $shades.white\n  },\n  tabs: {\n    active: $shades.white\n  },\n  text-fields: {\n    box: rgba($shades.black, .1),\n    box-hover: rgba($shades.black, .2),\n    box-focus: rgba($shades.black, .3)\n  },\n  input-bottom-line: rgba($shades.white, .7),\n\n  stepper: {\n    active: rgba($shades.white, 1),\n    completed: rgba($shades.white, 0.87),\n    hover: rgba($shades.white, 0.75)\n  },\n  table: {\n    active: #505050\n    hover: $grey.darken-2\n  },\n  picker: {\n    body: $grey.darken-3,\n    clock: $grey.darken-2,\n    indeterminateTime: $grey.darken-1,\n    title: $grey.darken-2\n  },\n  bg-color: #303030\n  fg-color: $shades.white\n  text-color: $shades.white\n  primary-text-percent: 1\n  secondary-text-percent: .70\n  disabledORhints-text-percent: .50\n  divider-percent: .12\n  active-icon-percent: 1\n  inactive-icon-percent: .50\n  calendar: {\n    background-color: #303030\n    outside-background-color: #202020\n    line-color: $grey.base\n    interval-color: $grey.lighten-3\n    interval-line-color: $grey.darken-2\n    text-color: #fff\n    past-color: rgba(#fff, .50)\n  }\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "ternary": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 217,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 217,
+          "column": 25
+        }
+      },
+      "text": "Default Material Theme"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 218,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 218,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 219,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 219,
+          "column": 34
+        },
+        "rawEnd": {
+          "line": 219,
+          "column": 34
+        }
+      },
+      "params": "$material-theme := $material-light",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 220,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 220,
+          "column": 95
+        },
+        "rawEnd": {
+          "line": 220,
+          "column": 95
+        }
+      },
+      "params": "$material-twelve-percent-light := rgba($material-dark.fg-color, $material-dark.divider-percent)",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 221,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 221,
+          "column": 96
+        },
+        "rawEnd": {
+          "line": 221,
+          "column": 96
+        }
+      },
+      "params": "$material-twelve-percent-dark := rgba($material-light.fg-color, $material-light.divider-percent)",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n\n\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 224,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 224,
+          "column": 8
+        }
+      },
+      "text": "Theme"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 225,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 225,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 226,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 226,
+          "column": 44
+        },
+        "rawEnd": {
+          "line": 226,
+          "column": 44
+        }
+      },
+      "params": "$body-bg-light := $material-light.background",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 227,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 227,
+          "column": 42
+        },
+        "rawEnd": {
+          "line": 227,
+          "column": 42
+        }
+      },
+      "params": "$body-bg-dark := $material-dark.background",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 228,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 228,
+          "column": 89
+        },
+        "rawEnd": {
+          "line": 228,
+          "column": 89
+        }
+      },
+      "params": "$body-color-light := rgba($material-dark.text-color, $material-dark.primary-text-percent)",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 229,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 229,
+          "column": 90
+        },
+        "rawEnd": {
+          "line": 229,
+          "column": 90
+        }
+      },
+      "params": "$body-color-dark := rgba($material-light.text-color, $material-light.primary-text-percent)",
+      "omittedSemi": true,
+      "expression": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "",
+      "source": {
+        "start": {
+          "line": 230,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 230,
+          "column": 86
+        },
+        "rawEnd": {
+          "line": 230,
+          "column": 86
+        }
+      },
+      "params": "$color-theme := rgba($material-theme.text-color, $material-theme.primary-text-percent)",
+      "expression": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
