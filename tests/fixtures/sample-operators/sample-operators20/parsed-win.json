@@ -1,0 +1,116 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "text": "http://stylus-lang.com/docs/operators.html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 14
+        }
+      },
+      "prop": "color",
+      "value": "white",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " ?= "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 14
+        }
+      },
+      "prop": "color",
+      "value": "white",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 40
+        }
+      },
+      "prop": "color",
+      "value": "color is defined ? color : white",
+      "assignment": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -3,6 +3,35 @@
 const fs = require("fs")
 const path = require("path")
 
+/**
+ * listup fixture dirs
+ * @param {*} root
+ */
+function listupFixtureDirs(root) {
+    const result = []
+    for (const name of fs.readdirSync(root)) {
+        const filepath = path.join(root, `${name}`)
+        if (fs.statSync(filepath).isDirectory()) {
+            if (fs.readdirSync(filepath).find(n => n.startsWith("input."))) {
+                result.push(name)
+            } else {
+                result.push(
+                    ...listupFixtureDirs(filepath).map(n => `${name}/${n}`)
+                )
+            }
+        } else if (
+            // eslint-disable-next-line no-process-env
+            process.env.UPDATE_FIXTURES &&
+            name.endsWith(".styl")
+        ) {
+            fs.renameSync(filepath, `${filepath}_wk`)
+            fs.mkdirSync(filepath)
+            fs.renameSync(`${filepath}_wk`, `${filepath}/input.styl`)
+        }
+    }
+    return result
+}
+
 const utils = {
     isExistFile(file) {
         try {
@@ -16,7 +45,7 @@ const utils = {
         }
     },
     listupFixtures(root) {
-        const fixtures = fs.readdirSync(root).map(name => {
+        const fixtures = listupFixtureDirs(root).map(name => {
             const filesHandler = {
                 get(_target, fileName) {
                     return path.join(root, `${name}/${fileName}`)

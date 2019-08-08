@@ -234,6 +234,7 @@ const KNOWN_PROPS = {
         // stylus
         "omittedSemi", // omitted semi-colons
         "assignment", // assignment property
+        "conditional", // conditional assignment
     ],
     comment: ["text"],
 }

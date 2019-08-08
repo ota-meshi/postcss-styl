@@ -1,0 +1,543 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "prop": "$red",
+      "value": "{\n  \"base\":       #F44336,\n  \"lighten-5\":  #FFEBEE,\n  \"lighten-4\":  #FFCDD2,\n  \"lighten-3\":  #EF9A9A,\n  \"lighten-2\":  #E57373,\n  \"lighten-1\":  #EF5350,\n  \"darken-1\":   #E53935,\n  \"darken-2\":   #D32F2F,\n  \"darken-3\":   #C62828,\n  \"darken-4\":   #B71C1C,\n  \"accent-1\":   #FF8A80,\n  \"accent-2\":   #FF5252,\n  \"accent-3\":   #FF1744,\n  \"accent-4\":   #D50000\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 18,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "prop": "$pink",
+      "value": "{\n  \"base\":       #e91e63,\n  \"lighten-5\":  #fce4ec,\n  \"lighten-4\":  #f8bbd0,\n  \"lighten-3\":  #f48fb1,\n  \"lighten-2\":  #f06292,\n  \"lighten-1\":  #ec407a,\n  \"darken-1\":   #d81b60,\n  \"darken-2\":   #c2185b,\n  \"darken-3\":   #ad1457,\n  \"darken-4\":   #880e4f,\n  \"accent-1\":   #ff80ab,\n  \"accent-2\":   #ff4081,\n  \"accent-3\":   #f50057,\n  \"accent-4\":   #c51162\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 35,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 50,
+          "column": 1
+        }
+      },
+      "prop": "$purple",
+      "value": "{\n  \"base\":       #9c27b0,\n  \"lighten-5\":  #f3e5f5,\n  \"lighten-4\":  #e1bee7,\n  \"lighten-3\":  #ce93d8,\n  \"lighten-2\":  #ba68c8,\n  \"lighten-1\":  #ab47bc,\n  \"darken-1\":   #8e24aa,\n  \"darken-2\":   #7b1fa2,\n  \"darken-3\":   #6a1b9a,\n  \"darken-4\":   #4a148c,\n  \"accent-1\":   #ea80fc,\n  \"accent-2\":   #e040fb,\n  \"accent-3\":   #d500f9,\n  \"accent-4\":   #aa00ff\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 52,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 67,
+          "column": 1
+        }
+      },
+      "prop": "$deep-purple",
+      "value": "{\n  \"base\":       #673ab7,\n  \"lighten-5\":  #ede7f6,\n  \"lighten-4\":  #d1c4e9,\n  \"lighten-3\":  #b39ddb,\n  \"lighten-2\":  #9575cd,\n  \"lighten-1\":  #7e57c2,\n  \"darken-1\":   #5e35b1,\n  \"darken-2\":   #512da8,\n  \"darken-3\":   #4527a0,\n  \"darken-4\":   #311b92,\n  \"accent-1\":   #b388ff,\n  \"accent-2\":   #7c4dff,\n  \"accent-3\":   #651fff,\n  \"accent-4\":   #6200ea\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 69,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 84,
+          "column": 1
+        }
+      },
+      "prop": "$indigo",
+      "value": "{\n  \"base\":       #3f51b5,\n  \"lighten-5\":  #e8eaf6,\n  \"lighten-4\":  #c5cae9,\n  \"lighten-3\":  #9fa8da,\n  \"lighten-2\":  #7986cb,\n  \"lighten-1\":  #5c6bc0,\n  \"darken-1\":   #3949ab,\n  \"darken-2\":   #303f9f,\n  \"darken-3\":   #283593,\n  \"darken-4\":   #1a237e,\n  \"accent-1\":   #8c9eff,\n  \"accent-2\":   #536dfe,\n  \"accent-3\":   #3d5afe,\n  \"accent-4\":   #304ffe\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 86,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 101,
+          "column": 1
+        }
+      },
+      "prop": "$blue",
+      "value": "{\n  \"base\":       #2196F3,\n  \"lighten-5\":  #E3F2FD,\n  \"lighten-4\":  #BBDEFB,\n  \"lighten-3\":  #90CAF9,\n  \"lighten-2\":  #64B5F6,\n  \"lighten-1\":  #42A5F5,\n  \"darken-1\":   #1E88E5,\n  \"darken-2\":   #1976D2,\n  \"darken-3\":   #1565C0,\n  \"darken-4\":   #0D47A1,\n  \"accent-1\":   #82B1FF,\n  \"accent-2\":   #448AFF,\n  \"accent-3\":   #2979FF,\n  \"accent-4\":   #2962FF\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 103,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 118,
+          "column": 1
+        }
+      },
+      "prop": "$light-blue",
+      "value": "{\n  \"base\":       #03a9f4,\n  \"lighten-5\":  #e1f5fe,\n  \"lighten-4\":  #b3e5fc,\n  \"lighten-3\":  #81d4fa,\n  \"lighten-2\":  #4fc3f7,\n  \"lighten-1\":  #29b6f6,\n  \"darken-1\":   #039be5,\n  \"darken-2\":   #0288d1,\n  \"darken-3\":   #0277bd,\n  \"darken-4\":   #01579b,\n  \"accent-1\":   #80d8ff,\n  \"accent-2\":   #40c4ff,\n  \"accent-3\":   #00b0ff,\n  \"accent-4\":   #0091ea\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 120,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 135,
+          "column": 1
+        }
+      },
+      "prop": "$cyan",
+      "value": "{\n  \"base\":       #00bcd4,\n  \"lighten-5\":  #e0f7fa,\n  \"lighten-4\":  #b2ebf2,\n  \"lighten-3\":  #80deea,\n  \"lighten-2\":  #4dd0e1,\n  \"lighten-1\":  #26c6da,\n  \"darken-1\":   #00acc1,\n  \"darken-2\":   #0097a7,\n  \"darken-3\":   #00838f,\n  \"darken-4\":   #006064,\n  \"accent-1\":   #84ffff,\n  \"accent-2\":   #18ffff,\n  \"accent-3\":   #00e5ff,\n  \"accent-4\":   #00b8d4\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 137,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 152,
+          "column": 1
+        }
+      },
+      "prop": "$teal",
+      "value": "{\n  \"base\":       #009688,\n  \"lighten-5\":  #e0f2f1,\n  \"lighten-4\":  #b2dfdb,\n  \"lighten-3\":  #80cbc4,\n  \"lighten-2\":  #4db6ac,\n  \"lighten-1\":  #26a69a,\n  \"darken-1\":   #00897b,\n  \"darken-2\":   #00796b,\n  \"darken-3\":   #00695c,\n  \"darken-4\":   #004d40,\n  \"accent-1\":   #a7ffeb,\n  \"accent-2\":   #64ffda,\n  \"accent-3\":   #1de9b6,\n  \"accent-4\":   #00bfa5\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 154,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 169,
+          "column": 1
+        }
+      },
+      "prop": "$green",
+      "value": "{\n  \"base\":       #4CAF50,\n  \"lighten-5\":  #E8F5E9,\n  \"lighten-4\":  #C8E6C9,\n  \"lighten-3\":  #A5D6A7,\n  \"lighten-2\":  #81C784,\n  \"lighten-1\":  #66BB6A,\n  \"darken-1\":   #43A047,\n  \"darken-2\":   #388E3C,\n  \"darken-3\":   #2E7D32,\n  \"darken-4\":   #1B5E20,\n  \"accent-1\":   #B9F6CA,\n  \"accent-2\":   #69F0AE,\n  \"accent-3\":   #00E676,\n  \"accent-4\":   #00C853\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 171,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 186,
+          "column": 1
+        }
+      },
+      "prop": "$light-green",
+      "value": "{\n  \"base\":       #8bc34a,\n  \"lighten-5\":  #f1f8e9,\n  \"lighten-4\":  #dcedc8,\n  \"lighten-3\":  #c5e1a5,\n  \"lighten-2\":  #aed581,\n  \"lighten-1\":  #9ccc65,\n  \"darken-1\":   #7cb342,\n  \"darken-2\":   #689f38,\n  \"darken-3\":   #558b2f,\n  \"darken-4\":   #33691e,\n  \"accent-1\":   #ccff90,\n  \"accent-2\":   #b2ff59,\n  \"accent-3\":   #76ff03,\n  \"accent-4\":   #64dd17\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 188,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 203,
+          "column": 1
+        }
+      },
+      "prop": "$lime",
+      "value": "{\n  \"base\":       #cddc39,\n  \"lighten-5\":  #f9fbe7,\n  \"lighten-4\":  #f0f4c3,\n  \"lighten-3\":  #e6ee9c,\n  \"lighten-2\":  #dce775,\n  \"lighten-1\":  #d4e157,\n  \"darken-1\":   #c0ca33,\n  \"darken-2\":   #afb42b,\n  \"darken-3\":   #9e9d24,\n  \"darken-4\":   #827717,\n  \"accent-1\":   #f4ff81,\n  \"accent-2\":   #eeff41,\n  \"accent-3\":   #c6ff00,\n  \"accent-4\":   #aeea00\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 205,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 220,
+          "column": 1
+        }
+      },
+      "prop": "$yellow",
+      "value": "{\n  \"base\":       #ffeb3b,\n  \"lighten-5\":  #fffde7,\n  \"lighten-4\":  #fff9c4,\n  \"lighten-3\":  #fff59d,\n  \"lighten-2\":  #fff176,\n  \"lighten-1\":  #ffee58,\n  \"darken-1\":   #fdd835,\n  \"darken-2\":   #fbc02d,\n  \"darken-3\":   #f9a825,\n  \"darken-4\":   #f57f17,\n  \"accent-1\":   #ffff8d,\n  \"accent-2\":   #ffff00,\n  \"accent-3\":   #ffea00,\n  \"accent-4\":   #ffd600\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 222,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 237,
+          "column": 1
+        }
+      },
+      "prop": "$amber",
+      "value": "{\n  \"base\":       #ffc107,\n  \"lighten-5\":  #fff8e1,\n  \"lighten-4\":  #ffecb3,\n  \"lighten-3\":  #ffe082,\n  \"lighten-2\":  #ffd54f,\n  \"lighten-1\":  #ffca28,\n  \"darken-1\":   #ffb300,\n  \"darken-2\":   #ffa000,\n  \"darken-3\":   #ff8f00,\n  \"darken-4\":   #ff6f00,\n  \"accent-1\":   #ffe57f,\n  \"accent-2\":   #ffd740,\n  \"accent-3\":   #ffc400,\n  \"accent-4\":   #ffab00\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 239,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 254,
+          "column": 1
+        }
+      },
+      "prop": "$orange",
+      "value": "{\n  \"base\":       #ff9800,\n  \"lighten-5\":  #fff3e0,\n  \"lighten-4\":  #ffe0b2,\n  \"lighten-3\":  #ffcc80,\n  \"lighten-2\":  #ffb74d,\n  \"lighten-1\":  #ffa726,\n  \"darken-1\":   #fb8c00,\n  \"darken-2\":   #f57c00,\n  \"darken-3\":   #ef6c00,\n  \"darken-4\":   #e65100,\n  \"accent-1\":   #ffd180,\n  \"accent-2\":   #ffab40,\n  \"accent-3\":   #ff9100,\n  \"accent-4\":   #ff6d00\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 256,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 271,
+          "column": 1
+        }
+      },
+      "prop": "$deep-orange",
+      "value": "{\n  \"base\":       #ff5722,\n  \"lighten-5\":  #fbe9e7,\n  \"lighten-4\":  #ffccbc,\n  \"lighten-3\":  #ffab91,\n  \"lighten-2\":  #ff8a65,\n  \"lighten-1\":  #ff7043,\n  \"darken-1\":   #f4511e,\n  \"darken-2\":   #e64a19,\n  \"darken-3\":   #d84315,\n  \"darken-4\":   #bf360c,\n  \"accent-1\":   #ff9e80,\n  \"accent-2\":   #ff6e40,\n  \"accent-3\":   #ff3d00,\n  \"accent-4\":   #dd2c00\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 273,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 284,
+          "column": 1
+        }
+      },
+      "prop": "$brown",
+      "value": "{\n  \"base\":       #795548,\n  \"lighten-5\":  #efebe9,\n  \"lighten-4\":  #d7ccc8,\n  \"lighten-3\":  #bcaaa4,\n  \"lighten-2\":  #a1887f,\n  \"lighten-1\":  #8d6e63,\n  \"darken-1\":   #6d4c41,\n  \"darken-2\":   #5d4037,\n  \"darken-3\":   #4e342e,\n  \"darken-4\":   #3e2723\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 286,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 297,
+          "column": 1
+        }
+      },
+      "prop": "$blue-grey",
+      "value": "{\n  \"base\":       #607d8b,\n  \"lighten-5\":  #eceff1,\n  \"lighten-4\":  #cfd8dc,\n  \"lighten-3\":  #b0bec5,\n  \"lighten-2\":  #90a4ae,\n  \"lighten-1\":  #78909c,\n  \"darken-1\":   #546e7a,\n  \"darken-2\":   #455a64,\n  \"darken-3\":   #37474f,\n  \"darken-4\":   #263238\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 299,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 310,
+          "column": 1
+        }
+      },
+      "prop": "$grey",
+      "value": "{\n  \"base\":       #9e9e9e,\n  \"lighten-5\":  #fafafa,\n  \"lighten-4\":  #f5f5f5,\n  \"lighten-3\":  #eeeeee,\n  \"lighten-2\":  #e0e0e0,\n  \"lighten-1\":  #bdbdbd,\n  \"darken-1\":   #757575,\n  \"darken-2\":   #616161,\n  \"darken-3\":   #424242,\n  \"darken-4\":   #212121\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 312,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 316,
+          "column": 1
+        }
+      },
+      "prop": "$shades",
+      "value": "{\n  \"black\":        #000000,\n  \"white\":        #FFFFFF,\n  \"transparent\":  transparent\n}",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 318,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 339,
+          "column": 1
+        }
+      },
+      "prop": "$colors",
+      "value": "{\n  \"red\": $red,\n  \"pink\": $pink,\n  \"purple\": $purple,\n  \"deep-purple\": $deep-purple,\n  \"indigo\": $indigo,\n  \"blue\": $blue,\n  \"light-blue\": $light-blue,\n  \"cyan\": $cyan,\n  \"teal\": $teal,\n  \"green\": $green,\n  \"light-green\": $light-green,\n  \"lime\": $lime,\n  \"yellow\": $yellow,\n  \"amber\": $amber,\n  \"orange\": $orange,\n  \"deep-orange\": $deep-orange,\n  \"brown\": $brown,\n  \"blue-grey\": $blue-grey,\n  \"grey\": $grey,\n  \"shades\": $shades\n}",
+      "assignment": true,
+      "conditional": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

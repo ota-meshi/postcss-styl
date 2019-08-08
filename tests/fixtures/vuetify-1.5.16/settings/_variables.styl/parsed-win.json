@@ -1,0 +1,5515 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "require",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 19
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 19
+        }
+      },
+      "params": "'./_theme'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 20
+        }
+      },
+      "text": "Vuetify variables"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 19
+        }
+      },
+      "prop": "$color-pack",
+      "value": "true",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 7
+        }
+      },
+      "text": "Grid"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "{\r\n  xs: 0\r\n  sm: 600px\r\n  md: 960px\r\n  lg: (1280px - 16px) \r\n  xl: (1920px - 16px) \r\n}",
+          "raw": "{\r\n  xs: 0\r\n  sm: 600px\r\n  md: 960px\r\n  lg: (1280px - 16px) /* Desktop gets a 16dp reduction*/\r\n  xl: (1920px - 16px) /* https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints*/\r\n}",
+          "stylus": "{\r\n  xs: 0\r\n  sm: 600px\r\n  md: 960px\r\n  lg: (1280px - 16px) // Desktop gets a 16dp reduction\r\n  xl: (1920px - 16px) // https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints\r\n}"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "prop": "$grid-breakpoints",
+      "value": "{\r\n  xs: 0\r\n  sm: 600px\r\n  md: 960px\r\n  lg: (1280px - 16px) \r\n  xl: (1920px - 16px) \r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 19,
+          "column": 19
+        }
+      },
+      "prop": "$grid-gutter",
+      "value": "8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 20,
+          "column": 19
+        }
+      },
+      "prop": "$grid-columns",
+      "value": "12",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        }
+      },
+      "prop": "$grid-gutters",
+      "value": "{\r\n  xs: ($grid-gutter / 4)\r\n  sm: ($grid-gutter / 2)\r\n  md: $grid-gutter\r\n  lg: ($grid-gutter * 2)\r\n  xl: ($grid-gutter * 3)\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 29,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "prop": "$container-max-widths",
+      "value": "{\r\n  md: $grid-breakpoints.md\r\n  lg: $grid-breakpoints.lg\r\n  xl: $grid-breakpoints.xl\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 36,
+          "column": 10
+        }
+      },
+      "text": "Display"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 37,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 37,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 38,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 52,
+          "column": 1
+        }
+      },
+      "prop": "$display-breakpoints",
+      "value": "{\r\n  print-only: \"only print\"\r\n  screen-only: \"only screen\"\r\n  xs-only: \"only screen and (max-width: %s)\" % ($grid-breakpoints.sm - 1)\r\n  sm-only: \"only screen and (min-width: %s) and (max-width: %s)\" % ($grid-breakpoints.sm ($grid-breakpoints.md  - 1))\r\n  sm-and-down: \"only screen and (max-width: %s)\" % ($grid-breakpoints.md - 1)\r\n  sm-and-up: \"only screen and (min-width: %s)\" % $grid-breakpoints.sm\r\n  md-only: \"only screen and (min-width: %s) and (max-width: %s)\" % ($grid-breakpoints.md ($grid-breakpoints.lg  - 1))\r\n  md-and-down: \"only screen and (max-width: %s )\" % ($grid-breakpoints.lg - 1)\r\n  md-and-up: \"only screen and (min-width: %s)\" % $grid-breakpoints.md\r\n  lg-only: \"only screen and (min-width: %s) and (max-width: %s)\" % ($grid-breakpoints.lg ($grid-breakpoints.xl - 1))\r\n  lg-and-down: \"only screen and (max-width: (%s - 1))\" % $grid-breakpoints.xl\r\n  lg-and-up: \"only screen and (min-width: %s)\" % $grid-breakpoints.lg\r\n  xl-only: \"only screen and (min-width: %s)\" % $grid-breakpoints.xl\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 55,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 55,
+          "column": 10
+        }
+      },
+      "text": "Spacing"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 56,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 56,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 57,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 57,
+          "column": 15
+        }
+      },
+      "prop": "$spacer",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 58,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 58,
+          "column": 20
+        }
+      },
+      "prop": "$spacer-x",
+      "value": "$spacer",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 59,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 59,
+          "column": 20
+        }
+      },
+      "prop": "$spacer-y",
+      "value": "$spacer",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 85,
+          "column": 1
+        }
+      },
+      "prop": "$spacers",
+      "value": "{\r\n  zero: {\r\n    x: 0,\r\n    y: 0\r\n  },\r\n  one: {\r\n    x: ($spacer-x * .25),\r\n    y: ($spacer-y * .25)\r\n  },\r\n  two: {\r\n    x: ($spacer-x * .5),\r\n    y: ($spacer-y * .5)\r\n  },\r\n  three: {\r\n    x: $spacer-x,\r\n    y: $spacer-y\r\n  },\r\n  four: {\r\n    x: ($spacer-x * 1.5),\r\n    y: ($spacer-y * 1.5)\r\n  },\r\n  five: {\r\n    x: ($spacer-x * 3),\r\n    y: ($spacer-y * 3)\r\n  }\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 87,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 94,
+          "column": 1
+        }
+      },
+      "prop": "$font-weights",
+      "value": "{\r\n  thin: 100,\r\n  light: 300,\r\n  regular: 400,\r\n  medium: 500,\r\n  bold: 700,\r\n  black: 900\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 96,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 96,
+          "column": 11
+        }
+      },
+      "text": "Headings"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 97,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 97,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 98,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 98,
+          "column": 41
+        }
+      },
+      "prop": "$heading-font-family",
+      "value": "$body-font-family",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 99,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 110,
+          "column": 1
+        }
+      },
+      "prop": "$headings",
+      "value": "{\r\n  h1: { size: 112px, weight: 300, line-height: 1, letter-spacing: -.04em, font-family: $heading-font-family },\r\n  h2: { size: 56px, weight: 400, line-height: 1.35, letter-spacing: -.02em, font-family: $heading-font-family },\r\n  h3: { size: 45px, weight: 400, line-height: 48px, letter-spacing: normal, font-family: $heading-font-family },\r\n  h4: { size: 34px, weight: 400, line-height: 40px, letter-spacing: normal, font-family: $heading-font-family },\r\n  h5: { size: 24px, weight: 400, line-height: 32px, letter-spacing: normal, font-family: $heading-font-family },\r\n  h6: { size: 20px, weight: 500, line-height: 1, letter-spacing: .02em, font-family: $heading-font-family },\r\n  subheading: { size: 16px, weight: 400 },\r\n  body-2: { size: 14px, weight: 500 },\r\n  body-1: { size: 14px, weight: 400 },\r\n  caption: { size: 12px, weight: 400 },\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 113,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 113,
+          "column": 14
+        }
+      },
+      "text": "Transitions"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 114,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 121,
+          "column": 1
+        }
+      },
+      "prop": "$transition",
+      "value": "{\r\n  fast-out-slow-in: cubic-bezier(0.4, 0.0, 0.2, 1),\r\n  linear-out-slow-in: cubic-bezier(0.0, 0.0, 0.2, 1),\r\n  fast-out-linear-in: cubic-bezier(0.4, 0.0, 1, 1),\r\n  ease-in-out: cubic-bezier(0.4, 0.0, 0.6, 1),\r\n  fast-in-fast-out: cubic-bezier(.25,.8,.25,1),\r\n  swing: cubic-bezier(.25,.8,.50,1)\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 123,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 123,
+          "column": 45
+        }
+      },
+      "prop": "$primary-transition",
+      "value": "0.3s $transition.swing",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 124,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 124,
+          "column": 53
+        }
+      },
+      "prop": "$secondary-transition",
+      "value": "0.2s $transition.ease-in-out",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 126,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 126,
+          "column": 13
+        }
+      },
+      "text": "Components"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 127,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 127,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 129,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 129,
+          "column": 9
+        }
+      },
+      "text": "Alerts"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 130,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 130,
+          "column": 23
+        }
+      },
+      "prop": "$alert-color",
+      "value": "inherit",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 131,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 131,
+          "column": 25
+        }
+      },
+      "prop": "$alert-border-radius",
+      "value": "0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 132,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 132,
+          "column": 32
+        }
+      },
+      "prop": "$alert-border-width",
+      "value": "4px 0 0 0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 133,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 133,
+          "column": 35
+        }
+      },
+      "prop": "$alert-font-size",
+      "value": "$font-size-root",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 134,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 134,
+          "column": 55
+        }
+      },
+      "prop": "$alert-icon-color",
+      "value": "rgba($material-light.fg-color, .3)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 135,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 135,
+          "column": 29
+        }
+      },
+      "prop": "$alert-icon-font-size",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 136,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 136,
+          "column": 22
+        }
+      },
+      "prop": "$alert-padding",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 137,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 137,
+          "column": 36
+        }
+      },
+      "prop": "$alert-margin",
+      "value": "$spacers.one.y auto",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 138,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 138,
+          "column": 34
+        }
+      },
+      "prop": "$alert-outline-border-width",
+      "value": "1px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 139,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 139,
+          "column": 36
+        }
+      },
+      "prop": "$alert-outline-border-style",
+      "value": "solid",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 141,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 141,
+          "column": 9
+        }
+      },
+      "text": "Badges"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 142,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 142,
+          "column": 27
+        }
+      },
+      "prop": "$badge-border-radius",
+      "value": "50%",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 143,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 143,
+          "column": 39
+        }
+      },
+      "prop": "$badge-color",
+      "value": "$material-dark.fg-color",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 144,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 144,
+          "column": 39
+        }
+      },
+      "prop": "$badge-font-family",
+      "value": "$body-font-family",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 145,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 145,
+          "column": 24
+        }
+      },
+      "prop": "$badge-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 146,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 146,
+          "column": 21
+        }
+      },
+      "prop": "$badge-height",
+      "value": "22px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 147,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 147,
+          "column": 15
+        }
+      },
+      "prop": "$badge-top",
+      "value": "0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 148,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 148,
+          "column": 17
+        }
+      },
+      "prop": "$badge-right",
+      "value": "0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 149,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 149,
+          "column": 20
+        }
+      },
+      "prop": "$badge-width",
+      "value": "22px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 151,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 151,
+          "column": 14
+        }
+      },
+      "text": "Breadcrumbs"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 152,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 152,
+          "column": 29
+        }
+      },
+      "prop": "$breadcrumbs-flex",
+      "value": "0 1 auto",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 153,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 153,
+          "column": 33
+        }
+      },
+      "prop": "$breadcrumbs-padding",
+      "value": "18px 12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 154,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 154,
+          "column": 41
+        }
+      },
+      "prop": "$breadcrumbs-even-child-padding",
+      "value": "0 12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 155,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 155,
+          "column": 35
+        }
+      },
+      "prop": "$breadcrumbs-item-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 156,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 156,
+          "column": 41
+        }
+      },
+      "prop": "$breadcrumbs-item-large-font-size",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 157,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 157,
+          "column": 24
+        }
+      },
+      "prop": "$breadcrumbs-margin",
+      "value": "0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 158,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 158,
+          "column": 30
+        }
+      },
+      "prop": "$breadcrumbs-padding",
+      "value": "0 14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": "",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 160,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 160,
+          "column": 14
+        }
+      },
+      "text": "* Buttons"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 162,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 162,
+          "column": 7
+        }
+      },
+      "text": "Base"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 163,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 163,
+          "column": 28
+        }
+      },
+      "prop": "$button-border-radius",
+      "value": "2px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 164,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 164,
+          "column": 41
+        }
+      },
+      "prop": "$button-color",
+      "value": "$material-light.fg-color",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 165,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 165,
+          "column": 35
+        }
+      },
+      "prop": "$button-background-color",
+      "value": "#999999",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 166,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 166,
+          "column": 22
+        }
+      },
+      "prop": "$button-height",
+      "value": "36px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 167,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 167,
+          "column": 25
+        }
+      },
+      "prop": "$button-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 168,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 168,
+          "column": 26
+        }
+      },
+      "prop": "$button-font-weight",
+      "value": "500",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 169,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 169,
+          "column": 23
+        }
+      },
+      "prop": "$button-margin-y",
+      "value": "6px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 170,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 170,
+          "column": 23
+        }
+      },
+      "prop": "$button-margin-x",
+      "value": "8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 171,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 171,
+          "column": 51
+        }
+      },
+      "prop": "$button-margin",
+      "value": "$button-margin-y $button-margin-x",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 172,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 172,
+          "column": 25
+        }
+      },
+      "prop": "$button-min-width",
+      "value": "88px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 173,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 173,
+          "column": 30
+        }
+      },
+      "prop": "$button-small-padding",
+      "value": "0 8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 174,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 174,
+          "column": 25
+        }
+      },
+      "prop": "$button-padding",
+      "value": "0 16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 175,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 175,
+          "column": 31
+        }
+      },
+      "prop": "$button-large-padding",
+      "value": "0 32px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 176,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 176,
+          "column": 35
+        }
+      },
+      "prop": "$button-text-transform",
+      "value": "uppercase",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 178,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 178,
+          "column": 28
+        }
+      },
+      "prop": "$button-small-height",
+      "value": "28px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 179,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 179,
+          "column": 31
+        }
+      },
+      "prop": "$button-small-font-size",
+      "value": "13px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 181,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 181,
+          "column": 28
+        }
+      },
+      "prop": "$button-large-height",
+      "value": "44px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 182,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 182,
+          "column": 31
+        }
+      },
+      "prop": "$button-large-font-size",
+      "value": "15px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 184,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 184,
+          "column": 30
+        }
+      },
+      "prop": "$button-floating-width",
+      "value": "56px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 185,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 185,
+          "column": 36
+        }
+      },
+      "prop": "$button-floating-icon-height",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 186,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 186,
+          "column": 35
+        }
+      },
+      "prop": "$button-floating-icon-width",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 187,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 187,
+          "column": 36
+        }
+      },
+      "prop": "$button-floating-small-width",
+      "value": "40px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 188,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 188,
+          "column": 36
+        }
+      },
+      "prop": "$button-floating-large-width",
+      "value": "72px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 189,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 189,
+          "column": 41
+        }
+      },
+      "prop": "$button-floating-small-icon-width",
+      "value": "18px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 190,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 190,
+          "column": 41
+        }
+      },
+      "prop": "$button-floating-large-icon-width",
+      "value": "30px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 192,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 192,
+          "column": 7
+        }
+      },
+      "text": "Card"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 193,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 193,
+          "column": 26
+        }
+      },
+      "prop": "$card-border-radius",
+      "value": "2px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 195,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 195,
+          "column": 7
+        }
+      },
+      "text": "Chip"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 196,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 196,
+          "column": 27
+        }
+      },
+      "prop": "$chip-border-radius",
+      "value": "28px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 197,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 197,
+          "column": 33
+        }
+      },
+      "prop": "$chip-close-margin",
+      "value": "0 2px 0 8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 198,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 198,
+          "column": 37
+        }
+      },
+      "prop": "$chip-close-margin-rtl",
+      "value": "0 8px 0 2px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 199,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 199,
+          "column": 23
+        }
+      },
+      "prop": "$chip-font-size",
+      "value": "13px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 200,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 200,
+          "column": 48
+        }
+      },
+      "prop": "$chip-label-border-radius",
+      "value": "$card-border-radius",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 201,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 201,
+          "column": 28
+        }
+      },
+      "prop": "$chip-icon-font-size",
+      "value": "20px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 202,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 202,
+          "column": 23
+        }
+      },
+      "prop": "$chip-padding",
+      "value": "0 12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 203,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 203,
+          "column": 50
+        }
+      },
+      "prop": "$chip-outline-background",
+      "important": true,
+      "value": "transparent",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 204,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 204,
+          "column": 33
+        }
+      },
+      "prop": "$chip-outline-color",
+      "value": "$grey.base",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 205,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 205,
+          "column": 20
+        }
+      },
+      "prop": "$chip-height",
+      "value": "32px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 206,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 206,
+          "column": 19
+        }
+      },
+      "prop": "$chip-margin",
+      "value": "4px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 207,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 207,
+          "column": 26
+        }
+      },
+      "prop": "$chip-small-height",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 208,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 208,
+          "column": 29
+        }
+      },
+      "prop": "$chip-small-font-size",
+      "value": "20px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 209,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 209,
+          "column": 25
+        }
+      },
+      "prop": "$chip-icon-offset",
+      "value": "12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 210,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 210,
+          "column": 34
+        }
+      },
+      "prop": "$chip-icon-negative-offset",
+      "value": "-8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 211,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 211,
+          "column": 38
+        }
+      },
+      "text": "TODO: s/removeable/removable in 2.0"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 212,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 212,
+          "column": 54
+        }
+      },
+      "text": "invalid name kept to avoid possible breaking change"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 213,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 213,
+          "column": 62
+        }
+      },
+      "prop": "$chip-removeable-padding",
+      "value": "0 $chip-margin 0 $chip-icon-offset",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 214,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 214,
+          "column": 65
+        }
+      },
+      "prop": "$chip-removable-padding-rtl",
+      "value": "0 $chip-icon-offset 0 $chip-margin",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 215,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 215,
+          "column": 22
+        }
+      },
+      "text": "TODO: remove in 2.0"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 216,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 216,
+          "column": 51
+        }
+      },
+      "prop": "$chip-removable-padding",
+      "value": "$chip-removeable-padding",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 218,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 218,
+          "column": 14
+        }
+      },
+      "text": "Collapsible"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 219,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 219,
+          "column": 40
+        }
+      },
+      "prop": "$expansion-panel-collapse-height",
+      "value": "48px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 220,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 220,
+          "column": 39
+        }
+      },
+      "prop": "$collapsible-transition-height",
+      "value": "0.23s",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 222,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 222,
+          "column": 9
+        }
+      },
+      "text": "Footer"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 223,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 223,
+          "column": 22
+        }
+      },
+      "prop": "$footer-height",
+      "value": "36px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": "",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 225,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 225,
+          "column": 12
+        }
+      },
+      "text": "* Lists"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 226,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 226,
+          "column": 25
+        }
+      },
+      "text": "List fonts and weights"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$headings.subheading.size",
+          "raw": "$headings.subheading.size /* 16px - the mdc scss uses subheading to configure like this*/",
+          "stylus": "$headings.subheading.size // 16px - the mdc scss uses subheading to configure like this"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 227,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 227,
+          "column": 111
+        }
+      },
+      "prop": "$list-tile-font-size",
+      "value": "$headings.subheading.size",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$headings.subheading.weight",
+          "raw": "$headings.subheading.weight /* 400*/",
+          "stylus": "$headings.subheading.weight // 400"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 228,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 228,
+          "column": 60
+        }
+      },
+      "prop": "$list-tile-font-weight",
+      "value": "$headings.subheading.weight",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "value": {
+          "value": "12px",
+          "raw": "12px /* this is for the stacked actions*/",
+          "stylus": "12px // this is for the stacked actions"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 230,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 230,
+          "column": 70
+        }
+      },
+      "prop": "$list-action-text-font-size",
+      "value": "12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 231,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 231,
+          "column": 42
+        }
+      },
+      "prop": "$list-action-text-font-color",
+      "value": "$grey.base",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "value": {
+          "value": "($list-tile-font-size - 2px)",
+          "raw": "($list-tile-font-size - 2px) /* 14px*/",
+          "stylus": "($list-tile-font-size - 2px) // 14px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 233,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 233,
+          "column": 65
+        }
+      },
+      "prop": "$list-sub-title-font-size",
+      "value": "($list-tile-font-size - 2px)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "value": {
+          "value": "($list-tile-font-size - 2px)",
+          "raw": "($list-tile-font-size - 2px) /* 14px*/",
+          "stylus": "($list-tile-font-size - 2px) // 14px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 235,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 235,
+          "column": 67
+        }
+      },
+      "prop": "$subheader-height-font-size",
+      "value": "($list-tile-font-size - 2px)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$font-weights.medium",
+          "raw": "$font-weights.medium /* 500*/",
+          "stylus": "$font-weights.medium // 500"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 236,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 236,
+          "column": 53
+        }
+      },
+      "prop": "$subheader-font-weight",
+      "value": "$font-weights.medium",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 239,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 239,
+          "column": 15
+        }
+      },
+      "text": "List spacing"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 240,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 240,
+          "column": 26
+        }
+      },
+      "prop": "$list-left-padding",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 241,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 241,
+          "column": 27
+        }
+      },
+      "prop": "$list-right-padding",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 242,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 242,
+          "column": 24
+        }
+      },
+      "prop": "$list-top-padding",
+      "value": "8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 243,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 243,
+          "column": 27
+        }
+      },
+      "prop": "$list-bottom-padding",
+      "value": "8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 245,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 245,
+          "column": 31
+        }
+      },
+      "prop": "$list-item-right-margin",
+      "value": "56px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 246,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 246,
+          "column": 31
+        }
+      },
+      "prop": "$list-item-left-padding",
+      "value": "72px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 247,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 247,
+          "column": 44
+        }
+      },
+      "prop": "$list-item-avatar-triple-margin-top",
+      "value": "-18px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 248,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 248,
+          "column": 32
+        }
+      },
+      "prop": "$list-item-single-height",
+      "value": "48px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 249,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 249,
+          "column": 32
+        }
+      },
+      "prop": "$list-item-double-height",
+      "value": "72px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 250,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 250,
+          "column": 32
+        }
+      },
+      "prop": "$list-item-triple-height",
+      "value": "88px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 251,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 251,
+          "column": 39
+        }
+      },
+      "prop": "$list-item-avatar-single-height",
+      "value": "56px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 253,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 253,
+          "column": 50
+        }
+      },
+      "prop": "$subheader-inset-margin",
+      "value": "$list-item-right-margin",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 255,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 255,
+          "column": 23
+        }
+      },
+      "text": "List dense overrides"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "($list-tile-font-size - 3px)",
+          "raw": "($list-tile-font-size - 3px) /*13px*/",
+          "stylus": "($list-tile-font-size - 3px) //13px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 256,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 256,
+          "column": 65
+        }
+      },
+      "prop": "$list-item-dense-font-size",
+      "value": "($list-tile-font-size - 3px)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 257,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 257,
+          "column": 56
+        }
+      },
+      "prop": "$subheader-dense-font-size",
+      "value": "$list-item-dense-font-size",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 258,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 258,
+          "column": 39
+        }
+      },
+      "prop": "$list-item-dense-icon-font-size",
+      "value": "22px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 259,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 259,
+          "column": 50
+        }
+      },
+      "prop": "$list-item-dense-avatar-triple-margin-top",
+      "value": "-14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 260,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 260,
+          "column": 53
+        }
+      },
+      "prop": "$list-item-dense-top-padding",
+      "value": "$list-top-padding / 2",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$list-item-single-height - 8px",
+          "raw": "$list-item-single-height - 8px /*40px*/",
+          "stylus": "$list-item-single-height - 8px //40px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 261,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 261,
+          "column": 71
+        }
+      },
+      "prop": "$list-item-dense-single-height",
+      "value": "$list-item-single-height - 8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$list-item-double-height - 12px",
+          "raw": "$list-item-double-height - 12px /*60px*/",
+          "stylus": "$list-item-double-height - 12px //60px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 262,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 262,
+          "column": 72
+        }
+      },
+      "prop": "$list-item-dense-double-height",
+      "value": "$list-item-double-height - 12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$list-item-triple-height - 12px",
+          "raw": "$list-item-triple-height - 12px /*76px*/",
+          "stylus": "$list-item-triple-height - 12px //76px"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 263,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 263,
+          "column": 72
+        }
+      },
+      "prop": "$list-item-dense-triple-height",
+      "value": "$list-item-triple-height - 12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$list-item-single-height",
+          "raw": "$list-item-single-height /*48px the dense concept was to take avatars to a normal single item height*/",
+          "stylus": "$list-item-single-height //48px the dense concept was to take avatars to a normal single item height"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 265,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 265,
+          "column": 141
+        }
+      },
+      "prop": "$list-item-dense-avatar-single-height",
+      "value": "$list-item-single-height",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 266,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 266,
+          "column": 38
+        }
+      },
+      "prop": "$list-item-dense-avatar-height",
+      "value": "38px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 268,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 268,
+          "column": 62
+        }
+      },
+      "prop": "$list-dense-subheader-height",
+      "value": "$list-item-dense-single-height",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "value": {
+          "value": "$list-dense-subheader-height",
+          "raw": "$list-dense-subheader-height /*the subheader under a group menu*/",
+          "stylus": "$list-dense-subheader-height //the subheader under a group menu"
+        },
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 269,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 269,
+          "column": 101
+        }
+      },
+      "prop": "$list-dense-subheader-group-height",
+      "value": "$list-dense-subheader-height",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 271,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 271,
+          "column": 8
+        }
+      },
+      "text": "Paper"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 272,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 272,
+          "column": 27
+        }
+      },
+      "prop": "$sheet-border-radius",
+      "value": "2px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 274,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 274,
+          "column": 10
+        }
+      },
+      "text": "Pickers"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 275,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 275,
+          "column": 37
+        }
+      },
+      "prop": "$time-picker-number-font-size",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 276,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 276,
+          "column": 35
+        }
+      },
+      "prop": "$time-picker-indicator-size",
+      "value": "40px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 278,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 278,
+          "column": 10
+        }
+      },
+      "text": "Toolbar"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 279,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 279,
+          "column": 23
+        }
+      },
+      "prop": "$toolbar-height",
+      "value": "56px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 280,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 280,
+          "column": 31
+        }
+      },
+      "prop": "$toolbar-item-padding",
+      "value": "0 16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 281,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 281,
+          "column": 23
+        }
+      },
+      "prop": "$toolbar-padding-y",
+      "value": "0",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 282,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 282,
+          "column": 26
+        }
+      },
+      "prop": "$toolbar-padding-x",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 284,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 284,
+          "column": 20
+        }
+      },
+      "text": "Progress Circular"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 285,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 285,
+          "column": 84
+        }
+      },
+      "prop": "$progress-circular-rotate-animation",
+      "value": "progress-circular-rotate 1.4s linear infinite",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 286,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 286,
+          "column": 82
+        }
+      },
+      "prop": "$progress-circular-rotate-dash",
+      "value": "progress-circular-dash 1.4s ease-in-out infinite",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 287,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 287,
+          "column": 68
+        }
+      },
+      "prop": "$process-circular-intermediate-svg-transition",
+      "value": "all .2s ease-in-out",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 288,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 288,
+          "column": 73
+        }
+      },
+      "prop": "$progress-circular-underlay-stroke",
+      "value": "rgba($material-light.fg-color, 0.1)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 289,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 289,
+          "column": 60
+        }
+      },
+      "prop": "$progress-circular-overlay-transition",
+      "value": "all .6s ease-in-out",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 291,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 291,
+          "column": 20
+        }
+      },
+      "text": "Navigation drawer"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 292,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 292,
+          "column": 41
+        }
+      },
+      "prop": "$navigation-drawer-item-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 293,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 293,
+          "column": 59
+        }
+      },
+      "prop": "$navigation-drawer-item-font-weight",
+      "value": "$font-weights.medium",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 294,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 294,
+          "column": 66
+        }
+      },
+      "prop": "$navigation-drawer-group-item-font-weight",
+      "value": "$font-weights.regular",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 296,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 296,
+          "column": 11
+        }
+      },
+      "text": "Snackbar"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 297,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 297,
+          "column": 23
+        }
+      },
+      "prop": "$snackbar-color",
+      "value": "#fff",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 298,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 298,
+          "column": 37
+        }
+      },
+      "prop": "$snackbar-background-color",
+      "value": "#323232",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 299,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 299,
+          "column": 31
+        }
+      },
+      "prop": "$snackbar-corner-offset",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 301,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 301,
+          "column": 6
+        }
+      },
+      "text": "Tab"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 302,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 302,
+          "column": 32
+        }
+      },
+      "prop": "$tab-text-transform",
+      "value": "uppercase",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 304,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 304,
+          "column": 9
+        }
+      },
+      "text": "Inputs"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 305,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 305,
+          "column": 26
+        }
+      },
+      "prop": "$input-top-spacing",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 306,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 306,
+          "column": 39
+        }
+      },
+      "prop": "$text-field-active-label-height",
+      "value": "12px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 308,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 308,
+          "column": 11
+        }
+      },
+      "text": "Timeline"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 309,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 309,
+          "column": 28
+        }
+      },
+      "prop": "$timeline-wedge-size",
+      "value": "10px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 310,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 310,
+          "column": 32
+        }
+      },
+      "prop": "$timeline-dot-small-size",
+      "value": "24px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 311,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 311,
+          "column": 34
+        }
+      },
+      "prop": "$timeline-dot-regular-size",
+      "value": "38px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 312,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 312,
+          "column": 32
+        }
+      },
+      "prop": "$timeline-dot-large-size",
+      "value": "52px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 314,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 314,
+          "column": 38
+        }
+      },
+      "prop": "$timeline-inner-dot-small-size",
+      "value": "18px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 315,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 315,
+          "column": 39
+        }
+      },
+      "prop": "$timeline-inner-dot-small-margin",
+      "value": "3px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 316,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 316,
+          "column": 40
+        }
+      },
+      "prop": "$timeline-inner-dot-regular-size",
+      "value": "30px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 317,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 317,
+          "column": 41
+        }
+      },
+      "prop": "$timeline-inner-dot-regular-margin",
+      "value": "4px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 318,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 318,
+          "column": 38
+        }
+      },
+      "prop": "$timeline-inner-dot-large-size",
+      "value": "42px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 319,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 319,
+          "column": 39
+        }
+      },
+      "prop": "$timeline-inner-dot-large-margin",
+      "value": "5px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 321,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 321,
+          "column": 11
+        }
+      },
+      "text": "Calendar"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 322,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 322,
+          "column": 50
+        }
+      },
+      "prop": "$calendar-daily-weekday-padding",
+      "value": "4px 4px 4px 8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 323,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 323,
+          "column": 41
+        }
+      },
+      "prop": "$calendar-daily-weekday-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 324,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 324,
+          "column": 46
+        }
+      },
+      "prop": "$calendar-daily-day-padding",
+      "value": "0px 4px 4px 8px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 325,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 325,
+          "column": 37
+        }
+      },
+      "prop": "$calendar-daily-day-font-size",
+      "value": "40px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 326,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 326,
+          "column": 39
+        }
+      },
+      "prop": "$calendar-daily-day-line-height",
+      "value": "40px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 327,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 327,
+          "column": 45
+        }
+      },
+      "prop": "$calendar-daily-interval-gutter-width",
+      "value": "44px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 328,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 328,
+          "column": 43
+        }
+      },
+      "prop": "$calendar-daily-interval-gutter-top",
+      "value": "-6px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 329,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 329,
+          "column": 49
+        }
+      },
+      "prop": "$calendar-daily-interval-gutter-font-size",
+      "value": "10px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 331,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 331,
+          "column": 51
+        }
+      },
+      "prop": "$calendar-weekly-weekday-padding",
+      "value": "0px 4px 0px 4px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 332,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 332,
+          "column": 42
+        }
+      },
+      "prop": "$calendar-weekly-weekday-font-size",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 333,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 333,
+          "column": 48
+        }
+      },
+      "prop": "$calendar-weekly-day-padding",
+      "value": "32px 4px 4px 4px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 334,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 334,
+          "column": 39
+        }
+      },
+      "prop": "$calendar-weekly-day-label-size",
+      "value": "32px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 335,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 335,
+          "column": 41
+        }
+      },
+      "prop": "$calendar-weekly-day-label-radius",
+      "value": "16px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 336,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 336,
+          "column": 39
+        }
+      },
+      "prop": "$calendar-weekly-day-month-left",
+      "value": "36px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 338,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 338,
+          "column": 13
+        }
+      },
+      "text": "Directives"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 339,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 339,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 341,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 341,
+          "column": 19
+        }
+      },
+      "text": "Ripple animation"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 342,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 342,
+          "column": 120
+        }
+      },
+      "prop": "$ripple-animation-transition-in",
+      "value": "transform .25s $transition.fast-out-slow-in, opacity .1s $transition.fast-out-slow-in",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 343,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 343,
+          "column": 76
+        }
+      },
+      "prop": "$ripple-animation-transition-out",
+      "value": "opacity .3s $transition.fast-out-slow-in",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 344,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 344,
+          "column": 40
+        }
+      },
+      "prop": "$ripple-animation-visible-opacity",
+      "value": ".15",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 346,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 346,
+          "column": 22
+        }
+      },
+      "text": "Treeview transition"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 347,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 347,
+          "column": 58
+        }
+      },
+      "prop": "$treeview-transition",
+      "value": ".2s $transition.linear-out-slow-in",
+      "assignment": true,
+      "conditional": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

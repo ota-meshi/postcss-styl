@@ -1,0 +1,2989 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "import",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 22
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 22
+        }
+      },
+      "params": "'../bootstrap'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "import",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 18
+        },
+        "rawEnd": {
+          "line": 2,
+          "column": 18
+        }
+      },
+      "params": "'../theme'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      "text": "Theme"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "v-tabs__bar",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 5,
+          "column": 23
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 12,
+          "column": 37
+        }
+      },
+      "params": "($material)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          },
+          "prop": "background-color",
+          "value": "$material.cards",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 9,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 9,
+                  "column": 32
+                }
+              },
+              "prop": "color",
+              "value": "$material.tabs.active"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 8,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 32
+            }
+          },
+          "selector": ".v-tabs__div",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 12,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 12,
+                  "column": 37
+                }
+              },
+              "prop": "color",
+              "value": "$material.buttons.disabled"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 11,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 12,
+              "column": 37
+            }
+          },
+          "selector": ".v-tabs__item--disabled",
+          "pythonic": true
+        }
+      ],
+      "mixin": true,
+      "function": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "theme",
+      "source": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 14,
+          "column": 33
+        },
+        "rawEnd": {
+          "line": 14,
+          "column": 33
+        }
+      },
+      "params": "(v-tabs__bar, \"v-tabs__bar\")",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 20
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 16,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 17,
+          "column": 20
+        }
+      },
+      "selector": ".v-tabs",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 20,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 20,
+              "column": 20
+            }
+          },
+          "prop": "position",
+          "value": "relative",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 21,
+              "column": 24
+            }
+          },
+          "prop": "border-radius",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 19,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 21,
+          "column": 24
+        }
+      },
+      "selector": ".v-tabs__bar",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 24,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 24,
+              "column": 21
+            }
+          },
+          "prop": "align-items",
+          "value": "center",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 25,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 25,
+              "column": 17
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 26,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 26,
+              "column": 22
+            }
+          },
+          "prop": "display",
+          "value": "inline-flex",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 27,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          },
+          "prop": "height",
+          "value": "100%",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 28,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 28,
+              "column": 20
+            }
+          },
+          "prop": "position",
+          "value": "absolute",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 29,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 29,
+              "column": 8
+            }
+          },
+          "prop": "top",
+          "value": "0",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 30,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 30,
+              "column": 19
+            }
+          },
+          "prop": "user-select",
+          "value": "none",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 31,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 31,
+              "column": 13
+            }
+          },
+          "prop": "width",
+          "value": "32px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 34,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 34,
+                  "column": 13
+                }
+              },
+              "prop": "left",
+              "value": "4px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 33,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 33,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 34,
+              "column": 13
+            }
+          },
+          "selector": "&--prev",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 37,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 37,
+                  "column": 14
+                }
+              },
+              "prop": "right",
+              "value": "4px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 36,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 36,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 37,
+              "column": 14
+            }
+          },
+          "selector": "&--next",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 23,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 23,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 37,
+          "column": 14
+        }
+      },
+      "selector": ".v-tabs__icon",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 40,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 40,
+              "column": 18
+            }
+          },
+          "prop": "overflow",
+          "value": "hidden",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 41,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 41,
+              "column": 18
+            }
+          },
+          "prop": "contain",
+          "value": "content",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 42,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 42,
+              "column": 15
+            }
+          },
+          "prop": "display",
+          "value": "flex",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 45,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 45,
+                  "column": 21
+                }
+              },
+              "prop": "margin-left",
+              "value": "40px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 46,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 46,
+                  "column": 22
+                }
+              },
+              "prop": "margin-right",
+              "value": "40px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 49,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 24
+                    }
+                  },
+                  "prop": "padding-left",
+                  "value": "16px",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n\n      ",
+                    "between": "",
+                    "afterName": " ",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "atrule",
+                  "name": "media",
+                  "source": {
+                    "start": {
+                      "line": 51,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 51,
+                      "column": 42
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 26
+                    }
+                  },
+                  "params": "$display-breakpoints.xs-only",
+                  "pythonic": true,
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 52,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 52,
+                          "column": 26
+                        }
+                      },
+                      "prop": "padding-left",
+                      "value": "24px"
+                    }
+                  ]
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 48,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 48,
+                  "column": 41
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 52,
+                  "column": 26
+                }
+              },
+              "selector": ".v-tabs__container--align-with-title",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 44,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 44,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 52,
+              "column": 26
+            }
+          },
+          "selector": "&--show-arrows",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 39,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 39,
+          "column": 17
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 52,
+          "column": 26
+        }
+      },
+      "selector": ".v-tabs__wrapper",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 55,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 55,
+              "column": 16
+            }
+          },
+          "prop": "flex",
+          "value": "1 0 auto",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 56,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 56,
+              "column": 15
+            }
+          },
+          "prop": "display",
+          "value": "flex",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 57,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 57,
+              "column": 14
+            }
+          },
+          "prop": "height",
+          "value": "48px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 58,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 58,
+              "column": 23
+            }
+          },
+          "prop": "list-style-type",
+          "value": "none",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 59,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 59,
+              "column": 59
+            }
+          },
+          "prop": "transition",
+          "value": "transform 0.6s cubic-bezier(0.86, 0, 0.07, 1)",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 60,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 60,
+              "column": 21
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 61,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 61,
+              "column": 20
+            }
+          },
+          "prop": "position",
+          "value": "relative",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 65,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 65,
+                      "column": 20
+                    }
+                  },
+                  "prop": "flex",
+                  "value": "1 0 auto"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 64,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 64,
+                  "column": 17
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 65,
+                  "column": 20
+                }
+              },
+              "selector": ".v-tabs__div",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 63,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 63,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 65,
+              "column": 20
+            }
+          },
+          "selector": "&--overflow",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 69,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 69,
+                      "column": 20
+                    }
+                  },
+                  "prop": "flex",
+                  "value": "1 0 auto",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 70,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 70,
+                      "column": 21
+                    }
+                  },
+                  "prop": "max-width",
+                  "value": "none"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 68,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 68,
+                  "column": 17
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 70,
+                  "column": 21
+                }
+              },
+              "selector": ".v-tabs__div",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 67,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 67,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 70,
+              "column": 21
+            }
+          },
+          "selector": "&--grow",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 73,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 73,
+                  "column": 16
+                }
+              },
+              "prop": "height",
+              "value": "72px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 72,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 72,
+              "column": 20
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 73,
+              "column": 16
+            }
+          },
+          "selector": "&--icons-and-text",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 76,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 76,
+                  "column": 22
+                }
+              },
+              "prop": "padding-left",
+              "value": "56px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 75,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 75,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 76,
+              "column": 22
+            }
+          },
+          "selector": "&--align-with-title",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 81,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 81,
+                      "column": 21
+                    }
+                  },
+                  "prop": "min-width",
+                  "value": "72px",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n\n      ",
+                    "between": "",
+                    "afterName": " ",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "atrule",
+                  "name": "media",
+                  "source": {
+                    "start": {
+                      "line": 83,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 83,
+                      "column": 44
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 84,
+                      "column": 26
+                    }
+                  },
+                  "params": "$display-breakpoints.sm-and-up",
+                  "pythonic": true,
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n          ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 84,
+                          "column": 11
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 84,
+                          "column": 26
+                        }
+                      },
+                      "prop": "min-width",
+                      "value": "160px"
+                    }
+                  ]
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 80,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 80,
+                  "column": 17
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 84,
+                  "column": 26
+                }
+              },
+              "selector": ".v-tabs__div",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 78,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 79,
+              "column": 20
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 84,
+              "column": 26
+            }
+          },
+          "selector": "&--fixed-tabs,\n  &--icons-and-text",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": "",
+                    "afterName": " ",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "atrule",
+                  "name": "media",
+                  "source": {
+                    "start": {
+                      "line": 88,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 88,
+                      "column": 42
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 89,
+                      "column": 22
+                    }
+                  },
+                  "params": "$display-breakpoints.xs-only",
+                  "pythonic": true,
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 89,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 89,
+                          "column": 22
+                        }
+                      },
+                      "prop": "flex",
+                      "value": "1 0 auto"
+                    }
+                  ]
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 87,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 87,
+                  "column": 17
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 89,
+                  "column": 22
+                }
+              },
+              "selector": ".v-tabs__div",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 86,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 86,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 89,
+              "column": 22
+            }
+          },
+          "selector": "&--fixed-tabs",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 95,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 95,
+                      "column": 23
+                    }
+                  },
+                  "prop": "margin-left",
+                  "value": "auto"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 94,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 94,
+                  "column": 31
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 95,
+                  "column": 23
+                }
+              },
+              "selector": "> .v-tabs__div:first-child",
+              "pythonic": true
+            },
+            {
+              "raws": {
+                "before": "\n\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 98,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 98,
+                      "column": 23
+                    }
+                  },
+                  "prop": "margin-left",
+                  "value": "auto"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 97,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 97,
+                  "column": 43
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 98,
+                  "column": 23
+                }
+              },
+              "selector": ".v-tabs__slider-wrapper + .v-tabs__div",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 91,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 93,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 98,
+              "column": 23
+            }
+          },
+          "selector": "&--centered,\n  &--fixed-tabs,\n  &--right",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 103,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 103,
+                      "column": 24
+                    }
+                  },
+                  "prop": "margin-right",
+                  "value": "auto"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 102,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 102,
+                  "column": 30
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 103,
+                  "column": 24
+                }
+              },
+              "selector": "> .v-tabs__div:last-child",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 100,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 101,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 103,
+              "column": 24
+            }
+          },
+          "selector": "&--centered,\n  &--fixed-tabs",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 107,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 107,
+                      "column": 36
+                    }
+                  },
+                  "prop": "flex-direction",
+                  "value": "column-reverse",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n\n      ",
+                    "between": "",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "rule",
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 110,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 110,
+                          "column": 26
+                        }
+                      },
+                      "prop": "margin-bottom",
+                      "value": "6px"
+                    }
+                  ],
+                  "source": {
+                    "start": {
+                      "line": 109,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 109,
+                      "column": 14
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 110,
+                      "column": 26
+                    }
+                  },
+                  "selector": ".v-icon",
+                  "pythonic": true
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 106,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 106,
+                  "column": 18
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 110,
+                  "column": 26
+                }
+              },
+              "selector": ".v-tabs__item",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 105,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 105,
+              "column": 20
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 110,
+              "column": 26
+            }
+          },
+          "selector": "&--icons-and-text",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 54,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 54,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 110,
+          "column": 26
+        }
+      },
+      "selector": ".v-tabs__container",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 113,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 113,
+              "column": 21
+            }
+          },
+          "prop": "align-items",
+          "value": "center",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 114,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 114,
+              "column": 22
+            }
+          },
+          "prop": "display",
+          "value": "inline-flex",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 115,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 115,
+              "column": 16
+            }
+          },
+          "prop": "flex",
+          "value": "0 1 auto",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 116,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 116,
+              "column": 17
+            }
+          },
+          "prop": "font-size",
+          "value": "14px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 117,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 117,
+              "column": 18
+            }
+          },
+          "prop": "font-weight",
+          "value": "500",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 118,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 118,
+              "column": 21
+            }
+          },
+          "prop": "line-height",
+          "value": "normal",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 119,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 119,
+              "column": 17
+            }
+          },
+          "prop": "height",
+          "value": "inherit",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 120,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 120,
+              "column": 18
+            }
+          },
+          "prop": "max-width",
+          "value": "264px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 121,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 121,
+              "column": 20
+            }
+          },
+          "prop": "text-align",
+          "value": "center",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 122,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 122,
+              "column": 37
+            }
+          },
+          "prop": "text-transform",
+          "value": "$tab-text-transform",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 123,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 123,
+              "column": 24
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 112,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 112,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 123,
+          "column": 24
+        }
+      },
+      "selector": ".v-tabs__div",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 126,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 126,
+              "column": 21
+            }
+          },
+          "prop": "align-items",
+          "value": "center",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 127,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 127,
+              "column": 16
+            }
+          },
+          "prop": "color",
+          "value": "inherit",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 128,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 128,
+              "column": 15
+            }
+          },
+          "prop": "display",
+          "value": "flex",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 129,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 129,
+              "column": 16
+            }
+          },
+          "prop": "flex",
+          "value": "1 1 auto",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 130,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 130,
+              "column": 14
+            }
+          },
+          "prop": "height",
+          "value": "100%",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 131,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 131,
+              "column": 25
+            }
+          },
+          "prop": "justify-content",
+          "value": "center",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 132,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 132,
+              "column": 20
+            }
+          },
+          "prop": "max-width",
+          "value": "inherit",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 133,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 133,
+              "column": 19
+            }
+          },
+          "prop": "padding",
+          "value": "6px 12px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 134,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 134,
+              "column": 23
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 135,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 135,
+              "column": 33
+            }
+          },
+          "prop": "transition",
+          "value": "$primary-transition",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 136,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 136,
+              "column": 19
+            }
+          },
+          "prop": "user-select",
+          "value": "none",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 137,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 137,
+              "column": 21
+            }
+          },
+          "prop": "white-space",
+          "value": "normal",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 140,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 140,
+                  "column": 15
+                }
+              },
+              "prop": "opacity",
+              "value": ".7"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 139,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 139,
+              "column": 31
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 140,
+              "column": 15
+            }
+          },
+          "selector": "&:not(.v-tabs__item--active)",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 143,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 143,
+                  "column": 24
+                }
+              },
+              "prop": "pointer-events",
+              "value": "none"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 142,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 142,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 143,
+              "column": 24
+            }
+          },
+          "selector": "&--disabled",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 125,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 125,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 143,
+          "column": 24
+        }
+      },
+      "selector": ".v-tabs__item",
+      "pythonic": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 146,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 146,
+              "column": 13
+            }
+          },
+          "prop": "height",
+          "value": "2px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 147,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 147,
+              "column": 13
+            }
+          },
+          "prop": "width",
+          "value": "100%",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 150,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 150,
+                  "column": 13
+                }
+              },
+              "prop": "bottom",
+              "value": "0",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 151,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 151,
+                  "column": 24
+                }
+              },
+              "prop": "margin",
+              "important": true,
+              "value": "0",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 152,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 152,
+                  "column": 22
+                }
+              },
+              "prop": "position",
+              "value": "absolute",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 153,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 153,
+                  "column": 35
+                }
+              },
+              "prop": "transition",
+              "value": "$primary-transition"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 149,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 149,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 153,
+              "column": 35
+            }
+          },
+          "selector": "&-wrapper",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 145,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 145,
+          "column": 16
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 153,
+          "column": 35
+        }
+      },
+      "selector": ".v-tabs__slider",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

@@ -1,0 +1,2109 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "import",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 22
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 22
+        }
+      },
+      "params": "'../bootstrap'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "import",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 18
+        },
+        "rawEnd": {
+          "line": 2,
+          "column": 18
+        }
+      },
+      "params": "'../theme'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "v-overflow-btn",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 4,
+          "column": 26
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 27,
+          "column": 33
+        }
+      },
+      "params": "($material)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": ",
+                    "important": " !important // override v-text-field bottom border"
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 8,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 92
+                    }
+                  },
+                  "prop": "background-color",
+                  "important": true,
+                  "value": "$material.dividers"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 7,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 7,
+                  "column": 14
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 8,
+                  "column": 92
+                }
+              },
+              "selector": "&::before",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 6,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 92
+            }
+          },
+          "selector": ".v-input__control,\n  .v-input__slot",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n  \n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": "",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "rule",
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": ",
+                        "important": " !important // override v-text-field top border;"
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 14,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 14,
+                          "column": 85
+                        }
+                      },
+                      "prop": "background-color",
+                      "important": true,
+                      "value": "transparent"
+                    }
+                  ],
+                  "source": {
+                    "start": {
+                      "line": 13,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 13,
+                      "column": 16
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 85
+                    }
+                  },
+                  "selector": "&::before",
+                  "pythonic": true
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 11,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 12,
+                  "column": 19
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 14,
+                  "column": 85
+                }
+              },
+              "selector": ".v-input__control,\n    .v-input__slot",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 10,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 85
+            }
+          },
+          "selector": "&.v-text-field--outline",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n  \n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 21,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 47
+                    }
+                  },
+                  "prop": "border-left",
+                  "value": "1px solid $material.dividers"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 20,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 20,
+                  "column": 27
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 21,
+                  "column": 47
+                }
+              },
+              "selector": ".v-input__append-inner",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 19,
+              "column": 39
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 21,
+              "column": 47
+            }
+          },
+          "selector": "&--segmented,\n  &--editable:hover,\n  &--editable.v-input--is-focused,\n  &--editable.v-select--is-menu-active",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 27,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 33
+                    }
+                  },
+                  "prop": "background",
+                  "value": "$material.cards"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 26,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 26,
+                  "column": 19
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 27,
+                  "column": 33
+                }
+              },
+              "selector": ".v-input__slot",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 23,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 25,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 27,
+              "column": 33
+            }
+          },
+          "selector": "&:hover,\n  &.v-input--is-focused,\n  &.v-select--is-menu-active",
+          "pythonic": true
+        }
+      ],
+      "mixin": true,
+      "function": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": "",
+        "identifier": ""
+      },
+      "type": "atrule",
+      "name": "theme",
+      "source": {
+        "start": {
+          "line": 29,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 29,
+          "column": 39
+        },
+        "rawEnd": {
+          "line": 29,
+          "column": 39
+        }
+      },
+      "params": "(v-overflow-btn, \"v-overflow-btn\")",
+      "omittedSemi": true,
+      "call": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 32,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 32,
+              "column": 18
+            }
+          },
+          "prop": "margin-top",
+          "value": "12px",
+          "omittedSemi": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 33,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 33,
+              "column": 17
+            }
+          },
+          "prop": "padding-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 36,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 36,
+                  "column": 19
+                }
+              },
+              "prop": "cursor",
+              "value": "pointer"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 35,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 35,
+              "column": 72
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 36,
+              "column": 19
+            }
+          },
+          "selector": "&:not(.v-overflow-btn--editable) > .v-input__control > .v-input__slot",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 39,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 39,
+                  "column": 16
+                }
+              },
+              "prop": "height",
+              "value": "48px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 42,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 23
+                    }
+                  },
+                  "prop": "margin-left",
+                  "value": "16px",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 43,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 43,
+                      "column": 21
+                    }
+                  },
+                  "prop": "cursor",
+                  "value": "pointer"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 41,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 41,
+                  "column": 10
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 43,
+                  "column": 21
+                }
+              },
+              "selector": "input",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 38,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 38,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 43,
+              "column": 21
+            }
+          },
+          "selector": ".v-select__slot",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 46,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 46,
+                  "column": 21
+                }
+              },
+              "prop": "margin-left",
+              "value": "16px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 45,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 45,
+              "column": 42
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 46,
+              "column": 21
+            }
+          },
+          "selector": ".v-select__selection--comma:first-child",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 49,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 49,
+                  "column": 37
+                }
+              },
+              "prop": "transition",
+              "value": ".3s $transition.swing",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 52,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 19
+                    }
+                  },
+                  "prop": "content",
+                  "value": "none"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 51,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 51,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 52,
+                  "column": 19
+                }
+              },
+              "selector": "&::after",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 48,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 48,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 52,
+              "column": 19
+            }
+          },
+          "selector": ".v-input__slot",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 55,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 55,
+                  "column": 21
+                }
+              },
+              "prop": "margin-left",
+              "value": "16px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 56,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 56,
+                  "column": 25
+                }
+              },
+              "prop": "top",
+              "value": "calc(50% - 10px)"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 54,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 54,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 56,
+              "column": 25
+            }
+          },
+          "selector": ".v-label",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 59,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 59,
+                  "column": 15
+                }
+              },
+              "prop": "width",
+              "value": "48px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 60,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 60,
+                  "column": 16
+                }
+              },
+              "prop": "height",
+              "value": "48px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 61,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 61,
+                  "column": 20
+                }
+              },
+              "prop": "align-self",
+              "value": "auto",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 62,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 62,
+                  "column": 23
+                }
+              },
+              "prop": "align-items",
+              "value": "center",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 63,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 63,
+                  "column": 17
+                }
+              },
+              "prop": "margin-top",
+              "value": "0",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 64,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 64,
+                  "column": 14
+                }
+              },
+              "prop": "padding",
+              "value": "0",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 65,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 65,
+                  "column": 18
+                }
+              },
+              "prop": "flex-shrink",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 58,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 58,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 65,
+              "column": 18
+            }
+          },
+          "selector": ".v-input__append-inner",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 69,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 69,
+                  "column": 20
+                }
+              },
+              "prop": "margin-top",
+              "value": "12px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 70,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 70,
+                  "column": 23
+                }
+              },
+              "prop": "margin-bottom",
+              "value": "12px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 67,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 68,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 70,
+              "column": 23
+            }
+          },
+          "selector": ".v-input__append-outer,\n  .v-input__prepend-outer",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "left": " ",
+                "right": "",
+                "inline": true
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 73,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 73,
+                  "column": 26
+                }
+              },
+              "text": "TODO: move to mixin"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 74,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 74,
+                  "column": 15
+                }
+              },
+              "prop": "height",
+              "value": "1px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 75,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 75,
+                  "column": 13
+                }
+              },
+              "prop": "top",
+              "value": "-1px",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 76,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 76,
+                  "column": 15
+                }
+              },
+              "prop": "content",
+              "value": "''",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 77,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 77,
+                  "column": 11
+                }
+              },
+              "prop": "left",
+              "value": "0",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 78,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 78,
+                  "column": 22
+                }
+              },
+              "prop": "position",
+              "value": "absolute",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 79,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 79,
+                  "column": 35
+                }
+              },
+              "prop": "transition",
+              "value": "$primary-transition",
+              "omittedSemi": true
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 80,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 80,
+                  "column": 15
+                }
+              },
+              "prop": "width",
+              "value": "100%"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 72,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 72,
+              "column": 28
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 80,
+              "column": 15
+            }
+          },
+          "selector": ".v-input__control::before",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": "",
+                    "afterName": "",
+                    "identifier": ""
+                  },
+                  "type": "atrule",
+                  "name": "elevation",
+                  "source": {
+                    "start": {
+                      "line": 85,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 85,
+                      "column": 18
+                    },
+                    "rawEnd": {
+                      "line": 85,
+                      "column": 18
+                    }
+                  },
+                  "params": "(2)",
+                  "call": true
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 84,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 84,
+                  "column": 19
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 85,
+                  "column": 18
+                }
+              },
+              "selector": ".v-input__slot",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 82,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 83,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 85,
+              "column": 18
+            }
+          },
+          "selector": "&.v-input--is-focused,\n  &.v-select--is-menu-active",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 88,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 88,
+                  "column": 14
+                }
+              },
+              "prop": "width",
+              "value": "0px"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 87,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 87,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 88,
+              "column": 14
+            }
+          },
+          "selector": ".v-select__selections",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 92,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 92,
+                      "column": 23
+                    }
+                  },
+                  "prop": "flex-wrap",
+                  "value": "nowrap",
+                  "omittedSemi": true
+                },
+                {
+                  "raws": {
+                    "before": "\n\n      ",
+                    "between": "",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "rule",
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 95,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 95,
+                          "column": 24
+                        }
+                      },
+                      "prop": "border-radius",
+                      "value": "0",
+                      "omittedSemi": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 96,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 96,
+                          "column": 17
+                        }
+                      },
+                      "prop": "margin",
+                      "value": "0",
+                      "omittedSemi": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": ",
+                        "value": {
+                          "value": "-16px",
+                          "raw": "-16px /* push past the input's padding*/",
+                          "stylus": "-16px // push past the input's padding"
+                        }
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 97,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 97,
+                          "column": 60
+                        }
+                      },
+                      "prop": "margin-right",
+                      "value": "-16px",
+                      "omittedSemi": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 98,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 98,
+                          "column": 20
+                        }
+                      },
+                      "prop": "height",
+                      "value": "48px",
+                      "omittedSemi": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 99,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 99,
+                          "column": 19
+                        }
+                      },
+                      "prop": "width",
+                      "value": "100%",
+                      "omittedSemi": true
+                    },
+                    {
+                      "raws": {
+                        "before": "\n\n        ",
+                        "between": "",
+                        "semicolon": false,
+                        "after": ""
+                      },
+                      "type": "rule",
+                      "nodes": [
+                        {
+                          "raws": {
+                            "before": "\n          ",
+                            "between": ": "
+                          },
+                          "type": "decl",
+                          "source": {
+                            "start": {
+                              "line": 102,
+                              "column": 11
+                            },
+                            "input": {
+                              "file": "input.styl"
+                            },
+                            "end": {
+                              "line": 102,
+                              "column": 32
+                            }
+                          },
+                          "prop": "justify-content",
+                          "value": "start",
+                          "omittedSemi": true
+                        },
+                        {
+                          "raws": {
+                            "before": "\n\n          ",
+                            "between": "",
+                            "semicolon": false,
+                            "after": ""
+                          },
+                          "type": "rule",
+                          "nodes": [
+                            {
+                              "raws": {
+                                "before": "\n            ",
+                                "between": ": "
+                              },
+                              "type": "decl",
+                              "source": {
+                                "start": {
+                                  "line": 105,
+                                  "column": 13
+                                },
+                                "input": {
+                                  "file": "input.styl"
+                                },
+                                "end": {
+                                  "line": 105,
+                                  "column": 41
+                                }
+                              },
+                              "prop": "background-color",
+                              "value": "transparent"
+                            }
+                          ],
+                          "source": {
+                            "start": {
+                              "line": 104,
+                              "column": 11
+                            },
+                            "startChildren": {
+                              "line": 104,
+                              "column": 20
+                            },
+                            "input": {
+                              "file": "input.styl"
+                            },
+                            "end": {
+                              "line": 105,
+                              "column": 41
+                            }
+                          },
+                          "selector": "&::before",
+                          "pythonic": true
+                        }
+                      ],
+                      "source": {
+                        "start": {
+                          "line": 101,
+                          "column": 9
+                        },
+                        "startChildren": {
+                          "line": 101,
+                          "column": 19
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 105,
+                          "column": 41
+                        }
+                      },
+                      "selector": "&__content",
+                      "pythonic": true
+                    }
+                  ],
+                  "source": {
+                    "start": {
+                      "line": 94,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 94,
+                      "column": 13
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 105,
+                      "column": 41
+                    }
+                  },
+                  "selector": ".v-btn",
+                  "pythonic": true
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 91,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 91,
+                  "column": 26
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 105,
+                  "column": 41
+                }
+              },
+              "selector": ".v-select__selections",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 90,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 90,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 105,
+              "column": 41
+            }
+          },
+          "selector": "&--segmented",
+          "pythonic": true
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": "",
+            "semicolon": false,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": "",
+                    "semicolon": false,
+                    "after": ""
+                  },
+                  "type": "rule",
+                  "nodes": [
+                    {
+                      "raws": {
+                        "before": "\n        ",
+                        "between": ": "
+                      },
+                      "type": "decl",
+                      "source": {
+                        "start": {
+                          "line": 110,
+                          "column": 9
+                        },
+                        "input": {
+                          "file": "input.styl"
+                        },
+                        "end": {
+                          "line": 110,
+                          "column": 20
+                        }
+                      },
+                      "prop": "cursor",
+                      "value": "text"
+                    }
+                  ],
+                  "source": {
+                    "start": {
+                      "line": 109,
+                      "column": 7
+                    },
+                    "startChildren": {
+                      "line": 109,
+                      "column": 12
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 110,
+                      "column": 20
+                    }
+                  },
+                  "selector": "input",
+                  "pythonic": true
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 108,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 108,
+                  "column": 20
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 110,
+                  "column": 20
+                }
+              },
+              "selector": ".v-select__slot",
+              "pythonic": true
+            },
+            {
+              "raws": {
+                "before": "\n\n    ",
+                "between": "",
+                "semicolon": false,
+                "after": ""
+              },
+              "type": "rule",
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 114,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 114,
+                      "column": 21
+                    }
+                  },
+                  "prop": "cursor",
+                  "value": "pointer"
+                }
+              ],
+              "source": {
+                "start": {
+                  "line": 112,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 113,
+                  "column": 29
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 114,
+                  "column": 21
+                }
+              },
+              "selector": ".v-input__append-inner,\n    .v-input__append-inner *",
+              "pythonic": true
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 107,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 107,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 114,
+              "column": 21
+            }
+          },
+          "selector": "&--editable",
+          "pythonic": true
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 31,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 31,
+          "column": 16
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 114,
+          "column": 21
+        }
+      },
+      "selector": ".v-overflow-btn",
+      "pythonic": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

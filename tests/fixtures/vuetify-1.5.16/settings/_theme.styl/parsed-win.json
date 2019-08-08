@@ -1,0 +1,567 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "require",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 20
+        },
+        "rawEnd": {
+          "line": 1,
+          "column": 20
+        }
+      },
+      "params": "'./_colors'",
+      "omittedSemi": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 8
+        }
+      },
+      "text": "Theme"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 41
+        }
+      },
+      "prop": "$body-font-family",
+      "value": "'Roboto', sans-serif",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 23
+        }
+      },
+      "prop": "$font-size-root",
+      "value": "14px",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+        }
+      },
+      "prop": "$line-height-root",
+      "value": "1.5",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 84
+        }
+      },
+      "text": "Material Design - https://material.io/guidelines/style/color.html#color-usability"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 111,
+          "column": 1
+        }
+      },
+      "prop": "$material-light",
+      "value": "{\r\n  status-bar: {\r\n    regular: $grey.lighten-2,\r\n    lights-out: rgba($shades.white, .7)\r\n  },\r\n  app-bar: $grey.lighten-4,\r\n  background: $grey.lighten-5,\r\n  cards: $shades.white,\r\n  chips: {\r\n    background: $grey.lighten-2,\r\n    color: rgba($shades.black, .87)\r\n  },\r\n  dividers: rgba($shades.black, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: rgba($shades.black, .87),\r\n    secondary: rgba($shades.black, .54),\r\n    disabled: rgba($shades.black, .38),\r\n    link: $blue.darken-2,\r\n    link-hover: $grey.darken-3\r\n  },\r\n  icons: {\r\n    active: rgba($shades.black, .54),\r\n    inactive: rgba($shades.black, .38)\r\n  },\r\n  inputs: {\r\n    box: rgba($shades.black, .04),\r\n    solo-inverted: rgba($shades.black, .16),\r\n    solo-inverted-focused: $grey.darken-3,\r\n    solo-inverted-focused-text: $shades.white\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.black, .26),\r\n    focused: rgba($shades.black, .12),\r\n    focused-alt: rgba($shades.white, .6),\r\n    pressed: rgba(#999, .4)\r\n  },\r\n  expansion-panels: {\r\n    focus: $grey.lighten-3\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.black, .04)\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-5,\r\n      disabled: $grey.lighten-1\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.black, .38),\r\n      disabled: rgba($shades.black, .12)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.black, .38),\r\n    inactive: rgba($shades.black, .26),\r\n    disabled: rgba($shades.black, .26),\r\n    discrete: $shades.black\r\n  },\r\n  tabs: {\r\n    active: rgba($shades.black, .87)\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .06),\r\n    box-hover: rgba($shades.black, .12)\r\n  },\r\n  input-bottom-line: rgba($shades.black, .42),\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.black, 0.87),\r\n    hover: rgba($shades.black, 0.54)\r\n  },\r\n  table: {\r\n    active: $grey.lighten-4\r\n    hover: $grey.lighten-3\r\n  },\r\n  picker: {\r\n    body: $shades.white,\r\n    clock: $grey.lighten-2,\r\n    indeterminateTime: $grey.lighten-1,\r\n    title: $grey.lighten-2\r\n  },\r\n  bg-color: $shades.white\r\n  fg-color: $shades.black\r\n  text-color: $shades.black\r\n  primary-text-percent: .87\r\n  secondary-text-percent: .54\r\n  disabledORhints-text-percent: .38\r\n  divider-percent: .12\r\n  active-icon-percent: .54\r\n  inactive-icon-percent: .38\r\n  calendar: {\r\n    background-color: #fff\r\n    outside-background-color: #f7f7f7\r\n    line-color: #e0e0e0\r\n    interval-color: $grey.darken-3\r\n    interval-line-color: $grey.lighten-2\r\n    text-color: #000\r\n    past-color: rgba(#000, .38)\r\n  }\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 113,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 215,
+          "column": 1
+        }
+      },
+      "prop": "$material-dark",
+      "value": "{\r\n  status-bar: {\r\n    regular: $shades.black,\r\n    lights-out: rgba($shades.black, .2)\r\n  },\r\n  app-bar: $grey.darken-4,\r\n  background: #303030,\r\n  cards: $grey.darken-3,\r\n  chips: {\r\n    background: #555,\r\n    color: $shades.white\r\n  },\r\n  dividers: rgba($shades.white, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: $shades.white,\r\n    secondary: rgba($shades.white, .70),\r\n    disabled: rgba($shades.white, .50),\r\n    link: $blue.accent-1,\r\n    link-hover: $grey.lighten-3\r\n  },\r\n  icons: {\r\n    active: $shades.white,\r\n    inactive: rgba($shades.white, .5)\r\n  },\r\n  inputs: {\r\n    box: $shades.white,\r\n    solo-inverted: rgba($shades.white, .16),\r\n    solo-inverted-focused: $shades.white,\r\n    solo-inverted-focused-text: $material-light.text.primary\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.white, .08)\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.white, .3),\r\n    focused: rgba($shades.white, .12),\r\n    focused-alt: rgba($shades.white, .1),\r\n    pressed: rgba(#ccc, .25)\r\n  },\r\n  expansion-panels: {\r\n    focus: #494949\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-1,\r\n      disabled: $grey.darken-3\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.white, .3),\r\n      disabled: rgba($shades.white, .1)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.white, .3),\r\n    inactive: rgba($shades.white, .2),\r\n    disabled: rgba($shades.white, .2),\r\n    discrete: $shades.white\r\n  },\r\n  tabs: {\r\n    active: $shades.white\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .1),\r\n    box-hover: rgba($shades.black, .2),\r\n    box-focus: rgba($shades.black, .3)\r\n  },\r\n  input-bottom-line: rgba($shades.white, .7),\r\n\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.white, 0.87),\r\n    hover: rgba($shades.white, 0.75)\r\n  },\r\n  table: {\r\n    active: #505050\r\n    hover: $grey.darken-2\r\n  },\r\n  picker: {\r\n    body: $grey.darken-3,\r\n    clock: $grey.darken-2,\r\n    indeterminateTime: $grey.darken-1,\r\n    title: $grey.darken-2\r\n  },\r\n  bg-color: #303030\r\n  fg-color: $shades.white\r\n  text-color: $shades.white\r\n  primary-text-percent: 1\r\n  secondary-text-percent: .70\r\n  disabledORhints-text-percent: .50\r\n  divider-percent: .12\r\n  active-icon-percent: 1\r\n  inactive-icon-percent: .50\r\n  calendar: {\r\n    background-color: #303030\r\n    outside-background-color: #202020\r\n    line-color: $grey.base\r\n    interval-color: $grey.lighten-3\r\n    interval-line-color: $grey.darken-2\r\n    text-color: #fff\r\n    past-color: rgba(#fff, .50)\r\n  }\r\n}",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 217,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 217,
+          "column": 25
+        }
+      },
+      "text": "Default Material Theme"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 218,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 218,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 219,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 219,
+          "column": 34
+        }
+      },
+      "prop": "$material-theme",
+      "value": "$material-light",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 220,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 220,
+          "column": 95
+        }
+      },
+      "prop": "$material-twelve-percent-light",
+      "value": "rgba($material-dark.fg-color, $material-dark.divider-percent)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 221,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 221,
+          "column": 96
+        }
+      },
+      "prop": "$material-twelve-percent-dark",
+      "value": "rgba($material-light.fg-color, $material-light.divider-percent)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 224,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 224,
+          "column": 8
+        }
+      },
+      "text": "Theme"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 225,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 225,
+          "column": 63
+        }
+      },
+      "text": "============================================================"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 226,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 226,
+          "column": 44
+        }
+      },
+      "prop": "$body-bg-light",
+      "value": "$material-light.background",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 227,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 227,
+          "column": 42
+        }
+      },
+      "prop": "$body-bg-dark",
+      "value": "$material-dark.background",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 228,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 228,
+          "column": 89
+        }
+      },
+      "prop": "$body-color-light",
+      "value": "rgba($material-dark.text-color, $material-dark.primary-text-percent)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 229,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 229,
+          "column": 90
+        }
+      },
+      "prop": "$body-color-dark",
+      "value": "rgba($material-light.text-color, $material-light.primary-text-percent)",
+      "omittedSemi": true,
+      "assignment": true,
+      "conditional": true
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " : ",
+        "stylusBetween": " := "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 230,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 230,
+          "column": 86
+        }
+      },
+      "prop": "$color-theme",
+      "value": "rgba($material-theme.text-color, $material-theme.primary-text-percent)",
+      "assignment": true,
+      "conditional": true
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}

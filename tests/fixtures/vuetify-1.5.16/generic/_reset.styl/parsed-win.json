@@ -1,0 +1,5081 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 72
+        }
+      },
+      "text": "! ress.css • v1.1.1 - MIT License - github.com/filipelinhares/ress"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # Global selectors\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 25
+            }
+          },
+          "prop": "box-sizing",
+          "value": "border-box"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 21
+            }
+          },
+          "prop": "overflow-y",
+          "value": "scroll"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 70
+            }
+          },
+          "text": "All browsers without overlaying scrollbars"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 33
+            }
+          },
+          "prop": "-webkit-text-size-adjust",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 35
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 46
+            }
+          },
+          "text": "iOS 8+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 10,
+          "column": 48
+        }
+      },
+      "selector": "html"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 22
+            }
+          },
+          "prop": "box-sizing",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 15,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 16,
+          "column": 24
+        }
+      },
+      "selector": "*,\r\n::before,\r\n::after"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 21,
+              "column": 27
+            }
+          },
+          "prop": "text-decoration",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 21,
+              "column": 116
+            }
+          },
+          "text": "Inherit text-decoration and vertical align to ::before and ::after pseudo elements"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 22,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 22,
+              "column": 26
+            }
+          },
+          "prop": "vertical-align",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 20,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 23,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 22,
+          "column": 28
+        }
+      },
+      "selector": "::before,\r\n::after"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 25,
+          "column": 84
+        }
+      },
+      "text": "Remove margin, padding of all elements and set background-no-repeat as default"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 27,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 27,
+              "column": 31
+            }
+          },
+          "prop": "background-repeat",
+          "value": "no-repeat"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 27,
+              "column": 33
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 27,
+              "column": 88
+            }
+          },
+          "text": "Set `background-repeat: no-repeat` to all elements"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 28,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 28,
+              "column": 13
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 28,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 28,
+              "column": 64
+            }
+          },
+          "text": "Reset `padding` and `margin` of all elements"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 29,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 29,
+              "column": 12
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 26,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 26,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 30,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 29,
+          "column": 14
+        }
+      },
+      "selector": "*"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 32,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 34,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # General elements\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": ""
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 36,
+          "column": 40
+        }
+      },
+      "text": "Add the correct display in iOS 4-7."
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 38,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 38,
+              "column": 16
+            }
+          },
+          "prop": "display",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 39,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 39,
+              "column": 12
+            }
+          },
+          "prop": "height",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 37,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 37,
+          "column": 24
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 40,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 39,
+          "column": 14
+        }
+      },
+      "selector": "audio:not([controls])"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 43,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 43,
+              "column": 20
+            }
+          },
+          "prop": "overflow",
+          "value": "visible"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 43,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 43,
+              "column": 59
+            }
+          },
+          "text": "Show the overflow in Edge and IE"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 42,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 42,
+          "column": 5
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 44,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 43,
+          "column": 61
+        }
+      },
+      "selector": "hr"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": "\r\n",
+        "right": "\r\n"
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 46,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 51,
+          "column": 2
+        }
+      },
+      "text": "* Correct `block` display not defined for any HTML5 element in IE 8/9\r\n* Correct `block` display not defined for `details` or `summary` in IE 10/11\r\n* and Firefox\r\n* Correct `block` display not defined for `main` in IE 11"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 64,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 64,
+              "column": 17
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 52,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 63,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 65,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 64,
+          "column": 19
+        }
+      },
+      "selector": "article,\r\naside,\r\ndetails,\r\nfigcaption,\r\nfigure,\r\nfooter,\r\nheader,\r\nmain,\r\nmenu,\r\nnav,\r\nsection,\r\nsummary"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 68,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 68,
+              "column": 21
+            }
+          },
+          "prop": "display",
+          "value": "list-item"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 68,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 68,
+              "column": 67
+            }
+          },
+          "text": "Add the correct display in all browsers"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 67,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 67,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 69,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 68,
+          "column": 69
+        }
+      },
+      "selector": "summary"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 72,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 72,
+              "column": 17
+            }
+          },
+          "prop": "font-size",
+          "value": "80%"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 72,
+              "column": 19
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 72,
+              "column": 64
+            }
+          },
+          "text": "Set font-size to 80% in `small` elements"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 71,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 71,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 73,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 72,
+          "column": 66
+        }
+      },
+      "selector": "small"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 77,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 77,
+              "column": 16
+            }
+          },
+          "prop": "display",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 77,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 77,
+              "column": 52
+            }
+          },
+          "text": "Add the correct display in IE"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 75,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 76,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 78,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 77,
+          "column": 54
+        }
+      },
+      "selector": "[hidden],\r\ntemplate"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 81,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 81,
+              "column": 28
+            }
+          },
+          "prop": "border-bottom",
+          "value": "1px dotted"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 81,
+              "column": 30
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 81,
+              "column": 82
+            }
+          },
+          "text": "Add a bordered underline effect in all browsers"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 82,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 82,
+              "column": 24
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 82,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 82,
+              "column": 68
+            }
+          },
+          "text": "Remove text decoration in Firefox 40+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 80,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 80,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 83,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 82,
+          "column": 70
+        }
+      },
+      "selector": "abbr[title]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 86,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 86,
+              "column": 32
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 86,
+              "column": 34
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 86,
+              "column": 90
+            }
+          },
+          "text": "Remove the gray background on active links in IE 10"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 87,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 87,
+              "column": 40
+            }
+          },
+          "prop": "-webkit-text-decoration-skip",
+          "value": "objects"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 87,
+              "column": 42
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 87,
+              "column": 101
+            }
+          },
+          "text": "Remove gaps in links underline in iOS 8+ and Safari 8+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 85,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 85,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 88,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 87,
+          "column": 103
+        }
+      },
+      "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 92,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 92,
+              "column": 19
+            }
+          },
+          "prop": "outline-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 92,
+              "column": 21
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 92,
+              "column": 74
+            }
+          },
+          "text": "Remove the outline when hovering in all browsers"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 90,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 91,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 93,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 92,
+          "column": 76
+        }
+      },
+      "selector": "a:active,\r\na:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 99,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 99,
+              "column": 36
+            }
+          },
+          "prop": "font-family",
+          "value": "monospace, monospace"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 99,
+              "column": 38
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 99,
+              "column": 83
+            }
+          },
+          "text": "Specify the font family of code elements"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 95,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 98,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 100,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 99,
+          "column": 85
+        }
+      },
+      "selector": "code,\r\nkbd,\r\npre,\r\nsamp"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 104,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 104,
+              "column": 22
+            }
+          },
+          "prop": "font-weight",
+          "value": "bolder"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 104,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 104,
+              "column": 97
+            }
+          },
+          "text": "Correct style set to `bold` in Edge 12+, Safari 6.2+, and Chrome 18+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 102,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 103,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 105,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 104,
+          "column": 99
+        }
+      },
+      "selector": "b,\r\nstrong"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 108,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 108,
+              "column": 21
+            }
+          },
+          "prop": "font-style",
+          "value": "italic"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 108,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 108,
+              "column": 76
+            }
+          },
+          "text": "Address styling not present in Safari and Chrome"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 107,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 107,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 109,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 108,
+          "column": 78
+        }
+      },
+      "selector": "dfn"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 111,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 111,
+          "column": 43
+        }
+      },
+      "text": "Address styling not present in IE 8/9"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 113,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 113,
+              "column": 25
+            }
+          },
+          "prop": "background-color",
+          "value": "#ff0"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 114,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 114,
+              "column": 14
+            }
+          },
+          "prop": "color",
+          "value": "#000"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 112,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 112,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 115,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 114,
+          "column": 16
+        }
+      },
+      "selector": "mark"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 117,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 117,
+          "column": 47
+        }
+      },
+      "text": "https://gist.github.com/unruthless/413930"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 120,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 120,
+              "column": 17
+            }
+          },
+          "prop": "font-size",
+          "value": "75%"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 121,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 121,
+              "column": 17
+            }
+          },
+          "prop": "line-height",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 122,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 122,
+              "column": 21
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 123,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 123,
+              "column": 27
+            }
+          },
+          "prop": "vertical-align",
+          "value": "baseline"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 118,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 119,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 124,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 123,
+          "column": 29
+        }
+      },
+      "selector": "sub,\r\nsup"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 127,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 127,
+              "column": 18
+            }
+          },
+          "prop": "bottom",
+          "value": "-0.25em"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 126,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 126,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 128,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 127,
+          "column": 20
+        }
+      },
+      "selector": "sub"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 131,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 131,
+              "column": 14
+            }
+          },
+          "prop": "top",
+          "value": "-0.5em"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 130,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 130,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 132,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 131,
+          "column": 16
+        }
+      },
+      "selector": "sup"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 134,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 136,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # Forms\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 139,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 139,
+              "column": 19
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 138,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 138,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 140,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 139,
+          "column": 21
+        }
+      },
+      "selector": "input"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 142,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 142,
+          "column": 45
+        }
+      },
+      "text": "Apply cursor pointer to button elements"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": "button,\r\n[type=\"button\"],\r\n[type=\"reset\"],\r\n[type=\"submit\"]\r\n,[role=\"button\"]",
+          "raw": "button,\r\n[type=\"button\"],\r\n[type=\"reset\"],\r\n[type=\"submit\"]\r\n,[role=\"button\"]",
+          "stylus": "button,\r\n[type=\"button\"],\r\n[type=\"reset\"],\r\n[type=\"submit\"]\r\n[role=\"button\"]"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 148,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 148,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 143,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 147,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 149,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 148,
+          "column": 20
+        }
+      },
+      "selector": "button,\r\n[type=\"button\"],\r\n[type=\"reset\"],\r\n[type=\"submit\"]\r\n,[role=\"button\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 151,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 151,
+          "column": 49
+        }
+      },
+      "text": "Replace pointer cursor in disabled elements"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 153,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 153,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "default"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 152,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 152,
+          "column": 13
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 154,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 153,
+          "column": 20
+        }
+      },
+      "selector": "[disabled]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 157,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 157,
+              "column": 14
+            }
+          },
+          "prop": "width",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 157,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 157,
+              "column": 32
+            }
+          },
+          "text": "Firefox 36+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 156,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 156,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 158,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 157,
+          "column": 34
+        }
+      },
+      "selector": "[type=\"number\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 161,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 161,
+              "column": 32
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "textfield"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 161,
+              "column": 34
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 161,
+              "column": 48
+            }
+          },
+          "text": "Safari 8+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 160,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 160,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 162,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 161,
+          "column": 50
+        }
+      },
+      "selector": "[type=\"search\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 166,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 166,
+              "column": 27
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 166,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 166,
+              "column": 42
+            }
+          },
+          "text": "Safari 8"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 164,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 165,
+          "column": 45
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 167,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 166,
+          "column": 44
+        }
+      },
+      "selector": "[type=\"search\"]::-webkit-search-cancel-button,\r\n[type=\"search\"]::-webkit-search-decoration"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 170,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 170,
+              "column": 17
+            }
+          },
+          "prop": "overflow",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 170,
+              "column": 19
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 170,
+              "column": 45
+            }
+          },
+          "text": "Internet Explorer 11+"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 171,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 171,
+              "column": 19
+            }
+          },
+          "prop": "resize",
+          "value": "vertical"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 171,
+              "column": 21
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 171,
+              "column": 55
+            }
+          },
+          "text": "Specify textarea resizability"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 169,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 169,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 172,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 171,
+          "column": 57
+        }
+      },
+      "selector": "textarea"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 179,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 179,
+              "column": 16
+            }
+          },
+          "prop": "font",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 179,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 179,
+              "column": 64
+            }
+          },
+          "text": "Specify font inheritance of form elements"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 174,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 178,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 180,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 179,
+          "column": 66
+        }
+      },
+      "selector": "button,\r\ninput,\r\noptgroup,\r\nselect,\r\ntextarea"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 183,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 183,
+              "column": 20
+            }
+          },
+          "prop": "font-weight",
+          "value": "bold"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 183,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 183,
+              "column": 78
+            }
+          },
+          "text": "Restore the font weight unset by the previous rule."
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 182,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 182,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 184,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 183,
+          "column": 80
+        }
+      },
+      "selector": "optgroup"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 187,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 187,
+              "column": 20
+            }
+          },
+          "prop": "overflow",
+          "value": "visible"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 187,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 187,
+              "column": 77
+            }
+          },
+          "text": "Address `overflow` set to `hidden` in IE 8/9/10/11"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 186,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 186,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 188,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 187,
+          "column": 79
+        }
+      },
+      "selector": "button"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 190,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 190,
+          "column": 51
+        }
+      },
+      "text": "Remove inner padding and border in Firefox 4+"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 195,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 195,
+              "column": 18
+            }
+          },
+          "prop": "border-style",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 196,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 196,
+              "column": 13
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 191,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 194,
+          "column": 36
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 197,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 196,
+          "column": 15
+        }
+      },
+      "selector": "button::-moz-focus-inner,\r\n[type=\"button\"]::-moz-focus-inner,\r\n[type=\"reset\"]::-moz-focus-inner,\r\n[type=\"submit\"]::-moz-focus-inner"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 199,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 199,
+          "column": 59
+        }
+      },
+      "text": "Replace focus style removed in the border reset above"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 204,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 204,
+              "column": 13
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 205,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 205,
+              "column": 12
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 200,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 203,
+          "column": 36
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 206,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 205,
+          "column": 14
+        }
+      },
+      "selector": "button:-moz-focusring,\r\n[type=\"button\"]::-moz-focus-inner,\r\n[type=\"reset\"]::-moz-focus-inner,\r\n[type=\"submit\"]::-moz-focus-inner"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": "button,\r\nhtml [type=\"button\"], \r\n[type=\"reset\"],\r\n[type=\"submit\"]",
+          "raw": "button,\r\nhtml [type=\"button\"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */\r\n,[type=\"reset\"],\r\n[type=\"submit\"]",
+          "stylus": "button,\r\nhtml [type=\"button\"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */\r\n[type=\"reset\"],\r\n[type=\"submit\"]"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 212,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 212,
+              "column": 29
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "button"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 212,
+              "column": 31
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 212,
+              "column": 89
+            }
+          },
+          "text": "Correct the inability to style clickable types in iOS"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 208,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 211,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 213,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 212,
+          "column": 91
+        }
+      },
+      "selector": "button,\r\nhtml [type=\"button\"], \r\n[type=\"reset\"],\r\n[type=\"submit\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 217,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 217,
+              "column": 23
+            }
+          },
+          "prop": "text-transform",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 217,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 217,
+              "column": 64
+            }
+          },
+          "text": "Firefox 40+, Internet Explorer 11-"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 215,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 216,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 218,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 217,
+          "column": 66
+        }
+      },
+      "selector": "button,\r\nselect"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 220,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 220,
+          "column": 55
+        }
+      },
+      "text": "Remove the default button styling in all browsers"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 225,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 225,
+              "column": 32
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 226,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 226,
+              "column": 21
+            }
+          },
+          "prop": "border-style",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 227,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 227,
+              "column": 17
+            }
+          },
+          "prop": "color",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 221,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 224,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 228,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 227,
+          "column": 19
+        }
+      },
+      "selector": "button,\r\ninput,\r\nselect,\r\ntextarea"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 230,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 230,
+          "column": 40
+        }
+      },
+      "text": "Style select like a standard input"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 232,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 232,
+              "column": 24
+            }
+          },
+          "prop": "-moz-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 232,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 232,
+              "column": 42
+            }
+          },
+          "text": "Firefox 36+"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 233,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 233,
+              "column": 27
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 233,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 233,
+              "column": 44
+            }
+          },
+          "text": "Chrome 41+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 231,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 231,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 234,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 233,
+          "column": 46
+        }
+      },
+      "selector": "select"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 237,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 237,
+              "column": 16
+            }
+          },
+          "prop": "display",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 237,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 237,
+              "column": 44
+            }
+          },
+          "text": "Internet Explorer 11+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 236,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 236,
+          "column": 21
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 238,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 237,
+          "column": 46
+        }
+      },
+      "selector": "select::-ms-expand"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 241,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 241,
+              "column": 22
+            }
+          },
+          "prop": "color",
+          "value": "currentColor"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 241,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 241,
+              "column": 50
+            }
+          },
+          "text": "Internet Explorer 11+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 240,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 240,
+          "column": 20
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 242,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 241,
+          "column": 52
+        }
+      },
+      "selector": "select::-ms-value"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 245,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 245,
+              "column": 12
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 245,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 245,
+              "column": 70
+            }
+          },
+          "text": "Correct `color` not being inherited in IE 8/9/10/11"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 246,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 246,
+              "column": 17
+            }
+          },
+          "prop": "color",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 246,
+              "column": 19
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 246,
+              "column": 84
+            }
+          },
+          "text": "Correct the color inheritance from `fieldset` elements in IE"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 247,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 247,
+              "column": 17
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 247,
+              "column": 19
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 247,
+              "column": 64
+            }
+          },
+          "text": "Correct the text wrapping in Edge and IE"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 248,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 248,
+              "column": 18
+            }
+          },
+          "prop": "max-width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 248,
+              "column": 20
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 248,
+              "column": 65
+            }
+          },
+          "text": "Correct the text wrapping in Edge and IE"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 249,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 249,
+              "column": 22
+            }
+          },
+          "prop": "white-space",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 249,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 249,
+              "column": 69
+            }
+          },
+          "text": "Correct the text wrapping in Edge and IE"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 244,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 244,
+          "column": 9
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 250,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 249,
+          "column": 71
+        }
+      },
+      "selector": "legend"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 253,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 253,
+              "column": 29
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "button"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 253,
+              "column": 31
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 253,
+              "column": 100
+            }
+          },
+          "text": "Correct the inability to style clickable types in iOS and Safari"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 254,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 254,
+              "column": 16
+            }
+          },
+          "prop": "font",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 254,
+              "column": 18
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 254,
+              "column": 79
+            }
+          },
+          "text": "Change font properties to `inherit` in Chrome and Safari"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 252,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 252,
+          "column": 31
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 255,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 254,
+          "column": 81
+        }
+      },
+      "selector": "::-webkit-file-upload-button"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 258,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 258,
+              "column": 32
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "textfield"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 258,
+              "column": 34
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 258,
+              "column": 86
+            }
+          },
+          "text": "Correct the odd appearance in Chrome and Safari"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 259,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 259,
+              "column": 23
+            }
+          },
+          "prop": "outline-offset",
+          "value": "-2px"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 259,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 259,
+              "column": 65
+            }
+          },
+          "text": "Correct the outline style in Safari"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 257,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 257,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 260,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 259,
+          "column": 67
+        }
+      },
+      "selector": "[type=\"search\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 262,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 264,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # Specify media element style\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 267,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 267,
+              "column": 21
+            }
+          },
+          "prop": "border-style",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 267,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 267,
+              "column": 78
+            }
+          },
+          "text": "Remove border when inside `a` element in IE 8/9/10"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 266,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 266,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 268,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 267,
+          "column": 80
+        }
+      },
+      "selector": "img"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 270,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 270,
+          "column": 70
+        }
+      },
+      "text": "Add the correct vertical alignment in Chrome, Firefox, and Opera"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 272,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 272,
+              "column": 27
+            }
+          },
+          "prop": "vertical-align",
+          "value": "baseline"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 271,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 271,
+          "column": 11
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 273,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 272,
+          "column": 29
+        }
+      },
+      "selector": "progress"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 276,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 276,
+              "column": 19
+            }
+          },
+          "prop": "overflow",
+          "value": "hidden"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 276,
+              "column": 21
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 276,
+              "column": 47
+            }
+          },
+          "text": "Internet Explorer 11-"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 275,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 275,
+          "column": 17
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 277,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 276,
+          "column": 49
+        }
+      },
+      "selector": "svg:not(:root)"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 283,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 283,
+              "column": 24
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 283,
+              "column": 26
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 283,
+              "column": 72
+            }
+          },
+          "text": "Internet Explorer 11+, Windows Phone 8.1+"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 279,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 282,
+          "column": 8
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 284,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 283,
+          "column": 74
+        }
+      },
+      "selector": "audio,\r\ncanvas,\r\nprogress,\r\nvideo"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 286,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 288,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # Acessibility\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 290,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 290,
+          "column": 53
+        }
+      },
+      "text": "Hide content from screens but not screenreaders"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\r\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 291,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 291,
+          "column": 16
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 299,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 298,
+          "column": 5
+        }
+      },
+      "params": "screen",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\r\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 293,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 293,
+                  "column": 21
+                }
+              },
+              "prop": "display",
+              "value": "inherit"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 292,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 292,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 294,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 294,
+              "column": 2
+            }
+          },
+          "selector": "[hidden~=\"screen\"]"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\r\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 296,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 296,
+                  "column": 34
+                }
+              },
+              "prop": "position",
+              "important": true,
+              "value": "absolute"
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 297,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 297,
+                  "column": 35
+                }
+              },
+              "prop": "clip",
+              "important": true,
+              "value": "rect(0 0 0 0)"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 295,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 295,
+              "column": 61
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 298,
+              "column": 3
+            },
+            "endChildren": {
+              "line": 298,
+              "column": 2
+            }
+          },
+          "selector": "[hidden~=\"screen\"]:not(:active):not(:focus):not(:target)"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 301,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 301,
+          "column": 54
+        }
+      },
+      "text": "Specify the progress cursor of updating elements"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 303,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 303,
+              "column": 19
+            }
+          },
+          "prop": "cursor",
+          "value": "progress"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 302,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 302,
+          "column": 21
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 304,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 303,
+          "column": 21
+        }
+      },
+      "selector": "[aria-busy=\"true\"]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 306,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 306,
+          "column": 52
+        }
+      },
+      "text": "Specify the pointer cursor of trigger elements"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 308,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 308,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 307,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 307,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 309,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 308,
+          "column": 20
+        }
+      },
+      "selector": "[aria-controls]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 311,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 311,
+          "column": 93
+        }
+      },
+      "text": "Specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 313,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 313,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "default"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 312,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 312,
+          "column": 18
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 314,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 313,
+          "column": 20
+        }
+      },
+      "selector": "[aria-disabled]"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 316,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 318,
+          "column": 73
+        }
+      },
+      "text": "# =================================================================\r\n   # Selection\r\n   # ================================================================="
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "left": " ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 320,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 320,
+          "column": 66
+        }
+      },
+      "text": "Specify text selection background color and omit drop shadow"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 323,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 323,
+              "column": 28
+            }
+          },
+          "prop": "background-color",
+          "value": "#b3d4fc"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 323,
+              "column": 30
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 323,
+              "column": 70
+            }
+          },
+          "text": "Required when declaring ::selection"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 324,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 324,
+              "column": 14
+            }
+          },
+          "prop": "color",
+          "value": "#000"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 325,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 325,
+              "column": 20
+            }
+          },
+          "prop": "text-shadow",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 322,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 322,
+          "column": 19
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 326,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 325,
+          "column": 22
+        }
+      },
+      "selector": "::-moz-selection"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 329,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 329,
+              "column": 28
+            }
+          },
+          "prop": "background-color",
+          "value": "#b3d4fc"
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": " "
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 329,
+              "column": 30
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 329,
+              "column": 70
+            }
+          },
+          "text": "Required when declaring ::selection"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 330,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 330,
+              "column": 14
+            }
+          },
+          "prop": "color",
+          "value": "#000"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 331,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 331,
+              "column": 20
+            }
+          },
+          "prop": "text-shadow",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 328,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 328,
+          "column": 14
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 332,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 331,
+          "column": 22
+        }
+      },
+      "selector": "::selection"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
