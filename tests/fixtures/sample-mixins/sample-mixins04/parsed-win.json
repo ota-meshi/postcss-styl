@@ -8,12 +8,10 @@
     {
       "raws": {
         "before": "    ",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " ?= "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 1,
@@ -25,15 +23,13 @@
         "end": {
           "line": 1,
           "column": 26
-        },
-        "rawEnd": {
-          "line": 1,
-          "column": 26
         }
       },
-      "params": "support-for-ie ?= true",
+      "prop": "support-for-ie",
+      "value": "true",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {

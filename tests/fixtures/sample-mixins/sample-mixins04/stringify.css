@@ -1,4 +1,4 @@
-    @support-for-ie ?= true;
+    support-for-ie : true;
 
     @opacity(n){
       opacity: n;

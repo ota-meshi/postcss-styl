@@ -82,12 +82,10 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 5,
@@ -99,25 +97,21 @@
         "end": {
           "line": 5,
           "column": 41
-        },
-        "rawEnd": {
-          "line": 5,
-          "column": 41
         }
       },
-      "params": "$body-font-family := 'Roboto', sans-serif",
+      "prop": "$body-font-family",
+      "value": "'Roboto', sans-serif",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 6,
@@ -129,25 +123,21 @@
         "end": {
           "line": 6,
           "column": 23
-        },
-        "rawEnd": {
-          "line": 6,
-          "column": 23
         }
       },
-      "params": "$font-size-root := 14px",
+      "prop": "$font-size-root",
+      "value": "14px",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 7,
@@ -159,15 +149,13 @@
         "end": {
           "line": 7,
           "column": 24
-        },
-        "rawEnd": {
-          "line": 7,
-          "column": 24
         }
       },
-      "params": "$line-height-root := 1.5",
+      "prop": "$line-height-root",
+      "value": "1.5",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
@@ -239,7 +227,7 @@
       "value": "{\r\n  status-bar: {\r\n    regular: $grey.lighten-2,\r\n    lights-out: rgba($shades.white, .7)\r\n  },\r\n  app-bar: $grey.lighten-4,\r\n  background: $grey.lighten-5,\r\n  cards: $shades.white,\r\n  chips: {\r\n    background: $grey.lighten-2,\r\n    color: rgba($shades.black, .87)\r\n  },\r\n  dividers: rgba($shades.black, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: rgba($shades.black, .87),\r\n    secondary: rgba($shades.black, .54),\r\n    disabled: rgba($shades.black, .38),\r\n    link: $blue.darken-2,\r\n    link-hover: $grey.darken-3\r\n  },\r\n  icons: {\r\n    active: rgba($shades.black, .54),\r\n    inactive: rgba($shades.black, .38)\r\n  },\r\n  inputs: {\r\n    box: rgba($shades.black, .04),\r\n    solo-inverted: rgba($shades.black, .16),\r\n    solo-inverted-focused: $grey.darken-3,\r\n    solo-inverted-focused-text: $shades.white\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.black, .26),\r\n    focused: rgba($shades.black, .12),\r\n    focused-alt: rgba($shades.white, .6),\r\n    pressed: rgba(#999, .4)\r\n  },\r\n  expansion-panels: {\r\n    focus: $grey.lighten-3\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.black, .04)\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-5,\r\n      disabled: $grey.lighten-1\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.black, .38),\r\n      disabled: rgba($shades.black, .12)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.black, .38),\r\n    inactive: rgba($shades.black, .26),\r\n    disabled: rgba($shades.black, .26),\r\n    discrete: $shades.black\r\n  },\r\n  tabs: {\r\n    active: rgba($shades.black, .87)\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .06),\r\n    box-hover: rgba($shades.black, .12)\r\n  },\r\n  input-bottom-line: rgba($shades.black, .42),\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.black, 0.87),\r\n    hover: rgba($shades.black, 0.54)\r\n  },\r\n  table: {\r\n    active: $grey.lighten-4\r\n    hover: $grey.lighten-3\r\n  },\r\n  picker: {\r\n    body: $shades.white,\r\n    clock: $grey.lighten-2,\r\n    indeterminateTime: $grey.lighten-1,\r\n    title: $grey.lighten-2\r\n  },\r\n  bg-color: $shades.white\r\n  fg-color: $shades.black\r\n  text-color: $shades.black\r\n  primary-text-percent: .87\r\n  secondary-text-percent: .54\r\n  disabledORhints-text-percent: .38\r\n  divider-percent: .12\r\n  active-icon-percent: .54\r\n  inactive-icon-percent: .38\r\n  calendar: {\r\n    background-color: #fff\r\n    outside-background-color: #f7f7f7\r\n    line-color: #e0e0e0\r\n    interval-color: $grey.darken-3\r\n    interval-line-color: $grey.lighten-2\r\n    text-color: #000\r\n    past-color: rgba(#000, .38)\r\n  }\r\n}",
       "omittedSemi": true,
       "assignment": true,
-      "ternary": true
+      "conditional": true
     },
     {
       "raws": {
@@ -265,7 +253,7 @@
       "value": "{\r\n  status-bar: {\r\n    regular: $shades.black,\r\n    lights-out: rgba($shades.black, .2)\r\n  },\r\n  app-bar: $grey.darken-4,\r\n  background: #303030,\r\n  cards: $grey.darken-3,\r\n  chips: {\r\n    background: #555,\r\n    color: $shades.white\r\n  },\r\n  dividers: rgba($shades.white, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: $shades.white,\r\n    secondary: rgba($shades.white, .70),\r\n    disabled: rgba($shades.white, .50),\r\n    link: $blue.accent-1,\r\n    link-hover: $grey.lighten-3\r\n  },\r\n  icons: {\r\n    active: $shades.white,\r\n    inactive: rgba($shades.white, .5)\r\n  },\r\n  inputs: {\r\n    box: $shades.white,\r\n    solo-inverted: rgba($shades.white, .16),\r\n    solo-inverted-focused: $shades.white,\r\n    solo-inverted-focused-text: $material-light.text.primary\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.white, .08)\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.white, .3),\r\n    focused: rgba($shades.white, .12),\r\n    focused-alt: rgba($shades.white, .1),\r\n    pressed: rgba(#ccc, .25)\r\n  },\r\n  expansion-panels: {\r\n    focus: #494949\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-1,\r\n      disabled: $grey.darken-3\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.white, .3),\r\n      disabled: rgba($shades.white, .1)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.white, .3),\r\n    inactive: rgba($shades.white, .2),\r\n    disabled: rgba($shades.white, .2),\r\n    discrete: $shades.white\r\n  },\r\n  tabs: {\r\n    active: $shades.white\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .1),\r\n    box-hover: rgba($shades.black, .2),\r\n    box-focus: rgba($shades.black, .3)\r\n  },\r\n  input-bottom-line: rgba($shades.white, .7),\r\n\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.white, 0.87),\r\n    hover: rgba($shades.white, 0.75)\r\n  },\r\n  table: {\r\n    active: #505050\r\n    hover: $grey.darken-2\r\n  },\r\n  picker: {\r\n    body: $grey.darken-3,\r\n    clock: $grey.darken-2,\r\n    indeterminateTime: $grey.darken-1,\r\n    title: $grey.darken-2\r\n  },\r\n  bg-color: #303030\r\n  fg-color: $shades.white\r\n  text-color: $shades.white\r\n  primary-text-percent: 1\r\n  secondary-text-percent: .70\r\n  disabledORhints-text-percent: .50\r\n  divider-percent: .12\r\n  active-icon-percent: 1\r\n  inactive-icon-percent: .50\r\n  calendar: {\r\n    background-color: #303030\r\n    outside-background-color: #202020\r\n    line-color: $grey.base\r\n    interval-color: $grey.lighten-3\r\n    interval-line-color: $grey.darken-2\r\n    text-color: #fff\r\n    past-color: rgba(#fff, .50)\r\n  }\r\n}",
       "omittedSemi": true,
       "assignment": true,
-      "ternary": true
+      "conditional": true
     },
     {
       "raws": {
@@ -316,12 +304,10 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 219,
@@ -333,25 +319,21 @@
         "end": {
           "line": 219,
           "column": 34
-        },
-        "rawEnd": {
-          "line": 219,
-          "column": 34
         }
       },
-      "params": "$material-theme := $material-light",
+      "prop": "$material-theme",
+      "value": "$material-light",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 220,
@@ -363,25 +345,21 @@
         "end": {
           "line": 220,
           "column": 95
-        },
-        "rawEnd": {
-          "line": 220,
-          "column": 95
         }
       },
-      "params": "$material-twelve-percent-light := rgba($material-dark.fg-color, $material-dark.divider-percent)",
+      "prop": "$material-twelve-percent-light",
+      "value": "rgba($material-dark.fg-color, $material-dark.divider-percent)",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 221,
@@ -393,15 +371,13 @@
         "end": {
           "line": 221,
           "column": 96
-        },
-        "rawEnd": {
-          "line": 221,
-          "column": 96
         }
       },
-      "params": "$material-twelve-percent-dark := rgba($material-light.fg-color, $material-light.divider-percent)",
+      "prop": "$material-twelve-percent-dark",
+      "value": "rgba($material-light.fg-color, $material-light.divider-percent)",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
@@ -452,12 +428,10 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 226,
@@ -469,25 +443,21 @@
         "end": {
           "line": 226,
           "column": 44
-        },
-        "rawEnd": {
-          "line": 226,
-          "column": 44
         }
       },
-      "params": "$body-bg-light := $material-light.background",
+      "prop": "$body-bg-light",
+      "value": "$material-light.background",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 227,
@@ -499,25 +469,21 @@
         "end": {
           "line": 227,
           "column": 42
-        },
-        "rawEnd": {
-          "line": 227,
-          "column": 42
         }
       },
-      "params": "$body-bg-dark := $material-dark.background",
+      "prop": "$body-bg-dark",
+      "value": "$material-dark.background",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 228,
@@ -529,25 +495,21 @@
         "end": {
           "line": 228,
           "column": 89
-        },
-        "rawEnd": {
-          "line": 228,
-          "column": 89
         }
       },
-      "params": "$body-color-light := rgba($material-dark.text-color, $material-dark.primary-text-percent)",
+      "prop": "$body-color-light",
+      "value": "rgba($material-dark.text-color, $material-dark.primary-text-percent)",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 229,
@@ -559,25 +521,21 @@
         "end": {
           "line": 229,
           "column": 90
-        },
-        "rawEnd": {
-          "line": 229,
-          "column": 90
         }
       },
-      "params": "$body-color-dark := rgba($material-light.text-color, $material-light.primary-text-percent)",
+      "prop": "$body-color-dark",
+      "value": "rgba($material-light.text-color, $material-light.primary-text-percent)",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " := "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 230,
@@ -589,14 +547,12 @@
         "end": {
           "line": 230,
           "column": 86
-        },
-        "rawEnd": {
-          "line": 230,
-          "column": 86
         }
       },
-      "params": "$color-theme := rgba($material-theme.text-color, $material-theme.primary-text-percent)",
-      "expression": true
+      "prop": "$color-theme",
+      "value": "rgba($material-theme.text-color, $material-theme.primary-text-percent)",
+      "assignment": true,
+      "conditional": true
     }
   ],
   "source": {

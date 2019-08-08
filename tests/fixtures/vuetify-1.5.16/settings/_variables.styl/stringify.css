@@ -4,7 +4,7 @@
 /* Vuetify variables*/
 /* ============================================================*/
 
-@$color-pack := true;
+$color-pack : true;
 
 /* Grid*/
 /* ============================================================*/
@@ -16,8 +16,8 @@ $grid-breakpoints : {
   xl: (1920px - 16px) /* https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints*/
 };
 
-@$grid-gutter := 8px;
-@$grid-columns := 12;
+$grid-gutter : 8px;
+$grid-columns : 12;
 $grid-gutters : {
   xs: ($grid-gutter / 4)
   sm: ($grid-gutter / 2)
@@ -54,9 +54,9 @@ $display-breakpoints : {
 
 /* Spacing*/
 /* ============================================================*/
-@$spacer := 16px;
-@$spacer-x := $spacer;
-@$spacer-y := $spacer;
+$spacer : 16px;
+$spacer-x : $spacer;
+$spacer-y : $spacer;
 $spacers : {
   zero: {
     x: 0,
@@ -95,7 +95,7 @@ $font-weights : {
 
 /* Headings*/
 /* ============================================================*/
-@$heading-font-family := $body-font-family;
+$heading-font-family : $body-font-family;
 $headings : {
   h1: { size: 112px, weight: 300, line-height: 1, letter-spacing: -.04em, font-family: $heading-font-family },
   h2: { size: 56px, weight: 400, line-height: 1.35, letter-spacing: -.02em, font-family: $heading-font-family },
@@ -120,228 +120,228 @@ $transition : {
   swing: cubic-bezier(.25,.8,.50,1)
 };
 
-@$primary-transition := 0.3s $transition.swing;
-@$secondary-transition := 0.2s $transition.ease-in-out;
+$primary-transition : 0.3s $transition.swing;
+$secondary-transition : 0.2s $transition.ease-in-out;
 
 /* Components*/
 /* ============================================================*/
 
 /* Alerts*/
-@$alert-color := inherit;
-@$alert-border-radius := 0;
-@$alert-border-width := 4px 0 0 0;
-@$alert-font-size := $font-size-root;
-@$alert-icon-color := rgba($material-light.fg-color, .3);
-@$alert-icon-font-size := 24px;
-@$alert-padding := 16px;
-@$alert-margin := $spacers.one.y auto;
-@$alert-outline-border-width := 1px;
-@$alert-outline-border-style := solid;
+$alert-color : inherit;
+$alert-border-radius : 0;
+$alert-border-width : 4px 0 0 0;
+$alert-font-size : $font-size-root;
+$alert-icon-color : rgba($material-light.fg-color, .3);
+$alert-icon-font-size : 24px;
+$alert-padding : 16px;
+$alert-margin : $spacers.one.y auto;
+$alert-outline-border-width : 1px;
+$alert-outline-border-style : solid;
 
 /* Badges*/
-@$badge-border-radius := 50%;
-@$badge-color := $material-dark.fg-color;
-@$badge-font-family := $body-font-family;
-@$badge-font-size := 14px;
-@$badge-height := 22px;
-@$badge-top := 0;
-@$badge-right := 0;
-@$badge-width := 22px;
+$badge-border-radius : 50%;
+$badge-color : $material-dark.fg-color;
+$badge-font-family : $body-font-family;
+$badge-font-size : 14px;
+$badge-height : 22px;
+$badge-top : 0;
+$badge-right : 0;
+$badge-width : 22px;
 
 /* Breadcrumbs*/
-@$breadcrumbs-flex := 0 1 auto;
-@$breadcrumbs-padding := 18px 12px;
-@$breadcrumbs-even-child-padding := 0 12px;
-@$breadcrumbs-item-font-size := 14px;
-@$breadcrumbs-item-large-font-size := 16px;
-@$breadcrumbs-margin := 0;
-@$breadcrumbs-padding := 0 14px;
+$breadcrumbs-flex : 0 1 auto;
+$breadcrumbs-padding : 18px 12px;
+$breadcrumbs-even-child-padding : 0 12px;
+$breadcrumbs-item-font-size : 14px;
+$breadcrumbs-item-large-font-size : 16px;
+$breadcrumbs-margin : 0;
+$breadcrumbs-padding : 0 14px;
 
 /** Buttons */
 
 /* Base*/
-@$button-border-radius := 2px;
-@$button-color := $material-light.fg-color;
-@$button-background-color := #999999;
-@$button-height := 36px;
-@$button-font-size := 14px;
-@$button-font-weight := 500;
-@$button-margin-y := 6px;
-@$button-margin-x := 8px;
-@$button-margin := $button-margin-y $button-margin-x;
-@$button-min-width := 88px;
-@$button-small-padding := 0 8px;
-@$button-padding := 0 16px;
-@$button-large-padding := 0 32px;
-@$button-text-transform := uppercase;
+$button-border-radius : 2px;
+$button-color : $material-light.fg-color;
+$button-background-color : #999999;
+$button-height : 36px;
+$button-font-size : 14px;
+$button-font-weight : 500;
+$button-margin-y : 6px;
+$button-margin-x : 8px;
+$button-margin : $button-margin-y $button-margin-x;
+$button-min-width : 88px;
+$button-small-padding : 0 8px;
+$button-padding : 0 16px;
+$button-large-padding : 0 32px;
+$button-text-transform : uppercase;
 
-@$button-small-height := 28px;
-@$button-small-font-size := 13px;
+$button-small-height : 28px;
+$button-small-font-size : 13px;
 
-@$button-large-height := 44px;
-@$button-large-font-size := 15px;
+$button-large-height : 44px;
+$button-large-font-size : 15px;
 
-@$button-floating-width := 56px;
-@$button-floating-icon-height := 24px;
-@$button-floating-icon-width := 24px;
-@$button-floating-small-width := 40px;
-@$button-floating-large-width := 72px;
-@$button-floating-small-icon-width := 18px;
-@$button-floating-large-icon-width := 30px;
+$button-floating-width : 56px;
+$button-floating-icon-height : 24px;
+$button-floating-icon-width : 24px;
+$button-floating-small-width : 40px;
+$button-floating-large-width : 72px;
+$button-floating-small-icon-width : 18px;
+$button-floating-large-icon-width : 30px;
 
 /* Card*/
-@$card-border-radius := 2px;
+$card-border-radius : 2px;
 
 /* Chip*/
-@$chip-border-radius := 28px;
-@$chip-close-margin := 0 2px 0 8px;
-@$chip-close-margin-rtl := 0 8px 0 2px;
-@$chip-font-size := 13px;
-@$chip-label-border-radius := $card-border-radius;
-@$chip-icon-font-size := 20px;
-@$chip-padding := 0 12px;
-@$chip-outline-background := transparent !important;
-@$chip-outline-color := $grey.base;
-@$chip-height := 32px;
-@$chip-margin := 4px;
-@$chip-small-height := 24px;
-@$chip-small-font-size := 20px;
-@$chip-icon-offset := 12px;
-@$chip-icon-negative-offset := -8px;
+$chip-border-radius : 28px;
+$chip-close-margin : 0 2px 0 8px;
+$chip-close-margin-rtl : 0 8px 0 2px;
+$chip-font-size : 13px;
+$chip-label-border-radius : $card-border-radius;
+$chip-icon-font-size : 20px;
+$chip-padding : 0 12px;
+$chip-outline-background : transparent !important;
+$chip-outline-color : $grey.base;
+$chip-height : 32px;
+$chip-margin : 4px;
+$chip-small-height : 24px;
+$chip-small-font-size : 20px;
+$chip-icon-offset : 12px;
+$chip-icon-negative-offset : -8px;
 /* TODO: s/removeable/removable in 2.0*/
 /* invalid name kept to avoid possible breaking change*/
-@$chip-removeable-padding := 0 $chip-margin 0 $chip-icon-offset;
-@$chip-removable-padding-rtl := 0 $chip-icon-offset 0 $chip-margin;
+$chip-removeable-padding : 0 $chip-margin 0 $chip-icon-offset;
+$chip-removable-padding-rtl : 0 $chip-icon-offset 0 $chip-margin;
 /* TODO: remove in 2.0*/
-@$chip-removable-padding := $chip-removeable-padding;
+$chip-removable-padding : $chip-removeable-padding;
 
 /* Collapsible*/
-@$expansion-panel-collapse-height := 48px;
-@$collapsible-transition-height := 0.23s;
+$expansion-panel-collapse-height : 48px;
+$collapsible-transition-height : 0.23s;
 
 /* Footer*/
-@$footer-height := 36px;
+$footer-height : 36px;
 
 /** Lists */
 /* List fonts and weights*/
-@$list-tile-font-size := $headings.subheading.size /* 16px - the mdc scss uses subheading to configure like this*/;
-@$list-tile-font-weight := $headings.subheading.weight /* 400*/;
+$list-tile-font-size : $headings.subheading.size /* 16px - the mdc scss uses subheading to configure like this*/;
+$list-tile-font-weight : $headings.subheading.weight /* 400*/;
 
-@$list-action-text-font-size := 12px /* this is for the stacked actions*/;
-@$list-action-text-font-color := $grey.base;
+$list-action-text-font-size : 12px /* this is for the stacked actions*/;
+$list-action-text-font-color : $grey.base;
 
-@$list-sub-title-font-size := ($list-tile-font-size - 2px) /* 14px*/;
+$list-sub-title-font-size : ($list-tile-font-size - 2px) /* 14px*/;
 
-@$subheader-height-font-size := ($list-tile-font-size - 2px) /* 14px*/;
-@$subheader-font-weight := $font-weights.medium /* 500*/;
+$subheader-height-font-size : ($list-tile-font-size - 2px) /* 14px*/;
+$subheader-font-weight : $font-weights.medium /* 500*/;
 
 
 /* List spacing*/
-@$list-left-padding := 16px;
-@$list-right-padding := 16px;
-@$list-top-padding := 8px;
-@$list-bottom-padding := 8px;
+$list-left-padding : 16px;
+$list-right-padding : 16px;
+$list-top-padding : 8px;
+$list-bottom-padding : 8px;
 
-@$list-item-right-margin := 56px;
-@$list-item-left-padding := 72px;
-@$list-item-avatar-triple-margin-top := -18px;
-@$list-item-single-height := 48px;
-@$list-item-double-height := 72px;
-@$list-item-triple-height := 88px;
-@$list-item-avatar-single-height := 56px;
+$list-item-right-margin : 56px;
+$list-item-left-padding : 72px;
+$list-item-avatar-triple-margin-top : -18px;
+$list-item-single-height : 48px;
+$list-item-double-height : 72px;
+$list-item-triple-height : 88px;
+$list-item-avatar-single-height : 56px;
 
-@$subheader-inset-margin := $list-item-right-margin;
+$subheader-inset-margin : $list-item-right-margin;
 
 /* List dense overrides*/
-@$list-item-dense-font-size := ($list-tile-font-size - 3px) /*13px*/;
-@$subheader-dense-font-size := $list-item-dense-font-size;
-@$list-item-dense-icon-font-size := 22px;
-@$list-item-dense-avatar-triple-margin-top := -14px;
-@$list-item-dense-top-padding := $list-top-padding / 2;
-@$list-item-dense-single-height := $list-item-single-height - 8px /*40px*/;
-@$list-item-dense-double-height := $list-item-double-height - 12px /*60px*/;
-@$list-item-dense-triple-height := $list-item-triple-height - 12px /*76px*/;
+$list-item-dense-font-size : ($list-tile-font-size - 3px) /*13px*/;
+$subheader-dense-font-size : $list-item-dense-font-size;
+$list-item-dense-icon-font-size : 22px;
+$list-item-dense-avatar-triple-margin-top : -14px;
+$list-item-dense-top-padding : $list-top-padding / 2;
+$list-item-dense-single-height : $list-item-single-height - 8px /*40px*/;
+$list-item-dense-double-height : $list-item-double-height - 12px /*60px*/;
+$list-item-dense-triple-height : $list-item-triple-height - 12px /*76px*/;
 
-@$list-item-dense-avatar-single-height := $list-item-single-height /*48px the dense concept was to take avatars to a normal single item height*/;
-@$list-item-dense-avatar-height := 38px;
+$list-item-dense-avatar-single-height : $list-item-single-height /*48px the dense concept was to take avatars to a normal single item height*/;
+$list-item-dense-avatar-height : 38px;
 
-@$list-dense-subheader-height := $list-item-dense-single-height;
-@$list-dense-subheader-group-height := $list-dense-subheader-height /*the subheader under a group menu*/;
+$list-dense-subheader-height : $list-item-dense-single-height;
+$list-dense-subheader-group-height : $list-dense-subheader-height /*the subheader under a group menu*/;
 
 /* Paper*/
-@$sheet-border-radius := 2px;
+$sheet-border-radius : 2px;
 
 /* Pickers*/
-@$time-picker-number-font-size := 16px;
-@$time-picker-indicator-size := 40px;
+$time-picker-number-font-size : 16px;
+$time-picker-indicator-size : 40px;
 
 /* Toolbar*/
-@$toolbar-height := 56px;
-@$toolbar-item-padding := 0 16px;
-@$toolbar-padding-y := 0;
-@$toolbar-padding-x := 16px;
+$toolbar-height : 56px;
+$toolbar-item-padding : 0 16px;
+$toolbar-padding-y : 0;
+$toolbar-padding-x : 16px;
 
 /* Progress Circular*/
-@$progress-circular-rotate-animation := progress-circular-rotate 1.4s linear infinite;
-@$progress-circular-rotate-dash := progress-circular-dash 1.4s ease-in-out infinite;
-@$process-circular-intermediate-svg-transition := all .2s ease-in-out;
-@$progress-circular-underlay-stroke := rgba($material-light.fg-color, 0.1);
-@$progress-circular-overlay-transition := all .6s ease-in-out;
+$progress-circular-rotate-animation : progress-circular-rotate 1.4s linear infinite;
+$progress-circular-rotate-dash : progress-circular-dash 1.4s ease-in-out infinite;
+$process-circular-intermediate-svg-transition : all .2s ease-in-out;
+$progress-circular-underlay-stroke : rgba($material-light.fg-color, 0.1);
+$progress-circular-overlay-transition : all .6s ease-in-out;
 
 /* Navigation drawer*/
-@$navigation-drawer-item-font-size := 14px;
-@$navigation-drawer-item-font-weight := $font-weights.medium;
-@$navigation-drawer-group-item-font-weight := $font-weights.regular;
+$navigation-drawer-item-font-size : 14px;
+$navigation-drawer-item-font-weight : $font-weights.medium;
+$navigation-drawer-group-item-font-weight : $font-weights.regular;
 
 /* Snackbar*/
-@$snackbar-color := #fff;
-@$snackbar-background-color := #323232;
-@$snackbar-corner-offset := 24px;
+$snackbar-color : #fff;
+$snackbar-background-color : #323232;
+$snackbar-corner-offset : 24px;
 
 /* Tab*/
-@$tab-text-transform := uppercase;
+$tab-text-transform : uppercase;
 
 /* Inputs*/
-@$input-top-spacing := 16px;
-@$text-field-active-label-height := 12px;
+$input-top-spacing : 16px;
+$text-field-active-label-height : 12px;
 
 /* Timeline*/
-@$timeline-wedge-size := 10px;
-@$timeline-dot-small-size := 24px;
-@$timeline-dot-regular-size := 38px;
-@$timeline-dot-large-size := 52px;
+$timeline-wedge-size : 10px;
+$timeline-dot-small-size : 24px;
+$timeline-dot-regular-size : 38px;
+$timeline-dot-large-size : 52px;
 
-@$timeline-inner-dot-small-size := 18px;
-@$timeline-inner-dot-small-margin := 3px;
-@$timeline-inner-dot-regular-size := 30px;
-@$timeline-inner-dot-regular-margin := 4px;
-@$timeline-inner-dot-large-size := 42px;
-@$timeline-inner-dot-large-margin := 5px;
+$timeline-inner-dot-small-size : 18px;
+$timeline-inner-dot-small-margin : 3px;
+$timeline-inner-dot-regular-size : 30px;
+$timeline-inner-dot-regular-margin : 4px;
+$timeline-inner-dot-large-size : 42px;
+$timeline-inner-dot-large-margin : 5px;
 
 /* Calendar*/
-@$calendar-daily-weekday-padding := 4px 4px 4px 8px;
-@$calendar-daily-weekday-font-size := 14px;
-@$calendar-daily-day-padding := 0px 4px 4px 8px;
-@$calendar-daily-day-font-size := 40px;
-@$calendar-daily-day-line-height := 40px;
-@$calendar-daily-interval-gutter-width := 44px;
-@$calendar-daily-interval-gutter-top := -6px;
-@$calendar-daily-interval-gutter-font-size := 10px;
+$calendar-daily-weekday-padding : 4px 4px 4px 8px;
+$calendar-daily-weekday-font-size : 14px;
+$calendar-daily-day-padding : 0px 4px 4px 8px;
+$calendar-daily-day-font-size : 40px;
+$calendar-daily-day-line-height : 40px;
+$calendar-daily-interval-gutter-width : 44px;
+$calendar-daily-interval-gutter-top : -6px;
+$calendar-daily-interval-gutter-font-size : 10px;
 
-@$calendar-weekly-weekday-padding := 0px 4px 0px 4px;
-@$calendar-weekly-weekday-font-size := 14px;
-@$calendar-weekly-day-padding := 32px 4px 4px 4px;
-@$calendar-weekly-day-label-size := 32px;
-@$calendar-weekly-day-label-radius := 16px;
-@$calendar-weekly-day-month-left := 36px;
+$calendar-weekly-weekday-padding : 0px 4px 0px 4px;
+$calendar-weekly-weekday-font-size : 14px;
+$calendar-weekly-day-padding : 32px 4px 4px 4px;
+$calendar-weekly-day-label-size : 32px;
+$calendar-weekly-day-label-radius : 16px;
+$calendar-weekly-day-month-left : 36px;
 
 /* Directives*/
 /* ============================================================*/
 
 /* Ripple animation*/
-@$ripple-animation-transition-in := transform .25s $transition.fast-out-slow-in, opacity .1s $transition.fast-out-slow-in;
-@$ripple-animation-transition-out := opacity .3s $transition.fast-out-slow-in;
-@$ripple-animation-visible-opacity := .15;
+$ripple-animation-transition-in : transform .25s $transition.fast-out-slow-in, opacity .1s $transition.fast-out-slow-in;
+$ripple-animation-transition-out : opacity .3s $transition.fast-out-slow-in;
+$ripple-animation-visible-opacity : .15;
 
 /* Treeview transition*/
-@$treeview-transition := .2s $transition.linear-out-slow-in
+$treeview-transition : .2s $transition.linear-out-slow-in

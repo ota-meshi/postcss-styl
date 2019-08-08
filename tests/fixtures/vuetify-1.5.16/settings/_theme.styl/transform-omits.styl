@@ -1,14 +1,14 @@
-@require './_colors';
+@require './_colors'
 
-/* Theme*/
-/* ============================================================*/
-$body-font-family : 'Roboto', sans-serif;
-$font-size-root : 14px;
-$line-height-root : 1.5;
+// Theme
+// ============================================================
+$body-font-family := 'Roboto', sans-serif
+$font-size-root := 14px
+$line-height-root := 1.5
 
-/* Material Design - https://material.io/guidelines/style/color.html#color-usability*/
-/* ============================================================*/
-$material-light : {
+// Material Design - https://material.io/guidelines/style/color.html#color-usability
+// ============================================================
+$material-light := {
   status-bar: {
     regular: $grey.lighten-2,
     lights-out: rgba($shades.white, .7)
@@ -108,9 +108,9 @@ $material-light : {
     text-color: #000
     past-color: rgba(#000, .38)
   }
-};
+}
 
-$material-dark : {
+$material-dark := {
   status-bar: {
     regular: $shades.black,
     lights-out: rgba($shades.black, .2)
@@ -212,19 +212,19 @@ $material-dark : {
     text-color: #fff
     past-color: rgba(#fff, .50)
   }
-};
+}
 
-/* Default Material Theme*/
-/* ============================================================*/
-$material-theme : $material-light;
-$material-twelve-percent-light : rgba($material-dark.fg-color, $material-dark.divider-percent);
-$material-twelve-percent-dark : rgba($material-light.fg-color, $material-light.divider-percent);
+// Default Material Theme
+// ============================================================
+$material-theme := $material-light
+$material-twelve-percent-light := rgba($material-dark.fg-color, $material-dark.divider-percent)
+$material-twelve-percent-dark := rgba($material-light.fg-color, $material-light.divider-percent)
 
 
-/* Theme*/
-/* ============================================================*/
-$body-bg-light : $material-light.background;
-$body-bg-dark : $material-dark.background;
-$body-color-light : rgba($material-dark.text-color, $material-dark.primary-text-percent);
-$body-color-dark : rgba($material-light.text-color, $material-light.primary-text-percent);
-$color-theme : rgba($material-theme.text-color, $material-theme.primary-text-percent)
+// Theme
+// ============================================================
+$body-bg-light := $material-light.background
+$body-bg-dark := $material-dark.background
+$body-color-light := rgba($material-dark.text-color, $material-dark.primary-text-percent)
+$body-color-dark := rgba($material-light.text-color, $material-light.primary-text-percent)
+$color-theme := rgba($material-theme.text-color, $material-theme.primary-text-percent)

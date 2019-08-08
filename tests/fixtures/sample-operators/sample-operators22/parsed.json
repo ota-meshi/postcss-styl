@@ -55,12 +55,10 @@
     {
       "raws": {
         "before": "\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " ?= "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 4,
@@ -72,15 +70,13 @@
         "end": {
           "line": 4,
           "column": 14
-        },
-        "rawEnd": {
-          "line": 4,
-          "column": 14
         }
       },
-      "params": "color ?= black",
+      "prop": "color",
+      "value": "black",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true,
+      "conditional": true
     },
     {
       "raws": {
