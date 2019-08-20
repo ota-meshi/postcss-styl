@@ -84,20 +84,6 @@ describe("stringify", () => {
                 }
             })
 
-            try {
-                parse(transformRoot.toString(stringify), {
-                    from: fixture.files["transform-omits.styl"],
-                })
-            } catch (_e) {
-                // cannot parse?
-                transformRoot.walkDecls(node => {
-                    if (node.raws.stylusBetween) {
-                        transformed = true
-                        delete node.raws.stylusBetween
-                    }
-                })
-            }
-
             if (!transformed) {
                 deleteFixture(fixture.files["transform-omits.styl"])
             }
