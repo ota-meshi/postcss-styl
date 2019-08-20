@@ -22,9 +22,9 @@ npm install -D postcss-styl
 
 ### Lint Stylus with [stylelint]
 
-The main use of this plugin is to apply the [Stylus] syntax to linter using [PostCSS].
+You can use this [PostCSS] plugin to apply [Stylus] syntax to [stylelint].
 
-For example, if you want to use this plugin with [stylelint], it is used as follows:
+For example, this [PostCSS] plugin is used as follows:
 
 1. First, prepare a script that extends [postcss-syntax].
 
