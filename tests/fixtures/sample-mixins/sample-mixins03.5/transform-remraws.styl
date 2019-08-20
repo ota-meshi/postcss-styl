@@ -1,0 +1,13 @@
+border(side, args...) 
+    if side 
+        border-{side}  args
+    
+    else 
+        border args
+    
+
+.border-thick 
+    border('left' , 10px, 'darkred')
+
+.border 
+    border('' , 1px, 'darkred')
