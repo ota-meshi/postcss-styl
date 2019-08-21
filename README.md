@@ -1,11 +1,10 @@
 # postcss-styl
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ota-meshi/postcss-styl.svg)](https://greenkeeper.io/)
-
 [![NPM license]](https://www.npmjs.com/package/postcss-styl)
 [![NPM version]](https://www.npmjs.com/package/postcss-styl)
 [![NPM downloads]](https://www.npmjs.com/package/postcss-styl)
 [![Build Status]](https://travis-ci.org/ota-meshi/postcss-styl)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ota-meshi/postcss-styl.svg)](https://greenkeeper.io/)
 [![Coverage Status]](https://coveralls.io/github/ota-meshi/postcss-styl?branch=master)
 
 [PostCSS] parser plugin for converting [Stylus] syntax to [PostCSS] AST.
