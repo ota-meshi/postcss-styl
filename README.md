@@ -1,5 +1,7 @@
 # postcss-styl
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ota-meshi/postcss-styl.svg)](https://greenkeeper.io/)
+
 [![NPM license]](https://www.npmjs.com/package/postcss-styl)
 [![NPM version]](https://www.npmjs.com/package/postcss-styl)
 [![NPM downloads]](https://www.npmjs.com/package/postcss-styl)
