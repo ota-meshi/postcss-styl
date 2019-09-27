@@ -21,10 +21,10 @@ const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
 describe("stringify", () => {
     for (const fixture of tests) {
         const stylus = fixture.contents["input.styl"]
-        const root = parse(stylus, { from: `${fixture.name}/input.styl` })
+        const parsed = parse(stylus, { from: `${fixture.name}/input.styl` })
 
         it(`stringifies ${fixture.name}`, () => {
-            const output = root.toString(stringify)
+            const output = parsed.toString(stringify)
             assert.strictEqual(output.trim(), stylus.trim())
 
             // win style linebreaks
@@ -39,7 +39,7 @@ describe("stringify", () => {
         })
 
         it(`css stringifies ${fixture.name}`, () => {
-            const actual = root.toString()
+            const actual = parsed.toString()
             try {
                 const expect = fixture.contents["stringify.css"]
                 assert.strictEqual(actual, expect)
@@ -51,7 +51,7 @@ describe("stringify", () => {
 
         // test for transform
         it(`transform omits stringifies ${fixture.name}`, () => {
-            const transformRoot = root.clone()
+            const transformRoot = parsed.clone()
 
             let transformed = false
             transformRoot.walkAtRules(node => {
@@ -109,7 +109,7 @@ describe("stringify", () => {
             )
         })
         it(`transform rem raws stringifies ${fixture.name}`, () => {
-            const transformRoot = root.clone()
+            const transformRoot = parsed.clone()
 
             transformRoot.walk(node => {
                 const raws = {}
