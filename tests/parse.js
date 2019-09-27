@@ -78,9 +78,9 @@ describe("parse", () => {
  */
 function testParse(fixture) {
     const stylus = fixture.contents["input.styl"]
-    let root = null
+    let parsed = null
     try {
-        root = parse(stylus, { from: `${fixture.name}/input.styl` })
+        parsed = parse(stylus, { from: `${fixture.name}/input.styl` })
     } catch (parseError) {
         writeFixture(fixture.files["error.json"], stringifyError(parseError))
         deleteFixture(fixture.files["parsed.json"])
@@ -92,7 +92,7 @@ function testParse(fixture) {
         throw parseError
     }
     it("AST should be valid.", () => {
-        const actual = stringifyStylusAST(root)
+        const actual = stringifyStylusAST(parsed)
         try {
             const expect = fixture.contents["parsed.json"]
             assert.deepStrictEqual(actual, expect)
@@ -102,10 +102,10 @@ function testParse(fixture) {
     })
 
     it("It should not have unknown properties.", () => {
-        checkProperties(root)
+        checkProperties(parsed)
     })
     it("Location should be valid.", () => {
-        checkLocations(root)
+        checkLocations(parsed)
     })
 
     it("AST should  be valid even for Windows style line breaks.", () => {

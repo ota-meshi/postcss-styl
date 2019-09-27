@@ -5,12 +5,12 @@ const path = require("path")
 
 /**
  * listup fixture dirs
- * @param {*} root
+ * @param {*} rootDir
  */
-function listupFixtureDirs(root) {
+function listupFixtureDirs(rootDir) {
     const result = []
-    for (const name of fs.readdirSync(root)) {
-        const filepath = path.join(root, `${name}`)
+    for (const name of fs.readdirSync(rootDir)) {
+        const filepath = path.join(rootDir, `${name}`)
         if (fs.statSync(filepath).isDirectory()) {
             if (fs.readdirSync(filepath).find(n => n.startsWith("input."))) {
                 result.push(name)
@@ -44,11 +44,11 @@ const utils = {
             throw err
         }
     },
-    listupFixtures(root) {
-        const fixtures = listupFixtureDirs(root).map(name => {
+    listupFixtures(rootDir) {
+        const fixtures = listupFixtureDirs(rootDir).map(name => {
             const filesHandler = {
                 get(_target, fileName) {
-                    return path.join(root, `${name}/${fileName}`)
+                    return path.join(rootDir, `${name}/${fileName}`)
                 },
             }
             const files = new Proxy({}, filesHandler)
