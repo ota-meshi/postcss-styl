@@ -1,6 +1,6 @@
 {
   "name": "postcss-styl",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "PostCSS parser plugin for converting Stylus syntax to PostCSS AST.",
   "main": "lib/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/ota-meshi/postcss-styl#readme",
   "engines": {
-    "node": "^8.10.0 || >=11.10.1"
+    "node": "^8.10.0 || ^10.16.0 || >=11.10.1"
   },
   "files": [
     "lib"
