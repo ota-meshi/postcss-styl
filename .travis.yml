@@ -11,9 +11,8 @@ matrix:
 
 deploy:
   skip_cleanup: true
-  provider: npm
-  email: $EMAIL
-  api_key: $NPM_TOKEN
+  provider: script
+  script: sh $TRAVIS_BUILD_DIR/deploy.sh
   on:
     tags: true
 notifications:
