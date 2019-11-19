@@ -3,7 +3,7 @@
 [![NPM license]](https://www.npmjs.com/package/postcss-styl)
 [![NPM version]](https://www.npmjs.com/package/postcss-styl)
 [![NPM downloads]](https://www.npmjs.com/package/postcss-styl)
-[![Build Status]](https://github.com/ota-meshi/postcss-styl/workflows/CI/badge.svg)
+[![Build Status]](https://github.com/ota-meshi/postcss-styl/actions?query=workflow%3ACI)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ota-meshi/postcss-styl.svg)](https://greenkeeper.io/)
 [![Coverage Status]](https://coveralls.io/github/ota-meshi/postcss-styl?branch=master)
 
@@ -130,5 +130,5 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [npm license]: https://img.shields.io/npm/l/postcss-styl.svg
 [npm version]: https://img.shields.io/npm/v/postcss-styl.svg
 [npm downloads]: https://img.shields.io/npm/dw/postcss-styl.svg
-[Build Status]: https://travis-ci.org/ota-meshi/postcss-styl.svg?branch=master
+[Build Status]: https://github.com/ota-meshi/postcss-styl/workflows/CI/badge.svg
 [Coverage Status]: https://coveralls.io/repos/github/ota-meshi/postcss-styl/badge.svg?branch=master
