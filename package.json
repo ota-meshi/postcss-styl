@@ -5,10 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint",
     "test:base": "cross-env DEBUG=postcss-styl* mocha \"tests/**/*.js\" --reporter dot",
     "test:update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
-    "test": "npm run test:nyc",
+    "test": "npm run test:base -- --timeout 60000",
     "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
     "test:d": "mocha --inspect --debug-brk \"tests/**/*.js\" --reporter dot",
     "test:d1": "mocha --inspect --debug-brk \"debug/index.js\" --reporter dot",

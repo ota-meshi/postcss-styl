@@ -9,13 +9,6 @@ matrix:
     - node_js: "10"
     - node_js: "11"
     - node_js: "12"
-
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: sh $TRAVIS_BUILD_DIR/deploy.sh
-  on:
-    tags: true
 notifications:
   email: false
 after_success:
