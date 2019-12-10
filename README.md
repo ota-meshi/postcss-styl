@@ -53,7 +53,7 @@ For example, this [PostCSS] plugin is used as follows:
 
    ```js
    const stylelint = require("stylelint")
-   const customSyntax = require("./path/to/custom-syntax.js")
+   const customSyntax = require.resolve("./path/to/custom-syntax.js")
 
    stylelint.lint({
      customSyntax,
