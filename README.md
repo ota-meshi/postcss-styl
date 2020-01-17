@@ -130,5 +130,5 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [npm license]: https://img.shields.io/npm/l/postcss-styl.svg
 [npm version]: https://img.shields.io/npm/v/postcss-styl.svg
 [npm downloads]: https://img.shields.io/npm/dw/postcss-styl.svg
-[Build Status]: https://github.com/ota-meshi/postcss-styl/workflows/CI/badge.svg
+[Build Status]: https://github.com/ota-meshi/postcss-styl/workflows/CI/badge.svg?branch=master
 [Coverage Status]: https://coveralls.io/repos/github/ota-meshi/postcss-styl/badge.svg?branch=master
