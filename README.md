@@ -60,6 +60,16 @@ For example, this [PostCSS] plugin is used as follows:
      ...
    })
    ```
+   
+   - via [VSCode extension]
+
+   ```json
+   {
+     "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js"
+   }
+   ```
+   
+   Note that only `.vue` files can be verified.
 
    - with [PostCSS]
 
@@ -122,6 +132,7 @@ Please use GitHub's Issues/PRs.
 See the [LICENSE] file for license rights and limitations (MIT).
 
 [postcss]: https://postcss.org/
+[VSCode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 [stylus]: http://stylus-lang.com/
 [stylelint]: http://stylelint.io/
 [autoprefixer]: https://github.com/postcss/autoprefixer
