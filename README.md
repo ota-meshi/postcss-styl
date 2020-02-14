@@ -45,48 +45,48 @@ For example, this [PostCSS] plugin is used as follows:
 
    - via CLI
 
-   ```bash
-   stylelint ... --custom-syntax ./path/to/custom-syntax.js
-   ```
+     ```bash
+     stylelint ... --custom-syntax ./path/to/custom-syntax.js
+     ```
 
    - use Node.js API
 
-   ```js
-   const stylelint = require("stylelint")
-   const customSyntax = require.resolve("./path/to/custom-syntax.js")
+     ```js
+     const stylelint = require("stylelint")
+     const customSyntax = require.resolve("./path/to/custom-syntax.js")
 
-   stylelint.lint({
-     customSyntax,
-     ...
-   })
-   ```
+     stylelint.lint({
+       customSyntax,
+       ...
+     })
+     ```
    
    - via [VSCode extension]
 
-   ```json
-   {
-     "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js"
-   }
-   ```
+     ```json
+     {
+       "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js"
+     }
+     ```
    
-   Note that only `.vue` files can be verified.
+     Note that only `.vue` files can be verified.
 
    - with [PostCSS]
 
-   ```js
-   const postcss = require("postcss")
-   const customSyntax = require("./path/to/custom-syntax.js")
+     ```js
+     const postcss = require("postcss")
+     const customSyntax = require("./path/to/custom-syntax.js")
 
-   postcss([
-     require("stylelint"),
-     require("reporter")
-   ])
-     .process(css, {
-       from: "lib/app.styl",
-       syntax: customSyntax
+     postcss([
+       require("stylelint"),
+       require("reporter")
+     ])
+       .process(css, {
+         from: "lib/app.styl",
+         syntax: customSyntax
+       })
      })
-   })
-   ```
+     ```
 
 ### Stylus Transformations
 
