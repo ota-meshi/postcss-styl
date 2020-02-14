@@ -5,5 +5,19 @@
     "rule": "font-family-no-missing-generic-family-keyword",
     "severity": "error",
     "text": "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)"
+  },
+  {
+    "line": 1,
+    "column": 9,
+    "rule": "value-keyword-case",
+    "severity": "error",
+    "text": "Expected \"Helvetica\" to be \"helvetica\" (value-keyword-case)"
+  },
+  {
+    "line": 1,
+    "column": 20,
+    "rule": "value-keyword-case",
+    "severity": "error",
+    "text": "Expected \"Arial\" to be \"arial\" (value-keyword-case)"
   }
 ]
