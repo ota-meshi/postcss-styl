@@ -1,3 +1,7 @@
 {
-    "eslint.autoFixOnSave": true
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": false,
+    },
+    "stylelint.customSyntax": "${workspaceFolder}/tests/integration/stylelint/custom-syntax.js"
 }
