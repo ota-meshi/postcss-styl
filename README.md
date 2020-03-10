@@ -61,7 +61,7 @@ For example, this [PostCSS] plugin is used as follows:
      })
      ```
    
-   - via [VSCode extension]
+   - with [VSCode extension]
 
      ```json
      {
