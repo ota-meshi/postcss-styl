@@ -1,7 +1,17 @@
 {
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": false,
+        "source.fixAll.stylelint": true,
     },
-    "stylelint.customSyntax": "${workspaceFolder}/tests/integration/stylelint/custom-syntax.js"
+    "[stylus]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": false,
+        }
+    },
+    "stylelint.customSyntax": "${workspaceFolder}/tests/integration/stylelint/custom-syntax.js",
+    "stylelint.validate": [
+        "css",
+        "vue",
+        "stylus"
+    ]
 }

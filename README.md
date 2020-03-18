@@ -65,11 +65,13 @@ For example, this [PostCSS] plugin is used as follows:
 
      ```json
      {
-       "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js"
+       "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js",
+       "stylelint.validate": [
+          ...,
+          "stylus"
+       ]
      }
      ```
-   
-     Note that only `.vue` files can be verified.
 
    - with [PostCSS]
 

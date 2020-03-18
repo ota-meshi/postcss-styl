@@ -14,17 +14,17 @@ baseConfig.rules = Object.assign({}, baseConfig.rules, {
     "function-calc-no-invalid": true,
 
     // useless for the stylus
-    "block-opening-brace-space-before": false,
-    "block-closing-brace-newline-before": false,
-    "declaration-block-trailing-semicolon": false,
-    "selector-list-comma-newline-after": false,
-    "selector-list-comma-space-before": false,
-    "block-closing-brace-space-before": false,
-    "property-no-unknown": false,
-    "at-rule-no-unknown": false,
+    "block-opening-brace-space-before": null,
+    "block-closing-brace-newline-before": null,
+    "declaration-block-trailing-semicolon": null,
+    "selector-list-comma-newline-after": null,
+    "selector-list-comma-space-before": null,
+    "block-closing-brace-space-before": null,
+    "property-no-unknown": null,
+    "at-rule-no-unknown": null,
 
     // breaks stylus
-    "at-rule-name-space-after": false,
+    "at-rule-name-space-after": null,
 })
 
 const tests = listupFixtures(path.join(__dirname, "fixtures"))
