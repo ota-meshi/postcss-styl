@@ -63,11 +63,12 @@ For example, this [PostCSS] plugin is used as follows:
    
    - with [VSCode extension]
 
-     ```json
+     ```js
      {
        "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js",
        "stylelint.validate": [
           ...,
+          // ↓ Add "stylus" language.
           "stylus"
        ]
      }
