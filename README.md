@@ -23,7 +23,8 @@ npm install -D postcss-styl
 
 ### Lint Stylus with [stylelint]
 
-You can use this [PostCSS] plugin to apply [Stylus] syntax to [stylelint].
+You can use this [PostCSS] plugin to apply [Stylus] syntax to [stylelint].  
+**You can use it more easily by using it with [stylelint-plugin-stylus](https://github.com/ota-meshi/stylelint-plugin-stylus).**
 
 For example, this [PostCSS] plugin is used as follows:
 
