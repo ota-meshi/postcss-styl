@@ -207,7 +207,7 @@ button:-moz-focusring,
 
 button,
 html [type="button"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */
-,[type="reset"],
+[type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* Correct the inability to style clickable types in iOS */
 }

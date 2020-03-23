@@ -2943,8 +2943,7 @@
         "semicolon": true,
         "selector": {
           "value": "button,\nhtml [type=\"button\"], \n[type=\"reset\"],\n[type=\"submit\"]",
-          "raw": "button,\nhtml [type=\"button\"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */\n,[type=\"reset\"],\n[type=\"submit\"]",
-          "stylus": "button,\nhtml [type=\"button\"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */\n[type=\"reset\"],\n[type=\"submit\"]"
+          "raw": "button,\nhtml [type=\"button\"], /* Prevent a WebKit bug where (2) destroys native `audio` and `video`controls in Android 4 */\n[type=\"reset\"],\n[type=\"submit\"]"
         },
         "after": "\n"
       },
