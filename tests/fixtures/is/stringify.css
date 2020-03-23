@@ -1,4 +1,4 @@
-:is(header, main, footer), p:hover {
+:is(header, main, footer) p:hover {
   color: red;
   cursor: pointer;
 }
@@ -19,17 +19,17 @@
   cursor: pointer;
 }
 
-:-webkit-any(header, main, footer), p:hover {
+:-webkit-any(header, main, footer) p:hover {
   color: red;
   cursor: pointer;
 }
 
-:-moz-any(header, main, footer), p:hover {
+:-moz-any(header, main, footer) p:hover {
   color: red;
   cursor: pointer;
 }
 
-:matches(header, main, footer), p:hover {
+:matches(header, main, footer) p:hover {
   color: red;
   cursor: pointer;
 }

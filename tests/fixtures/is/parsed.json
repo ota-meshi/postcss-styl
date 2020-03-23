@@ -10,11 +10,6 @@
         "before": "",
         "between": " ",
         "semicolon": true,
-        "selector": {
-          "value": ":is(header, main, footer), p:hover",
-          "raw": ":is(header, main, footer), p:hover",
-          "stylus": ":is(header, main, footer) p:hover"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -85,7 +80,7 @@
           "column": 19
         }
       },
-      "selector": ":is(header, main, footer), p:hover"
+      "selector": ":is(header, main, footer) p:hover"
     },
     {
       "raws": {
@@ -328,11 +323,6 @@
         "before": "\n\n",
         "between": " ",
         "semicolon": true,
-        "selector": {
-          "value": ":-webkit-any(header, main, footer), p:hover",
-          "raw": ":-webkit-any(header, main, footer), p:hover",
-          "stylus": ":-webkit-any(header, main, footer) p:hover"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -403,18 +393,13 @@
           "column": 19
         }
       },
-      "selector": ":-webkit-any(header, main, footer), p:hover"
+      "selector": ":-webkit-any(header, main, footer) p:hover"
     },
     {
       "raws": {
         "before": "\n\n",
         "between": " ",
         "semicolon": true,
-        "selector": {
-          "value": ":-moz-any(header, main, footer), p:hover",
-          "raw": ":-moz-any(header, main, footer), p:hover",
-          "stylus": ":-moz-any(header, main, footer) p:hover"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -485,18 +470,13 @@
           "column": 19
         }
       },
-      "selector": ":-moz-any(header, main, footer), p:hover"
+      "selector": ":-moz-any(header, main, footer) p:hover"
     },
     {
       "raws": {
         "before": "\n\n",
         "between": " ",
         "semicolon": true,
-        "selector": {
-          "value": ":matches(header, main, footer), p:hover",
-          "raw": ":matches(header, main, footer), p:hover",
-          "stylus": ":matches(header, main, footer) p:hover"
-        },
         "after": "\n"
       },
       "type": "rule",
@@ -567,7 +547,7 @@
           "column": 19
         }
       },
-      "selector": ":matches(header, main, footer), p:hover"
+      "selector": ":matches(header, main, footer) p:hover"
     }
   ],
   "source": {
