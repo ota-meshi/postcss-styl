@@ -1,0 +1,582 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": ":is(header, main, footer), p:hover",
+          "raw": ":is(header, main, footer), p:hover",
+          "stylus": ":is(header, main, footer) p:hover"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 36
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 3,
+          "column": 20
+        }
+      },
+      "selector": ":is(header, main, footer), p:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 6,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 6,
+          "column": 37
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 8,
+          "column": 20
+        }
+      },
+      "selector": ":is(header, main, footer), p:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": ":is(header, main, footer)\r\n,p:hover",
+          "raw": ":is(header, main, footer)\r\n,p:hover",
+          "stylus": ":is(header, main, footer)\r\np:hover"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 13,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 13,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 12,
+          "column": 10
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 14,
+          "column": 20
+        }
+      },
+      "selector": ":is(header, main, footer)\r\n,p:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 18,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 18,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 19,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 19,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 17,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 17,
+          "column": 28
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 19,
+          "column": 20
+        }
+      },
+      "selector": ":is(header, main, footer)"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": ":-webkit-any(header, main, footer), p:hover",
+          "raw": ":-webkit-any(header, main, footer), p:hover",
+          "stylus": ":-webkit-any(header, main, footer) p:hover"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 23,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 23,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 24,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 24,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 22,
+          "column": 45
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 24,
+          "column": 20
+        }
+      },
+      "selector": ":-webkit-any(header, main, footer), p:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": ":-moz-any(header, main, footer), p:hover",
+          "raw": ":-moz-any(header, main, footer), p:hover",
+          "stylus": ":-moz-any(header, main, footer) p:hover"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 28,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 28,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 29,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 29,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 27,
+          "column": 42
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 30,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 29,
+          "column": 20
+        }
+      },
+      "selector": ":-moz-any(header, main, footer), p:hover"
+    },
+    {
+      "raws": {
+        "before": "\r\n\r\n",
+        "between": " ",
+        "semicolon": true,
+        "selector": {
+          "value": ":matches(header, main, footer), p:hover",
+          "raw": ":matches(header, main, footer), p:hover",
+          "stylus": ":matches(header, main, footer) p:hover"
+        },
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 33,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 33,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "red"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 34,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 34,
+              "column": 18
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 32,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 32,
+          "column": 41
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 35,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 34,
+          "column": 20
+        }
+      },
+      "selector": ":matches(header, main, footer), p:hover"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
