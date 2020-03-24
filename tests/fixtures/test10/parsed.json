@@ -1,0 +1,238 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 5
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 1,
+              "column": 16
+            }
+          },
+          "prop": "color",
+          "value": "pink"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 4
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 18
+        },
+        "endChildren": {
+          "line": 1,
+          "column": 17
+        }
+      },
+      "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 1,
+              "column": 34
+            }
+          },
+          "prop": "color",
+          "value": "pink"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 19
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 22
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 2,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 1,
+          "column": 35
+        }
+      },
+      "selector": "b"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 19
+            }
+          },
+          "prop": "color",
+          "value": "pink"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 4,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 21
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 20
+        }
+      },
+      "selector": ".foo"
+    },
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 40
+            }
+          },
+          "prop": "color",
+          "value": "pink"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 4,
+          "column": 22
+        },
+        "startChildren": {
+          "line": 4,
+          "column": 28
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 4,
+          "column": 41
+        }
+      },
+      "selector": ".bar"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
