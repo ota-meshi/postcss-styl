@@ -1,7 +1,7 @@
 {
   "raws": {
     "semicolon": false,
-    "after": ""
+    "after": "\n"
   },
   "type": "root",
   "nodes": [
@@ -32,14 +32,14 @@
               "source": {
                 "start": {
                   "line": 1,
-                  "column": 17
+                  "column": 9
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
                   "line": 1,
-                  "column": 28
+                  "column": 20
                 }
               },
               "prop": "color",
@@ -53,21 +53,21 @@
             },
             "startChildren": {
               "line": 1,
-              "column": 16
+              "column": 8
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
               "line": 1,
-              "column": 30
+              "column": 22
             },
             "endChildren": {
               "line": 1,
-              "column": 29
+              "column": 21
             }
           },
-          "selector": "aaaaaaaaa"
+          "selector": "a"
         }
       ],
       "source": {
@@ -88,94 +88,6 @@
         },
         "endChildren": {
           "line": 1,
-          "column": 31
-        }
-      },
-      "selector": ".b"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": false,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "",
-            "between": " ",
-            "semicolon": true,
-            "after": " "
-          },
-          "type": "rule",
-          "nodes": [
-            {
-              "raws": {
-                "before": " ",
-                "between": ": "
-              },
-              "type": "decl",
-              "source": {
-                "start": {
-                  "line": 4,
-                  "column": 9
-                },
-                "input": {
-                  "file": "input.styl"
-                },
-                "end": {
-                  "line": 4,
-                  "column": 20
-                }
-              },
-              "prop": "color",
-              "value": "pink"
-            }
-          ],
-          "source": {
-            "start": {
-              "line": 4,
-              "column": 5
-            },
-            "startChildren": {
-              "line": 4,
-              "column": 8
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 4,
-              "column": 22
-            },
-            "endChildren": {
-              "line": 4,
-              "column": 21
-            }
-          },
-          "selector": "a"
-        }
-      ],
-      "source": {
-        "start": {
-          "line": 4,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 4,
-          "column": 5
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 5,
-          "column": 1
-        },
-        "endChildren": {
-          "line": 4,
           "column": 23
         }
       },
@@ -207,14 +119,14 @@
               "type": "decl",
               "source": {
                 "start": {
-                  "line": 8,
+                  "line": 5,
                   "column": 8
                 },
                 "input": {
                   "file": "input.styl"
                 },
                 "end": {
-                  "line": 8,
+                  "line": 5,
                   "column": 19
                 }
               },
@@ -224,22 +136,22 @@
           ],
           "source": {
             "start": {
-              "line": 8,
+              "line": 5,
               "column": 3
             },
             "startChildren": {
-              "line": 8,
+              "line": 5,
               "column": 7
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 8,
+              "line": 5,
               "column": 21
             },
             "endChildren": {
-              "line": 8,
+              "line": 5,
               "column": 20
             }
           },
@@ -248,114 +160,26 @@
       ],
       "source": {
         "start": {
-          "line": 7,
+          "line": 4,
           "column": 1
         },
         "startChildren": {
-          "line": 7,
+          "line": 4,
           "column": 5
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 9,
+          "line": 6,
           "column": 1
         },
         "endChildren": {
-          "line": 8,
+          "line": 5,
           "column": 22
         }
       },
       "selector": ".c"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": false,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "",
-            "between": " ",
-            "semicolon": true,
-            "after": " "
-          },
-          "type": "rule",
-          "nodes": [
-            {
-              "raws": {
-                "before": " ",
-                "between": ": "
-              },
-              "type": "decl",
-              "source": {
-                "start": {
-                  "line": 11,
-                  "column": 17
-                },
-                "input": {
-                  "file": "input.styl"
-                },
-                "end": {
-                  "line": 11,
-                  "column": 28
-                }
-              },
-              "prop": "color",
-              "value": "pink"
-            }
-          ],
-          "source": {
-            "start": {
-              "line": 11,
-              "column": 5
-            },
-            "startChildren": {
-              "line": 11,
-              "column": 16
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 11,
-              "column": 30
-            },
-            "endChildren": {
-              "line": 11,
-              "column": 29
-            }
-          },
-          "selector": "aaaaaaaaa"
-        }
-      ],
-      "source": {
-        "start": {
-          "line": 11,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 11,
-          "column": 5
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 12,
-          "column": 1
-        },
-        "endChildren": {
-          "line": 11,
-          "column": 31
-        }
-      },
-      "selector": ".b"
     }
   ],
   "source": {
