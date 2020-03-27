@@ -218,6 +218,7 @@ const KNOWN_PROPS = {
         "callBlockMixin", // block mixin function call expression
         "expression", // expression
         "postfix", // postfix conditionals or postfix iteration
+        "cssLiteral", // @css literals
     ],
     rule: [
         "nodes",

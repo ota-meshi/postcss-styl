@@ -1,0 +1,206 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\r\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "left": " ",
+        "right": "",
+        "inline": true
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 1,
+          "column": 19
+        }
+      },
+      "text": "inline-comment05"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": "",
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "left": "",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 11
+            }
+          },
+          "text": "comment"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 2,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 3,
+          "column": 13
+        }
+      },
+      "selector": ".foo"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": " ",
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "left": "",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 8
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 16
+            }
+          },
+          "text": "comment"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 5,
+          "column": 7
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 5,
+          "column": 18
+        }
+      },
+      "selector": ".bar"
+    },
+    {
+      "raws": {
+        "before": "\r\n",
+        "between": "",
+        "after": "\r\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "left": "",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 6
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 14
+            }
+          },
+          "text": "comment"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 7,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 7,
+          "column": 6
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        },
+        "endChildren": {
+          "line": 7,
+          "column": 16
+        }
+      },
+      "selector": ".baz"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    }
+  }
+}
