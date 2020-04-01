@@ -39,7 +39,7 @@ describe("stringify", () => {
         })
 
         it(`css stringifies ${fixture.name}`, () => {
-            const actual = parsed.toString()
+            const actual = parsed.toString(postcss)
             try {
                 const expect = fixture.contents["stringify.css"]
                 assert.strictEqual(actual, expect)

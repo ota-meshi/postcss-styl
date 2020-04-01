@@ -4,7 +4,8 @@ const assert = require("assert")
 const cases = require("postcss-parser-tests")
 const path = require("path")
 
-const parse = require("..").parse
+const self = require("..")
+const parse = self.parse
 const {
     listupFixtures,
     writeFixture,
@@ -167,7 +168,9 @@ function stringifyAST(node) {
             if (
                 key === "endChildren" ||
                 key === "startChildren" ||
-                key === "rawEnd"
+                key === "rawEnd" ||
+                key === "lang" ||
+                key === "syntax"
             ) {
                 return undefined
             }
@@ -179,11 +182,41 @@ function stringifyAST(node) {
 
 /**
  * jsonify stylus
- * @param {*} node
+ * @param {*} rootNode
  */
-function stringifyStylusAST(node) {
-    const obj = JSON.parse(cases.jsonify(node))
-    return JSON.stringify(obj, null, 2)
+function stringifyStylusAST(rootNode) {
+    return JSON.stringify(
+        clean(rootNode),
+        (key, value) => {
+            if (key === "syntax") {
+                return value === self ? "ok" : "ng"
+            }
+            return value
+        },
+        2
+    )
+
+    /**
+     * copy from node_modules/postcss-parser-tests/jsonify.js
+     * @param {*} node
+     */
+    function clean(node) {
+        if (node.source) {
+            delete node.source.input.css
+            delete node.source.input.hasBOM
+            node.source.input.file = path.basename(node.source.input.file)
+        }
+
+        delete node.indexes
+        delete node.lastEach
+        delete node.rawCache
+
+        if (node.nodes) {
+            node.nodes = node.nodes.map(clean)
+        }
+
+        return node
+    }
 }
 
 /**
