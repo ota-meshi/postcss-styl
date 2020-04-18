@@ -1,0 +1,109 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": "",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "",
+        "params": {
+          "value": "screen and (min-width: 900px)",
+          "raw": "screen and (min-width: 900px)",
+          "stylus": "screen and (min-width 900px)"
+        }
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 36
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 3,
+          "column": 18
+        }
+      },
+      "params": "screen and (min-width: 900px)",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": "",
+            "semicolon": true,
+            "after": ""
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n      ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 3,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 3,
+                  "column": 18
+                }
+              },
+              "prop": "color",
+              "value": "#f0f"
+            }
+          ],
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
+            },
+            "startChildren": {
+              "line": 2,
+              "column": 6
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 18
+            }
+          },
+          "selector": "a",
+          "pythonic": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input.styl"
+    },
+    "start": {
+      "line": 1,
+      "column": 1
+    },
+    "lang": "stylus",
+    "syntax": "ok"
+  }
+}
