@@ -252,6 +252,8 @@ const KNOWN_PROPS = {
         "expression", // expression
         "postfix", // postfix conditionals or postfix iteration
         "cssLiteral", // @css literals
+        "atblock", // @block
+        "assignment", // @block assignment
     ],
     rule: [
         "nodes",
