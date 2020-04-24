@@ -10,8 +10,8 @@
     @for $j in 0..$i - 1{
       @if fn(list[$j], list[$i]){
         $temp : list[$i];
-        @list[$i] = list[$j];
-        @list[$j] = $temp}}}
+        list[$i] : list[$j];
+        list[$j] : $temp}}}
   @return list;
 
   @sort('e' 'c' 'f' 'a' 'b' 'd');

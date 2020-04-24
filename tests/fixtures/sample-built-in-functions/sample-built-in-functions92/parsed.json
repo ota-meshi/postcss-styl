@@ -126,12 +126,10 @@
                 {
                   "raws": {
                     "before": "\n          ",
-                    "between": "",
-                    "afterName": "",
-                    "identifier": ""
+                    "between": " : ",
+                    "stylusBetween": " = "
                   },
-                  "type": "atrule",
-                  "name": "",
+                  "type": "decl",
                   "source": {
                     "start": {
                       "line": 5,
@@ -143,14 +141,11 @@
                     "end": {
                       "line": 5,
                       "column": 23
-                    },
-                    "rawEnd": {
-                      "line": 5,
-                      "column": 23
                     }
                   },
-                  "params": "expr[i] = val",
-                  "expression": true
+                  "prop": "expr[i]",
+                  "value": "val",
+                  "assignment": true
                 }
               ]
             }
