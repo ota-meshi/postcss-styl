@@ -1,17 +1,17 @@
 {
   "raws": {
     "semicolon": false,
-    "after": ""
+    "after": "\n"
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "\r\n",
+        "before": "\n",
         "between": " ",
         "afterName": "",
         "semicolon": false,
-        "after": "\r\n",
+        "after": "\n",
         "identifier": ""
       },
       "type": "atrule",
@@ -23,7 +23,7 @@
         },
         "startChildren": {
           "line": 2,
-          "column": 15
+          "column": 9
         },
         "input": {
           "file": "input.styl"
@@ -34,14 +34,14 @@
         },
         "endChildren": {
           "line": 4,
-          "column": 16
+          "column": 15
         }
       },
-      "params": "foo = @block",
+      "params": "@block",
       "nodes": [
         {
           "raws": {
-            "before": "\r\n  ",
+            "before": "\n  ",
             "between": ": "
           },
           "type": "decl",
@@ -64,7 +64,7 @@
         },
         {
           "raws": {
-            "before": "\r\n  ",
+            "before": "\n  ",
             "between": ": "
           },
           "type": "decl",
@@ -86,62 +86,7 @@
         }
       ],
       "atblock": true,
-      "assignment": true
-    },
-    {
-      "raws": {
-        "before": "\r\n\r\n",
-        "between": "",
-        "semicolon": false,
-        "after": ""
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\r\n  ",
-            "between": "",
-            "afterName": "",
-            "identifier": ""
-          },
-          "type": "atrule",
-          "name": "",
-          "source": {
-            "start": {
-              "line": 8,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 8,
-              "column": 7
-            }
-          },
-          "params": "{foo}",
-          "expression": true
-        }
-      ],
-      "source": {
-        "start": {
-          "line": 7,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 7,
-          "column": 6
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 8,
-          "column": 7
-        }
-      },
-      "selector": ".icon",
-      "pythonic": true
+      "expression": true
     }
   ],
   "source": {
