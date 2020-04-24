@@ -58,12 +58,10 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": "",
-        "afterName": "",
-        "identifier": ""
+        "between": " : ",
+        "stylusBetween": " = "
       },
-      "type": "atrule",
-      "name": "",
+      "type": "decl",
       "source": {
         "start": {
           "line": 3,
@@ -75,15 +73,12 @@
         "end": {
           "line": 3,
           "column": 14
-        },
-        "rawEnd": {
-          "line": 3,
-          "column": 14
         }
       },
-      "params": "foo[bar] = raz",
+      "prop": "foo[bar]",
+      "value": "raz",
       "omittedSemi": true,
-      "expression": true
+      "assignment": true
     },
     {
       "raws": {

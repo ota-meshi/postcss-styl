@@ -1,17 +1,17 @@
 {
   "raws": {
     "semicolon": false,
-    "after": ""
+    "after": "\n"
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "left": " ",
+        "right": " "
       },
-      "type": "decl",
+      "type": "comment",
       "source": {
         "start": {
           "line": 1,
@@ -22,61 +22,83 @@
         },
         "end": {
           "line": 1,
-          "column": 8
+          "column": 45
+        }
+      },
+      "text": "http://stylus-lang.com/docs/hashes.html"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 6,
+          "column": 1
         }
       },
       "prop": "foo",
-      "value": "{}",
+      "value": "{\n  bar: baz,\n  baz: raz\n}",
       "omittedSemi": true,
       "assignment": true
     },
     {
       "raws": {
-        "before": "\n",
+        "before": "\n\n",
         "between": " : ",
         "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
         "start": {
-          "line": 2,
+          "line": 8,
           "column": 1
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 2,
-          "column": 16
+          "line": 8,
+          "column": 11
+        }
+      },
+      "prop": "foo.bar",
+      "value": "2",
+      "omittedSemi": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " : ",
+        "stylusBetween": " = "
+      },
+      "type": "decl",
+      "source": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 10,
+          "column": 14
         }
       },
       "prop": "foo['bar']",
-      "value": "baz",
-      "omittedSemi": true,
-      "assignment": true
-    },
-    {
-      "raws": {
-        "before": "\n",
-        "between": " : ",
-        "stylusBetween": " = "
-      },
-      "type": "decl",
-      "source": {
-        "start": {
-          "line": 3,
-          "column": 1
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 3,
-          "column": 16
-        }
-      },
-      "prop": "foo['baz']",
-      "value": "raz",
+      "value": "2",
       "assignment": true
     }
   ],

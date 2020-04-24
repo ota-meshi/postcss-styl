@@ -260,12 +260,10 @@
                     {
                       "raws": {
                         "before": "\r\n        ",
-                        "between": "",
-                        "afterName": "",
-                        "identifier": ""
+                        "between": " : ",
+                        "stylusBetween": " = "
                       },
-                      "type": "atrule",
-                      "name": "",
+                      "type": "decl",
                       "source": {
                         "start": {
                           "line": 13,
@@ -277,25 +275,20 @@
                         "end": {
                           "line": 13,
                           "column": 27
-                        },
-                        "rawEnd": {
-                          "line": 13,
-                          "column": 27
                         }
                       },
-                      "params": "list[$i] = list[$j]",
+                      "prop": "list[$i]",
+                      "value": "list[$j]",
                       "omittedSemi": true,
-                      "expression": true
+                      "assignment": true
                     },
                     {
                       "raws": {
                         "before": "\r\n        ",
-                        "between": "",
-                        "afterName": "",
-                        "identifier": ""
+                        "between": " : ",
+                        "stylusBetween": " = "
                       },
-                      "type": "atrule",
-                      "name": "",
+                      "type": "decl",
                       "source": {
                         "start": {
                           "line": 14,
@@ -307,14 +300,11 @@
                         "end": {
                           "line": 14,
                           "column": 24
-                        },
-                        "rawEnd": {
-                          "line": 14,
-                          "column": 24
                         }
                       },
-                      "params": "list[$j] = $temp",
-                      "expression": true
+                      "prop": "list[$j]",
+                      "value": "$temp",
+                      "assignment": true
                     }
                   ]
                 }
