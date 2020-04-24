@@ -2,7 +2,7 @@
       expr : clone(expr);
       @for e, i in expr{
         @if str == e{
-          @expr[i] = val}}
+          expr[i] : val}}
       @expr}
 
     @something(n){
