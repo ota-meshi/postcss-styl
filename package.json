@@ -11,6 +11,8 @@
     "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
     "test:debug": "mocha --inspect-brk \"tests/**/*.js\" --reporter dot",
     "test:d1": "mocha --inspect-brk \"debug/index.js\" --reporter dot",
+    "preversion": "npm run test",
+    "version": "npm run lint -- --fix && git add .",
     "try:stylelint": "stylelint \"**/*.(vue|styl)\" --custom-syntax ./tests/integration/stylelint/custom-syntax.js"
   },
   "repository": {
