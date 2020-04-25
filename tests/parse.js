@@ -254,6 +254,7 @@ const KNOWN_PROPS = {
         "cssLiteral", // @css literals
         "atblock", // @block
         "assignment", // @block assignment
+        "conditional", // @block conditional assignment
     ],
     rule: [
         "nodes",

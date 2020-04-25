@@ -1,0 +1,14 @@
+@foo :={
+  width: 10px}
+
+@bar := @block {
+  width: 10px
+}
+
+@foo ?={
+  width: 10px}
+
+@bar ?= @block {
+  width: 10px
+}
+
