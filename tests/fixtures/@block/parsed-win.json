@@ -1,33 +1,65 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\r\n\r\n"
+    "after": "\r\n"
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": "",
+        "afterName": "",
+        "semicolon": false,
+        "after": "",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
         },
+        "startChildren": {
+          "line": 1,
+          "column": 6
+        },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 4,
-          "column": 1
+          "line": 2,
+          "column": 13
         }
       },
-      "prop": "foo",
-      "value": "{\r\n  bar: baz,\r\n  baz: raz\r\n}",
-      "omittedSemi": true,
+      "params": "foo =",
+      "pythonic": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 13
+            }
+          },
+          "prop": "width",
+          "value": "10px"
+        }
+      ],
+      "atblock": true,
       "assignment": true
     },
     {
@@ -43,26 +75,26 @@
       "name": "",
       "source": {
         "start": {
-          "line": 6,
+          "line": 4,
           "column": 1
         },
         "startChildren": {
-          "line": 6,
-          "column": 19
+          "line": 4,
+          "column": 15
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 8,
+          "line": 6,
           "column": 1
         },
         "endChildren": {
-          "line": 7,
+          "line": 5,
           "column": 15
         }
       },
-      "params": "foo.baz = @block",
+      "params": "foo = @block",
       "nodes": [
         {
           "raws": {
@@ -72,71 +104,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 7,
+              "line": 5,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 7,
-              "column": 13
-            }
-          },
-          "prop": "width",
-          "value": "10px"
-        }
-      ],
-      "atblock": true,
-      "assignment": true
-    },
-    {
-      "raws": {
-        "before": "\r\n\r\n",
-        "between": "",
-        "afterName": "",
-        "semicolon": false,
-        "after": "",
-        "identifier": ""
-      },
-      "type": "atrule",
-      "name": "",
-      "source": {
-        "start": {
-          "line": 10,
-          "column": 1
-        },
-        "startChildren": {
-          "line": 10,
-          "column": 10
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 11,
-          "column": 13
-        }
-      },
-      "params": "foo.bar =",
-      "pythonic": true,
-      "nodes": [
-        {
-          "raws": {
-            "before": "\r\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "line": 11,
-              "column": 3
-            },
-            "input": {
-              "file": "input.styl"
-            },
-            "end": {
-              "line": 11,
+              "line": 5,
               "column": 13
             }
           },

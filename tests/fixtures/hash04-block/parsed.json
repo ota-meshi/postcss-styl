@@ -8,42 +8,20 @@
     {
       "raws": {
         "before": "",
-        "left": " ",
-        "right": " "
-      },
-      "type": "comment",
-      "source": {
-        "start": {
-          "line": 1,
-          "column": 1
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 1,
-          "column": 45
-        }
-      },
-      "text": "http://stylus-lang.com/docs/hashes.html"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
         "between": " : ",
         "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
         "start": {
-          "line": 3,
+          "line": 1,
           "column": 1
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 6,
+          "line": 4,
           "column": 1
         }
       },
@@ -65,18 +43,18 @@
       "name": "",
       "source": {
         "start": {
-          "line": 8,
+          "line": 6,
           "column": 1
         },
         "startChildren": {
-          "line": 8,
+          "line": 6,
           "column": 10
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 9,
+          "line": 7,
           "column": 13
         }
       },
@@ -91,14 +69,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 9,
+              "line": 7,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 9,
+              "line": 7,
               "column": 13
             }
           },
@@ -107,7 +85,6 @@
         }
       ],
       "atblock": true,
-      "expression": true,
       "assignment": true
     },
     {
@@ -123,18 +100,18 @@
       "name": "",
       "source": {
         "start": {
-          "line": 11,
+          "line": 9,
           "column": 1
         },
         "startChildren": {
-          "line": 11,
+          "line": 9,
           "column": 10
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 12,
+          "line": 10,
           "column": 13
         }
       },
@@ -149,14 +126,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 12,
+              "line": 10,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 12,
+              "line": 10,
               "column": 13
             }
           },
@@ -165,7 +142,6 @@
         }
       ],
       "atblock": true,
-      "expression": true,
       "assignment": true
     },
     {
@@ -181,22 +157,22 @@
       "name": "",
       "source": {
         "start": {
-          "line": 14,
+          "line": 12,
           "column": 1
         },
         "startChildren": {
-          "line": 14,
+          "line": 12,
           "column": 19
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 16,
+          "line": 14,
           "column": 1
         },
         "endChildren": {
-          "line": 15,
+          "line": 13,
           "column": 14
         }
       },
@@ -210,14 +186,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 15,
+              "line": 13,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 15,
+              "line": 13,
               "column": 13
             }
           },
@@ -226,7 +202,6 @@
         }
       ],
       "atblock": true,
-      "expression": true,
       "assignment": true
     }
   ],

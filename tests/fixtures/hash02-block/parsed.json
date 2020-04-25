@@ -8,42 +8,20 @@
     {
       "raws": {
         "before": "",
-        "left": " ",
-        "right": " "
-      },
-      "type": "comment",
-      "source": {
-        "start": {
-          "line": 1,
-          "column": 1
-        },
-        "input": {
-          "file": "input.styl"
-        },
-        "end": {
-          "line": 1,
-          "column": 45
-        }
-      },
-      "text": "http://stylus-lang.com/docs/hashes.html"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
         "between": " : ",
         "stylusBetween": " = "
       },
       "type": "decl",
       "source": {
         "start": {
-          "line": 3,
+          "line": 1,
           "column": 1
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 6,
+          "line": 4,
           "column": 1
         }
       },
@@ -65,18 +43,18 @@
       "name": "",
       "source": {
         "start": {
-          "line": 8,
+          "line": 6,
           "column": 1
         },
         "startChildren": {
-          "line": 8,
+          "line": 6,
           "column": 10
         },
         "input": {
           "file": "input.styl"
         },
         "end": {
-          "line": 9,
+          "line": 7,
           "column": 13
         }
       },
@@ -91,14 +69,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 9,
+              "line": 7,
               "column": 3
             },
             "input": {
               "file": "input.styl"
             },
             "end": {
-              "line": 9,
+              "line": 7,
               "column": 13
             }
           },
@@ -107,7 +85,6 @@
         }
       ],
       "atblock": true,
-      "expression": true,
       "assignment": true
     }
   ],
