@@ -1,20 +1,20 @@
-hash-foo : {
-  bar: 1,
-  baz: {
-    qux: 2,
-  },
-};
+@hash-foo = {
+  bar: 1;
+  @baz: {
+    qux: 2;
+  }
+}
 
-hash-bar : {
-  bar: 1
-  baz: {
+@hash-bar = {
+  bar: 1;
+  @baz: {
     qux: 2
   }
-};
+}
 
-hash-baz  : /*c1*/ { /* c2*/
- bar /*c3*/ : /*c4*/ 1 /* c5 */, /* c6*/
-  baz /*c7*/ : /*c8*/ { /* c9*/
-      qux   :  2
-  } /*c10*/
-}  /*c11*/
+@hash-baz  = /*c0*/ { /* c1*/
+  bar /*c2*/ : /*c3*/ 1 /*c4*/ ; /* c5*/
+  @baz /*c6*/ : { /* c7*/
+      qux /*c8*/  : /*c9*/  25551234
+  }
+}  /*c10*/

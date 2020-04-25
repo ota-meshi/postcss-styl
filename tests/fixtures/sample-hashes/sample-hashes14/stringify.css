@@ -1,11 +1,11 @@
-obj : {
-  foo: 'foo'
+@obj = {
+  foo: 'foo';
   bar: 'bar'
-};
+}
 
-obj2 : {
+@obj2 = {
   baz: 'baz'
-};
+}
 
 @merge(obj, obj2)
 /* => {"foo":"('foo')","bar":"('bar')","baz":"('baz')"}*/

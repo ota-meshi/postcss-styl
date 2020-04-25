@@ -8,14 +8,22 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -25,22 +33,118 @@
           "column": 1
         }
       },
-      "prop": "hash-foo",
-      "value": "{\r\n  bar: 1,\r\n  baz: {\r\n    qux: 2,\r\n  },\r\n}",
-      "omittedSemi": true,
+      "params": "hash-foo =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 9
+            }
+          },
+          "prop": "bar",
+          "value": "1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": true,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 3,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 5,
+              "column": 4
+            }
+          },
+          "params": "baz:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 4,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 4,
+                  "column": 11
+                }
+              },
+              "prop": "qux",
+              "value": "2",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\r\n\r\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 8,
           "column": 1
+        },
+        "startChildren": {
+          "line": 8,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -50,27 +154,299 @@
           "column": 1
         }
       },
-      "prop": "hash-bar",
-      "value": "{\r\n  bar: 1\r\n  baz: {\r\n    qux: 2\r\n  }\r\n}",
-      "omittedSemi": true,
+      "params": "hash-bar =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 8
+            }
+          },
+          "prop": "bar",
+          "value": "1",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 10,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 12,
+              "column": 3
+            }
+          },
+          "params": "baz:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 11,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 11,
+                  "column": 10
+                }
+              },
+              "prop": "qux",
+              "value": "2",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\r\n\r\n",
-        "between": "  : /*c1*/ ",
-        "value": {
-          "value": "{ \r\n bar  :  1 , \r\n  baz  :  { \r\n      qux   :  2\r\n  } \r\n}",
-          "raw": "{ /* c2*/\r\n bar /*c3*/ : /*c4*/ 1 /* c5 */, /* c6*/\r\n  baz /*c7*/ : /*c8*/ { /* c9*/\r\n      qux   :  2\r\n  } /*c10*/\r\n}  /*c11*/",
-          "stylus": "{ // c2\r\n bar /*c3*/ : /*c4*/ 1 /* c5 */, // c6\r\n  baz /*c7*/ : /*c8*/ { // c9\r\n      qux   :  2\r\n  } /*c10*/\r\n}  /*c11*/"
-        },
-        "stylusBetween": "  = /*c1*/ "
+        "between": " /*c0*/ ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 15,
           "column": 1
+        },
+        "startChildren": {
+          "line": 15,
+          "column": 21
+        },
+        "input": {
+          "file": "input.styl"
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "params": "hash-baz  =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 26
+            }
+          },
+          "text": "c1"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " /*c2*/ : /*c3*/ ",
+            "value": {
+              "value": "1",
+              "raw": "1 /*c4*/ "
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 32
+            }
+          },
+          "prop": "bar",
+          "value": "1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": " ",
+            "left": " ",
+            "right": "",
+            "inline": true
+          },
+          "type": "comment",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 34
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 38
+            }
+          },
+          "text": "c5"
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "params": {
+              "value": "baz  :",
+              "raw": "baz /*c6*/ :"
+            },
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 17,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 19,
+              "column": 3
+            }
+          },
+          "params": "baz  :",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": " ",
+                "left": " ",
+                "right": "",
+                "inline": true
+              },
+              "type": "comment",
+              "source": {
+                "start": {
+                  "line": 17,
+                  "column": 18
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 17,
+                  "column": 22
+                }
+              },
+              "text": "c7"
+            },
+            {
+              "raws": {
+                "before": "\r\n      ",
+                "between": " /*c8*/  : /*c9*/  "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 18,
+                  "column": 7
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 18,
+                  "column": 36
+                }
+              },
+              "prop": "qux",
+              "value": "25551234",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
+      "assignment": true
+    },
+    {
+      "raws": {
+        "before": "  ",
+        "left": "",
+        "right": ""
+      },
+      "type": "comment",
+      "source": {
+        "start": {
+          "line": 20,
+          "column": 4
         },
         "input": {
           "file": "input.styl"
@@ -80,9 +456,7 @@
           "column": 10
         }
       },
-      "prop": "hash-baz",
-      "value": "{ \r\n bar  :  1 , \r\n  baz  :  { \r\n      qux   :  2\r\n  } \r\n}",
-      "assignment": true
+      "text": "c10"
     }
   ],
   "source": {

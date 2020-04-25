@@ -8,14 +8,22 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 8
         },
         "input": {
           "file": "input.styl"
@@ -25,9 +33,115 @@
           "column": 1
         }
       },
-      "prop": "foo",
-      "value": "{\n  width: 10px,\n  height: 20px,\n  '&:hover': {\n    padding: 0\n\n  }\n}",
-      "omittedSemi": true,
+      "params": "foo =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 14
+            }
+          },
+          "prop": "width",
+          "value": "10px",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 15
+            }
+          },
+          "prop": "height",
+          "value": "20px",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\n\n  ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 4,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 3
+            }
+          },
+          "params": "'&:hover':",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 5,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 5,
+                  "column": 14
+                }
+              },
+              "prop": "padding",
+              "value": "0",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {

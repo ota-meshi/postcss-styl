@@ -255,6 +255,8 @@ const KNOWN_PROPS = {
         "atblock", // @block
         "assignment", // @block assignment
         "conditional", // @block conditional assignment
+        "object", // object
+        "objectProperty", // object hash property
     ],
     rule: [
         "nodes",
@@ -272,6 +274,7 @@ const KNOWN_PROPS = {
         "omittedSemi", // omitted semi-colons
         "assignment", // assignment property
         "conditional", // conditional assignment
+        "objectProperty", // object hash property
     ],
     comment: ["text"],
 }

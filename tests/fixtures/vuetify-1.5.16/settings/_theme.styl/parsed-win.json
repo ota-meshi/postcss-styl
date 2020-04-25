@@ -206,14 +206,22 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": " : ",
-        "stylusBetween": " := "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 11,
           "column": 1
+        },
+        "startChildren": {
+          "line": 11,
+          "column": 21
         },
         "input": {
           "file": "input.styl"
@@ -223,23 +231,2208 @@
           "column": 1
         }
       },
-      "prop": "$material-light",
-      "value": "{\r\n  status-bar: {\r\n    regular: $grey.lighten-2,\r\n    lights-out: rgba($shades.white, .7)\r\n  },\r\n  app-bar: $grey.lighten-4,\r\n  background: $grey.lighten-5,\r\n  cards: $shades.white,\r\n  chips: {\r\n    background: $grey.lighten-2,\r\n    color: rgba($shades.black, .87)\r\n  },\r\n  dividers: rgba($shades.black, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: rgba($shades.black, .87),\r\n    secondary: rgba($shades.black, .54),\r\n    disabled: rgba($shades.black, .38),\r\n    link: $blue.darken-2,\r\n    link-hover: $grey.darken-3\r\n  },\r\n  icons: {\r\n    active: rgba($shades.black, .54),\r\n    inactive: rgba($shades.black, .38)\r\n  },\r\n  inputs: {\r\n    box: rgba($shades.black, .04),\r\n    solo-inverted: rgba($shades.black, .16),\r\n    solo-inverted-focused: $grey.darken-3,\r\n    solo-inverted-focused-text: $shades.white\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.black, .26),\r\n    focused: rgba($shades.black, .12),\r\n    focused-alt: rgba($shades.white, .6),\r\n    pressed: rgba(#999, .4)\r\n  },\r\n  expansion-panels: {\r\n    focus: $grey.lighten-3\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.black, .04)\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-5,\r\n      disabled: $grey.lighten-1\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.black, .38),\r\n      disabled: rgba($shades.black, .12)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.black, .38),\r\n    inactive: rgba($shades.black, .26),\r\n    disabled: rgba($shades.black, .26),\r\n    discrete: $shades.black\r\n  },\r\n  tabs: {\r\n    active: rgba($shades.black, .87)\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .06),\r\n    box-hover: rgba($shades.black, .12)\r\n  },\r\n  input-bottom-line: rgba($shades.black, .42),\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.black, 0.87),\r\n    hover: rgba($shades.black, 0.54)\r\n  },\r\n  table: {\r\n    active: $grey.lighten-4\r\n    hover: $grey.lighten-3\r\n  },\r\n  picker: {\r\n    body: $shades.white,\r\n    clock: $grey.lighten-2,\r\n    indeterminateTime: $grey.lighten-1,\r\n    title: $grey.lighten-2\r\n  },\r\n  bg-color: $shades.white\r\n  fg-color: $shades.black\r\n  text-color: $shades.black\r\n  primary-text-percent: .87\r\n  secondary-text-percent: .54\r\n  disabledORhints-text-percent: .38\r\n  divider-percent: .12\r\n  active-icon-percent: .54\r\n  inactive-icon-percent: .38\r\n  calendar: {\r\n    background-color: #fff\r\n    outside-background-color: #f7f7f7\r\n    line-color: #e0e0e0\r\n    interval-color: $grey.darken-3\r\n    interval-line-color: $grey.lighten-2\r\n    text-color: #000\r\n    past-color: rgba(#000, .38)\r\n  }\r\n}",
-      "omittedSemi": true,
+      "params": "$material-light :=",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 12,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 12,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 15,
+              "column": 4
+            }
+          },
+          "params": "status-bar:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 13,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 13,
+                  "column": 29
+                }
+              },
+              "prop": "regular",
+              "value": "$grey.lighten-2",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 14,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 14,
+                  "column": 39
+                }
+              },
+              "prop": "lights-out",
+              "value": "rgba($shades.white, .7)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 16,
+              "column": 27
+            }
+          },
+          "prop": "app-bar",
+          "value": "$grey.lighten-4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 17,
+              "column": 30
+            }
+          },
+          "prop": "background",
+          "value": "$grey.lighten-5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 18,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 18,
+              "column": 23
+            }
+          },
+          "prop": "cards",
+          "value": "$shades.white",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 19,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 19,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 22,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 22,
+              "column": 4
+            }
+          },
+          "params": "chips:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 20,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 20,
+                  "column": 32
+                }
+              },
+              "prop": "background",
+              "value": "$grey.lighten-2",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 21,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 21,
+                  "column": 35
+                }
+              },
+              "prop": "color",
+              "value": "rgba($shades.black, .87)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 23,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 23,
+              "column": 37
+            }
+          },
+          "prop": "dividers",
+          "value": "rgba($shades.black, .12)",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 24,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 24,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 31,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 31,
+              "column": 4
+            }
+          },
+          "params": "text:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 25,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 25,
+                  "column": 25
+                }
+              },
+              "prop": "theme",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 26,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 26,
+                  "column": 38
+                }
+              },
+              "prop": "primary",
+              "value": "rgba($shades.black, .87)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 27,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 27,
+                  "column": 40
+                }
+              },
+              "prop": "secondary",
+              "value": "rgba($shades.black, .54)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 28,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 28,
+                  "column": 39
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.black, .38)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 29,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 29,
+                  "column": 25
+                }
+              },
+              "prop": "link",
+              "value": "$blue.darken-2",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 30,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 30,
+                  "column": 30
+                }
+              },
+              "prop": "link-hover",
+              "value": "$grey.darken-3",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 32,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 32,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 35,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 35,
+              "column": 4
+            }
+          },
+          "params": "icons:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 33,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 33,
+                  "column": 37
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.black, .54)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 34,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 34,
+                  "column": 38
+                }
+              },
+              "prop": "inactive",
+              "value": "rgba($shades.black, .38)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 36,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 36,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 41,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 41,
+              "column": 4
+            }
+          },
+          "params": "inputs:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 37,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 37,
+                  "column": 34
+                }
+              },
+              "prop": "box",
+              "value": "rgba($shades.black, .04)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 38,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 38,
+                  "column": 44
+                }
+              },
+              "prop": "solo-inverted",
+              "value": "rgba($shades.black, .16)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 39,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 39,
+                  "column": 42
+                }
+              },
+              "prop": "solo-inverted-focused",
+              "value": "$grey.darken-3",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 40,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 40,
+                  "column": 45
+                }
+              },
+              "prop": "solo-inverted-focused-text",
+              "value": "$shades.white",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 42,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 42,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 47,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 47,
+              "column": 4
+            }
+          },
+          "params": "buttons:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 43,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 43,
+                  "column": 39
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.black, .26)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 44,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 44,
+                  "column": 38
+                }
+              },
+              "prop": "focused",
+              "value": "rgba($shades.black, .12)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 45,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 45,
+                  "column": 41
+                }
+              },
+              "prop": "focused-alt",
+              "value": "rgba($shades.white, .6)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 46,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 46,
+                  "column": 27
+                }
+              },
+              "prop": "pressed",
+              "value": "rgba(#999, .4)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 48,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 48,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 50,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 50,
+              "column": 4
+            }
+          },
+          "params": "expansion-panels:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 49,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 49,
+                  "column": 26
+                }
+              },
+              "prop": "focus",
+              "value": "$grey.lighten-3",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 51,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 51,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 53,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 53,
+              "column": 4
+            }
+          },
+          "params": "list-tile:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 52,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 52,
+                  "column": 35
+                }
+              },
+              "prop": "hover",
+              "value": "rgba($shades.black, .04)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 54,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 54,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 63,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 63,
+              "column": 4
+            }
+          },
+          "params": "selection-controls:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": " ",
+                "afterName": "",
+                "semicolon": false,
+                "after": "\r\n    ",
+                "identifier": "",
+                "ownSemicolon": ","
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 55,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 55,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 58,
+                  "column": 5
+                },
+                "rawEnd": {
+                  "line": 58,
+                  "column": 6
+                }
+              },
+              "params": "thumb:",
+              "cssLiteral": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 56,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 56,
+                      "column": 32
+                    }
+                  },
+                  "prop": "inactive",
+                  "value": "$grey.lighten-5",
+                  "objectProperty": true
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 57,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 57,
+                      "column": 31
+                    }
+                  },
+                  "prop": "disabled",
+                  "value": "$grey.lighten-1",
+                  "objectProperty": true
+                }
+              ],
+              "object": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": " ",
+                "afterName": "",
+                "semicolon": false,
+                "after": "\r\n    ",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 59,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 59,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 62,
+                  "column": 5
+                }
+              },
+              "params": "track:",
+              "cssLiteral": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 60,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 60,
+                      "column": 41
+                    }
+                  },
+                  "prop": "inactive",
+                  "value": "rgba($shades.black, .38)",
+                  "objectProperty": true
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 61,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 61,
+                      "column": 40
+                    }
+                  },
+                  "prop": "disabled",
+                  "value": "rgba($shades.black, .12)",
+                  "objectProperty": true
+                }
+              ],
+              "object": true,
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 64,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 64,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 69,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 69,
+              "column": 4
+            }
+          },
+          "params": "slider:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 65,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 65,
+                  "column": 37
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.black, .38)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 66,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 66,
+                  "column": 39
+                }
+              },
+              "prop": "inactive",
+              "value": "rgba($shades.black, .26)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 67,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 67,
+                  "column": 39
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.black, .26)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 68,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 68,
+                  "column": 27
+                }
+              },
+              "prop": "discrete",
+              "value": "$shades.black",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 70,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 70,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 72,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 72,
+              "column": 4
+            }
+          },
+          "params": "tabs:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 71,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 71,
+                  "column": 36
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.black, .87)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 73,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 73,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 76,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 76,
+              "column": 4
+            }
+          },
+          "params": "text-fields:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 74,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 74,
+                  "column": 34
+                }
+              },
+              "prop": "box",
+              "value": "rgba($shades.black, .06)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 75,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 75,
+                  "column": 39
+                }
+              },
+              "prop": "box-hover",
+              "value": "rgba($shades.black, .12)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 77,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 77,
+              "column": 46
+            }
+          },
+          "prop": "input-bottom-line",
+          "value": "rgba($shades.black, .42)",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 78,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 78,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 82,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 82,
+              "column": 4
+            }
+          },
+          "params": "stepper:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 79,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 79,
+                  "column": 35
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.white, 1)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 80,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 80,
+                  "column": 41
+                }
+              },
+              "prop": "completed",
+              "value": "rgba($shades.black, 0.87)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 81,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 81,
+                  "column": 36
+                }
+              },
+              "prop": "hover",
+              "value": "rgba($shades.black, 0.54)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 83,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 83,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 86,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 86,
+              "column": 4
+            }
+          },
+          "params": "table:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 84,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 84,
+                  "column": 27
+                }
+              },
+              "prop": "active",
+              "value": "$grey.lighten-4",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 85,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 85,
+                  "column": 26
+                }
+              },
+              "prop": "hover",
+              "value": "$grey.lighten-3",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 87,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 87,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 92,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 92,
+              "column": 4
+            }
+          },
+          "params": "picker:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 88,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 88,
+                  "column": 24
+                }
+              },
+              "prop": "body",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 89,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 89,
+                  "column": 27
+                }
+              },
+              "prop": "clock",
+              "value": "$grey.lighten-2",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 90,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 90,
+                  "column": 39
+                }
+              },
+              "prop": "indeterminateTime",
+              "value": "$grey.lighten-1",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 91,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 91,
+                  "column": 26
+                }
+              },
+              "prop": "title",
+              "value": "$grey.lighten-2",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 93,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 93,
+              "column": 25
+            }
+          },
+          "prop": "bg-color",
+          "value": "$shades.white",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 94,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 94,
+              "column": 25
+            }
+          },
+          "prop": "fg-color",
+          "value": "$shades.black",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 95,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 95,
+              "column": 27
+            }
+          },
+          "prop": "text-color",
+          "value": "$shades.black",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 96,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 96,
+              "column": 27
+            }
+          },
+          "prop": "primary-text-percent",
+          "value": ".87",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 97,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 97,
+              "column": 29
+            }
+          },
+          "prop": "secondary-text-percent",
+          "value": ".54",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 98,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 98,
+              "column": 35
+            }
+          },
+          "prop": "disabledORhints-text-percent",
+          "value": ".38",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 99,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 99,
+              "column": 22
+            }
+          },
+          "prop": "divider-percent",
+          "value": ".12",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 100,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 100,
+              "column": 26
+            }
+          },
+          "prop": "active-icon-percent",
+          "value": ".54",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 101,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 101,
+              "column": 28
+            }
+          },
+          "prop": "inactive-icon-percent",
+          "value": ".38",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 102,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 102,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 110,
+              "column": 3
+            }
+          },
+          "params": "calendar:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 103,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 103,
+                  "column": 26
+                }
+              },
+              "prop": "background-color",
+              "value": "#fff",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 104,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 104,
+                  "column": 37
+                }
+              },
+              "prop": "outside-background-color",
+              "value": "#f7f7f7",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 105,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 105,
+                  "column": 23
+                }
+              },
+              "prop": "line-color",
+              "value": "#e0e0e0",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 106,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 106,
+                  "column": 34
+                }
+              },
+              "prop": "interval-color",
+              "value": "$grey.darken-3",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 107,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 107,
+                  "column": 40
+                }
+              },
+              "prop": "interval-line-color",
+              "value": "$grey.lighten-2",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 108,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 108,
+                  "column": 20
+                }
+              },
+              "prop": "text-color",
+              "value": "#000",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 109,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 109,
+                  "column": 31
+                }
+              },
+              "prop": "past-color",
+              "value": "rgba(#000, .38)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true,
       "conditional": true
     },
     {
       "raws": {
         "before": "\r\n\r\n",
-        "between": " : ",
-        "stylusBetween": " := "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 113,
           "column": 1
+        },
+        "startChildren": {
+          "line": 113,
+          "column": 20
         },
         "input": {
           "file": "input.styl"
@@ -249,9 +2442,2209 @@
           "column": 1
         }
       },
-      "prop": "$material-dark",
-      "value": "{\r\n  status-bar: {\r\n    regular: $shades.black,\r\n    lights-out: rgba($shades.black, .2)\r\n  },\r\n  app-bar: $grey.darken-4,\r\n  background: #303030,\r\n  cards: $grey.darken-3,\r\n  chips: {\r\n    background: #555,\r\n    color: $shades.white\r\n  },\r\n  dividers: rgba($shades.white, .12),\r\n  text: {\r\n    theme: $shades.white,\r\n    primary: $shades.white,\r\n    secondary: rgba($shades.white, .70),\r\n    disabled: rgba($shades.white, .50),\r\n    link: $blue.accent-1,\r\n    link-hover: $grey.lighten-3\r\n  },\r\n  icons: {\r\n    active: $shades.white,\r\n    inactive: rgba($shades.white, .5)\r\n  },\r\n  inputs: {\r\n    box: $shades.white,\r\n    solo-inverted: rgba($shades.white, .16),\r\n    solo-inverted-focused: $shades.white,\r\n    solo-inverted-focused-text: $material-light.text.primary\r\n  },\r\n  list-tile: {\r\n    hover: rgba($shades.white, .08)\r\n  },\r\n  buttons: {\r\n    disabled: rgba($shades.white, .3),\r\n    focused: rgba($shades.white, .12),\r\n    focused-alt: rgba($shades.white, .1),\r\n    pressed: rgba(#ccc, .25)\r\n  },\r\n  expansion-panels: {\r\n    focus: #494949\r\n  },\r\n  selection-controls: {\r\n    thumb: {\r\n      inactive: $grey.lighten-1,\r\n      disabled: $grey.darken-3\r\n    },\r\n    track: {\r\n      inactive: rgba($shades.white, .3),\r\n      disabled: rgba($shades.white, .1)\r\n    }\r\n  },\r\n  slider: {\r\n    active: rgba($shades.white, .3),\r\n    inactive: rgba($shades.white, .2),\r\n    disabled: rgba($shades.white, .2),\r\n    discrete: $shades.white\r\n  },\r\n  tabs: {\r\n    active: $shades.white\r\n  },\r\n  text-fields: {\r\n    box: rgba($shades.black, .1),\r\n    box-hover: rgba($shades.black, .2),\r\n    box-focus: rgba($shades.black, .3)\r\n  },\r\n  input-bottom-line: rgba($shades.white, .7),\r\n\r\n  stepper: {\r\n    active: rgba($shades.white, 1),\r\n    completed: rgba($shades.white, 0.87),\r\n    hover: rgba($shades.white, 0.75)\r\n  },\r\n  table: {\r\n    active: #505050\r\n    hover: $grey.darken-2\r\n  },\r\n  picker: {\r\n    body: $grey.darken-3,\r\n    clock: $grey.darken-2,\r\n    indeterminateTime: $grey.darken-1,\r\n    title: $grey.darken-2\r\n  },\r\n  bg-color: #303030\r\n  fg-color: $shades.white\r\n  text-color: $shades.white\r\n  primary-text-percent: 1\r\n  secondary-text-percent: .70\r\n  disabledORhints-text-percent: .50\r\n  divider-percent: .12\r\n  active-icon-percent: 1\r\n  inactive-icon-percent: .50\r\n  calendar: {\r\n    background-color: #303030\r\n    outside-background-color: #202020\r\n    line-color: $grey.base\r\n    interval-color: $grey.lighten-3\r\n    interval-line-color: $grey.darken-2\r\n    text-color: #fff\r\n    past-color: rgba(#fff, .50)\r\n  }\r\n}",
-      "omittedSemi": true,
+      "params": "$material-dark :=",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 114,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 114,
+              "column": 16
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 117,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 117,
+              "column": 4
+            }
+          },
+          "params": "status-bar:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 115,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 115,
+                  "column": 27
+                }
+              },
+              "prop": "regular",
+              "value": "$shades.black",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 116,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 116,
+                  "column": 39
+                }
+              },
+              "prop": "lights-out",
+              "value": "rgba($shades.black, .2)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 118,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 118,
+              "column": 26
+            }
+          },
+          "prop": "app-bar",
+          "value": "$grey.darken-4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 119,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 119,
+              "column": 22
+            }
+          },
+          "prop": "background",
+          "value": "#303030",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 120,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 120,
+              "column": 24
+            }
+          },
+          "prop": "cards",
+          "value": "$grey.darken-3",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 121,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 121,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 124,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 124,
+              "column": 4
+            }
+          },
+          "params": "chips:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 122,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 122,
+                  "column": 21
+                }
+              },
+              "prop": "background",
+              "value": "#555",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 123,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 123,
+                  "column": 24
+                }
+              },
+              "prop": "color",
+              "value": "$shades.white",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 125,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 125,
+              "column": 37
+            }
+          },
+          "prop": "dividers",
+          "value": "rgba($shades.white, .12)",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 126,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 126,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 133,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 133,
+              "column": 4
+            }
+          },
+          "params": "text:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 127,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 127,
+                  "column": 25
+                }
+              },
+              "prop": "theme",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 128,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 128,
+                  "column": 27
+                }
+              },
+              "prop": "primary",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 129,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 129,
+                  "column": 40
+                }
+              },
+              "prop": "secondary",
+              "value": "rgba($shades.white, .70)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 130,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 130,
+                  "column": 39
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.white, .50)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 131,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 131,
+                  "column": 25
+                }
+              },
+              "prop": "link",
+              "value": "$blue.accent-1",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 132,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 132,
+                  "column": 31
+                }
+              },
+              "prop": "link-hover",
+              "value": "$grey.lighten-3",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 134,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 134,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 137,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 137,
+              "column": 4
+            }
+          },
+          "params": "icons:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 135,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 135,
+                  "column": 26
+                }
+              },
+              "prop": "active",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 136,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 136,
+                  "column": 37
+                }
+              },
+              "prop": "inactive",
+              "value": "rgba($shades.white, .5)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 138,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 138,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 143,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 143,
+              "column": 4
+            }
+          },
+          "params": "inputs:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 139,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 139,
+                  "column": 23
+                }
+              },
+              "prop": "box",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 140,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 140,
+                  "column": 44
+                }
+              },
+              "prop": "solo-inverted",
+              "value": "rgba($shades.white, .16)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 141,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 141,
+                  "column": 41
+                }
+              },
+              "prop": "solo-inverted-focused",
+              "value": "$shades.white",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 142,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 142,
+                  "column": 60
+                }
+              },
+              "prop": "solo-inverted-focused-text",
+              "value": "$material-light.text.primary",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 144,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 144,
+              "column": 15
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 146,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 146,
+              "column": 4
+            }
+          },
+          "params": "list-tile:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 145,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 145,
+                  "column": 35
+                }
+              },
+              "prop": "hover",
+              "value": "rgba($shades.white, .08)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 147,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 147,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 152,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 152,
+              "column": 4
+            }
+          },
+          "params": "buttons:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 148,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 148,
+                  "column": 38
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.white, .3)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 149,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 149,
+                  "column": 38
+                }
+              },
+              "prop": "focused",
+              "value": "rgba($shades.white, .12)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 150,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 150,
+                  "column": 41
+                }
+              },
+              "prop": "focused-alt",
+              "value": "rgba($shades.white, .1)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 151,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 151,
+                  "column": 28
+                }
+              },
+              "prop": "pressed",
+              "value": "rgba(#ccc, .25)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 153,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 153,
+              "column": 22
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 155,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 155,
+              "column": 4
+            }
+          },
+          "params": "expansion-panels:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 154,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 154,
+                  "column": 18
+                }
+              },
+              "prop": "focus",
+              "value": "#494949",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 156,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 156,
+              "column": 24
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 165,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 165,
+              "column": 4
+            }
+          },
+          "params": "selection-controls:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": " ",
+                "afterName": "",
+                "semicolon": false,
+                "after": "\r\n    ",
+                "identifier": "",
+                "ownSemicolon": ","
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 157,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 157,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 160,
+                  "column": 5
+                },
+                "rawEnd": {
+                  "line": 160,
+                  "column": 6
+                }
+              },
+              "params": "thumb:",
+              "cssLiteral": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 158,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 158,
+                      "column": 32
+                    }
+                  },
+                  "prop": "inactive",
+                  "value": "$grey.lighten-1",
+                  "objectProperty": true
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 159,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 159,
+                      "column": 30
+                    }
+                  },
+                  "prop": "disabled",
+                  "value": "$grey.darken-3",
+                  "objectProperty": true
+                }
+              ],
+              "object": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": " ",
+                "afterName": "",
+                "semicolon": false,
+                "after": "\r\n    ",
+                "identifier": ""
+              },
+              "type": "atrule",
+              "name": "",
+              "source": {
+                "start": {
+                  "line": 161,
+                  "column": 5
+                },
+                "startChildren": {
+                  "line": 161,
+                  "column": 13
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 164,
+                  "column": 5
+                }
+              },
+              "params": "track:",
+              "cssLiteral": true,
+              "nodes": [
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 162,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 162,
+                      "column": 40
+                    }
+                  },
+                  "prop": "inactive",
+                  "value": "rgba($shades.white, .3)",
+                  "objectProperty": true
+                },
+                {
+                  "raws": {
+                    "before": "\r\n      ",
+                    "between": ": "
+                  },
+                  "type": "decl",
+                  "source": {
+                    "start": {
+                      "line": 163,
+                      "column": 7
+                    },
+                    "input": {
+                      "file": "input.styl"
+                    },
+                    "end": {
+                      "line": 163,
+                      "column": 39
+                    }
+                  },
+                  "prop": "disabled",
+                  "value": "rgba($shades.white, .1)",
+                  "objectProperty": true
+                }
+              ],
+              "object": true,
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 166,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 166,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 171,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 171,
+              "column": 4
+            }
+          },
+          "params": "slider:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 167,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 167,
+                  "column": 36
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.white, .3)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 168,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 168,
+                  "column": 38
+                }
+              },
+              "prop": "inactive",
+              "value": "rgba($shades.white, .2)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 169,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 169,
+                  "column": 38
+                }
+              },
+              "prop": "disabled",
+              "value": "rgba($shades.white, .2)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 170,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 170,
+                  "column": 27
+                }
+              },
+              "prop": "discrete",
+              "value": "$shades.white",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 172,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 172,
+              "column": 10
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 174,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 174,
+              "column": 4
+            }
+          },
+          "params": "tabs:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 173,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 173,
+                  "column": 25
+                }
+              },
+              "prop": "active",
+              "value": "$shades.white",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 175,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 175,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 179,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 179,
+              "column": 4
+            }
+          },
+          "params": "text-fields:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 176,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 176,
+                  "column": 33
+                }
+              },
+              "prop": "box",
+              "value": "rgba($shades.black, .1)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 177,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 177,
+                  "column": 39
+                }
+              },
+              "prop": "box-hover",
+              "value": "rgba($shades.black, .2)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 178,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 178,
+                  "column": 38
+                }
+              },
+              "prop": "box-focus",
+              "value": "rgba($shades.black, .3)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 180,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 180,
+              "column": 45
+            }
+          },
+          "prop": "input-bottom-line",
+          "value": "rgba($shades.white, .7)",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 182,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 182,
+              "column": 13
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 186,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 186,
+              "column": 4
+            }
+          },
+          "params": "stepper:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 183,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 183,
+                  "column": 35
+                }
+              },
+              "prop": "active",
+              "value": "rgba($shades.white, 1)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 184,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 184,
+                  "column": 41
+                }
+              },
+              "prop": "completed",
+              "value": "rgba($shades.white, 0.87)",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 185,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 185,
+                  "column": 36
+                }
+              },
+              "prop": "hover",
+              "value": "rgba($shades.white, 0.75)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 187,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 187,
+              "column": 11
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 190,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 190,
+              "column": 4
+            }
+          },
+          "params": "table:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 188,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 188,
+                  "column": 19
+                }
+              },
+              "prop": "active",
+              "value": "#505050",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 189,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 189,
+                  "column": 25
+                }
+              },
+              "prop": "hover",
+              "value": "$grey.darken-2",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": "",
+            "ownSemicolon": ","
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 191,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 191,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 196,
+              "column": 3
+            },
+            "rawEnd": {
+              "line": 196,
+              "column": 4
+            }
+          },
+          "params": "picker:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 192,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 192,
+                  "column": 25
+                }
+              },
+              "prop": "body",
+              "value": "$grey.darken-3",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 193,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 193,
+                  "column": 26
+                }
+              },
+              "prop": "clock",
+              "value": "$grey.darken-2",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 194,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 194,
+                  "column": 38
+                }
+              },
+              "prop": "indeterminateTime",
+              "value": "$grey.darken-1",
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 195,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 195,
+                  "column": 25
+                }
+              },
+              "prop": "title",
+              "value": "$grey.darken-2",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 197,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 197,
+              "column": 19
+            }
+          },
+          "prop": "bg-color",
+          "value": "#303030",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 198,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 198,
+              "column": 25
+            }
+          },
+          "prop": "fg-color",
+          "value": "$shades.white",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 199,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 199,
+              "column": 27
+            }
+          },
+          "prop": "text-color",
+          "value": "$shades.white",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 200,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 200,
+              "column": 25
+            }
+          },
+          "prop": "primary-text-percent",
+          "value": "1",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 201,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 201,
+              "column": 29
+            }
+          },
+          "prop": "secondary-text-percent",
+          "value": ".70",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 202,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 202,
+              "column": 35
+            }
+          },
+          "prop": "disabledORhints-text-percent",
+          "value": ".50",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 203,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 203,
+              "column": 22
+            }
+          },
+          "prop": "divider-percent",
+          "value": ".12",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 204,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 204,
+              "column": 24
+            }
+          },
+          "prop": "active-icon-percent",
+          "value": "1",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 205,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 205,
+              "column": 28
+            }
+          },
+          "prop": "inactive-icon-percent",
+          "value": ".50",
+          "omittedSemi": true,
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": " ",
+            "afterName": "",
+            "semicolon": false,
+            "after": "\r\n  ",
+            "identifier": ""
+          },
+          "type": "atrule",
+          "name": "",
+          "source": {
+            "start": {
+              "line": 206,
+              "column": 3
+            },
+            "startChildren": {
+              "line": 206,
+              "column": 14
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 214,
+              "column": 3
+            }
+          },
+          "params": "calendar:",
+          "cssLiteral": true,
+          "nodes": [
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 207,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 207,
+                  "column": 29
+                }
+              },
+              "prop": "background-color",
+              "value": "#303030",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 208,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 208,
+                  "column": 37
+                }
+              },
+              "prop": "outside-background-color",
+              "value": "#202020",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 209,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 209,
+                  "column": 26
+                }
+              },
+              "prop": "line-color",
+              "value": "$grey.base",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 210,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 210,
+                  "column": 35
+                }
+              },
+              "prop": "interval-color",
+              "value": "$grey.lighten-3",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 211,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 211,
+                  "column": 39
+                }
+              },
+              "prop": "interval-line-color",
+              "value": "$grey.darken-2",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 212,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 212,
+                  "column": 20
+                }
+              },
+              "prop": "text-color",
+              "value": "#fff",
+              "omittedSemi": true,
+              "objectProperty": true
+            },
+            {
+              "raws": {
+                "before": "\r\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "start": {
+                  "line": 213,
+                  "column": 5
+                },
+                "input": {
+                  "file": "input.styl"
+                },
+                "end": {
+                  "line": 213,
+                  "column": 31
+                }
+              },
+              "prop": "past-color",
+              "value": "rgba(#fff, .50)",
+              "objectProperty": true
+            }
+          ],
+          "object": true,
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true,
       "conditional": true
     },

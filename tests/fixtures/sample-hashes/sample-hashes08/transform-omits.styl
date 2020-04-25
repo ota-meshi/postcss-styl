@@ -1,0 +1,19 @@
+foo = {
+  width: 10px
+  height: 20px
+  '&:hover': {
+    padding: 0
+
+  }
+}
+
+.bar
+  {foo}
+
+// => .bar {
+//      width: 10px;
+//      height: 20px;
+//    }
+//    .bar:hover {
+//      padding: 0;
+//    }

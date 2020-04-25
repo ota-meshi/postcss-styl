@@ -1,11 +1,11 @@
-foo : {
-  width: 10px,
-  height: 20px,
-  '&:hover': {
+@foo = {
+  width: 10px;
+  height: 20px;
+  @'&:hover': {
     padding: 0
 
   }
-};
+}
 
 .bar{
   @{foo}}

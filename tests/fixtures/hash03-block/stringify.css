@@ -1,7 +1,7 @@
-foo : {
-  bar: baz,
+@foo = {
+  bar: baz;
   baz: raz
-};
+}
 
 @foo.baz = @block {
   width: 10px
