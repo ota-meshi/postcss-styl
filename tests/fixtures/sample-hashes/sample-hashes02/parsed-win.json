@@ -8,14 +8,22 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\r\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 8
         },
         "input": {
           "file": "input.styl"
@@ -25,8 +33,80 @@
           "column": 1
         }
       },
-      "prop": "foo",
-      "value": "{\r\n  bar: baz,\r\n  'baz': raz,\r\n  '0': raz\r\n}",
+      "params": "foo =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 11
+            }
+          },
+          "prop": "bar",
+          "value": "baz",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 13
+            }
+          },
+          "prop": "'baz'",
+          "value": "raz",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\r\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 10
+            }
+          },
+          "prop": "'0'",
+          "value": "raz",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     }
   ],

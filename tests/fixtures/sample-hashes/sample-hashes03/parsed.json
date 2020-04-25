@@ -8,14 +8,21 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "after": "",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 8
         },
         "input": {
           "file": "input.styl"
@@ -25,9 +32,10 @@
           "column": 8
         }
       },
-      "prop": "foo",
-      "value": "{}",
-      "omittedSemi": true,
+      "params": "foo =",
+      "cssLiteral": true,
+      "nodes": [],
+      "object": true,
       "assignment": true
     },
     {

@@ -33,14 +33,22 @@
     {
       "raws": {
         "before": "\r\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": " ",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 2,
           "column": 1
+        },
+        "startChildren": {
+          "line": 2,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -50,9 +58,80 @@
           "column": 51
         }
       },
-      "prop": "border",
-      "value": "{ color: #000, length: 1px, style: solid }",
-      "omittedSemi": true,
+      "params": "border =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 12
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 23
+            }
+          },
+          "prop": "color",
+          "value": "#000",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 36
+            }
+          },
+          "prop": "length",
+          "value": "1px",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          },
+          "prop": "style",
+          "value": "solid",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {

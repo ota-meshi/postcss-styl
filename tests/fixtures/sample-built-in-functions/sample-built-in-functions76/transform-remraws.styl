@@ -1,5 +1,9 @@
 prefix = 'border'
-border = { color: #000, length: 1px, style: solid }
+border = {
+    color: #000,
+    length: 1px,
+    style: solid
+}
 for prop, val in border 
     define(prefix + '-' + prop, val)
 

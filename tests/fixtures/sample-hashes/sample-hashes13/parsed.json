@@ -8,14 +8,22 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": " ",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 8
         },
         "input": {
           "file": "input.styl"
@@ -25,9 +33,57 @@
           "column": 24
         }
       },
-      "prop": "obj",
-      "value": "{ foo: 1, bar: 2 }",
-      "omittedSemi": true,
+      "params": "obj =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 9
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 1,
+              "column": 15
+            }
+          },
+          "prop": "foo",
+          "value": "1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": " ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 17
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 1,
+              "column": 22
+            }
+          },
+          "prop": "bar",
+          "value": "2",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {

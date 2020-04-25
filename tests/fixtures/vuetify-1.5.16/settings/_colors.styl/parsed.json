@@ -8,14 +8,22 @@
     {
       "raws": {
         "before": "",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 1,
           "column": 1
+        },
+        "startChildren": {
+          "line": 1,
+          "column": 9
         },
         "input": {
           "file": "input.styl"
@@ -25,22 +33,354 @@
           "column": 1
         }
       },
-      "prop": "$red",
-      "value": "{\n  \"base\":       #F44336,\n  \"lighten-5\":  #FFEBEE,\n  \"lighten-4\":  #FFCDD2,\n  \"lighten-3\":  #EF9A9A,\n  \"lighten-2\":  #E57373,\n  \"lighten-1\":  #EF5350,\n  \"darken-1\":   #E53935,\n  \"darken-2\":   #D32F2F,\n  \"darken-3\":   #C62828,\n  \"darken-4\":   #B71C1C,\n  \"accent-1\":   #FF8A80,\n  \"accent-2\":   #FF5252,\n  \"accent-3\":   #FF1744,\n  \"accent-4\":   #D50000\n}",
-      "omittedSemi": true,
+      "params": "$red =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 2,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#F44336",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 3,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#FFEBEE",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 4,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#FFCDD2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 5,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#EF9A9A",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 6,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 6,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#E57373",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 7,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 7,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#EF5350",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 8,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 8,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#E53935",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 9,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 9,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#D32F2F",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 10,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 10,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#C62828",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 11,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 11,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#B71C1C",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 12,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 12,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#FF8A80",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 13,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 13,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#FF5252",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 14,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#FF1744",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 15,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#D50000",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 18,
           "column": 1
+        },
+        "startChildren": {
+          "line": 18,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -50,22 +390,354 @@
           "column": 1
         }
       },
-      "prop": "$pink",
-      "value": "{\n  \"base\":       #e91e63,\n  \"lighten-5\":  #fce4ec,\n  \"lighten-4\":  #f8bbd0,\n  \"lighten-3\":  #f48fb1,\n  \"lighten-2\":  #f06292,\n  \"lighten-1\":  #ec407a,\n  \"darken-1\":   #d81b60,\n  \"darken-2\":   #c2185b,\n  \"darken-3\":   #ad1457,\n  \"darken-4\":   #880e4f,\n  \"accent-1\":   #ff80ab,\n  \"accent-2\":   #ff4081,\n  \"accent-3\":   #f50057,\n  \"accent-4\":   #c51162\n}",
-      "omittedSemi": true,
+      "params": "$pink =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 19,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 19,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#e91e63",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 20,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 20,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fce4ec",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 21,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#f8bbd0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 22,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 22,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#f48fb1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 23,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 23,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#f06292",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 24,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 24,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ec407a",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 25,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 25,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#d81b60",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 26,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 26,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#c2185b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 27,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 27,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#ad1457",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 28,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 28,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#880e4f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 29,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 29,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ff80ab",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 30,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 30,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#ff4081",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 31,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 31,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#f50057",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 32,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 32,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#c51162",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 35,
           "column": 1
+        },
+        "startChildren": {
+          "line": 35,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -75,22 +747,354 @@
           "column": 1
         }
       },
-      "prop": "$purple",
-      "value": "{\n  \"base\":       #9c27b0,\n  \"lighten-5\":  #f3e5f5,\n  \"lighten-4\":  #e1bee7,\n  \"lighten-3\":  #ce93d8,\n  \"lighten-2\":  #ba68c8,\n  \"lighten-1\":  #ab47bc,\n  \"darken-1\":   #8e24aa,\n  \"darken-2\":   #7b1fa2,\n  \"darken-3\":   #6a1b9a,\n  \"darken-4\":   #4a148c,\n  \"accent-1\":   #ea80fc,\n  \"accent-2\":   #e040fb,\n  \"accent-3\":   #d500f9,\n  \"accent-4\":   #aa00ff\n}",
-      "omittedSemi": true,
+      "params": "$purple =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 36,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 36,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#9c27b0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 37,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 37,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#f3e5f5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 38,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 38,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#e1bee7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 39,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 39,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#ce93d8",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 40,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 40,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#ba68c8",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 41,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 41,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ab47bc",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 42,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 42,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#8e24aa",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 43,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 43,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#7b1fa2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 44,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 44,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#6a1b9a",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 45,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 45,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#4a148c",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 46,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 46,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ea80fc",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 47,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 47,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#e040fb",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 48,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 48,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#d500f9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 49,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 49,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#aa00ff",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 52,
           "column": 1
+        },
+        "startChildren": {
+          "line": 52,
+          "column": 17
         },
         "input": {
           "file": "input.styl"
@@ -100,22 +1104,354 @@
           "column": 1
         }
       },
-      "prop": "$deep-purple",
-      "value": "{\n  \"base\":       #673ab7,\n  \"lighten-5\":  #ede7f6,\n  \"lighten-4\":  #d1c4e9,\n  \"lighten-3\":  #b39ddb,\n  \"lighten-2\":  #9575cd,\n  \"lighten-1\":  #7e57c2,\n  \"darken-1\":   #5e35b1,\n  \"darken-2\":   #512da8,\n  \"darken-3\":   #4527a0,\n  \"darken-4\":   #311b92,\n  \"accent-1\":   #b388ff,\n  \"accent-2\":   #7c4dff,\n  \"accent-3\":   #651fff,\n  \"accent-4\":   #6200ea\n}",
-      "omittedSemi": true,
+      "params": "$deep-purple =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 53,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 53,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#673ab7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 54,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 54,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#ede7f6",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 55,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 55,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#d1c4e9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 56,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 56,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#b39ddb",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 57,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 57,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#9575cd",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 58,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 58,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#7e57c2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 59,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 59,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#5e35b1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 60,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 60,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#512da8",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 61,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 61,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#4527a0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 62,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 62,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#311b92",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 63,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 63,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#b388ff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 64,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 64,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#7c4dff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 65,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 65,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#651fff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 66,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 66,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#6200ea",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 69,
           "column": 1
+        },
+        "startChildren": {
+          "line": 69,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -125,22 +1461,354 @@
           "column": 1
         }
       },
-      "prop": "$indigo",
-      "value": "{\n  \"base\":       #3f51b5,\n  \"lighten-5\":  #e8eaf6,\n  \"lighten-4\":  #c5cae9,\n  \"lighten-3\":  #9fa8da,\n  \"lighten-2\":  #7986cb,\n  \"lighten-1\":  #5c6bc0,\n  \"darken-1\":   #3949ab,\n  \"darken-2\":   #303f9f,\n  \"darken-3\":   #283593,\n  \"darken-4\":   #1a237e,\n  \"accent-1\":   #8c9eff,\n  \"accent-2\":   #536dfe,\n  \"accent-3\":   #3d5afe,\n  \"accent-4\":   #304ffe\n}",
-      "omittedSemi": true,
+      "params": "$indigo =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 70,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 70,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#3f51b5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 71,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 71,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#e8eaf6",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 72,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 72,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#c5cae9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 73,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 73,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#9fa8da",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 74,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 74,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#7986cb",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 75,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 75,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#5c6bc0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 76,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 76,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#3949ab",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 77,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 77,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#303f9f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 78,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 78,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#283593",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 79,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 79,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#1a237e",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 80,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 80,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#8c9eff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 81,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 81,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#536dfe",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 82,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 82,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#3d5afe",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 83,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 83,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#304ffe",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 86,
           "column": 1
+        },
+        "startChildren": {
+          "line": 86,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -150,22 +1818,354 @@
           "column": 1
         }
       },
-      "prop": "$blue",
-      "value": "{\n  \"base\":       #2196F3,\n  \"lighten-5\":  #E3F2FD,\n  \"lighten-4\":  #BBDEFB,\n  \"lighten-3\":  #90CAF9,\n  \"lighten-2\":  #64B5F6,\n  \"lighten-1\":  #42A5F5,\n  \"darken-1\":   #1E88E5,\n  \"darken-2\":   #1976D2,\n  \"darken-3\":   #1565C0,\n  \"darken-4\":   #0D47A1,\n  \"accent-1\":   #82B1FF,\n  \"accent-2\":   #448AFF,\n  \"accent-3\":   #2979FF,\n  \"accent-4\":   #2962FF\n}",
-      "omittedSemi": true,
+      "params": "$blue =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 87,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 87,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#2196F3",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 88,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 88,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#E3F2FD",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 89,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 89,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#BBDEFB",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 90,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 90,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#90CAF9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 91,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 91,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#64B5F6",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 92,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 92,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#42A5F5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 93,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 93,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#1E88E5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 94,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 94,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#1976D2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 95,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 95,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#1565C0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 96,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 96,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#0D47A1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 97,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 97,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#82B1FF",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 98,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 98,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#448AFF",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 99,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 99,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#2979FF",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 100,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 100,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#2962FF",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 103,
           "column": 1
+        },
+        "startChildren": {
+          "line": 103,
+          "column": 16
         },
         "input": {
           "file": "input.styl"
@@ -175,22 +2175,354 @@
           "column": 1
         }
       },
-      "prop": "$light-blue",
-      "value": "{\n  \"base\":       #03a9f4,\n  \"lighten-5\":  #e1f5fe,\n  \"lighten-4\":  #b3e5fc,\n  \"lighten-3\":  #81d4fa,\n  \"lighten-2\":  #4fc3f7,\n  \"lighten-1\":  #29b6f6,\n  \"darken-1\":   #039be5,\n  \"darken-2\":   #0288d1,\n  \"darken-3\":   #0277bd,\n  \"darken-4\":   #01579b,\n  \"accent-1\":   #80d8ff,\n  \"accent-2\":   #40c4ff,\n  \"accent-3\":   #00b0ff,\n  \"accent-4\":   #0091ea\n}",
-      "omittedSemi": true,
+      "params": "$light-blue =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 104,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 104,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#03a9f4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 105,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 105,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#e1f5fe",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 106,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 106,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#b3e5fc",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 107,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 107,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#81d4fa",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 108,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 108,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#4fc3f7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 109,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 109,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#29b6f6",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 110,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 110,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#039be5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 111,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 111,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#0288d1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 112,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 112,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#0277bd",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 113,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 113,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#01579b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 114,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 114,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#80d8ff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 115,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 115,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#40c4ff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 116,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 116,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#00b0ff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 117,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 117,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#0091ea",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 120,
           "column": 1
+        },
+        "startChildren": {
+          "line": 120,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -200,22 +2532,354 @@
           "column": 1
         }
       },
-      "prop": "$cyan",
-      "value": "{\n  \"base\":       #00bcd4,\n  \"lighten-5\":  #e0f7fa,\n  \"lighten-4\":  #b2ebf2,\n  \"lighten-3\":  #80deea,\n  \"lighten-2\":  #4dd0e1,\n  \"lighten-1\":  #26c6da,\n  \"darken-1\":   #00acc1,\n  \"darken-2\":   #0097a7,\n  \"darken-3\":   #00838f,\n  \"darken-4\":   #006064,\n  \"accent-1\":   #84ffff,\n  \"accent-2\":   #18ffff,\n  \"accent-3\":   #00e5ff,\n  \"accent-4\":   #00b8d4\n}",
-      "omittedSemi": true,
+      "params": "$cyan =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 121,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 121,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#00bcd4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 122,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 122,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#e0f7fa",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 123,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 123,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#b2ebf2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 124,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 124,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#80deea",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 125,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 125,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#4dd0e1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 126,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 126,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#26c6da",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 127,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 127,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#00acc1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 128,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 128,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#0097a7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 129,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 129,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#00838f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 130,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 130,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#006064",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 131,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 131,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#84ffff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 132,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 132,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#18ffff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 133,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 133,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#00e5ff",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 134,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 134,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#00b8d4",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 137,
           "column": 1
+        },
+        "startChildren": {
+          "line": 137,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -225,22 +2889,354 @@
           "column": 1
         }
       },
-      "prop": "$teal",
-      "value": "{\n  \"base\":       #009688,\n  \"lighten-5\":  #e0f2f1,\n  \"lighten-4\":  #b2dfdb,\n  \"lighten-3\":  #80cbc4,\n  \"lighten-2\":  #4db6ac,\n  \"lighten-1\":  #26a69a,\n  \"darken-1\":   #00897b,\n  \"darken-2\":   #00796b,\n  \"darken-3\":   #00695c,\n  \"darken-4\":   #004d40,\n  \"accent-1\":   #a7ffeb,\n  \"accent-2\":   #64ffda,\n  \"accent-3\":   #1de9b6,\n  \"accent-4\":   #00bfa5\n}",
-      "omittedSemi": true,
+      "params": "$teal =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 138,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 138,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#009688",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 139,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 139,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#e0f2f1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 140,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 140,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#b2dfdb",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 141,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 141,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#80cbc4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 142,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 142,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#4db6ac",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 143,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 143,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#26a69a",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 144,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 144,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#00897b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 145,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 145,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#00796b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 146,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 146,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#00695c",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 147,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 147,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#004d40",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 148,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 148,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#a7ffeb",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 149,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 149,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#64ffda",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 150,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 150,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#1de9b6",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 151,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 151,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#00bfa5",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 154,
           "column": 1
+        },
+        "startChildren": {
+          "line": 154,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -250,22 +3246,354 @@
           "column": 1
         }
       },
-      "prop": "$green",
-      "value": "{\n  \"base\":       #4CAF50,\n  \"lighten-5\":  #E8F5E9,\n  \"lighten-4\":  #C8E6C9,\n  \"lighten-3\":  #A5D6A7,\n  \"lighten-2\":  #81C784,\n  \"lighten-1\":  #66BB6A,\n  \"darken-1\":   #43A047,\n  \"darken-2\":   #388E3C,\n  \"darken-3\":   #2E7D32,\n  \"darken-4\":   #1B5E20,\n  \"accent-1\":   #B9F6CA,\n  \"accent-2\":   #69F0AE,\n  \"accent-3\":   #00E676,\n  \"accent-4\":   #00C853\n}",
-      "omittedSemi": true,
+      "params": "$green =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 155,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 155,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#4CAF50",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 156,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 156,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#E8F5E9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 157,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 157,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#C8E6C9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 158,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 158,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#A5D6A7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 159,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 159,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#81C784",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 160,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 160,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#66BB6A",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 161,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 161,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#43A047",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 162,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 162,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#388E3C",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 163,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 163,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#2E7D32",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 164,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 164,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#1B5E20",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 165,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 165,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#B9F6CA",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 166,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 166,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#69F0AE",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 167,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 167,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#00E676",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 168,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 168,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#00C853",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 171,
           "column": 1
+        },
+        "startChildren": {
+          "line": 171,
+          "column": 17
         },
         "input": {
           "file": "input.styl"
@@ -275,22 +3603,354 @@
           "column": 1
         }
       },
-      "prop": "$light-green",
-      "value": "{\n  \"base\":       #8bc34a,\n  \"lighten-5\":  #f1f8e9,\n  \"lighten-4\":  #dcedc8,\n  \"lighten-3\":  #c5e1a5,\n  \"lighten-2\":  #aed581,\n  \"lighten-1\":  #9ccc65,\n  \"darken-1\":   #7cb342,\n  \"darken-2\":   #689f38,\n  \"darken-3\":   #558b2f,\n  \"darken-4\":   #33691e,\n  \"accent-1\":   #ccff90,\n  \"accent-2\":   #b2ff59,\n  \"accent-3\":   #76ff03,\n  \"accent-4\":   #64dd17\n}",
-      "omittedSemi": true,
+      "params": "$light-green =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 172,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 172,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#8bc34a",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 173,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 173,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#f1f8e9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 174,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 174,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#dcedc8",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 175,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 175,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#c5e1a5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 176,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 176,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#aed581",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 177,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 177,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#9ccc65",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 178,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 178,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#7cb342",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 179,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 179,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#689f38",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 180,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 180,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#558b2f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 181,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 181,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#33691e",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 182,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 182,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ccff90",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 183,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 183,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#b2ff59",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 184,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 184,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#76ff03",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 185,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 185,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#64dd17",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 188,
           "column": 1
+        },
+        "startChildren": {
+          "line": 188,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -300,22 +3960,354 @@
           "column": 1
         }
       },
-      "prop": "$lime",
-      "value": "{\n  \"base\":       #cddc39,\n  \"lighten-5\":  #f9fbe7,\n  \"lighten-4\":  #f0f4c3,\n  \"lighten-3\":  #e6ee9c,\n  \"lighten-2\":  #dce775,\n  \"lighten-1\":  #d4e157,\n  \"darken-1\":   #c0ca33,\n  \"darken-2\":   #afb42b,\n  \"darken-3\":   #9e9d24,\n  \"darken-4\":   #827717,\n  \"accent-1\":   #f4ff81,\n  \"accent-2\":   #eeff41,\n  \"accent-3\":   #c6ff00,\n  \"accent-4\":   #aeea00\n}",
-      "omittedSemi": true,
+      "params": "$lime =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 189,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 189,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#cddc39",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 190,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 190,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#f9fbe7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 191,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 191,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#f0f4c3",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 192,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 192,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#e6ee9c",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 193,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 193,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#dce775",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 194,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 194,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#d4e157",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 195,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 195,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#c0ca33",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 196,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 196,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#afb42b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 197,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 197,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#9e9d24",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 198,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 198,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#827717",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 199,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 199,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#f4ff81",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 200,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 200,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#eeff41",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 201,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 201,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#c6ff00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 202,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 202,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#aeea00",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 205,
           "column": 1
+        },
+        "startChildren": {
+          "line": 205,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -325,22 +4317,354 @@
           "column": 1
         }
       },
-      "prop": "$yellow",
-      "value": "{\n  \"base\":       #ffeb3b,\n  \"lighten-5\":  #fffde7,\n  \"lighten-4\":  #fff9c4,\n  \"lighten-3\":  #fff59d,\n  \"lighten-2\":  #fff176,\n  \"lighten-1\":  #ffee58,\n  \"darken-1\":   #fdd835,\n  \"darken-2\":   #fbc02d,\n  \"darken-3\":   #f9a825,\n  \"darken-4\":   #f57f17,\n  \"accent-1\":   #ffff8d,\n  \"accent-2\":   #ffff00,\n  \"accent-3\":   #ffea00,\n  \"accent-4\":   #ffd600\n}",
-      "omittedSemi": true,
+      "params": "$yellow =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 206,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 206,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#ffeb3b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 207,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 207,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fffde7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 208,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 208,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#fff9c4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 209,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 209,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#fff59d",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 210,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 210,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#fff176",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 211,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 211,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ffee58",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 212,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 212,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#fdd835",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 213,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 213,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#fbc02d",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 214,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 214,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#f9a825",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 215,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 215,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#f57f17",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 216,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 216,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ffff8d",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 217,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 217,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#ffff00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 218,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 218,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#ffea00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 219,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 219,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#ffd600",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 222,
           "column": 1
+        },
+        "startChildren": {
+          "line": 222,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -350,22 +4674,354 @@
           "column": 1
         }
       },
-      "prop": "$amber",
-      "value": "{\n  \"base\":       #ffc107,\n  \"lighten-5\":  #fff8e1,\n  \"lighten-4\":  #ffecb3,\n  \"lighten-3\":  #ffe082,\n  \"lighten-2\":  #ffd54f,\n  \"lighten-1\":  #ffca28,\n  \"darken-1\":   #ffb300,\n  \"darken-2\":   #ffa000,\n  \"darken-3\":   #ff8f00,\n  \"darken-4\":   #ff6f00,\n  \"accent-1\":   #ffe57f,\n  \"accent-2\":   #ffd740,\n  \"accent-3\":   #ffc400,\n  \"accent-4\":   #ffab00\n}",
-      "omittedSemi": true,
+      "params": "$amber =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 223,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 223,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#ffc107",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 224,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 224,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fff8e1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 225,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 225,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#ffecb3",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 226,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 226,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#ffe082",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 227,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 227,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#ffd54f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 228,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 228,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ffca28",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 229,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 229,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#ffb300",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 230,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 230,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#ffa000",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 231,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 231,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#ff8f00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 232,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 232,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#ff6f00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 233,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 233,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ffe57f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 234,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 234,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#ffd740",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 235,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 235,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#ffc400",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 236,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 236,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#ffab00",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 239,
           "column": 1
+        },
+        "startChildren": {
+          "line": 239,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -375,22 +5031,354 @@
           "column": 1
         }
       },
-      "prop": "$orange",
-      "value": "{\n  \"base\":       #ff9800,\n  \"lighten-5\":  #fff3e0,\n  \"lighten-4\":  #ffe0b2,\n  \"lighten-3\":  #ffcc80,\n  \"lighten-2\":  #ffb74d,\n  \"lighten-1\":  #ffa726,\n  \"darken-1\":   #fb8c00,\n  \"darken-2\":   #f57c00,\n  \"darken-3\":   #ef6c00,\n  \"darken-4\":   #e65100,\n  \"accent-1\":   #ffd180,\n  \"accent-2\":   #ffab40,\n  \"accent-3\":   #ff9100,\n  \"accent-4\":   #ff6d00\n}",
-      "omittedSemi": true,
+      "params": "$orange =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 240,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 240,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#ff9800",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 241,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 241,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fff3e0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 242,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 242,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#ffe0b2",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 243,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 243,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#ffcc80",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 244,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 244,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#ffb74d",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 245,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 245,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ffa726",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 246,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 246,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#fb8c00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 247,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 247,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#f57c00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 248,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 248,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#ef6c00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 249,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 249,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#e65100",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 250,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 250,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ffd180",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 251,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 251,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#ffab40",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 252,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 252,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#ff9100",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 253,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 253,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#ff6d00",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 256,
           "column": 1
+        },
+        "startChildren": {
+          "line": 256,
+          "column": 17
         },
         "input": {
           "file": "input.styl"
@@ -400,22 +5388,354 @@
           "column": 1
         }
       },
-      "prop": "$deep-orange",
-      "value": "{\n  \"base\":       #ff5722,\n  \"lighten-5\":  #fbe9e7,\n  \"lighten-4\":  #ffccbc,\n  \"lighten-3\":  #ffab91,\n  \"lighten-2\":  #ff8a65,\n  \"lighten-1\":  #ff7043,\n  \"darken-1\":   #f4511e,\n  \"darken-2\":   #e64a19,\n  \"darken-3\":   #d84315,\n  \"darken-4\":   #bf360c,\n  \"accent-1\":   #ff9e80,\n  \"accent-2\":   #ff6e40,\n  \"accent-3\":   #ff3d00,\n  \"accent-4\":   #dd2c00\n}",
-      "omittedSemi": true,
+      "params": "$deep-orange =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 257,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 257,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#ff5722",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 258,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 258,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fbe9e7",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 259,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 259,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#ffccbc",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 260,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 260,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#ffab91",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 261,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 261,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#ff8a65",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 262,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 262,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#ff7043",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 263,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 263,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#f4511e",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 264,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 264,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#e64a19",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 265,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 265,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#d84315",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 266,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 266,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#bf360c",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 267,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 267,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-1\"",
+          "value": "#ff9e80",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 268,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 268,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-2\"",
+          "value": "#ff6e40",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 269,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 269,
+              "column": 24
+            }
+          },
+          "prop": "\"accent-3\"",
+          "value": "#ff3d00",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 270,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 270,
+              "column": 23
+            }
+          },
+          "prop": "\"accent-4\"",
+          "value": "#dd2c00",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 273,
           "column": 1
+        },
+        "startChildren": {
+          "line": 273,
+          "column": 11
         },
         "input": {
           "file": "input.styl"
@@ -425,22 +5745,262 @@
           "column": 1
         }
       },
-      "prop": "$brown",
-      "value": "{\n  \"base\":       #795548,\n  \"lighten-5\":  #efebe9,\n  \"lighten-4\":  #d7ccc8,\n  \"lighten-3\":  #bcaaa4,\n  \"lighten-2\":  #a1887f,\n  \"lighten-1\":  #8d6e63,\n  \"darken-1\":   #6d4c41,\n  \"darken-2\":   #5d4037,\n  \"darken-3\":   #4e342e,\n  \"darken-4\":   #3e2723\n}",
-      "omittedSemi": true,
+      "params": "$brown =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 274,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 274,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#795548",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 275,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 275,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#efebe9",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 276,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 276,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#d7ccc8",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 277,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 277,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#bcaaa4",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 278,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 278,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#a1887f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 279,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 279,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#8d6e63",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 280,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 280,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#6d4c41",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 281,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 281,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#5d4037",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 282,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 282,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#4e342e",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 283,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 283,
+              "column": 23
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#3e2723",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 286,
           "column": 1
+        },
+        "startChildren": {
+          "line": 286,
+          "column": 15
         },
         "input": {
           "file": "input.styl"
@@ -450,22 +6010,262 @@
           "column": 1
         }
       },
-      "prop": "$blue-grey",
-      "value": "{\n  \"base\":       #607d8b,\n  \"lighten-5\":  #eceff1,\n  \"lighten-4\":  #cfd8dc,\n  \"lighten-3\":  #b0bec5,\n  \"lighten-2\":  #90a4ae,\n  \"lighten-1\":  #78909c,\n  \"darken-1\":   #546e7a,\n  \"darken-2\":   #455a64,\n  \"darken-3\":   #37474f,\n  \"darken-4\":   #263238\n}",
-      "omittedSemi": true,
+      "params": "$blue-grey =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 287,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 287,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#607d8b",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 288,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 288,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#eceff1",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 289,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 289,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#cfd8dc",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 290,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 290,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#b0bec5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 291,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 291,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#90a4ae",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 292,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 292,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#78909c",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 293,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 293,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#546e7a",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 294,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 294,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#455a64",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 295,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 295,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#37474f",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 296,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 296,
+              "column": 23
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#263238",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 299,
           "column": 1
+        },
+        "startChildren": {
+          "line": 299,
+          "column": 10
         },
         "input": {
           "file": "input.styl"
@@ -475,22 +6275,262 @@
           "column": 1
         }
       },
-      "prop": "$grey",
-      "value": "{\n  \"base\":       #9e9e9e,\n  \"lighten-5\":  #fafafa,\n  \"lighten-4\":  #f5f5f5,\n  \"lighten-3\":  #eeeeee,\n  \"lighten-2\":  #e0e0e0,\n  \"lighten-1\":  #bdbdbd,\n  \"darken-1\":   #757575,\n  \"darken-2\":   #616161,\n  \"darken-3\":   #424242,\n  \"darken-4\":   #212121\n}",
-      "omittedSemi": true,
+      "params": "$grey =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":       "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 300,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 300,
+              "column": 24
+            }
+          },
+          "prop": "\"base\"",
+          "value": "#9e9e9e",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 301,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 301,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-5\"",
+          "value": "#fafafa",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 302,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 302,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-4\"",
+          "value": "#f5f5f5",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 303,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 303,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-3\"",
+          "value": "#eeeeee",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 304,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 304,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-2\"",
+          "value": "#e0e0e0",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 305,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 305,
+              "column": 24
+            }
+          },
+          "prop": "\"lighten-1\"",
+          "value": "#bdbdbd",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 306,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 306,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-1\"",
+          "value": "#757575",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 307,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 307,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-2\"",
+          "value": "#616161",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 308,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 308,
+              "column": 24
+            }
+          },
+          "prop": "\"darken-3\"",
+          "value": "#424242",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":   "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 309,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 309,
+              "column": 23
+            }
+          },
+          "prop": "\"darken-4\"",
+          "value": "#212121",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " = "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 312,
           "column": 1
+        },
+        "startChildren": {
+          "line": 312,
+          "column": 12
         },
         "input": {
           "file": "input.styl"
@@ -500,22 +6540,101 @@
           "column": 1
         }
       },
-      "prop": "$shades",
-      "value": "{\n  \"black\":        #000000,\n  \"white\":        #FFFFFF,\n  \"transparent\":  transparent\n}",
-      "omittedSemi": true,
+      "params": "$shades =",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":        "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 313,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 313,
+              "column": 26
+            }
+          },
+          "prop": "\"black\"",
+          "value": "#000000",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":        "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 314,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 314,
+              "column": 26
+            }
+          },
+          "prop": "\"white\"",
+          "value": "#FFFFFF",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":  "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 315,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 315,
+              "column": 29
+            }
+          },
+          "prop": "\"transparent\"",
+          "value": "transparent",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true
     },
     {
       "raws": {
         "before": "\n\n",
-        "between": " : ",
-        "stylusBetween": " := "
+        "between": " ",
+        "afterName": "",
+        "semicolon": false,
+        "after": "\n",
+        "identifier": ""
       },
-      "type": "decl",
+      "type": "atrule",
+      "name": "",
       "source": {
         "start": {
           "line": 318,
           "column": 1
+        },
+        "startChildren": {
+          "line": 318,
+          "column": 13
         },
         "input": {
           "file": "input.styl"
@@ -525,8 +6644,471 @@
           "column": 1
         }
       },
-      "prop": "$colors",
-      "value": "{\n  \"red\": $red,\n  \"pink\": $pink,\n  \"purple\": $purple,\n  \"deep-purple\": $deep-purple,\n  \"indigo\": $indigo,\n  \"blue\": $blue,\n  \"light-blue\": $light-blue,\n  \"cyan\": $cyan,\n  \"teal\": $teal,\n  \"green\": $green,\n  \"light-green\": $light-green,\n  \"lime\": $lime,\n  \"yellow\": $yellow,\n  \"amber\": $amber,\n  \"orange\": $orange,\n  \"deep-orange\": $deep-orange,\n  \"brown\": $brown,\n  \"blue-grey\": $blue-grey,\n  \"grey\": $grey,\n  \"shades\": $shades\n}",
+      "params": "$colors :=",
+      "cssLiteral": true,
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 319,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 319,
+              "column": 14
+            }
+          },
+          "prop": "\"red\"",
+          "value": "$red",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 320,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 320,
+              "column": 16
+            }
+          },
+          "prop": "\"pink\"",
+          "value": "$pink",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 321,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 321,
+              "column": 20
+            }
+          },
+          "prop": "\"purple\"",
+          "value": "$purple",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 322,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 322,
+              "column": 30
+            }
+          },
+          "prop": "\"deep-purple\"",
+          "value": "$deep-purple",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 323,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 323,
+              "column": 20
+            }
+          },
+          "prop": "\"indigo\"",
+          "value": "$indigo",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 324,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 324,
+              "column": 16
+            }
+          },
+          "prop": "\"blue\"",
+          "value": "$blue",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 325,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 325,
+              "column": 28
+            }
+          },
+          "prop": "\"light-blue\"",
+          "value": "$light-blue",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 326,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 326,
+              "column": 16
+            }
+          },
+          "prop": "\"cyan\"",
+          "value": "$cyan",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 327,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 327,
+              "column": 16
+            }
+          },
+          "prop": "\"teal\"",
+          "value": "$teal",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 328,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 328,
+              "column": 18
+            }
+          },
+          "prop": "\"green\"",
+          "value": "$green",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 329,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 329,
+              "column": 30
+            }
+          },
+          "prop": "\"light-green\"",
+          "value": "$light-green",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 330,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 330,
+              "column": 16
+            }
+          },
+          "prop": "\"lime\"",
+          "value": "$lime",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 331,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 331,
+              "column": 20
+            }
+          },
+          "prop": "\"yellow\"",
+          "value": "$yellow",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 332,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 332,
+              "column": 18
+            }
+          },
+          "prop": "\"amber\"",
+          "value": "$amber",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 333,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 333,
+              "column": 20
+            }
+          },
+          "prop": "\"orange\"",
+          "value": "$orange",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 334,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 334,
+              "column": 30
+            }
+          },
+          "prop": "\"deep-orange\"",
+          "value": "$deep-orange",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 335,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 335,
+              "column": 18
+            }
+          },
+          "prop": "\"brown\"",
+          "value": "$brown",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 336,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 336,
+              "column": 26
+            }
+          },
+          "prop": "\"blue-grey\"",
+          "value": "$blue-grey",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 337,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 337,
+              "column": 16
+            }
+          },
+          "prop": "\"grey\"",
+          "value": "$grey",
+          "objectProperty": true
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 338,
+              "column": 3
+            },
+            "input": {
+              "file": "input.styl"
+            },
+            "end": {
+              "line": 338,
+              "column": 19
+            }
+          },
+          "prop": "\"shades\"",
+          "value": "$shades",
+          "objectProperty": true
+        }
+      ],
+      "object": true,
       "assignment": true,
       "conditional": true
     }
