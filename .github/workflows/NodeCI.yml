@@ -41,10 +41,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: v8.10
-    - name: Downgrade stylelint
-      run: npm install -D stylelint@13.6.1
     - name: Install Packages
       run: npm install
+    - name: Downgrade stylelint
+      run: npm install -D stylelint@13.6.1
     - name: Test
       run: npm test
   test-and-coverage:
