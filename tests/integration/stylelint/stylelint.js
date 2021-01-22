@@ -43,7 +43,7 @@ describe("stylelint", () => {
                 customSyntax,
                 config: baseConfig,
             })
-            .then(result => {
+            .then((result) => {
                 assert.deepStrictEqual(result.results.length, 1)
                 assert.deepStrictEqual(result.results[0].warnings, [
                     {
@@ -66,7 +66,7 @@ describe("stylelint", () => {
             fixtureConfig = _.merge(
                 {},
                 baseConfig,
-                JSON.parse(fixture.contents["config.json"])
+                JSON.parse(fixture.contents["config.json"]),
             )
         }
         it(`stylelint stylus ${fixture.name}`, () =>
@@ -77,11 +77,11 @@ describe("stylelint", () => {
                     customSyntax,
                     config: fixtureConfig,
                 })
-                .then(result => {
+                .then((result) => {
                     const actual = JSON.stringify(
                         result.results[0].warnings,
                         null,
-                        2
+                        2,
                     )
                     try {
                         const expect = fixture.contents["warnings.json"]
@@ -100,7 +100,7 @@ describe("stylelint", () => {
                     config: fixtureConfig,
                     fix: true,
                 })
-                .then(result => {
+                .then((result) => {
                     const actual = result.output
                     const fixedFileName = `fixed${path.extname(fileName)}`
                     try {
@@ -116,7 +116,7 @@ describe("stylelint", () => {
                         typeof parse(actual, {
                             from: fixture.files[fixedFileName],
                         }),
-                        "object"
+                        "object",
                     )
                 }))
     }

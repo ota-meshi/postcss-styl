@@ -23,7 +23,7 @@ describe("autoprefixer", () => {
                 syntax: postcssStyl,
                 from: "test.styl",
             })
-            .then(result => {
+            .then((result) => {
                 assert.strictEqual(
                     result.css,
                     `
@@ -31,12 +31,12 @@ describe("autoprefixer", () => {
   -webkit-transform scale(0.5);
   -ms-transform scale(0.5);
   transform scale(0.5)
-`
+`,
                 )
                 // check can parse
                 assert.strictEqual(
                     typeof postcssStyl.parse(result.css),
-                    "object"
+                    "object",
                 )
             })
     })
@@ -53,14 +53,14 @@ describe("autoprefixer", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["autoprefix.styl"]
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
                         writeFixture(
                             fixture.files["autoprefix.styl"],
-                            result.css
+                            result.css,
                         )
                         throw e
                     }
@@ -68,7 +68,7 @@ describe("autoprefixer", () => {
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })
@@ -84,14 +84,14 @@ describe("autoprefixer", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["autoprefix.css"]
                         assert.deepStrictEqual(result.css, expect)
                     } catch (e) {
                         writeFixture(
                             fixture.files["autoprefix.css"],
-                            result.css
+                            result.css,
                         )
                         throw e
                     }
@@ -99,7 +99,7 @@ describe("autoprefixer", () => {
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })

@@ -20,7 +20,7 @@ describe("postcss-nested", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["nested.styl"]
                         assert.deepStrictEqual(result.css, expect)
@@ -31,13 +31,13 @@ describe("postcss-nested", () => {
 
                     writeFixture(
                         fixture.files["nested.json"],
-                        stringifyAST(result.root)
+                        stringifyAST(result.root),
                     )
 
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })
@@ -49,7 +49,7 @@ describe("postcss-nested", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["nested.css"]
                         assert.deepStrictEqual(result.css, expect)
@@ -61,7 +61,7 @@ describe("postcss-nested", () => {
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })
@@ -81,6 +81,6 @@ function stringifyAST(node) {
             }
             return value
         },
-        2
+        2,
     )
 }

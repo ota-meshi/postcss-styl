@@ -17,7 +17,7 @@ body
     input[type='submit']
         border-radius 5px
 `,
-            { parser: postcssStyl }
+            { parser: postcssStyl },
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(
@@ -30,7 +30,7 @@ body{
     ,input[type='button']
     ,input[type='submit']{
         border-radius: 5px}}
-`
+`,
         )
     })
 
@@ -47,7 +47,7 @@ body input[type='submit'] {
     border-radius: 5px;
 }
 `,
-            { parser: postcssStyl }
+            { parser: postcssStyl },
         ).root
         assert.strictEqual(typeof result, "object")
         assert.strictEqual(
@@ -62,7 +62,7 @@ body input[type='button'],
 body input[type='submit'] {
     border-radius: 5px;
 }
-`
+`,
         )
     })
 })

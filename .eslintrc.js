@@ -3,14 +3,17 @@
 module.exports = {
     parserOptions: {},
     extends: [
-        "plugin:@mysticatea/es2015",
-        "plugin:@mysticatea/+node",
+        "plugin:@ota-meshi/recommended",
+        "plugin:@ota-meshi/+node",
+        "plugin:@ota-meshi/+json",
+        "plugin:@ota-meshi/+yaml",
+        // "plugin:@ota-meshi/+md",
+        "plugin:@ota-meshi/+prettier",
     ],
     plugins: [],
     rules: {
-        'require-jsdoc': 'error',
+        "require-jsdoc": "error",
         "no-warning-comments": "warn",
-        "@mysticatea/no-use-ignored-vars": ["error", "^_[a-zA-Z]+$"],
     },
 
     overrides: [

@@ -46,12 +46,12 @@ cases.each((name, css, json) => {
                 from: path.join(
                     path.resolve(
                         require.resolve("postcss-parser-tests/package.json"),
-                        "../"
+                        "../",
                     ),
                     "cases",
-                    name
+                    name,
                 ),
-            })
+            }),
         )
         assert.strictEqual(parsed, json)
     })
@@ -176,7 +176,7 @@ function stringifyAST(node) {
             }
             return value
         },
-        2
+        2,
     )
 }
 
@@ -193,7 +193,7 @@ function stringifyStylusAST(rootNode) {
             }
             return value
         },
-        2
+        2,
     )
 
     /**
@@ -232,7 +232,7 @@ function stringifyError(error) {
             }
             return value
         },
-        2
+        2,
     )
 }
 
@@ -295,7 +295,7 @@ function checkProperties(node) {
     }
     const allKnownProps = [...knownProps, "type", "raws", "parent", "source"]
     for (const key of Object.keys(node).filter(
-        k => !allKnownProps.includes(k)
+        (k) => !allKnownProps.includes(k),
     )) {
         assert.fail(`Unexpected property \`${key}\` on ${node.type}`)
     }
@@ -313,10 +313,10 @@ function checkLocations(parent) {
                 if (compareLoc(parent.source.start, node.source.start) > 0) {
                     assert.fail(
                         `Invalid start location: parent.source.start=${JSON.stringify(
-                            parent.source.start
+                            parent.source.start,
                         )}, node.source.start=${JSON.stringify(
-                            node.source.start
-                        )}, parent:[${parent}], node:[${node}]`
+                            node.source.start,
+                        )}, parent:[${parent}], node:[${node}]`,
                     )
                 }
             }
@@ -324,10 +324,10 @@ function checkLocations(parent) {
                 if (compareLoc(prev.source.end, node.source.start) >= 0) {
                     assert.fail(
                         `Invalid nodes between location: prev.source.end=${JSON.stringify(
-                            prev.source.end
+                            prev.source.end,
                         )}, node.source.start=${JSON.stringify(
-                            node.source.start
-                        )}, prev:[${prev}], node:[${node}]`
+                            node.source.start,
+                        )}, prev:[${prev}], node:[${node}]`,
                     )
                 }
             }
@@ -335,10 +335,10 @@ function checkLocations(parent) {
                 if (compareLoc(parent.source.end, node.source.end) < 0) {
                     assert.fail(
                         `Invalid end location: parent.source.end=${JSON.stringify(
-                            parent.source.end
+                            parent.source.end,
                         )}, node.source.end=${JSON.stringify(
-                            node.source.end
-                        )}, parent:[${parent}], node:[${node}]`
+                            node.source.end,
+                        )}, parent:[${parent}], node:[${node}]`,
                     )
                 }
             }

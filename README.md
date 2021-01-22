@@ -58,10 +58,10 @@ For example, this [PostCSS] plugin is used as follows:
 
      stylelint.lint({
        customSyntax,
-       ...
+       // ...
      })
      ```
-   
+
    - with [VSCode extension]
 
      ```js
