@@ -12,11 +12,11 @@ function listupFixtureDirs(rootDir) {
     for (const name of fs.readdirSync(rootDir)) {
         const filepath = path.join(rootDir, `${name}`)
         if (fs.statSync(filepath).isDirectory()) {
-            if (fs.readdirSync(filepath).find(n => n.startsWith("input."))) {
+            if (fs.readdirSync(filepath).find((n) => n.startsWith("input."))) {
                 result.push(name)
             } else {
                 result.push(
-                    ...listupFixtureDirs(filepath).map(n => `${name}/${n}`),
+                    ...listupFixtureDirs(filepath).map((n) => `${name}/${n}`),
                 )
             }
         } else if (
@@ -45,7 +45,7 @@ const utils = {
         }
     },
     listupFixtures(rootDir) {
-        const fixtures = listupFixtureDirs(rootDir).map(name => {
+        const fixtures = listupFixtureDirs(rootDir).map((name) => {
             const filesHandler = {
                 get(_target, fileName) {
                     return path.join(rootDir, `${name}/${fileName}`)

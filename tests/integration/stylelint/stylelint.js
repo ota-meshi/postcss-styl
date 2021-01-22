@@ -43,7 +43,7 @@ describe("stylelint", () => {
                 customSyntax,
                 config: baseConfig,
             })
-            .then(result => {
+            .then((result) => {
                 assert.deepStrictEqual(result.results.length, 1)
                 assert.deepStrictEqual(result.results[0].warnings, [
                     {
@@ -77,7 +77,7 @@ describe("stylelint", () => {
                     customSyntax,
                     config: fixtureConfig,
                 })
-                .then(result => {
+                .then((result) => {
                     const actual = JSON.stringify(
                         result.results[0].warnings,
                         null,
@@ -100,7 +100,7 @@ describe("stylelint", () => {
                     config: fixtureConfig,
                     fix: true,
                 })
-                .then(result => {
+                .then((result) => {
                     const actual = result.output
                     const fixedFileName = `fixed${path.extname(fileName)}`
                     try {

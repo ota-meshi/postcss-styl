@@ -15,7 +15,7 @@ const {
 } = require("./utils")
 
 const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
-    fixture => !isExistFile(fixture.files["error.json"]),
+    (fixture) => !isExistFile(fixture.files["error.json"]),
 )
 
 describe("stringify", () => {
@@ -54,7 +54,7 @@ describe("stringify", () => {
             const transformRoot = parsed.clone()
 
             let transformed = false
-            transformRoot.walkAtRules(node => {
+            transformRoot.walkAtRules((node) => {
                 if (!node.pythonic) {
                     if (node.nodes && node.nodes.length) {
                         transformed = true
@@ -62,13 +62,13 @@ describe("stringify", () => {
                     node.pythonic = true
                 }
             })
-            transformRoot.walkRules(node => {
+            transformRoot.walkRules((node) => {
                 if (!node.pythonic) {
                     transformed = true
                     node.pythonic = true
                 }
             })
-            transformRoot.walkDecls(node => {
+            transformRoot.walkDecls((node) => {
                 if (!node.omittedSemi) {
                     transformed = true
                     node.omittedSemi = true
@@ -111,7 +111,7 @@ describe("stringify", () => {
         it(`transform rem raws stringifies ${fixture.name}`, () => {
             const transformRoot = parsed.clone()
 
-            transformRoot.walk(node => {
+            transformRoot.walk((node) => {
                 const raws = {}
                 if (node.raws.stylusBetween != null) {
                     raws.stylusBetween = node.raws.stylusBetween
@@ -147,7 +147,9 @@ describe("stringify", () => {
                 )
             } catch (e) {
                 const strs = []
-                new Stringifier(str => strs.push(str)).stringify(transformRoot)
+                new Stringifier((str) => strs.push(str)).stringify(
+                    transformRoot,
+                )
                 writeFixture(
                     fixture.files["transform-remraws-str.json"],
                     JSON.stringify(strs, null, 2),

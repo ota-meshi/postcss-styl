@@ -20,7 +20,7 @@ describe("postcss-nested", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["nested.styl"]
                         assert.deepStrictEqual(result.css, expect)
@@ -49,7 +49,7 @@ describe("postcss-nested", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["nested.css"]
                         assert.deepStrictEqual(result.css, expect)

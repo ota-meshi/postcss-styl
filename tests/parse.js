@@ -295,7 +295,7 @@ function checkProperties(node) {
     }
     const allKnownProps = [...knownProps, "type", "raws", "parent", "source"]
     for (const key of Object.keys(node).filter(
-        k => !allKnownProps.includes(k),
+        (k) => !allKnownProps.includes(k),
     )) {
         assert.fail(`Unexpected property \`${key}\` on ${node.type}`)
     }

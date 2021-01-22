@@ -23,7 +23,7 @@ describe("autoprefixer", () => {
                 syntax: postcssStyl,
                 from: "test.styl",
             })
-            .then(result => {
+            .then((result) => {
                 assert.strictEqual(
                     result.css,
                     `
@@ -53,7 +53,7 @@ describe("autoprefixer", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["autoprefix.styl"]
                         assert.deepStrictEqual(result.css, expect)
@@ -84,7 +84,7 @@ describe("autoprefixer", () => {
                     syntax: postcssStyl,
                     from: `${fixture.name}/input.styl`,
                 })
-                .then(result => {
+                .then((result) => {
                     try {
                         const expect = fixture.contents["autoprefix.css"]
                         assert.deepStrictEqual(result.css, expect)
