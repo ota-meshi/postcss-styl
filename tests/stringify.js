@@ -15,7 +15,7 @@ const {
 } = require("./utils")
 
 const tests = listupFixtures(path.join(__dirname, "fixtures")).filter(
-    fixture => !isExistFile(fixture.files["error.json"])
+    fixture => !isExistFile(fixture.files["error.json"]),
 )
 
 describe("stringify", () => {
@@ -105,7 +105,7 @@ describe("stringify", () => {
                 typeof parse(actual, {
                     from: fixture.files["transform-omits.styl"],
                 }),
-                "object"
+                "object",
             )
         })
         it(`transform rem raws stringifies ${fixture.name}`, () => {
@@ -143,14 +143,14 @@ describe("stringify", () => {
                     typeof parse(actual, {
                         from: fixture.files["transform-remraws.styl"],
                     }),
-                    "object"
+                    "object",
                 )
             } catch (e) {
                 const strs = []
                 new Stringifier(str => strs.push(str)).stringify(transformRoot)
                 writeFixture(
                     fixture.files["transform-remraws-str.json"],
-                    JSON.stringify(strs, null, 2)
+                    JSON.stringify(strs, null, 2),
                 )
                 throw e
             }

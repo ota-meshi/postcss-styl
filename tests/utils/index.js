@@ -16,11 +16,11 @@ function listupFixtureDirs(rootDir) {
                 result.push(name)
             } else {
                 result.push(
-                    ...listupFixtureDirs(filepath).map(n => `${name}/${n}`)
+                    ...listupFixtureDirs(filepath).map(n => `${name}/${n}`),
                 )
             }
         } else if (
-            // eslint-disable-next-line no-process-env
+            // eslint-disable-next-line no-process-env -- test
             process.env.UPDATE_FIXTURES &&
             name.endsWith(".styl")
         ) {
@@ -80,7 +80,7 @@ const utils = {
         return fs.readFileSync(file).toString()
     },
     writeFixture(file, actual, error) {
-        // eslint-disable-next-line no-process-env
+        // eslint-disable-next-line no-process-env -- test
         if (process.env.UPDATE_FIXTURES) {
             fs.writeFileSync(file, actual)
         } else if (error) {
@@ -88,7 +88,7 @@ const utils = {
         }
     },
     deleteFixture(file) {
-        // eslint-disable-next-line no-process-env
+        // eslint-disable-next-line no-process-env -- test
         if (process.env.UPDATE_FIXTURES && utils.isExistFile(file)) {
             fs.unlinkSync(file)
         }

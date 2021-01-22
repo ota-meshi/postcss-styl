@@ -66,7 +66,7 @@ describe("stylelint", () => {
             fixtureConfig = _.merge(
                 {},
                 baseConfig,
-                JSON.parse(fixture.contents["config.json"])
+                JSON.parse(fixture.contents["config.json"]),
             )
         }
         it(`stylelint stylus ${fixture.name}`, () =>
@@ -81,7 +81,7 @@ describe("stylelint", () => {
                     const actual = JSON.stringify(
                         result.results[0].warnings,
                         null,
-                        2
+                        2,
                     )
                     try {
                         const expect = fixture.contents["warnings.json"]
@@ -116,7 +116,7 @@ describe("stylelint", () => {
                         typeof parse(actual, {
                             from: fixture.files[fixedFileName],
                         }),
-                        "object"
+                        "object",
                     )
                 }))
     }

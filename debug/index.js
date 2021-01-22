@@ -19,7 +19,7 @@ o ?= {
     b: 'b'
 }
 `,
-        { parser: postcssStyl, from: "try" }
+        { parser: postcssStyl, from: "try" },
     ).root
     assert.strictEqual(typeof result, "object")
     assert.strictEqual(result.toString(postcssStyl.stringify), "")

@@ -31,12 +31,12 @@ describe("autoprefixer", () => {
   -webkit-transform scale(0.5);
   -ms-transform scale(0.5);
   transform scale(0.5)
-`
+`,
                 )
                 // check can parse
                 assert.strictEqual(
                     typeof postcssStyl.parse(result.css),
-                    "object"
+                    "object",
                 )
             })
     })
@@ -60,7 +60,7 @@ describe("autoprefixer", () => {
                     } catch (e) {
                         writeFixture(
                             fixture.files["autoprefix.styl"],
-                            result.css
+                            result.css,
                         )
                         throw e
                     }
@@ -68,7 +68,7 @@ describe("autoprefixer", () => {
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })
@@ -91,7 +91,7 @@ describe("autoprefixer", () => {
                     } catch (e) {
                         writeFixture(
                             fixture.files["autoprefix.css"],
-                            result.css
+                            result.css,
                         )
                         throw e
                     }
@@ -99,7 +99,7 @@ describe("autoprefixer", () => {
                     // check can parse
                     assert.strictEqual(
                         typeof postcssStyl.parse(result.css),
-                        "object"
+                        "object",
                     )
                 })
         })
