@@ -43,7 +43,7 @@ jobs:
         node-version: v8.10
     - name: Downgrade stylelint
       run: |+
-        run: npm install -D stylelint@13.6.1 ignore@5.1.8 globby@11.0.1 postcss@7.0.27 autoprefixer@9.7.4 mocha@7.1.1  --save-exact
+        npm install -D stylelint@13.6.1 ignore@5.1.8 globby@11.0.1 postcss@7.0.27 autoprefixer@9.7.4 mocha@7.1.1  --save-exact
         npx rimraf node_modules
     - name: Install Packages
       run: npm install
