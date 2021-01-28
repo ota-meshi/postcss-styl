@@ -2,7 +2,6 @@
 
 const assert = require("assert")
 const path = require("path")
-const cases = require("postcss-parser-tests")
 const postcssNested = require("postcss-nested")
 const postcss = require("postcss")
 const { writeFixture, listupFixtures } = require("../../utils")
@@ -74,7 +73,7 @@ describe("postcss-nested", () => {
  */
 function stringifyAST(node) {
     return JSON.stringify(
-        JSON.parse(cases.jsonify(node)),
+        clean(node),
         (key, value) => {
             if (key === "source") {
                 return undefined
@@ -83,4 +82,21 @@ function stringifyAST(node) {
         },
         2,
     )
+}
+
+/**
+ * Clean node
+ */
+function clean(node) {
+    const result = { ...node }
+
+    if (result.nodes) {
+        result.nodes = result.nodes.map(clean)
+    }
+    delete result.parent
+    delete result.proxyCache
+    delete result.lastEach
+    delete result.indexes
+
+    return result
 }
