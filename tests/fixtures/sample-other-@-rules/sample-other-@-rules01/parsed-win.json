@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 45,
           "line": 1,
           "column": 46
         }
@@ -39,10 +41,12 @@
       "name": "viewport",
       "source": {
         "start": {
+          "offset": 50,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 59,
           "line": 3,
           "column": 10
         },
@@ -50,6 +54,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 73,
           "line": 4,
           "column": 13
         }
@@ -65,6 +70,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 63,
               "line": 4,
               "column": 3
             },
@@ -72,6 +78,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 73,
               "line": 4,
               "column": 13
             }
@@ -93,10 +100,12 @@
       "name": "supports",
       "source": {
         "start": {
+          "offset": 78,
           "line": 6,
           "column": 1
         },
         "startChildren": {
+          "offset": 103,
           "line": 6,
           "column": 26
         },
@@ -104,6 +113,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 128,
           "line": 8,
           "column": 17
         }
@@ -128,6 +138,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 116,
                   "line": 8,
                   "column": 5
                 },
@@ -135,6 +146,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 128,
                   "line": 8,
                   "column": 17
                 }
@@ -145,10 +157,12 @@
           ],
           "source": {
             "start": {
+              "offset": 107,
               "line": 7,
               "column": 3
             },
             "startChildren": {
+              "offset": 110,
               "line": 7,
               "column": 6
             },
@@ -156,6 +170,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 128,
               "line": 8,
               "column": 17
             }
@@ -177,10 +192,12 @@
       "name": "page",
       "source": {
         "start": {
+          "offset": 133,
           "line": 10,
           "column": 1
         },
         "startChildren": {
+          "offset": 145,
           "line": 10,
           "column": 13
         },
@@ -188,6 +205,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 178,
           "line": 12,
           "column": 17
         }
@@ -207,10 +225,12 @@
           "name": "top-center",
           "source": {
             "start": {
+              "offset": 149,
               "line": 11,
               "column": 3
             },
             "startChildren": {
+              "offset": 160,
               "line": 11,
               "column": 14
             },
@@ -218,6 +238,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 178,
               "line": 12,
               "column": 17
             }
@@ -233,6 +254,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 166,
                   "line": 12,
                   "column": 5
                 },
@@ -240,6 +262,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 178,
                   "line": 12,
                   "column": 17
                 }
@@ -257,6 +280,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

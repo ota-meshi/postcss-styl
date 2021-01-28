@@ -18,10 +18,12 @@
       "name": "bootable",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 10,
           "line": 1,
           "column": 11
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 108,
           "line": 5,
           "column": 48
         }
@@ -44,6 +47,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 14,
               "line": 2,
               "column": 3
             },
@@ -51,6 +55,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 29,
               "line": 2,
               "column": 18
             }
@@ -76,6 +81,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 65,
                   "line": 5,
                   "column": 5
                 },
@@ -83,6 +89,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 108,
                   "line": 5,
                   "column": 48
                 }
@@ -93,10 +100,12 @@
           ],
           "source": {
             "start": {
+              "offset": 38,
               "line": 4,
               "column": 3
             },
             "startChildren": {
+              "offset": 59,
               "line": 4,
               "column": 24
             },
@@ -104,6 +113,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 108,
               "line": 5,
               "column": 48
             }
@@ -121,6 +131,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

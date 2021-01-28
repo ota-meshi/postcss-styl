@@ -18,10 +18,12 @@
       "name": "subtract",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 14,
           "line": 1,
           "column": 15
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 22,
           "line": 2,
           "column": 7
         }
@@ -47,6 +50,7 @@
           "name": "",
           "source": {
             "start": {
+              "offset": 18,
               "line": 2,
               "column": 3
             },
@@ -54,10 +58,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 22,
               "line": 2,
               "column": 7
             },
             "rawEnd": {
+              "offset": 22,
               "line": 2,
               "column": 7
             }
@@ -79,6 +85,7 @@
       "name": "subtract",
       "source": {
         "start": {
+          "offset": 27,
           "line": 4,
           "column": 1
         },
@@ -86,10 +93,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 48,
           "line": 4,
           "column": 22
         },
         "rawEnd": {
+          "offset": 48,
           "line": 4,
           "column": 22
         }
@@ -103,6 +112,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

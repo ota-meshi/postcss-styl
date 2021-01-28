@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 47,
           "line": 1,
           "column": 48
         }
@@ -40,10 +42,12 @@
       "name": "first-even",
       "source": {
         "start": {
+          "offset": 53,
           "line": 3,
           "column": 2
         },
         "startChildren": {
+          "offset": 69,
           "line": 3,
           "column": 18
         },
@@ -51,6 +55,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 109,
           "line": 4,
           "column": 39
         }
@@ -71,6 +76,7 @@
           "name": "for",
           "source": {
             "start": {
+              "offset": 97,
               "line": 4,
               "column": 27
             },
@@ -78,10 +84,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 109,
               "line": 4,
               "column": 39
             },
             "rawEnd": {
+              "offset": 109,
               "line": 4,
               "column": 39
             }
@@ -102,6 +110,7 @@
               "name": "if",
               "source": {
                 "start": {
+                  "offset": 83,
                   "line": 4,
                   "column": 13
                 },
@@ -109,10 +118,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 95,
                   "line": 4,
                   "column": 25
                 },
                 "rawEnd": {
+                  "offset": 95,
                   "line": 4,
                   "column": 25
                 }
@@ -131,6 +142,7 @@
                   "name": "return",
                   "source": {
                     "start": {
+                      "offset": 74,
                       "line": 4,
                       "column": 4
                     },
@@ -138,10 +150,12 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 81,
                       "line": 4,
                       "column": 11
                     },
                     "rawEnd": {
+                      "offset": 81,
                       "line": 4,
                       "column": 11
                     }
@@ -169,6 +183,7 @@
       "name": "first-even",
       "source": {
         "start": {
+          "offset": 115,
           "line": 6,
           "column": 2
         },
@@ -176,10 +191,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 139,
           "line": 6,
           "column": 26
         },
         "rawEnd": {
+          "offset": 139,
           "line": 6,
           "column": 26
         }
@@ -197,6 +214,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 143,
           "line": 7,
           "column": 2
         },
@@ -204,6 +222,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 149,
           "line": 7,
           "column": 8
         }
@@ -216,6 +235,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

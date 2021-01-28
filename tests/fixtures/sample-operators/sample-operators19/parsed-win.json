@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 47,
           "line": 1,
           "column": 48
         }
@@ -40,10 +42,12 @@
       "name": "pad",
       "source": {
         "start": {
+          "offset": 54,
           "line": 3,
           "column": 3
         },
         "startChildren": {
+          "offset": 83,
           "line": 3,
           "column": 32
         },
@@ -51,6 +55,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 164,
           "line": 7,
           "column": 14
         }
@@ -71,10 +76,12 @@
           "name": "if",
           "source": {
             "start": {
+              "offset": 89,
               "line": 4,
               "column": 5
             },
             "startChildren": {
+              "offset": 108,
               "line": 4,
               "column": 24
             },
@@ -82,6 +89,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 124,
               "line": 5,
               "column": 15
             }
@@ -98,6 +106,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 116,
                   "line": 5,
                   "column": 7
                 },
@@ -105,6 +114,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 124,
                   "line": 5,
                   "column": 15
                 }
@@ -127,10 +137,12 @@
           "name": "if",
           "source": {
             "start": {
+              "offset": 131,
               "line": 6,
               "column": 5
             },
             "startChildren": {
+              "offset": 149,
               "line": 6,
               "column": 23
             },
@@ -138,6 +150,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 164,
               "line": 7,
               "column": 14
             }
@@ -154,6 +167,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 157,
                   "line": 7,
                   "column": 7
                 },
@@ -161,6 +175,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 164,
                   "line": 7,
                   "column": 14
                 }
@@ -194,6 +209,7 @@
           "name": "pad",
           "source": {
             "start": {
+              "offset": 181,
               "line": 10,
               "column": 5
             },
@@ -201,10 +217,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 185,
               "line": 10,
               "column": 9
             },
             "rawEnd": {
+              "offset": 185,
               "line": 10,
               "column": 9
             }
@@ -215,10 +233,12 @@
       ],
       "source": {
         "start": {
+          "offset": 171,
           "line": 9,
           "column": 3
         },
         "startChildren": {
+          "offset": 175,
           "line": 9,
           "column": 7
         },
@@ -226,6 +246,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 185,
           "line": 10,
           "column": 9
         }
@@ -253,6 +274,7 @@
           "name": "pad",
           "source": {
             "start": {
+              "offset": 202,
               "line": 13,
               "column": 5
             },
@@ -260,10 +282,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 212,
               "line": 13,
               "column": 15
             },
             "rawEnd": {
+              "offset": 212,
               "line": 13,
               "column": 15
             }
@@ -274,10 +298,12 @@
       ],
       "source": {
         "start": {
+          "offset": 192,
           "line": 12,
           "column": 3
         },
         "startChildren": {
+          "offset": 196,
           "line": 12,
           "column": 7
         },
@@ -285,6 +311,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 212,
           "line": 13,
           "column": 15
         }
@@ -312,6 +339,7 @@
           "name": "pad",
           "source": {
             "start": {
+              "offset": 229,
               "line": 16,
               "column": 5
             },
@@ -319,10 +347,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 253,
               "line": 16,
               "column": 29
             },
             "rawEnd": {
+              "offset": 253,
               "line": 16,
               "column": 29
             }
@@ -333,10 +363,12 @@
       ],
       "source": {
         "start": {
+          "offset": 219,
           "line": 15,
           "column": 3
         },
         "startChildren": {
+          "offset": 223,
           "line": 15,
           "column": 7
         },
@@ -344,6 +376,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 253,
           "line": 16,
           "column": 29
         }
@@ -357,6 +390,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

@@ -17,10 +17,12 @@
       "name": "mediA",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 22,
           "line": 1,
           "column": 23
         },
@@ -28,10 +30,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 57,
           "line": 5,
           "column": 1
         },
         "endChildren": {
+          "offset": 56,
           "line": 4,
           "column": 4
         }
@@ -55,6 +59,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 35,
                   "line": 3,
                   "column": 5
                 },
@@ -62,6 +67,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 51,
                   "line": 3,
                   "column": 21
                 }
@@ -72,10 +78,12 @@
           ],
           "source": {
             "start": {
+              "offset": 25,
               "line": 2,
               "column": 3
             },
             "startChildren": {
+              "offset": 30,
               "line": 2,
               "column": 8
             },
@@ -83,10 +91,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 55,
               "line": 4,
               "column": 3
             },
             "endChildren": {
+              "offset": 54,
               "line": 4,
               "column": 2
             }
@@ -107,10 +117,12 @@
       "name": "Font-Face",
       "source": {
         "start": {
+          "offset": 59,
           "line": 6,
           "column": 1
         },
         "startChildren": {
+          "offset": 71,
           "line": 6,
           "column": 13
         },
@@ -118,10 +130,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 99,
           "line": 8,
           "column": 1
         },
         "endChildren": {
+          "offset": 98,
           "line": 7,
           "column": 27
         }
@@ -136,6 +150,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 74,
               "line": 7,
               "column": 3
             },
@@ -143,6 +158,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 97,
               "line": 7,
               "column": 26
             }
@@ -158,6 +174,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

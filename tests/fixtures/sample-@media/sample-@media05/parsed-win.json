@@ -27,10 +27,12 @@
           "name": "for",
           "source": {
             "start": {
+              "offset": 8,
               "line": 2,
               "column": 3
             },
             "startChildren": {
+              "offset": 21,
               "line": 2,
               "column": 16
             },
@@ -38,6 +40,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 78,
               "line": 4,
               "column": 20
             }
@@ -57,10 +60,12 @@
               "name": "media",
               "source": {
                 "start": {
+                  "offset": 27,
                   "line": 3,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 57,
                   "line": 3,
                   "column": 35
                 },
@@ -68,6 +73,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 78,
                   "line": 4,
                   "column": 20
                 }
@@ -83,6 +89,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 65,
                       "line": 4,
                       "column": 7
                     },
@@ -90,6 +97,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 78,
                       "line": 4,
                       "column": 20
                     }
@@ -104,10 +112,12 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 4,
           "line": 1,
           "column": 5
         },
@@ -115,6 +125,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 78,
           "line": 4,
           "column": 20
         }
@@ -128,6 +139,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

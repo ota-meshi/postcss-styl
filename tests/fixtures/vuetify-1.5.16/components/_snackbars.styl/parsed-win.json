@@ -15,6 +15,7 @@
       "name": "import",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -22,10 +23,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 21,
           "line": 1,
           "column": 22
         },
         "rawEnd": {
+          "offset": 21,
           "line": 1,
           "column": 22
         }
@@ -46,10 +49,12 @@
       "name": "v-snack-rtl",
       "source": {
         "start": {
+          "offset": 26,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 39,
           "line": 3,
           "column": 14
         },
@@ -57,6 +62,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 90,
           "line": 6,
           "column": 24
         }
@@ -90,6 +96,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 73,
                       "line": 6,
                       "column": 7
                     },
@@ -97,6 +104,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 90,
                       "line": 6,
                       "column": 24
                     }
@@ -107,10 +115,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 59,
                   "line": 5,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 65,
                   "line": 5,
                   "column": 11
                 },
@@ -118,6 +128,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 90,
                   "line": 6,
                   "column": 24
                 }
@@ -128,10 +139,12 @@
           ],
           "source": {
             "start": {
+              "offset": 43,
               "line": 4,
               "column": 3
             },
             "startChildren": {
+              "offset": 53,
               "line": 4,
               "column": 13
             },
@@ -139,6 +152,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 90,
               "line": 6,
               "column": 24
             }
@@ -161,6 +175,7 @@
       "name": "rtl",
       "source": {
         "start": {
+          "offset": 95,
           "line": 8,
           "column": 1
         },
@@ -168,10 +183,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 121,
           "line": 8,
           "column": 27
         },
         "rawEnd": {
+          "offset": 121,
           "line": 8,
           "column": 27
         }
@@ -197,6 +214,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 138,
               "line": 11,
               "column": 3
             },
@@ -204,6 +222,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 152,
               "line": 11,
               "column": 17
             }
@@ -220,6 +239,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 157,
               "line": 12,
               "column": 3
             },
@@ -227,6 +247,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 169,
               "line": 12,
               "column": 15
             }
@@ -243,6 +264,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 174,
               "line": 13,
               "column": 3
             },
@@ -250,6 +272,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 192,
               "line": 13,
               "column": 21
             }
@@ -266,6 +289,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 197,
               "line": 14,
               "column": 3
             },
@@ -273,6 +297,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 218,
               "line": 14,
               "column": 24
             }
@@ -289,6 +314,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 223,
               "line": 15,
               "column": 3
             },
@@ -296,6 +322,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 242,
               "line": 15,
               "column": 22
             }
@@ -312,6 +339,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 247,
               "line": 16,
               "column": 3
             },
@@ -319,6 +347,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 259,
               "line": 16,
               "column": 15
             }
@@ -335,6 +364,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 264,
               "line": 17,
               "column": 3
             },
@@ -342,6 +372,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 278,
               "line": 17,
               "column": 17
             }
@@ -358,6 +389,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 283,
               "line": 18,
               "column": 3
             },
@@ -365,6 +397,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 289,
               "line": 18,
               "column": 9
             }
@@ -381,6 +414,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 294,
               "line": 19,
               "column": 3
             },
@@ -388,6 +422,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 301,
               "line": 19,
               "column": 10
             }
@@ -413,6 +448,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 325,
                   "line": 22,
                   "column": 5
                 },
@@ -420,6 +456,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 342,
                   "line": 22,
                   "column": 22
                 }
@@ -430,10 +467,12 @@
           ],
           "source": {
             "start": {
+              "offset": 308,
               "line": 21,
               "column": 3
             },
             "startChildren": {
+              "offset": 319,
               "line": 21,
               "column": 14
             },
@@ -441,6 +480,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 342,
               "line": 22,
               "column": 22
             }
@@ -465,6 +505,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 361,
                   "line": 25,
                   "column": 5
                 },
@@ -472,6 +513,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 366,
                   "line": 25,
                   "column": 10
                 }
@@ -482,10 +524,12 @@
           ],
           "source": {
             "start": {
+              "offset": 349,
               "line": 24,
               "column": 3
             },
             "startChildren": {
+              "offset": 355,
               "line": 24,
               "column": 9
             },
@@ -493,6 +537,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 366,
               "line": 25,
               "column": 10
             }
@@ -517,6 +562,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 388,
                   "line": 28,
                   "column": 5
                 },
@@ -524,6 +570,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 396,
                   "line": 28,
                   "column": 13
                 }
@@ -534,10 +581,12 @@
           ],
           "source": {
             "start": {
+              "offset": 373,
               "line": 27,
               "column": 3
             },
             "startChildren": {
+              "offset": 382,
               "line": 27,
               "column": 12
             },
@@ -545,6 +594,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 396,
               "line": 28,
               "column": 13
             }
@@ -569,6 +619,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 419,
                   "line": 31,
                   "column": 5
                 },
@@ -576,6 +627,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 431,
                   "line": 31,
                   "column": 17
                 }
@@ -592,6 +644,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 438,
                   "line": 32,
                   "column": 5
                 },
@@ -599,6 +652,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 456,
                   "line": 32,
                   "column": 23
                 }
@@ -615,6 +669,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 463,
                   "line": 33,
                   "column": 5
                 },
@@ -622,6 +677,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 506,
                   "line": 33,
                   "column": 48
                 }
@@ -638,6 +694,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 513,
                   "line": 34,
                   "column": 5
                 },
@@ -645,6 +702,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 532,
                   "line": 34,
                   "column": 24
                 }
@@ -661,6 +719,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 539,
                   "line": 35,
                   "column": 5
                 },
@@ -668,6 +727,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 549,
                   "line": 35,
                   "column": 15
                 }
@@ -687,6 +747,7 @@
               "name": "elevation",
               "source": {
                 "start": {
+                  "offset": 556,
                   "line": 36,
                   "column": 5
                 },
@@ -694,10 +755,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 567,
                   "line": 36,
                   "column": 16
                 },
                 "rawEnd": {
+                  "offset": 567,
                   "line": 36,
                   "column": 16
                 }
@@ -708,10 +771,12 @@
           ],
           "source": {
             "start": {
+              "offset": 403,
               "line": 30,
               "column": 3
             },
             "startChildren": {
+              "offset": 413,
               "line": 30,
               "column": 13
             },
@@ -719,6 +784,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 567,
               "line": 36,
               "column": 16
             }
@@ -743,6 +809,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 590,
                   "line": 39,
                   "column": 5
                 },
@@ -750,6 +817,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 600,
                   "line": 39,
                   "column": 15
                 }
@@ -766,6 +834,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 607,
                   "line": 40,
                   "column": 5
                 },
@@ -773,6 +842,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 618,
                   "line": 40,
                   "column": 16
                 }
@@ -789,6 +859,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 625,
                   "line": 41,
                   "column": 5
                 },
@@ -796,6 +867,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 642,
                   "line": 41,
                   "column": 22
                 }
@@ -812,6 +884,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 649,
                   "line": 42,
                   "column": 5
                 },
@@ -819,6 +892,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 661,
                   "line": 42,
                   "column": 17
                 }
@@ -835,6 +909,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 668,
                   "line": 43,
                   "column": 5
                 },
@@ -842,6 +917,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 686,
                   "line": 43,
                   "column": 23
                 }
@@ -858,6 +934,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 693,
                   "line": 44,
                   "column": 5
                 },
@@ -865,6 +942,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 722,
                   "line": 44,
                   "column": 34
                 }
@@ -881,6 +959,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 729,
                   "line": 45,
                   "column": 5
                 },
@@ -888,6 +967,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 744,
                   "line": 45,
                   "column": 20
                 }
@@ -913,6 +993,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 767,
                       "line": 48,
                       "column": 7
                     },
@@ -920,6 +1001,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 788,
                       "line": 48,
                       "column": 28
                     }
@@ -936,6 +1018,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 797,
                       "line": 49,
                       "column": 7
                     },
@@ -943,6 +1026,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 810,
                       "line": 49,
                       "column": 20
                     }
@@ -959,6 +1043,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 819,
                       "line": 50,
                       "column": 7
                     },
@@ -966,6 +1051,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 830,
                       "line": 50,
                       "column": 18
                     }
@@ -982,6 +1068,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 839,
                       "line": 51,
                       "column": 7
                     },
@@ -989,6 +1076,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 856,
                       "line": 51,
                       "column": 24
                     }
@@ -1005,6 +1093,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 865,
                       "line": 52,
                       "column": 7
                     },
@@ -1012,6 +1101,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 876,
                       "line": 52,
                       "column": 18
                     }
@@ -1028,6 +1118,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 885,
                       "line": 53,
                       "column": 7
                     },
@@ -1035,6 +1126,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 899,
                       "line": 53,
                       "column": 21
                     }
@@ -1051,6 +1143,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 908,
                       "line": 54,
                       "column": 7
                     },
@@ -1058,6 +1151,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 918,
                       "line": 54,
                       "column": 17
                     }
@@ -1083,6 +1177,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 949,
                           "line": 57,
                           "column": 9
                         },
@@ -1090,6 +1185,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 960,
                           "line": 57,
                           "column": 20
                         }
@@ -1100,10 +1196,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 929,
                       "line": 56,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 939,
                       "line": 56,
                       "column": 17
                     },
@@ -1111,6 +1209,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 960,
                       "line": 57,
                       "column": 20
                     }
@@ -1135,6 +1234,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 990,
                           "line": 60,
                           "column": 9
                         },
@@ -1142,6 +1242,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1002,
                           "line": 60,
                           "column": 21
                         }
@@ -1152,10 +1253,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 971,
                       "line": 59,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 980,
                       "line": 59,
                       "column": 16
                     },
@@ -1163,6 +1266,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1002,
                       "line": 60,
                       "column": 21
                     }
@@ -1173,10 +1277,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 753,
                   "line": 47,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 759,
                   "line": 47,
                   "column": 11
                 },
@@ -1184,6 +1290,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1002,
                   "line": 60,
                   "column": 21
                 }
@@ -1194,10 +1301,12 @@
           ],
           "source": {
             "start": {
+              "offset": 574,
               "line": 38,
               "column": 3
             },
             "startChildren": {
+              "offset": 584,
               "line": 38,
               "column": 13
             },
@@ -1205,6 +1314,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 1002,
               "line": 60,
               "column": 21
             }
@@ -1229,6 +1339,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1039,
                   "line": 63,
                   "column": 5
                 },
@@ -1236,6 +1347,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1050,
                   "line": 63,
                   "column": 16
                 }
@@ -1252,6 +1364,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1057,
                   "line": 64,
                   "column": 5
                 },
@@ -1259,6 +1372,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1069,
                   "line": 64,
                   "column": 17
                 }
@@ -1269,10 +1383,12 @@
           ],
           "source": {
             "start": {
+              "offset": 1009,
               "line": 62,
               "column": 3
             },
             "startChildren": {
+              "offset": 1033,
               "line": 62,
               "column": 27
             },
@@ -1280,6 +1396,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 1069,
               "line": 64,
               "column": 17
             }
@@ -1304,6 +1421,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1104,
                   "line": 67,
                   "column": 5
                 },
@@ -1311,6 +1429,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1116,
                   "line": 67,
                   "column": 17
                 }
@@ -1327,6 +1446,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1123,
                   "line": 68,
                   "column": 5
                 },
@@ -1334,6 +1454,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1145,
                   "line": 68,
                   "column": 27
                 }
@@ -1350,6 +1471,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1152,
                   "line": 69,
                   "column": 5
                 },
@@ -1357,6 +1479,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1173,
                   "line": 69,
                   "column": 26
                 }
@@ -1375,6 +1498,7 @@
               "type": "comment",
               "source": {
                 "start": {
+                  "offset": 1180,
                   "line": 70,
                   "column": 5
                 },
@@ -1382,6 +1506,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1271,
                   "line": 70,
                   "column": 96
                 }
@@ -1396,6 +1521,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1278,
                   "line": 71,
                   "column": 5
                 },
@@ -1403,6 +1529,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1297,
                   "line": 71,
                   "column": 24
                 }
@@ -1438,6 +1565,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1351,
                           "line": 75,
                           "column": 9
                         },
@@ -1445,6 +1573,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1375,
                           "line": 75,
                           "column": 33
                         }
@@ -1461,6 +1590,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1386,
                           "line": 76,
                           "column": 9
                         },
@@ -1468,6 +1598,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1395,
                           "line": 76,
                           "column": 18
                         }
@@ -1484,6 +1615,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1406,
                           "line": 77,
                           "column": 9
                         },
@@ -1491,6 +1623,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1419,
                           "line": 77,
                           "column": 22
                         }
@@ -1507,6 +1640,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1430,
                           "line": 78,
                           "column": 9
                         },
@@ -1514,6 +1648,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1445,
                           "line": 78,
                           "column": 24
                         }
@@ -1524,10 +1659,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 1320,
                       "line": 74,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 1341,
                       "line": 74,
                       "column": 28
                     },
@@ -1535,6 +1672,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1445,
                       "line": 78,
                       "column": 24
                     }
@@ -1559,6 +1697,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1476,
                           "line": 81,
                           "column": 9
                         },
@@ -1566,6 +1705,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1489,
                           "line": 81,
                           "column": 22
                         }
@@ -1582,6 +1722,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1500,
                           "line": 82,
                           "column": 9
                         },
@@ -1589,6 +1730,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1508,
                           "line": 82,
                           "column": 17
                         }
@@ -1599,10 +1741,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 1456,
                       "line": 80,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 1466,
                       "line": 80,
                       "column": 17
                     },
@@ -1610,6 +1754,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1508,
                       "line": 82,
                       "column": 17
                     }
@@ -1620,10 +1765,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 1306,
                   "line": 73,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 1312,
                   "line": 73,
                   "column": 11
                 },
@@ -1631,6 +1778,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1508,
                   "line": 82,
                   "column": 17
                 }
@@ -1641,10 +1789,12 @@
           ],
           "source": {
             "start": {
+              "offset": 1076,
               "line": 66,
               "column": 3
             },
             "startChildren": {
+              "offset": 1098,
               "line": 66,
               "column": 25
             },
@@ -1652,6 +1802,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 1508,
               "line": 82,
               "column": 17
             }
@@ -1676,6 +1827,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 1546,
                   "line": 85,
                   "column": 5
                 },
@@ -1683,6 +1835,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1557,
                   "line": 85,
                   "column": 16
                 }
@@ -1693,10 +1846,12 @@
           ],
           "source": {
             "start": {
+              "offset": 1515,
               "line": 84,
               "column": 3
             },
             "startChildren": {
+              "offset": 1540,
               "line": 84,
               "column": 28
             },
@@ -1704,6 +1859,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 1557,
               "line": 85,
               "column": 16
             }
@@ -1714,10 +1870,12 @@
       ],
       "source": {
         "start": {
+          "offset": 126,
           "line": 10,
           "column": 1
         },
         "startChildren": {
+          "offset": 134,
           "line": 10,
           "column": 9
         },
@@ -1725,6 +1883,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 1557,
           "line": 85,
           "column": 16
         }
@@ -1745,10 +1904,12 @@
       "name": "v-snack-sm-and-up-rtl",
       "source": {
         "start": {
+          "offset": 1562,
           "line": 87,
           "column": 1
         },
         "startChildren": {
+          "offset": 1585,
           "line": 87,
           "column": 24
         },
@@ -1756,6 +1917,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 1710,
           "line": 91,
           "column": 24
         }
@@ -1775,10 +1937,12 @@
           "name": "media",
           "source": {
             "start": {
+              "offset": 1589,
               "line": 88,
               "column": 3
             },
             "startChildren": {
+              "offset": 1626,
               "line": 88,
               "column": 40
             },
@@ -1786,6 +1950,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 1710,
               "line": 91,
               "column": 24
             }
@@ -1810,6 +1975,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1671,
                       "line": 90,
                       "column": 7
                     },
@@ -1817,6 +1983,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1684,
                       "line": 90,
                       "column": 20
                     }
@@ -1833,6 +2000,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1693,
                       "line": 91,
                       "column": 7
                     },
@@ -1840,6 +2008,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1710,
                       "line": 91,
                       "column": 24
                     }
@@ -1850,10 +2019,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 1632,
                   "line": 89,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 1663,
                   "line": 89,
                   "column": 36
                 },
@@ -1861,6 +2032,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 1710,
                   "line": 91,
                   "column": 24
                 }
@@ -1884,6 +2056,7 @@
       "name": "rtl",
       "source": {
         "start": {
+          "offset": 1715,
           "line": 93,
           "column": 1
         },
@@ -1891,10 +2064,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 1751,
           "line": 93,
           "column": 37
         },
         "rawEnd": {
+          "offset": 1751,
           "line": 93,
           "column": 37
         }
@@ -1915,10 +2090,12 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 1756,
           "line": 95,
           "column": 1
         },
         "startChildren": {
+          "offset": 1793,
           "line": 95,
           "column": 38
         },
@@ -1926,6 +2103,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 2320,
           "line": 117,
           "column": 23
         }
@@ -1959,6 +2137,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1829,
                       "line": 98,
                       "column": 7
                     },
@@ -1966,6 +2145,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1839,
                       "line": 98,
                       "column": 17
                     }
@@ -1982,6 +2162,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1848,
                       "line": 99,
                       "column": 7
                     },
@@ -1989,6 +2170,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1863,
                       "line": 99,
                       "column": 22
                     }
@@ -2005,6 +2187,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1872,
                       "line": 100,
                       "column": 7
                     },
@@ -2012,6 +2195,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1887,
                       "line": 100,
                       "column": 22
                     }
@@ -2028,6 +2212,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1896,
                       "line": 101,
                       "column": 7
                     },
@@ -2035,6 +2220,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1909,
                       "line": 101,
                       "column": 20
                     }
@@ -2051,6 +2237,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 1918,
                       "line": 102,
                       "column": 7
                     },
@@ -2058,6 +2245,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1935,
                       "line": 102,
                       "column": 24
                     }
@@ -2083,6 +2271,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 1972,
                           "line": 105,
                           "column": 9
                         },
@@ -2090,6 +2279,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 1985,
                           "line": 105,
                           "column": 22
                         }
@@ -2100,10 +2290,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 1946,
                       "line": 104,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 1962,
                       "line": 104,
                       "column": 23
                     },
@@ -2111,6 +2303,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 1985,
                       "line": 105,
                       "column": 22
                     }
@@ -2135,6 +2328,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 2021,
                           "line": 107,
                           "column": 9
                         },
@@ -2142,6 +2336,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 2035,
                           "line": 107,
                           "column": 23
                         }
@@ -2152,10 +2347,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 1994,
                       "line": 106,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 2011,
                       "line": 106,
                       "column": 24
                     },
@@ -2163,6 +2360,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2035,
                       "line": 107,
                       "column": 23
                     }
@@ -2173,10 +2371,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 1811,
                   "line": 97,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 1821,
                   "line": 97,
                   "column": 15
                 },
@@ -2184,6 +2384,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2035,
                   "line": 107,
                   "column": 23
                 }
@@ -2208,6 +2409,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2069,
                       "line": 110,
                       "column": 7
                     },
@@ -2215,6 +2417,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2101,
                       "line": 110,
                       "column": 39
                     }
@@ -2240,6 +2443,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 2130,
                           "line": 112,
                           "column": 9
                         },
@@ -2247,6 +2451,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 2175,
                           "line": 112,
                           "column": 54
                         }
@@ -2257,10 +2462,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 2110,
                       "line": 111,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 2120,
                       "line": 111,
                       "column": 17
                     },
@@ -2268,6 +2475,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2175,
                       "line": 112,
                       "column": 54
                     }
@@ -2292,6 +2500,7 @@
                       "type": "decl",
                       "source": {
                         "start": {
+                          "offset": 2207,
                           "line": 114,
                           "column": 9
                         },
@@ -2299,6 +2508,7 @@
                           "file": "input.styl"
                         },
                         "end": {
+                          "offset": 2256,
                           "line": 114,
                           "column": 58
                         }
@@ -2309,10 +2519,12 @@
                   ],
                   "source": {
                     "start": {
+                      "offset": 2184,
                       "line": 113,
                       "column": 7
                     },
                     "startChildren": {
+                      "offset": 2197,
                       "line": 113,
                       "column": 20
                     },
@@ -2320,6 +2532,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2256,
                       "line": 114,
                       "column": 58
                     }
@@ -2330,10 +2543,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2044,
                   "line": 109,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2061,
                   "line": 109,
                   "column": 22
                 },
@@ -2341,6 +2556,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2256,
                   "line": 114,
                   "column": 58
                 }
@@ -2365,6 +2581,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2304,
                       "line": 117,
                       "column": 7
                     },
@@ -2372,6 +2589,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2320,
                       "line": 117,
                       "column": 23
                     }
@@ -2382,10 +2600,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2265,
                   "line": 116,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2296,
                   "line": 116,
                   "column": 36
                 },
@@ -2393,6 +2613,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2320,
                   "line": 117,
                   "column": 23
                 }
@@ -2403,10 +2624,12 @@
           ],
           "source": {
             "start": {
+              "offset": 1797,
               "line": 96,
               "column": 3
             },
             "startChildren": {
+              "offset": 1805,
               "line": 96,
               "column": 11
             },
@@ -2414,6 +2637,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 2320,
               "line": 117,
               "column": 23
             }
@@ -2449,6 +2673,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 2387,
                   "line": 122,
                   "column": 5
                 },
@@ -2456,6 +2681,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2429,
                   "line": 122,
                   "column": 47
                 }
@@ -2481,6 +2707,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2461,
                       "line": 124,
                       "column": 7
                     },
@@ -2488,6 +2715,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2494,
                       "line": 124,
                       "column": 40
                     }
@@ -2498,10 +2726,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2436,
                   "line": 123,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2453,
                   "line": 123,
                   "column": 22
                 },
@@ -2509,6 +2739,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2494,
                   "line": 124,
                   "column": 40
                 }
@@ -2519,10 +2750,12 @@
           ],
           "source": {
             "start": {
+              "offset": 2348,
               "line": 120,
               "column": 3
             },
             "startChildren": {
+              "offset": 2381,
               "line": 121,
               "column": 17
             },
@@ -2530,6 +2763,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 2494,
               "line": 124,
               "column": 40
             }
@@ -2563,6 +2797,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2539,
                       "line": 128,
                       "column": 7
                     },
@@ -2570,6 +2805,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2548,
                       "line": 128,
                       "column": 16
                     }
@@ -2580,10 +2816,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2514,
                   "line": 127,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2531,
                   "line": 127,
                   "column": 22
                 },
@@ -2591,6 +2829,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2548,
                   "line": 128,
                   "column": 16
                 }
@@ -2601,10 +2840,12 @@
           ],
           "source": {
             "start": {
+              "offset": 2501,
               "line": 126,
               "column": 3
             },
             "startChildren": {
+              "offset": 2508,
               "line": 126,
               "column": 10
             },
@@ -2612,6 +2853,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 2548,
               "line": 128,
               "column": 16
             }
@@ -2645,6 +2887,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2608,
                       "line": 133,
                       "column": 7
                     },
@@ -2652,6 +2895,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2617,
                       "line": 133,
                       "column": 16
                     }
@@ -2662,10 +2906,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2583,
                   "line": 132,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2600,
                   "line": 132,
                   "column": 22
                 },
@@ -2673,6 +2919,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2617,
                   "line": 133,
                   "column": 16
                 }
@@ -2683,10 +2930,12 @@
           ],
           "source": {
             "start": {
+              "offset": 2555,
               "line": 130,
               "column": 3
             },
             "startChildren": {
+              "offset": 2577,
               "line": 131,
               "column": 10
             },
@@ -2694,6 +2943,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 2617,
               "line": 133,
               "column": 16
             }
@@ -2729,6 +2979,7 @@
                   "type": "comment",
                   "source": {
                     "start": {
+                      "offset": 2682,
                       "line": 138,
                       "column": 7
                     },
@@ -2736,6 +2987,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2719,
                       "line": 138,
                       "column": 44
                     }
@@ -2750,6 +3002,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2728,
                       "line": 139,
                       "column": 7
                     },
@@ -2757,6 +3010,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2767,
                       "line": 139,
                       "column": 46
                     }
@@ -2767,10 +3021,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2652,
                   "line": 137,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2674,
                   "line": 137,
                   "column": 27
                 },
@@ -2778,6 +3034,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2767,
                   "line": 139,
                   "column": 46
                 }
@@ -2802,6 +3059,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 2807,
                       "line": 141,
                       "column": 7
                     },
@@ -2809,6 +3067,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 2833,
                       "line": 141,
                       "column": 33
                     }
@@ -2819,10 +3078,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 2774,
                   "line": 140,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 2799,
                   "line": 140,
                   "column": 30
                 },
@@ -2830,6 +3091,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 2833,
                   "line": 141,
                   "column": 33
                 }
@@ -2840,10 +3102,12 @@
           ],
           "source": {
             "start": {
+              "offset": 2624,
               "line": 135,
               "column": 3
             },
             "startChildren": {
+              "offset": 2646,
               "line": 136,
               "column": 13
             },
@@ -2851,6 +3115,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 2833,
               "line": 141,
               "column": 33
             }
@@ -2861,10 +3126,12 @@
       ],
       "source": {
         "start": {
+          "offset": 2325,
           "line": 119,
           "column": 1
         },
         "startChildren": {
+          "offset": 2344,
           "line": 119,
           "column": 20
         },
@@ -2872,6 +3139,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 2833,
           "line": 141,
           "column": 33
         }
@@ -2885,6 +3153,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

@@ -18,10 +18,12 @@
       "name": "firefox",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 9,
           "line": 1,
           "column": 10
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 50,
           "line": 3,
           "column": 11
         }
@@ -48,10 +51,12 @@
           "name": "-moz-document",
           "source": {
             "start": {
+              "offset": 12,
               "line": 2,
               "column": 3
             },
             "startChildren": {
+              "offset": 39,
               "line": 2,
               "column": 30
             },
@@ -59,6 +64,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 50,
               "line": 3,
               "column": 11
             }
@@ -77,6 +83,7 @@
               "name": "",
               "source": {
                 "start": {
+                  "offset": 44,
                   "line": 3,
                   "column": 5
                 },
@@ -84,6 +91,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 50,
                   "line": 3,
                   "column": 11
                 }
@@ -102,6 +110,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

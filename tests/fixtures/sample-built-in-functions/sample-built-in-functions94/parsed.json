@@ -16,6 +16,7 @@
       "name": "use",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -23,10 +24,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 20,
           "line": 1,
           "column": 21
         },
         "rawEnd": {
+          "offset": 20,
           "line": 1,
           "column": 21
         }
@@ -53,6 +56,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 27,
               "line": 4,
               "column": 3
             },
@@ -60,6 +64,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 44,
               "line": 4,
               "column": 20
             }
@@ -70,10 +75,12 @@
       ],
       "source": {
         "start": {
+          "offset": 23,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 24,
           "line": 3,
           "column": 2
         },
@@ -81,6 +88,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 44,
           "line": 4,
           "column": 20
         }
@@ -98,6 +106,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 48,
           "line": 5,
           "column": 3
         },
@@ -105,6 +114,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 63,
           "line": 5,
           "column": 18
         }
@@ -117,6 +127,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

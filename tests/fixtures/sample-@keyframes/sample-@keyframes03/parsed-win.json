@@ -14,6 +14,7 @@
       "type": "decl",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 17,
           "line": 1,
           "column": 18
         }
@@ -42,10 +44,12 @@
       "name": "keyframes",
       "source": {
         "start": {
+          "offset": 22,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 38,
           "line": 3,
           "column": 17
         },
@@ -53,10 +57,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 104,
           "line": 10,
           "column": 1
         },
         "endChildren": {
+          "offset": 103,
           "line": 9,
           "column": 5
         }
@@ -80,6 +86,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 54,
                   "line": 5,
                   "column": 5
                 },
@@ -87,6 +94,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 65,
                   "line": 5,
                   "column": 16
                 }
@@ -97,10 +105,12 @@
           ],
           "source": {
             "start": {
+              "offset": 42,
               "line": 4,
               "column": 3
             },
             "startChildren": {
+              "offset": 48,
               "line": 4,
               "column": 9
             },
@@ -108,10 +118,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 70,
               "line": 6,
               "column": 3
             },
             "endChildren": {
+              "offset": 69,
               "line": 6,
               "column": 2
             }
@@ -135,6 +147,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 85,
                   "line": 8,
                   "column": 5
                 },
@@ -142,6 +155,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 96,
                   "line": 8,
                   "column": 16
                 }
@@ -152,10 +166,12 @@
           ],
           "source": {
             "start": {
+              "offset": 75,
               "line": 7,
               "column": 3
             },
             "startChildren": {
+              "offset": 79,
               "line": 7,
               "column": 7
             },
@@ -163,10 +179,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 101,
               "line": 9,
               "column": 3
             },
             "endChildren": {
+              "offset": 100,
               "line": 9,
               "column": 2
             }
@@ -181,6 +199,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },
