@@ -15,6 +15,7 @@
       "name": "import",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -22,10 +23,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 31,
           "line": 1,
           "column": 32
         },
         "rawEnd": {
+          "offset": 31,
           "line": 1,
           "column": 32
         }
@@ -46,10 +49,12 @@
       "name": "theme",
       "source": {
         "start": {
+          "offset": 34,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 58,
           "line": 3,
           "column": 25
         },
@@ -57,6 +62,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 110,
           "line": 5,
           "column": 25
         }
@@ -75,6 +81,7 @@
           "name": "light",
           "source": {
             "start": {
+              "offset": 61,
               "line": 4,
               "column": 3
             },
@@ -82,10 +89,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 84,
               "line": 4,
               "column": 26
             },
             "rawEnd": {
+              "offset": 84,
               "line": 4,
               "column": 26
             }
@@ -105,6 +114,7 @@
           "name": "dark",
           "source": {
             "start": {
+              "offset": 88,
               "line": 5,
               "column": 3
             },
@@ -112,10 +122,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 110,
               "line": 5,
               "column": 25
             },
             "rawEnd": {
+              "offset": 110,
               "line": 5,
               "column": 25
             }
@@ -139,10 +151,12 @@
       "name": "light",
       "source": {
         "start": {
+          "offset": 113,
           "line": 7,
           "column": 1
         },
         "startChildren": {
+          "offset": 137,
           "line": 7,
           "column": 25
         },
@@ -150,6 +164,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 192,
           "line": 9,
           "column": 31
         }
@@ -177,6 +192,7 @@
               "name": "component",
               "source": {
                 "start": {
+                  "offset": 166,
                   "line": 9,
                   "column": 5
                 },
@@ -184,10 +200,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 192,
                   "line": 9,
                   "column": 31
                 },
                 "rawEnd": {
+                  "offset": 192,
                   "line": 9,
                   "column": 31
                 }
@@ -198,10 +216,12 @@
           ],
           "source": {
             "start": {
+              "offset": 140,
               "line": 8,
               "column": 3
             },
             "startChildren": {
+              "offset": 161,
               "line": 8,
               "column": 24
             },
@@ -209,6 +229,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 192,
               "line": 9,
               "column": 31
             }
@@ -232,10 +253,12 @@
       "name": "dark",
       "source": {
         "start": {
+          "offset": 195,
           "line": 11,
           "column": 1
         },
         "startChildren": {
+          "offset": 218,
           "line": 11,
           "column": 24
         },
@@ -243,6 +266,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 271,
           "line": 13,
           "column": 30
         }
@@ -270,6 +294,7 @@
               "name": "component",
               "source": {
                 "start": {
+                  "offset": 246,
                   "line": 13,
                   "column": 5
                 },
@@ -277,10 +302,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 271,
                   "line": 13,
                   "column": 30
                 },
                 "rawEnd": {
+                  "offset": 271,
                   "line": 13,
                   "column": 30
                 }
@@ -291,10 +318,12 @@
           ],
           "source": {
             "start": {
+              "offset": 221,
               "line": 12,
               "column": 3
             },
             "startChildren": {
+              "offset": 241,
               "line": 12,
               "column": 23
             },
@@ -302,6 +331,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 271,
               "line": 13,
               "column": 30
             }
@@ -318,6 +348,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

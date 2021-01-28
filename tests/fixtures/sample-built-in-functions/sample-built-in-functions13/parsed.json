@@ -14,6 +14,7 @@
       "type": "decl",
       "source": {
         "start": {
+          "offset": 1,
           "line": 1,
           "column": 2
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 10,
           "line": 1,
           "column": 11
         }
@@ -41,6 +43,7 @@
       "name": "unshift",
       "source": {
         "start": {
+          "offset": 13,
           "line": 2,
           "column": 2
         },
@@ -48,10 +51,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 34,
           "line": 2,
           "column": 23
         },
         "rawEnd": {
+          "offset": 34,
           "line": 2,
           "column": 23
         }
@@ -78,6 +83,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 40,
               "line": 5,
               "column": 2
             },
@@ -85,6 +91,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 51,
               "line": 5,
               "column": 13
             }
@@ -95,10 +102,12 @@
       ],
       "source": {
         "start": {
+          "offset": 37,
           "line": 4,
           "column": 1
         },
         "startChildren": {
+          "offset": 38,
           "line": 4,
           "column": 2
         },
@@ -106,6 +115,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 51,
           "line": 5,
           "column": 13
         }
@@ -123,6 +133,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 54,
           "line": 6,
           "column": 2
         },
@@ -130,6 +141,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 68,
           "line": 6,
           "column": 16
         }
@@ -142,6 +154,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

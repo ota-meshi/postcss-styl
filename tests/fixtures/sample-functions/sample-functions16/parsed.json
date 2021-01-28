@@ -18,10 +18,12 @@
       "name": "add",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 9,
           "line": 1,
           "column": 10
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 16,
           "line": 2,
           "column": 7
         }
@@ -47,6 +50,7 @@
           "name": "",
           "source": {
             "start": {
+              "offset": 12,
               "line": 2,
               "column": 3
             },
@@ -54,10 +58,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 16,
               "line": 2,
               "column": 7
             },
             "rawEnd": {
+              "offset": 16,
               "line": 2,
               "column": 7
             }
@@ -81,10 +87,12 @@
       "name": "sub",
       "source": {
         "start": {
+          "offset": 19,
           "line": 4,
           "column": 1
         },
         "startChildren": {
+          "offset": 28,
           "line": 4,
           "column": 10
         },
@@ -92,6 +100,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 35,
           "line": 5,
           "column": 7
         }
@@ -110,6 +119,7 @@
           "name": "",
           "source": {
             "start": {
+              "offset": 31,
               "line": 5,
               "column": 3
             },
@@ -117,10 +127,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 35,
               "line": 5,
               "column": 7
             },
             "rawEnd": {
+              "offset": 35,
               "line": 5,
               "column": 7
             }
@@ -144,10 +156,12 @@
       "name": "invoke",
       "source": {
         "start": {
+          "offset": 38,
           "line": 7,
           "column": 1
         },
         "startChildren": {
+          "offset": 54,
           "line": 7,
           "column": 17
         },
@@ -155,6 +169,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 64,
           "line": 8,
           "column": 10
         }
@@ -173,6 +188,7 @@
           "name": "fn",
           "source": {
             "start": {
+              "offset": 57,
               "line": 8,
               "column": 3
             },
@@ -180,10 +196,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 64,
               "line": 8,
               "column": 10
             },
             "rawEnd": {
+              "offset": 64,
               "line": 8,
               "column": 10
             }
@@ -212,6 +230,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 74,
               "line": 11,
               "column": 3
             },
@@ -219,6 +238,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 99,
               "line": 11,
               "column": 28
             }
@@ -236,6 +256,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 103,
               "line": 12,
               "column": 3
             },
@@ -243,6 +264,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 128,
               "line": 12,
               "column": 28
             }
@@ -253,10 +275,12 @@
       ],
       "source": {
         "start": {
+          "offset": 67,
           "line": 10,
           "column": 1
         },
         "startChildren": {
+          "offset": 71,
           "line": 10,
           "column": 5
         },
@@ -264,6 +288,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 128,
           "line": 12,
           "column": 28
         }
@@ -277,6 +302,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

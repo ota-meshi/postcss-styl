@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 51,
           "line": 1,
           "column": 52
         }
@@ -44,6 +46,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 78,
               "line": 4,
               "column": 3
             },
@@ -51,6 +54,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 126,
               "line": 4,
               "column": 51
             }
@@ -61,10 +65,12 @@
       ],
       "source": {
         "start": {
+          "offset": 56,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 74,
           "line": 3,
           "column": 19
         },
@@ -72,10 +78,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 129,
           "line": 5,
           "column": 1
         },
         "endChildren": {
+          "offset": 128,
           "line": 4,
           "column": 53
         }
@@ -88,6 +96,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

@@ -17,10 +17,12 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 38,
           "line": 1,
           "column": 39
         },
@@ -28,10 +30,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 79,
           "line": 5,
           "column": 1
         },
         "endChildren": {
+          "offset": 78,
           "line": 4,
           "column": 4
         }
@@ -55,6 +59,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 55,
                   "line": 3,
                   "column": 5
                 },
@@ -62,6 +67,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 73,
                   "line": 3,
                   "column": 23
                 }
@@ -72,10 +78,12 @@
           ],
           "source": {
             "start": {
+              "offset": 41,
               "line": 2,
               "column": 3
             },
             "startChildren": {
+              "offset": 50,
               "line": 2,
               "column": 12
             },
@@ -83,10 +91,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 77,
               "line": 4,
               "column": 3
             },
             "endChildren": {
+              "offset": 76,
               "line": 4,
               "column": 2
             }
@@ -107,10 +117,12 @@
       "name": "supports",
       "source": {
         "start": {
+          "offset": 82,
           "line": 7,
           "column": 1
         },
         "startChildren": {
+          "offset": 109,
           "line": 7,
           "column": 28
         },
@@ -118,10 +130,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 196,
           "line": 13,
           "column": 1
         },
         "endChildren": {
+          "offset": 195,
           "line": 12,
           "column": 4
         }
@@ -140,10 +154,12 @@
           "name": "media",
           "source": {
             "start": {
+              "offset": 112,
               "line": 8,
               "column": 3
             },
             "startChildren": {
+              "offset": 150,
               "line": 8,
               "column": 41
             },
@@ -151,10 +167,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 194,
               "line": 12,
               "column": 3
             },
             "endChildren": {
+              "offset": 193,
               "line": 12,
               "column": 2
             }
@@ -178,6 +196,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 171,
                       "line": 10,
                       "column": 7
                     },
@@ -185,6 +204,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 184,
                       "line": 10,
                       "column": 20
                     }
@@ -195,10 +215,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 155,
                   "line": 9,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 164,
                   "line": 9,
                   "column": 14
                 },
@@ -206,10 +228,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 190,
                   "line": 11,
                   "column": 5
                 },
                 "endChildren": {
+                  "offset": 189,
                   "line": 11,
                   "column": 4
                 }
@@ -226,6 +250,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

@@ -24,6 +24,7 @@
           "name": "import",
           "source": {
             "start": {
+              "offset": 8,
               "line": 2,
               "column": 3
             },
@@ -31,10 +32,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 25,
               "line": 2,
               "column": 20
             },
             "rawEnd": {
+              "offset": 25,
               "line": 2,
               "column": 20
             }
@@ -44,10 +47,12 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 4,
           "line": 1,
           "column": 5
         },
@@ -55,6 +60,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 25,
           "line": 2,
           "column": 20
         }
@@ -74,10 +80,12 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 30,
           "line": 4,
           "column": 1
         },
         "startChildren": {
+          "offset": 66,
           "line": 4,
           "column": 37
         },
@@ -85,6 +93,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 87,
           "line": 5,
           "column": 20
         }
@@ -102,6 +111,7 @@
           "name": "import",
           "source": {
             "start": {
+              "offset": 70,
               "line": 5,
               "column": 3
             },
@@ -109,10 +119,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 87,
               "line": 5,
               "column": 20
             },
             "rawEnd": {
+              "offset": 87,
               "line": 5,
               "column": 20
             }
@@ -127,6 +139,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

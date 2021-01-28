@@ -18,10 +18,12 @@
       "name": "negative",
       "source": {
         "start": {
+          "offset": 2,
           "line": 1,
           "column": 3
         },
         "startChildren": {
+          "offset": 13,
           "line": 1,
           "column": 14
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 92,
           "line": 4,
           "column": 6
         }
@@ -49,6 +52,7 @@
           "name": "unless",
           "source": {
             "start": {
+              "offset": 42,
               "line": 2,
               "column": 29
             },
@@ -56,10 +60,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 61,
               "line": 2,
               "column": 48
             },
             "rawEnd": {
+              "offset": 61,
               "line": 2,
               "column": 48
             }
@@ -78,6 +84,7 @@
               "name": "error",
               "source": {
                 "start": {
+                  "offset": 18,
                   "line": 2,
                   "column": 5
                 },
@@ -85,10 +92,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 40,
                   "line": 2,
                   "column": 27
                 },
                 "rawEnd": {
+                  "offset": 40,
                   "line": 2,
                   "column": 27
                 }
@@ -113,6 +122,7 @@
           "name": "if",
           "source": {
             "start": {
+              "offset": 78,
               "line": 3,
               "column": 16
             },
@@ -120,10 +130,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 85,
               "line": 3,
               "column": 23
             },
             "rawEnd": {
+              "offset": 85,
               "line": 3,
               "column": 23
             }
@@ -142,6 +154,7 @@
               "name": "return",
               "source": {
                 "start": {
+                  "offset": 67,
                   "line": 3,
                   "column": 5
                 },
@@ -149,10 +162,12 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 76,
                   "line": 3,
                   "column": 14
                 },
                 "rawEnd": {
+                  "offset": 76,
                   "line": 3,
                   "column": 14
                 }
@@ -174,6 +189,7 @@
           "name": "",
           "source": {
             "start": {
+              "offset": 91,
               "line": 4,
               "column": 5
             },
@@ -181,10 +197,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 92,
               "line": 4,
               "column": 6
             },
             "rawEnd": {
+              "offset": 92,
               "line": 4,
               "column": 6
             }
@@ -201,6 +219,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

@@ -13,7 +13,7 @@ const {
     deleteFixture,
 } = require("./utils")
 
-cases.each((name, css, json) => {
+cases.eachTest((name, css, json) => {
     if (
         name === "semicolons.css" ||
         name === "quotes.css" ||
@@ -26,6 +26,7 @@ cases.each((name, css, json) => {
         name === "custom-properties.css" || // -> custom-properties01
         name === "atrule-no-semicolon.css" || // -> atrule-no-semicolon01
         name === "apply.css" || // -> apply01
+        name === "at-rule-brackets.css" ||
         false
     ) {
         // Parse error on Stylus
@@ -191,6 +192,9 @@ function stringifyStylusAST(rootNode) {
             if (key === "syntax") {
                 return value === self ? "ok" : "ng"
             }
+            if (key === "parent") {
+                return undefined
+            }
             return value
         },
         2,
@@ -215,7 +219,7 @@ function stringifyStylusAST(rootNode) {
             node.nodes = node.nodes.map(clean)
         }
 
-        return node
+        return { ...node }
     }
 }
 
@@ -228,6 +232,9 @@ function stringifyError(error) {
         error,
         (key, value) => {
             if (key === "file") {
+                return undefined
+            }
+            if (key === "url") {
                 return undefined
             }
             return value

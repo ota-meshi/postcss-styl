@@ -14,6 +14,7 @@
       "type": "decl",
       "source": {
         "start": {
+          "offset": 2,
           "line": 1,
           "column": 3
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 11,
           "line": 1,
           "column": 12
         }
@@ -41,6 +43,7 @@
       "name": "plus",
       "source": {
         "start": {
+          "offset": 18,
           "line": 3,
           "column": 3
         },
@@ -48,10 +51,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 27,
           "line": 3,
           "column": 12
         },
         "rawEnd": {
+          "offset": 27,
           "line": 3,
           "column": 12
         }
@@ -69,6 +74,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 31,
           "line": 4,
           "column": 3
         },
@@ -76,6 +82,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 37,
           "line": 4,
           "column": 9
         }
@@ -88,6 +95,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

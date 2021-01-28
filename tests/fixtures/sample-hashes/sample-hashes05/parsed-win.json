@@ -18,10 +18,12 @@
       "name": "",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 7,
           "line": 1,
           "column": 8
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 19,
           "line": 1,
           "column": 20
         }
@@ -44,6 +47,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 8,
               "line": 1,
               "column": 9
             },
@@ -51,6 +55,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 17,
               "line": 1,
               "column": 18
             }
@@ -81,6 +86,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 29,
               "line": 4,
               "column": 3
             },
@@ -88,6 +94,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 41,
               "line": 4,
               "column": 15
             }
@@ -98,10 +105,12 @@
       ],
       "source": {
         "start": {
+          "offset": 24,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 25,
           "line": 3,
           "column": 2
         },
@@ -109,6 +118,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 41,
           "line": 4,
           "column": 15
         }
@@ -126,6 +136,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 44,
           "line": 5,
           "column": 1
         },
@@ -133,6 +144,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 54,
           "line": 5,
           "column": 11
         }
@@ -145,6 +157,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

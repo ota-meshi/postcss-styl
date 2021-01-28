@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 54,
           "line": 1,
           "column": 55
         }
@@ -36,6 +38,7 @@
       "type": "decl",
       "source": {
         "start": {
+          "offset": 59,
           "line": 3,
           "column": 1
         },
@@ -43,6 +46,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 65,
           "line": 3,
           "column": 7
         }
@@ -68,6 +72,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 79,
               "line": 6,
               "column": 5
             },
@@ -75,6 +80,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 85,
               "line": 6,
               "column": 11
             }
@@ -99,6 +105,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 105,
                   "line": 8,
                   "column": 9
                 },
@@ -106,6 +113,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 113,
                   "line": 8,
                   "column": 17
                 }
@@ -116,10 +124,12 @@
           ],
           "source": {
             "start": {
+              "offset": 92,
               "line": 7,
               "column": 5
             },
             "startChildren": {
+              "offset": 95,
               "line": 7,
               "column": 8
             },
@@ -127,10 +137,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 120,
               "line": 9,
               "column": 5
             },
             "endChildren": {
+              "offset": 119,
               "line": 9,
               "column": 4
             }
@@ -140,10 +152,12 @@
       ],
       "source": {
         "start": {
+          "offset": 70,
           "line": 5,
           "column": 1
         },
         "startChildren": {
+          "offset": 73,
           "line": 5,
           "column": 4
         },
@@ -151,10 +165,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 123,
           "line": 10,
           "column": 1
         },
         "endChildren": {
+          "offset": 122,
           "line": 9,
           "column": 7
         }
@@ -167,6 +183,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

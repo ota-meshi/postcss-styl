@@ -40,6 +40,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 23,
                       "line": 4,
                       "column": 7
                     },
@@ -47,6 +48,7 @@
                       "file": "input.styl"
                     },
                     "end": {
+                      "offset": 42,
                       "line": 4,
                       "column": 26
                     }
@@ -57,10 +59,12 @@
               ],
               "source": {
                 "start": {
+                  "offset": 12,
                   "line": 3,
                   "column": 5
                 },
                 "startChildren": {
+                  "offset": 16,
                   "line": 3,
                   "column": 9
                 },
@@ -68,6 +72,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 42,
                   "line": 4,
                   "column": 26
                 }
@@ -78,10 +83,12 @@
           ],
           "source": {
             "start": {
+              "offset": 5,
               "line": 2,
               "column": 3
             },
             "startChildren": {
+              "offset": 7,
               "line": 2,
               "column": 5
             },
@@ -89,6 +96,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 42,
               "line": 4,
               "column": 26
             }
@@ -99,10 +107,12 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 2,
           "line": 1,
           "column": 3
         },
@@ -110,6 +120,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 42,
           "line": 4,
           "column": 26
         }
@@ -123,6 +134,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

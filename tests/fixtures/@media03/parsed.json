@@ -17,10 +17,12 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 2,
           "line": 3,
           "column": 1
         },
         "startChildren": {
+          "offset": 40,
           "line": 3,
           "column": 39
         },
@@ -28,10 +30,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 60,
           "line": 3,
           "column": 59
         },
         "endChildren": {
+          "offset": 59,
           "line": 3,
           "column": 58
         }
@@ -55,6 +59,7 @@
               "type": "decl",
               "source": {
                 "start": {
+                  "offset": 45,
                   "line": 3,
                   "column": 44
                 },
@@ -62,6 +67,7 @@
                   "file": "input.styl"
                 },
                 "end": {
+                  "offset": 56,
                   "line": 3,
                   "column": 55
                 }
@@ -72,10 +78,12 @@
           ],
           "source": {
             "start": {
+              "offset": 41,
               "line": 3,
               "column": 40
             },
             "startChildren": {
+              "offset": 44,
               "line": 3,
               "column": 43
             },
@@ -83,10 +91,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 58,
               "line": 3,
               "column": 57
             },
             "endChildren": {
+              "offset": 57,
               "line": 3,
               "column": 56
             }
@@ -101,6 +111,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

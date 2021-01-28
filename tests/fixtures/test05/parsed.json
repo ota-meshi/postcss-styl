@@ -26,6 +26,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 7,
               "line": 2,
               "column": 3
             },
@@ -33,6 +34,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 34,
               "line": 2,
               "column": 30
             }
@@ -43,10 +45,12 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 4,
           "line": 1,
           "column": 5
         },
@@ -54,6 +58,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 34,
           "line": 2,
           "column": 30
         }
@@ -67,6 +72,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

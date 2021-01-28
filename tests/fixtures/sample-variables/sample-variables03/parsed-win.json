@@ -14,6 +14,7 @@
       "type": "decl",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 16,
           "line": 1,
           "column": 17
         }
@@ -47,6 +49,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 29,
               "line": 3,
               "column": 3
             },
@@ -54,6 +57,7 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 56,
               "line": 3,
               "column": 30
             }
@@ -64,10 +68,12 @@
       ],
       "source": {
         "start": {
+          "offset": 19,
           "line": 2,
           "column": 1
         },
         "startChildren": {
+          "offset": 25,
           "line": 2,
           "column": 7
         },
@@ -75,10 +81,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 59,
           "line": 4,
           "column": 1
         },
         "endChildren": {
+          "offset": 58,
           "line": 3,
           "column": 32
         }
@@ -91,6 +99,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

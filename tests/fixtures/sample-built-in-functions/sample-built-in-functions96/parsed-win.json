@@ -18,10 +18,12 @@
       "name": "stop",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
         "startChildren": {
+          "offset": 15,
           "line": 1,
           "column": 16
         },
@@ -29,6 +31,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 38,
           "line": 2,
           "column": 22
         }
@@ -47,6 +50,7 @@
           "name": "rgba-stop",
           "source": {
             "start": {
+              "offset": 19,
               "line": 2,
               "column": 3
             },
@@ -54,10 +58,12 @@
               "file": "input.styl"
             },
             "end": {
+              "offset": 38,
               "line": 2,
               "column": 22
             },
             "rawEnd": {
+              "offset": 38,
               "line": 2,
               "column": 22
             }
@@ -79,6 +85,7 @@
       "name": "stop",
       "source": {
         "start": {
+          "offset": 43,
           "line": 4,
           "column": 1
         },
@@ -86,10 +93,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 59,
           "line": 4,
           "column": 17
         },
         "rawEnd": {
+          "offset": 59,
           "line": 4,
           "column": 17
         }
@@ -107,6 +116,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 62,
           "line": 5,
           "column": 1
         },
@@ -114,6 +124,7 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 90,
           "line": 5,
           "column": 29
         }
@@ -126,6 +137,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },

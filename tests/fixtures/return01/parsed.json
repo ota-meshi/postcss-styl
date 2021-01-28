@@ -16,6 +16,7 @@
       "name": "return",
       "source": {
         "start": {
+          "offset": 1,
           "line": 2,
           "column": 1
         },
@@ -23,10 +24,12 @@
           "file": "input.styl"
         },
         "end": {
+          "offset": 12,
           "line": 2,
           "column": 12
         },
         "rawEnd": {
+          "offset": 12,
           "line": 2,
           "column": 12
         }
@@ -39,6 +42,7 @@
       "file": "input.styl"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     },
