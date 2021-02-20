@@ -48,12 +48,13 @@
         "stylus": "^0.54.7"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.0.11",
+        "@ota-meshi/eslint-plugin": "^0.0.13",
         "autoprefixer": "^10.0.0",
         "cross-env": "^7.0.2",
         "eslint": "^7.18.0",
         "eslint-config-prettier": "^7.2.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-json-schema-validator": "^0.2.1",
         "eslint-plugin-jsonc": "^0.9.0",
         "eslint-plugin-markdown": "^2.0.0-0",
         "eslint-plugin-node": "^11.1.0",
