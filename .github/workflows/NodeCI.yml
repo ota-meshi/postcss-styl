@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [10.13.x, 12.x, 14.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -33,11 +33,11 @@ jobs:
       run: npm install
     - name: Test
       run: npm test
-  test-for-node8:
+  test-for-old-node:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.13.x, 11.x]
+        node-version: [8.10.x, 10.13.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
