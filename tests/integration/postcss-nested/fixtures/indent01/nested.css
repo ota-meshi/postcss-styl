@@ -1,8 +1,7 @@
 .phone_title {
     width: 500px;
   }
-  @media (max-width: 500px) {
-  .phone_title {
+    @media (max-width: 500px) {.phone_title {
       width: auto
   }
     }

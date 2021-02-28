@@ -48,7 +48,7 @@
         "stylus": "^0.54.7"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.0.16",
+        "@ota-meshi/eslint-plugin": "^0.1.0",
         "autoprefixer": "^10.0.0",
         "cross-env": "^7.0.2",
         "eslint": "^7.18.0",
@@ -59,12 +59,12 @@
         "eslint-plugin-markdown": "^2.0.0-0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-regexp": "^0.1.1",
+        "eslint-plugin-regexp": "^0.2.1",
         "eslint-plugin-yml": "^0.7.0",
         "lodash": "^4.17.15",
         "mocha": "^8.0.0",
         "nyc": "^15.0.0",
-        "postcss-nested": "^5.0.0",
+        "postcss-nested": "^5.0.4",
         "postcss-parser-tests": "^8.3.5",
         "postcss-styl": "file:.",
         "postcss-syntax": "^0.36.2",
