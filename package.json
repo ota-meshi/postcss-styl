@@ -9,8 +9,8 @@
         "test:update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
         "test": "npm run test:base -- --timeout 60000",
         "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
-        "test:debug": "mocha --inspect-brk \"tests/**/*.js\" --reporter dot",
-        "test:d1": "mocha --inspect-brk \"debug/index.js\" --reporter dot",
+        "test:debug": "mocha \"tests/**/*.js\" --reporter dot",
+        "test:d1": "mocha \"debug/index.js\" --reporter dot",
         "preversion": "npm run test",
         "version": "npm run lint -- --fix && git add .",
         "try:stylelint": "stylelint \"**/*.(vue|styl)\" --custom-syntax ./tests/integration/stylelint/custom-syntax.js"
@@ -45,10 +45,10 @@
         "fast-diff": "^1.2.0",
         "lodash.sortedlastindex": "^4.1.0",
         "postcss": "^7.0.27 || ^8.0.0",
-        "stylus": "^0.54.7"
+        "stylus": "^0.55.0"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.7.0",
+        "@ota-meshi/eslint-plugin": "^0.8.0",
         "autoprefixer": "^10.0.0",
         "cross-env": "^7.0.2",
         "eslint": "^7.18.0",
@@ -58,8 +58,9 @@
         "eslint-plugin-jsonc": "^1.0.0",
         "eslint-plugin-markdown": "^2.0.0-0",
         "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-node-dependencies": "^0.5.0",
         "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-regexp": "^0.10.0",
+        "eslint-plugin-regexp": "^1.0.0",
         "eslint-plugin-yml": "^0.9.0",
         "lodash": "^4.17.15",
         "mocha": "^8.0.0",

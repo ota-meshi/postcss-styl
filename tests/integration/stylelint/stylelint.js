@@ -51,8 +51,7 @@ describe("stylelint", () => {
                         line: 3,
                         rule: "color-no-invalid-hex",
                         severity: "error",
-                        text:
-                            'Unexpected invalid hex color "#fffffff" (color-no-invalid-hex)',
+                        text: 'Unexpected invalid hex color "#fffffff" (color-no-invalid-hex)',
                     },
                 ])
             })
