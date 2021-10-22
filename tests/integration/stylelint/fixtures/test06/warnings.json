@@ -2,6 +2,20 @@
   {
     "line": 5,
     "column": 5,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-webkit-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
+    "line": 6,
+    "column": 5,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-moz-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
+    "line": 5,
+    "column": 5,
     "rule": "indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (indentation)"

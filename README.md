@@ -28,68 +28,41 @@ You can use this [PostCSS] plugin to apply [Stylus] syntax to [stylelint].
 
 For example, this [PostCSS] plugin is used as follows:
 
-1. First, prepare a script that extends [postcss-syntax].
+1. First, add `customSyntax` option to `stylelint` config file.
 
-   e.g. [custom-syntax.js](./tests/integration/stylelint/custom-syntax.js)
+   e.g. [stylelint.config.js](./stylelint.config.js)
 
    ```js
-   // Filename: `custom-syntax.js`
-   const syntax = require("postcss-syntax");
-   const postcssStyl = require("postcss-styl");
+   // Filename: `stylelint.config.js`
 
-   module.exports = syntax({
-     stylus: postcssStyl
-   });
+   module.exports = {
+      overrides: [
+          {
+              files: ["*.styl", "**/*.styl", "*.stylus", "**/*.stylus"],
+              customSyntax: "postcss-styl",
+          },
+      ],
+   };
    ```
 
-2. You can use the prepared script as shown in the following example.
+2. You need to include the stylus in the linting target, as shown in the following example.
 
    - via CLI
 
      ```bash
-     stylelint ... --custom-syntax ./path/to/custom-syntax.js
-     ```
-
-   - use Node.js API
-
-     ```js
-     const stylelint = require("stylelint")
-     const customSyntax = require.resolve("./path/to/custom-syntax.js")
-
-     stylelint.lint({
-       customSyntax,
-       // ...
-     })
+     stylelint ./path/to/input.styl
      ```
 
    - with [VSCode extension]
 
      ```js
      {
-       "stylelint.customSyntax": "${workspaceFolder}/path/to/custom-syntax.js",
        "stylelint.validate": [
           ...,
           // ↓ Add "stylus" language.
           "stylus"
        ]
      }
-     ```
-
-   - with [PostCSS]
-
-     ```js
-     const postcss = require("postcss")
-     const customSyntax = require("./path/to/custom-syntax.js")
-
-     postcss([
-       require("stylelint"),
-       require("reporter")
-     ])
-       .process(css, {
-         from: "lib/app.styl",
-         syntax: customSyntax
-       })
-     })
      ```
 
 ### Stylus Transformations
