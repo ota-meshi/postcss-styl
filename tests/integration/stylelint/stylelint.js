@@ -1,5 +1,6 @@
 "use strict"
 
+const semver = require("semver")
 const assert = require("assert")
 const path = require("path")
 const _ = require("lodash")
@@ -36,6 +37,10 @@ baseConfig.overrides = [
 const tests = listupFixtures(path.join(__dirname, "fixtures"))
 
 describe("stylelint", () => {
+    if (!semver.gte(process.version, "12.0.0")) {
+        return
+    }
+
     it("try", () => {
         const stylus = `
 .a
