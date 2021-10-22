@@ -21,5 +21,9 @@ module.exports = {
             files: ["*.styl", "**/*.styl", "*.stylus", "**/*.stylus"],
             customSyntax: "postcss-styl",
         },
+        {
+            files: ["*.vue", "**/*.vue"],
+            customSyntax: "postcss-html",
+        },
     ],
 }
