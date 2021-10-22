@@ -1,5 +1,19 @@
 [
   {
+    "line": 2,
+    "column": 3,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-webkit-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
+    "line": 3,
+    "column": 3,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-moz-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
     "line": 7,
     "column": 4,
     "rule": "indentation",

@@ -19,5 +19,12 @@
     "rule": "comment-whitespace-inside",
     "severity": "error",
     "text": "Expected whitespace before \"*/\" (comment-whitespace-inside)"
+  },
+  {
+    "line": 1,
+    "column": 1,
+    "rule": "no-empty-first-line",
+    "severity": "error",
+    "text": "Unexpected empty line (no-empty-first-line)"
   }
 ]

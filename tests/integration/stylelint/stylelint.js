@@ -1,18 +1,15 @@
 "use strict"
 
+const semver = require("semver")
 const assert = require("assert")
 const path = require("path")
 const _ = require("lodash")
 const stylelint = require("stylelint")
 const stylelintConfig = require("stylelint-config-standard")
 const { writeFixture, listupFixtures, isExistFile } = require("../../utils")
-const customSyntax = require.resolve("./custom-syntax")
-const parse = require("./custom-syntax").parse
 
 const baseConfig = Object.assign({}, stylelintConfig)
 baseConfig.rules = Object.assign({}, baseConfig.rules, {
-    "function-calc-no-invalid": true,
-
     // useless for the stylus
     "block-opening-brace-space-before": null,
     "block-closing-brace-newline-before": null,
@@ -26,10 +23,24 @@ baseConfig.rules = Object.assign({}, baseConfig.rules, {
     // breaks stylus
     "at-rule-name-space-after": null,
 })
+baseConfig.overrides = [
+    {
+        files: ["*.styl", "**/*.styl", "*.stylus", "**/*.stylus"],
+        customSyntax: "postcss-styl",
+    },
+    {
+        files: ["*.vue", "**/*.vue"],
+        customSyntax: "postcss-html",
+    },
+]
 
 const tests = listupFixtures(path.join(__dirname, "fixtures"))
 
 describe("stylelint", () => {
+    if (!semver.gte(process.version, "12.0.0")) {
+        return
+    }
+
     it("try", () => {
         const stylus = `
 .a
@@ -40,7 +51,6 @@ describe("stylelint", () => {
             .lint({
                 code: stylus,
                 codeFilename: "input.stylus",
-                customSyntax,
                 config: baseConfig,
             })
             .then((result) => {
@@ -52,6 +62,13 @@ describe("stylelint", () => {
                         rule: "color-no-invalid-hex",
                         severity: "error",
                         text: 'Unexpected invalid hex color "#fffffff" (color-no-invalid-hex)',
+                    },
+                    {
+                        column: 1,
+                        line: 1,
+                        rule: "no-empty-first-line",
+                        severity: "error",
+                        text: "Unexpected empty line (no-empty-first-line)",
                     },
                 ])
             })
@@ -73,7 +90,6 @@ describe("stylelint", () => {
                 .lint({
                     code: stylus,
                     codeFilename: `${fixture.name}/${fileName}`,
-                    customSyntax,
                     config: fixtureConfig,
                 })
                 .then((result) => {
@@ -95,7 +111,6 @@ describe("stylelint", () => {
                 .lint({
                     code: stylus,
                     codeFilename: `${fixture.name}/${fileName}`,
-                    customSyntax,
                     config: fixtureConfig,
                     fix: true,
                 })
@@ -109,14 +124,6 @@ describe("stylelint", () => {
                         writeFixture(fixture.files[fixedFileName], actual)
                         throw e
                     }
-
-                    // check can parse
-                    assert.strictEqual(
-                        typeof parse(actual, {
-                            from: fixture.files[fixedFileName],
-                        }),
-                        "object",
-                    )
                 }))
     }
 })

@@ -7,6 +7,20 @@
     "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
   },
   {
+    "line": 2,
+    "column": 11,
+    "rule": "declaration-block-semicolon-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \";\" in a multi-line declaration block (declaration-block-semicolon-newline-after)"
+  },
+  {
+    "line": 2,
+    "column": 7,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
     "line": 3,
     "column": 3,
     "rule": "indentation",

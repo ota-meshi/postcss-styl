@@ -3,8 +3,6 @@
 module.exports = {
     extends: "stylelint-config-standard",
     rules: {
-        "function-calc-no-invalid": true,
-
         // useless for the stylus
         "block-opening-brace-space-before": null,
         "block-closing-brace-newline-before": null,
@@ -18,4 +16,14 @@ module.exports = {
         // breaks stylus
         "at-rule-name-space-after": null,
     },
+    overrides: [
+        {
+            files: ["*.styl", "**/*.styl", "*.stylus", "**/*.stylus"],
+            customSyntax: "postcss-styl",
+        },
+        {
+            files: ["*.vue", "**/*.vue"],
+            customSyntax: "postcss-html",
+        },
+    ],
 }
