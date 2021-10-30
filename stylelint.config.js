@@ -15,6 +15,9 @@ module.exports = {
 
         // breaks stylus
         "at-rule-name-space-after": null,
+
+        //
+        "selector-class-pattern": null,
     },
     overrides: [
         {
