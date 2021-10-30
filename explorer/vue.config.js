@@ -1,4 +1,3 @@
-// eslint-disable-next-line node/no-extraneous-require -- ignore
 const webpack = require("webpack")
 module.exports = {
     publicPath: "/postcss-styl/",

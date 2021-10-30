@@ -13,5 +13,7 @@ module.exports = {
         "node/no-missing-import": "off",
         "node/no-unpublished-require": "off",
         complexity: "off",
+        "node/no-missing-require": "off",
+        "node/no-extraneous-require": "off",
     },
 }
