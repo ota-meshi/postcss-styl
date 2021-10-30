@@ -10,7 +10,6 @@
         "test": "npm run test:base -- --timeout 60000",
         "test:nyc": "nyc --reporter=lcov npm run test:base -- --timeout 60000",
         "test:debug": "mocha \"tests/**/*.js\" --reporter dot",
-        "test:d1": "mocha \"debug/index.js\" --reporter dot",
         "preversion": "npm run test",
         "version": "npm run lint -- --fix && git add .",
         "try:stylelint": "stylelint \"**/*.(vue|styl)\" --custom-syntax ./tests/integration/stylelint/custom-syntax.js"
@@ -61,6 +60,7 @@
         "eslint-plugin-node-dependencies": "^0.5.0",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-regexp": "^1.0.0",
+        "eslint-plugin-vue": "^8.0.3",
         "eslint-plugin-yml": "^0.10.0",
         "lodash": "^4.17.15",
         "mocha": "^9.0.0",
