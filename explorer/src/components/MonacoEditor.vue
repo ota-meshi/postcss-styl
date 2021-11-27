@@ -89,14 +89,21 @@ export default {
         })
     },
     methods: {
-        setCursorPosition(loc, { columnOffset = 0 } = {}) {
+        setCursorPosition(
+            loc,
+            {
+                columnOffset = 0,
+                startColumnOffset = columnOffset,
+                endColumnOffset = columnOffset,
+            } = {},
+        ) {
             const vm = this
             if (vm.editor) {
                 vm.editor.setSelection({
                     startLineNumber: loc.start.line,
-                    startColumn: loc.start.column + columnOffset,
+                    startColumn: loc.start.column + startColumnOffset,
                     endLineNumber: loc.end.line,
-                    endColumn: loc.end.column + columnOffset,
+                    endColumn: loc.end.column + endColumnOffset,
                 })
             }
         },

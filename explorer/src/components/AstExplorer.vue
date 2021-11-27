@@ -125,7 +125,7 @@ button {
                                 locData.sourceLoc.end ||
                                 locData.sourceLoc.start,
                         },
-                        { columnOffset: 1 },
+                        { endColumnOffset: 1 },
                     )
                 }
             }
