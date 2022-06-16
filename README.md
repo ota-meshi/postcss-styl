@@ -1,3 +1,6 @@
+<h1 align="center">This project has moved the repository as an official Stylus project!</h1>
+<p align="center">It is currently maintained in <a href="https://github.com/stylus/postcss-styl">stylus/postcss-styl</a>!<br>See https://github.com/stylus/postcss-styl.</p>
+
 # postcss-styl
 
 [![NPM license]](https://www.npmjs.com/package/postcss-styl)
